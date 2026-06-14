@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-14T13:32:25Z",
-    "updated_at_readable": "2026-06-14 13:32 UTC"
+    "updated_at": "2026-06-14T14:44:53Z",
+    "updated_at_readable": "2026-06-14 14:44 UTC"
   },
   "divisions": [
     {
@@ -183,16 +183,42 @@
       "order": 6,
       "individual": true,
       "athlete_count": 37,
-      "result_count": 0,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
         "GTD QWOD26.3 A, GTD QWOD26.3 B"
       ],
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Melina Mühlbauer",
+          "country": "DE",
+          "club": "",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 450000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1 SC": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Melina Mühlbauer",
+            "country": "DE",
+            "club": "",
+            "time": 450000,
+            "reps": 0,
+            "tiebreak": 0
+          }
+        ],
         "GTD QWOD26.3 A, GTD QWOD26.3 B": []
       }
     },
