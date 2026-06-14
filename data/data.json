@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-14T19:30:53Z",
-    "updated_at_readable": "2026-06-14 19:30 UTC"
+    "updated_at": "2026-06-14T20:27:06Z",
+    "updated_at_readable": "2026-06-14 20:27 UTC"
   },
   "divisions": [
     {
@@ -11,7 +11,7 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 24,
+      "athlete_count": 25,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
@@ -145,16 +145,42 @@
       "order": 4,
       "individual": true,
       "athlete_count": 49,
-      "result_count": 0,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
         "GTD QWOD26.3 A, GTD QWOD26.3 B"
       ],
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Catharina Haak",
+          "country": "DE",
+          "club": "Crossfit Flensburg",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 600000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Catharina Haak",
+            "country": "DE",
+            "club": "Crossfit Flensburg",
+            "time": 600000,
+            "reps": 0,
+            "tiebreak": 0
+          }
+        ],
         "GTD QWOD26.3 A, GTD QWOD26.3 B": []
       }
     },
@@ -533,7 +559,7 @@
       "name": "Scaled Teams of 2 Female/Female",
       "order": 19,
       "individual": false,
-      "athlete_count": 7,
+      "athlete_count": 8,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1 SC",
