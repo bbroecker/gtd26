@@ -381,10 +381,13 @@ function formatScore(time, reps, tiebreak) {
     }
     return timeStr;
   }
-  // No time but reps (maxweight / amrap)
+  // No time but reps (amrap / maxweight)
   if (reps != null && reps > 0) {
-    // Could be kg (maxweight) or reps (amrap) — label as reps, looks fine for both
-    return `${reps}`;
+    const base = `${reps} reps`;
+    if (tiebreak != null && tiebreak > 0) {
+      return `${base} / ${tiebreak} kg`;
+    }
+    return base;
   }
   return '';
 }
