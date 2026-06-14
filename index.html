@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>German Throwdown 2026 — Leaderboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-title">
+        <h1>German Throwdown 2026</h1>
+        <p class="subtitle">Online Qualifier Leaderboard</p>
+      </div>
+      <div class="header-meta">
+        <span class="last-updated" id="lastUpdated">Loading…</span>
+        <a class="gtd-link" href="https://germanthrowdown.de" target="_blank" rel="noopener">germanthrowdown.de ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Controls bar -->
+    <div class="controls-bar">
+      <div class="control-group">
+        <label for="divisionSelect">Division</label>
+        <select id="divisionSelect">
+          <option value="">— select —</option>
+        </select>
+      </div>
+      <div class="division-stats" id="divisionStats"></div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs" id="tabs" style="display:none">
+      <button class="tab-btn active" data-tab="overall">Overall Top 20</button>
+      <button class="tab-btn" data-tab="perwod">Per WOD Top 20</button>
+    </div>
+
+    <!-- Overall tab -->
+    <div id="tab-overall" class="tab-content active">
+      <div id="overallContainer">
+        <p class="empty-state">Select a division to view results.</p>
+      </div>
+    </div>
+
+    <!-- Per-WOD tab -->
+    <div id="tab-perwod" class="tab-content">
+      <div class="controls-bar sub-controls" id="wodControls" style="display:none">
+        <div class="control-group">
+          <label for="wodSelect">Workout</label>
+          <select id="wodSelect"></select>
+        </div>
+      </div>
+      <div id="wodContainer">
+        <p class="empty-state">Select a division and workout.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Data sourced from <a href="https://circle21.events" target="_blank" rel="noopener">Circle21</a> · Refreshed every 30 min</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

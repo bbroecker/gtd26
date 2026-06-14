@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "competition_name": "German Throwdown 2026 Online Qualifier",
+    "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
+    "updated_at": "2026-06-14T10:32:16Z",
+    "updated_at_readable": "2026-06-14 12:32 UTC"
+  },
+  "divisions": [
+    {
+      "id": "55eefa5f-d858-4400-9575-6dc35f715371",
+      "name": "Elite Male",
+      "order": 1,
+      "individual": true,
+      "athlete_count": 24,
+      "result_count": 1,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Kyle MacDonald",
+          "country": "GB",
+          "club": "",
+          "points": 2,
+          "wods": {
+            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+              "position": 1,
+              "time": 360000,
+              "reps": 130,
+              "tiebreak": 0
+            }
+          }
+        }
+      ],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Kyle MacDonald",
+            "country": "GB",
+            "club": "",
+            "time": 360000,
+            "reps": 130,
+            "tiebreak": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "4b10321c-3018-473a-8081-65f475e833fb",
+      "name": "Elite Female",
+      "order": 2,
+      "individual": true,
+      "athlete_count": 14,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "f60a35ee-723c-4436-a453-5826cc72f9df",
+      "name": "Intermediate Male",
+      "order": 3,
+      "individual": true,
+      "athlete_count": 80,
+      "result_count": 2,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Fabrizio Legnani",
+          "country": "IT",
+          "club": "",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 303000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Jason  Oostveen",
+          "country": "NL",
+          "club": "",
+          "points": 2,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 434000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        }
+      ],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Fabrizio Legnani",
+            "country": "IT",
+            "club": "",
+            "time": 303000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "Jason  Oostveen",
+            "country": "NL",
+            "club": "",
+            "time": 434000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "8a8c3c0d-13c4-4902-86c9-3a5927e74d6c",
+      "name": "Intermediate Female",
+      "order": 4,
+      "individual": true,
+      "athlete_count": 49,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "ea1b9174-94f9-4a36-8d7a-ff87ee658629",
+      "name": "Scaled Male",
+      "order": 5,
+      "individual": true,
+      "athlete_count": 40,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1 SC",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "9d03f9b3-20a6-42f5-aacb-c647f28122a8",
+      "name": "Scaled Female",
+      "order": 6,
+      "individual": true,
+      "athlete_count": 37,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1 SC",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "b96b3605-13af-4ad3-a9cd-d95d2c0f5f23",
+      "name": "Masters 35+ Male",
+      "order": 7,
+      "individual": true,
+      "athlete_count": 11,
+      "result_count": 1,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Alain SCHANET",
+          "country": "LU",
+          "club": "ATHLETENFABRIK",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 343000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        }
+      ],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Alain SCHANET",
+            "country": "LU",
+            "club": "ATHLETENFABRIK",
+            "time": 343000,
+            "reps": 0,
+            "tiebreak": 0
+          }
+        ],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "aa3b967d-fa8d-4d27-a914-b4e1e4a65199",
+      "name": "Masters 35+ Female",
+      "order": 8,
+      "individual": true,
+      "athlete_count": 13,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "d048692d-f308-4426-a0ae-ffcac32d86b3",
+      "name": "Masters 40+ Male",
+      "order": 9,
+      "individual": true,
+      "athlete_count": 24,
+      "result_count": 1,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Oliver Malik",
+          "country": "DE",
+          "club": "",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 900000,
+              "reps": 126,
+              "tiebreak": 853000
+            }
+          }
+        }
+      ],
+      "per_wod": {
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Oliver Malik",
+            "country": "DE",
+            "club": "",
+            "time": 900000,
+            "reps": 126,
+            "tiebreak": 853000
+          }
+        ],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "923fa287-a6eb-4133-b552-9184713ed279",
+      "name": "Masters 40+ Female",
+      "order": 10,
+      "individual": true,
+      "athlete_count": 14,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "4541a4fd-43a1-4b18-9ede-36c8ed21c287",
+      "name": "Elite Teams of 2 Male/Male",
+      "order": 11,
+      "individual": false,
+      "athlete_count": 7,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "31b33057-7011-4322-b6e5-930cadfe257e",
+      "name": "Elite Teams of 2 Male/Female",
+      "order": 12,
+      "individual": false,
+      "athlete_count": 6,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "8f378d2c-4964-4ba6-aaeb-724e11e5b5bc",
+      "name": "Elite Teams of 2 Female/Female",
+      "order": 13,
+      "individual": false,
+      "athlete_count": 0,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "1266dfd5-a204-40dc-b58a-a33ec3599589",
+      "name": "Intermediate Teams of 2 Male/Male",
+      "order": 14,
+      "individual": false,
+      "athlete_count": 23,
+      "result_count": 1,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "369d3fb6-c541-4585-94d9-bf251412a7c2",
+      "name": "Intermediate Teams of 2 Male/Female",
+      "order": 15,
+      "individual": false,
+      "athlete_count": 23,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "eb86e767-df54-4b4a-80d5-e1ba2f453225",
+      "name": "Intermediate Teams of 2 Female/Female",
+      "order": 16,
+      "individual": false,
+      "athlete_count": 18,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "431c38c6-3886-456f-a40b-338512bb1301",
+      "name": "Scaled Teams of 2 Male/Male",
+      "order": 17,
+      "individual": false,
+      "athlete_count": 2,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1 SC",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "54204c0b-c07e-45e4-9e89-af8b3cb88b37",
+      "name": "Scaled Teams of 2 Male/Female",
+      "order": 18,
+      "individual": false,
+      "athlete_count": 10,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1 SC",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "d49ec064-aea8-418f-826a-6d88fcbf9c5e",
+      "name": "Scaled Teams of 2 Female/Female",
+      "order": 19,
+      "individual": false,
+      "athlete_count": 7,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1 SC",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "59054590-b1b6-4917-a50a-77c5693863e5",
+      "name": "Masters 70+ Teams of 2 Male/Male",
+      "order": 20,
+      "individual": false,
+      "athlete_count": 2,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "3e5b56df-7eb1-4533-a202-e67e8a47309b",
+      "name": "Masters 80+ Teams of 2 Male/Female",
+      "order": 22,
+      "individual": false,
+      "athlete_count": 9,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "32bd5fbf-5d34-40f6-9a1a-7a1c4a804ee4",
+      "name": "Masters 80+ Teams of 2 Male/Male",
+      "order": 23,
+      "individual": false,
+      "athlete_count": 6,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    },
+    {
+      "id": "31a4434f-2708-4020-9ce7-92126029b3b9",
+      "name": "Masters 70+ Teams of 2 Male/Female",
+      "order": 23,
+      "individual": false,
+      "athlete_count": 7,
+      "result_count": 0,
+      "wods": [
+        "GTD QWOD26.1",
+        "GTD QWOD26.2",
+        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+      ],
+      "overall": [],
+      "per_wod": {
+        "GTD QWOD26.1": [],
+        "GTD QWOD26.2": [],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+      }
+    }
+  ]
+}

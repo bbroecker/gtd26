@@ -1,0 +1,41 @@
+name: Sync Leaderboard Data
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # every 2 hours
+  workflow_dispatch:          # manual trigger
+
+concurrency:
+  group: sync
+  cancel-in-progress: false   # let a running sync finish, queue the next
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch leaderboard data
+        env:
+          CIRCLE21_TOKEN: ${{ secrets.CIRCLE21_TOKEN }}
+        run: python3 fetch.py
+
+      - name: Commit & push data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit"
+          else
+            git commit -m "chore: sync leaderboard data [skip ci]"
+            git push
+          fi
