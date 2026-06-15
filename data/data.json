@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-15T17:42:51Z",
-    "updated_at_readable": "2026-06-15 17:42 UTC"
+    "updated_at": "2026-06-15T19:16:48Z",
+    "updated_at_readable": "2026-06-15 19:16 UTC"
   },
   "divisions": [
     {
@@ -92,7 +92,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 81,
-      "result_count": 3,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -131,13 +131,28 @@
         },
         {
           "rank": 3,
-          "name": "Jason  Oostveen",
-          "country": "NL",
-          "club": "",
+          "name": "Sascha Nowakewitz",
+          "country": "DE",
+          "club": "CrossFit Oldenburg GmbH",
           "points": 164,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
+              "time": 335000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Jason  Oostveen",
+          "country": "NL",
+          "club": "",
+          "points": 165,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
               "time": 434000,
               "reps": null,
               "tiebreak": null
@@ -159,6 +174,15 @@
           },
           {
             "rank": 2,
+            "name": "Sascha Nowakewitz",
+            "country": "DE",
+            "club": "CrossFit Oldenburg GmbH",
+            "time": 335000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "Jason  Oostveen",
             "country": "NL",
             "club": "",
