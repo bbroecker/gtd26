@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-15T03:04:54Z",
-    "updated_at_readable": "2026-06-15 03:04 UTC"
+    "updated_at": "2026-06-15T05:44:21Z",
+    "updated_at_readable": "2026-06-15 05:44 UTC"
   },
   "divisions": [
     {
@@ -189,7 +189,7 @@
       "name": "Scaled Male",
       "order": 5,
       "individual": true,
-      "athlete_count": 40,
+      "athlete_count": 42,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -324,17 +324,59 @@
       "name": "Masters 35+ Female",
       "order": 8,
       "individual": true,
-      "athlete_count": 13,
-      "result_count": 0,
+      "athlete_count": 14,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
         "GTD QWOD26.3 A, GTD QWOD26.3 B"
       ],
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Laura Dörr",
+          "country": "DE",
+          "club": "CrossFit Fächerstadt",
+          "points": 2,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 710000,
+              "reps": 0,
+              "tiebreak": 604000
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 314000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        }
+      ],
       "per_wod": {
-        "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Laura Dörr",
+            "country": "DE",
+            "club": "CrossFit Fächerstadt",
+            "time": 710000,
+            "reps": 0,
+            "tiebreak": 604000
+          }
+        ],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Laura Dörr",
+            "country": "DE",
+            "club": "CrossFit Fächerstadt",
+            "time": 314000,
+            "reps": 0,
+            "tiebreak": 0
+          }
+        ],
         "GTD QWOD26.3 A, GTD QWOD26.3 B": []
       }
     },
