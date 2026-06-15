@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-15T13:01:55Z",
-    "updated_at_readable": "2026-06-15 13:01 UTC"
+    "updated_at": "2026-06-15T15:57:36Z",
+    "updated_at_readable": "2026-06-15 15:57 UTC"
   },
   "divisions": [
     {
@@ -24,8 +24,14 @@
           "name": "Kyle MacDonald",
           "country": "GB",
           "club": "",
-          "points": 2,
+          "points": 3,
           "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 288000,
+              "reps": 0,
+              "tiebreak": 0
+            },
             "GTD QWOD26.3 A, GTD QWOD26.3 B": {
               "position": 1,
               "time": 360000,
@@ -37,7 +43,17 @@
       ],
       "per_wod": {
         "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Kyle MacDonald",
+            "country": "GB",
+            "club": "",
+            "time": 288000,
+            "reps": 0,
+            "tiebreak": 0
+          }
+        ],
         "GTD QWOD26.3 A, GTD QWOD26.3 B": [
           {
             "rank": 1,
@@ -56,7 +72,7 @@
       "name": "Elite Female",
       "order": 2,
       "individual": true,
-      "athlete_count": 14,
+      "athlete_count": 15,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1",
@@ -76,7 +92,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 81,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -85,10 +101,25 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Kevin Späth",
+          "country": "DE",
+          "club": "",
+          "points": 83,
+          "wods": {
+            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+              "position": 1,
+              "time": 360000,
+              "reps": 114,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
-          "points": 1,
+          "points": 163,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -99,11 +130,11 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
-          "points": 2,
+          "points": 164,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -136,7 +167,17 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Kevin Späth",
+            "country": "DE",
+            "club": "",
+            "time": 360000,
+            "reps": 114,
+            "tiebreak": 0
+          }
+        ]
       }
     },
     {
@@ -303,7 +344,7 @@
       "name": "Masters 35+ Male",
       "order": 7,
       "individual": true,
-      "athlete_count": 11,
+      "athlete_count": 12,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
