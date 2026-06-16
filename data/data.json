@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-16T11:45:08Z",
-    "updated_at_readable": "2026-06-16 11:45 UTC"
+    "updated_at": "2026-06-16T13:35:32Z",
+    "updated_at_readable": "2026-06-16 13:35 UTC"
   },
   "divisions": [
     {
@@ -24,18 +24,18 @@
           "name": "Kyle MacDonald",
           "country": "GB",
           "club": "",
-          "points": 3,
+          "points": 4,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 1,
-              "time": 288000,
-              "reps": 0,
+              "position": 2,
+              "time": 660000,
+              "reps": 1,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A, GTD QWOD26.3 B": {
               "position": 1,
               "time": 360000,
-              "reps": 130,
+              "reps": 1,
               "tiebreak": 0
             }
           }
@@ -45,10 +45,10 @@
           "name": "Guillaume Carabetta",
           "country": "FR",
           "club": "",
-          "points": 52,
+          "points": 51,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 1,
               "time": 302000,
               "reps": 0,
               "tiebreak": 0
@@ -61,20 +61,20 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
-            "name": "Kyle MacDonald",
-            "country": "GB",
-            "club": "",
-            "time": 288000,
-            "reps": 0,
-            "tiebreak": 0
-          },
-          {
-            "rank": 2,
             "name": "Guillaume Carabetta",
             "country": "FR",
             "club": "",
             "time": 302000,
             "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "Kyle MacDonald",
+            "country": "GB",
+            "club": "",
+            "time": 660000,
+            "reps": 1,
             "tiebreak": 0
           }
         ],
@@ -85,7 +85,7 @@
             "country": "GB",
             "club": "",
             "time": 360000,
-            "reps": 130,
+            "reps": 1,
             "tiebreak": 0
           }
         ]
@@ -375,13 +375,19 @@
           "name": "Elena Grizenko",
           "country": "DE",
           "club": "AREA57",
-          "points": 43,
+          "points": 4,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
               "time": 841000,
               "reps": 0,
               "tiebreak": 841000
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 384000,
+              "reps": 0,
+              "tiebreak": 0
             },
             "GTD QWOD26.3 A, GTD QWOD26.3 B": {
               "position": 1,
@@ -396,10 +402,10 @@
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 121,
+          "points": 122,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -422,6 +428,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Elena Grizenko",
+            "country": "DE",
+            "club": "AREA57",
+            "time": 384000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
