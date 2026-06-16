@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-16T17:40:19Z",
-    "updated_at_readable": "2026-06-16 17:40 UTC"
+    "updated_at": "2026-06-16T19:10:38Z",
+    "updated_at_readable": "2026-06-16 19:10 UTC"
   },
   "divisions": [
     {
@@ -115,8 +115,8 @@
       "name": "Intermediate Male",
       "order": 3,
       "individual": true,
-      "athlete_count": 82,
-      "result_count": 4,
+      "athlete_count": 83,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -149,7 +149,7 @@
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
-          "points": 165,
+          "points": 167,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -164,7 +164,7 @@
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
-          "points": 166,
+          "points": 168,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -176,14 +176,44 @@
         },
         {
           "rank": 4,
-          "name": "Jason  Oostveen",
-          "country": "NL",
+          "name": "Kirsten Bauer",
+          "country": "DE",
           "club": "",
-          "points": 168,
+          "points": 170,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
+              "time": 428000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 5,
+          "name": "Jason  Oostveen",
+          "country": "NL",
+          "club": "",
+          "points": 171,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 5,
               "time": 434000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 6,
+          "name": "Jannis Weis",
+          "country": "DE",
+          "club": "CrossFit Kirkel",
+          "points": 172,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 6,
+              "time": 480000,
               "reps": null,
               "tiebreak": null
             }
@@ -222,10 +252,28 @@
           },
           {
             "rank": 4,
+            "name": "Kirsten Bauer",
+            "country": "DE",
+            "club": "",
+            "time": 428000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Jason  Oostveen",
             "country": "NL",
             "club": "",
             "time": 434000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 6,
+            "name": "Jannis Weis",
+            "country": "DE",
+            "club": "CrossFit Kirkel",
+            "time": 480000,
             "reps": null,
             "tiebreak": null
           }
@@ -258,14 +306,14 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Nora Küüts",
-          "country": "EE",
-          "club": "CROSSFIT Kōu",
+          "name": "Catharina Haak",
+          "country": "DE",
+          "club": "Crossfit Flensburg",
           "points": 1,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
-              "time": 467000,
+              "time": 359000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -273,14 +321,14 @@
         },
         {
           "rank": 2,
-          "name": "Viktoria Schlammerl",
-          "country": "DE",
-          "club": "",
+          "name": "Nora Küüts",
+          "country": "EE",
+          "club": "CROSSFIT Kōu",
           "points": 2,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
-              "time": 532000,
+              "time": 467000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -288,14 +336,14 @@
         },
         {
           "rank": 3,
-          "name": "Catharina Haak",
+          "name": "Viktoria Schlammerl",
           "country": "DE",
-          "club": "Crossfit Flensburg",
+          "club": "",
           "points": 3,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
-              "time": 600000,
+              "time": 532000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -307,6 +355,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Catharina Haak",
+            "country": "DE",
+            "club": "Crossfit Flensburg",
+            "time": 359000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Nora Küüts",
             "country": "EE",
             "club": "CROSSFIT Kōu",
@@ -315,20 +372,11 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Viktoria Schlammerl",
             "country": "DE",
             "club": "",
             "time": 532000,
-            "reps": 0,
-            "tiebreak": 0
-          },
-          {
-            "rank": 3,
-            "name": "Catharina Haak",
-            "country": "DE",
-            "club": "Crossfit Flensburg",
-            "time": 600000,
             "reps": 0,
             "tiebreak": 0
           }
@@ -387,7 +435,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 40,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -399,7 +447,7 @@
           "name": "Elena Grizenko",
           "country": "DE",
           "club": "AREA57",
-          "points": 4,
+          "points": 5,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -408,7 +456,7 @@
               "tiebreak": 841000
             },
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 384000,
               "reps": 0,
               "tiebreak": 0
@@ -423,13 +471,28 @@
         },
         {
           "rank": 2,
+          "name": "Marie Friess",
+          "country": "DE",
+          "club": "",
+          "points": 121,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 316000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 122,
+          "points": 123,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -452,6 +515,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Marie Friess",
+            "country": "DE",
+            "club": "",
+            "time": 316000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Elena Grizenko",
             "country": "DE",
             "club": "AREA57",
@@ -460,7 +532,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
