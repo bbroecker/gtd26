@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-16T13:35:32Z",
-    "updated_at_readable": "2026-06-16 13:35 UTC"
+    "updated_at": "2026-06-16T15:38:03Z",
+    "updated_at_readable": "2026-06-16 15:38 UTC"
   },
   "divisions": [
     {
@@ -249,7 +249,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 49,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -258,14 +258,14 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Viktoria Schlammerl",
-          "country": "DE",
-          "club": "",
+          "name": "Nora Küüts",
+          "country": "EE",
+          "club": "CROSSFIT Kōu",
           "points": 1,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
-              "time": 532000,
+              "time": 467000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -273,13 +273,28 @@
         },
         {
           "rank": 2,
-          "name": "Catharina Haak",
+          "name": "Viktoria Schlammerl",
           "country": "DE",
-          "club": "Crossfit Flensburg",
+          "club": "",
           "points": 2,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
+              "time": 532000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Catharina Haak",
+          "country": "DE",
+          "club": "Crossfit Flensburg",
+          "points": 3,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
               "time": 600000,
               "reps": 0,
               "tiebreak": 0
@@ -292,6 +307,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Nora Küüts",
+            "country": "EE",
+            "club": "CROSSFIT Kōu",
+            "time": 467000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Viktoria Schlammerl",
             "country": "DE",
             "club": "",
@@ -300,7 +324,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Catharina Haak",
             "country": "DE",
             "club": "Crossfit Flensburg",
@@ -464,7 +488,7 @@
       "order": 7,
       "individual": true,
       "athlete_count": 13,
-      "result_count": 1,
+      "result_count": 2,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -485,6 +509,21 @@
               "tiebreak": 0
             }
           }
+        },
+        {
+          "rank": 2,
+          "name": "BEN ROSS",
+          "country": "GB",
+          "club": "CrossFit Devils Path",
+          "points": 2,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 400000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
         }
       ],
       "per_wod": {
@@ -496,6 +535,15 @@
             "country": "LU",
             "club": "ATHLETENFABRIK",
             "time": 343000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "BEN ROSS",
+            "country": "GB",
+            "club": "CrossFit Devils Path",
+            "time": 400000,
             "reps": 0,
             "tiebreak": 0
           }
@@ -614,7 +662,7 @@
       "name": "Masters 40+ Female",
       "order": 10,
       "individual": true,
-      "athlete_count": 16,
+      "athlete_count": 17,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
@@ -713,7 +761,7 @@
       "name": "Elite Teams of 2 Female/Female",
       "order": 13,
       "individual": false,
-      "athlete_count": 0,
+      "athlete_count": 1,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1",
