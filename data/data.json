@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-16T07:52:03Z",
-    "updated_at_readable": "2026-06-16 07:52 UTC"
+    "updated_at": "2026-06-16T09:45:12Z",
+    "updated_at_readable": "2026-06-16 09:45 UTC"
   },
   "divisions": [
     {
@@ -91,7 +91,7 @@
       "name": "Intermediate Male",
       "order": 3,
       "individual": true,
-      "athlete_count": 81,
+      "athlete_count": 82,
       "result_count": 4,
       "wods": [
         "GTD QWOD26.1",
@@ -104,7 +104,7 @@
           "name": "Kevin Späth",
           "country": "DE",
           "club": "",
-          "points": 83,
+          "points": 84,
           "wods": {
             "GTD QWOD26.3 A, GTD QWOD26.3 B": {
               "position": 1,
@@ -119,7 +119,7 @@
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
-          "points": 163,
+          "points": 165,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -134,7 +134,7 @@
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
-          "points": 164,
+          "points": 166,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -149,7 +149,7 @@
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
-          "points": 165,
+          "points": 167,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
@@ -323,7 +323,7 @@
       "name": "Scaled Female",
       "order": 6,
       "individual": true,
-      "athlete_count": 39,
+      "athlete_count": 40,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -520,17 +520,59 @@
       "order": 10,
       "individual": true,
       "athlete_count": 16,
-      "result_count": 0,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
         "GTD QWOD26.3 A, GTD QWOD26.3 B"
       ],
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Kette",
+          "country": "DE",
+          "club": "CrossFit PMA",
+          "points": 3,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 423000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 113,
+              "tiebreak": null
+            }
+          }
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Kette",
+            "country": "DE",
+            "club": "CrossFit PMA",
+            "time": 423000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Kette",
+            "country": "DE",
+            "club": "CrossFit PMA",
+            "time": null,
+            "reps": 113,
+            "tiebreak": null
+          }
+        ]
       }
     },
     {
@@ -671,7 +713,7 @@
       "name": "Scaled Teams of 2 Male/Female",
       "order": 18,
       "individual": false,
-      "athlete_count": 10,
+      "athlete_count": 11,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1 SC",
