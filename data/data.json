@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-17T03:04:25Z",
-    "updated_at_readable": "2026-06-17 03:04 UTC"
+    "updated_at": "2026-06-17T05:35:53Z",
+    "updated_at_readable": "2026-06-17 05:35 UTC"
   },
   "divisions": [
     {
@@ -297,7 +297,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 49,
-      "result_count": 3,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -306,10 +306,25 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Denise Roeger",
+          "country": "DE",
+          "club": "AREA57",
+          "points": 51,
+          "wods": {
+            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+              "position": 1,
+              "time": 360000,
+              "reps": 173,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
-          "points": 1,
+          "points": 99,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -320,11 +335,11 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
-          "points": 2,
+          "points": 100,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -335,11 +350,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 3,
+          "points": 101,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
@@ -381,7 +396,17 @@
             "tiebreak": 0
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Denise Roeger",
+            "country": "DE",
+            "club": "AREA57",
+            "time": 360000,
+            "reps": 173,
+            "tiebreak": 0
+          }
+        ]
       }
     },
     {
