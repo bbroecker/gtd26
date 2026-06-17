@@ -117,88 +117,94 @@ def fetch_all():
 
         athletes_with_results = set()
         for wod_entry in lb.get("wods", []):
-            workout = wod_entry["workouts"][0] if wod_entry.get("workouts") else {}
-            for r in workout.get("results", []):
-                pid = participant_id(r)
-                if pid:
-                    athletes_with_results.add(pid)
+            for workout_entry in wod_entry.get("workouts", []):
+                for r in workout_entry.get("results", []):
+                    pid = participant_id(r)
+                    if pid:
+                        athletes_with_results.add(pid)
 
         # ---- Per-WOD data ----
         wod_names = []
         per_wod = {}
 
         for wod_entry in lb.get("wods", []):
-            wname = wod_entry.get("wod", {}).get("name", "?")
-            wod_names.append(wname)
+            for workout_entry in wod_entry.get("workouts", []):
+                wname = workout_entry.get("workout", {}).get("name", "?")
+                wod_names.append(wname)
 
-            workout = wod_entry["workouts"][0] if wod_entry.get("workouts") else {}
-            results = workout.get("results", [])
+                results = workout_entry.get("results", [])
+                first_field = workout_entry.get("workout", {}).get("first_field", "time")
+                is_reps_based = first_field == "how_many"
 
-            # For team divisions positions live in workout["teams"], not ["athletes"]
-            wk_participants = workout.get("teams", workout.get("athletes", []))
-            if isinstance(wk_participants, dict):
-                wk_participants = list(wk_participants.values())
-            # Position map: athlete_id -> position (Circle21 pre-computed)
-            pos_map = {
-                a["id"]: a.get("position")
-                for a in wk_participants
-                if a.get("position") is not None
-            }
-            # Scores: participant_id -> {time, reps, tiebreak}
-            scores_map = {
-                participant_id(r): {
-                    "time": r.get("time"),
-                    "reps": r.get("how_many"),
-                    "tiebreak": r.get("athlete_tie_break"),
+                # For team divisions positions live in workout["teams"], not ["athletes"]
+                wk_participants = workout_entry.get("teams", workout_entry.get("athletes", []))
+                if isinstance(wk_participants, dict):
+                    wk_participants = list(wk_participants.values())
+                # Position map: athlete_id -> position (Circle21 pre-computed)
+                pos_map = {
+                    a["id"]: a.get("position")
+                    for a in wk_participants
+                    if a.get("position") is not None
                 }
-                for r in results if participant_id(r)
-            }
-            result_ids = set(scores_map.keys())
-
-            # Top-N for this WOD: only athletes with actual submissions, sorted by position
-            wod_ranked = []
-            for a_id, pos in sorted(pos_map.items(), key=lambda x: (x[1] or 99999)):
-                if a_id not in result_ids:
-                    continue
-                athlete = athletes_map.get(a_id, {})
-                score = scores_map[a_id]
-                wod_ranked.append(
-                    {
-                        "rank": pos,
-                        "name": athlete.get("name", "?"),
-                        "country": athlete.get("country") or "",
-                        "club": athlete.get("club_name") or "",
-                        "time": score["time"],
-                        "reps": score["reps"],
-                        "tiebreak": score["tiebreak"],
+                # Scores: participant_id -> {time, reps, tiebreak}
+                # For reps-based WODs, `time` in results is the cap (same for everyone)
+                # so we null it out to avoid misleading display.
+                scores_map = {
+                    participant_id(r): {
+                        "time": None if is_reps_based else r.get("time"),
+                        "reps": r.get("how_many"),
+                        "tiebreak": r.get("athlete_tie_break"),
                     }
-                )
-            per_wod[wname] = wod_ranked[:TOP_N]
+                    for r in results if participant_id(r)
+                }
+                result_ids = set(scores_map.keys())
+
+                # Top-N for this WOD: only athletes with actual submissions, sorted by position
+                wod_ranked = []
+                for a_id, pos in sorted(pos_map.items(), key=lambda x: (x[1] or 99999)):
+                    if a_id not in result_ids:
+                        continue
+                    athlete = athletes_map.get(a_id, {})
+                    score = scores_map[a_id]
+                    wod_ranked.append(
+                        {
+                            "rank": pos,
+                            "name": athlete.get("name", "?"),
+                            "country": athlete.get("country") or "",
+                            "club": athlete.get("club_name") or "",
+                            "time": score["time"],
+                            "reps": score["reps"],
+                            "tiebreak": score["tiebreak"],
+                        }
+                    )
+                per_wod[wname] = wod_ranked[:TOP_N]
 
         # ---- Overall top-20 ----
         # Build per-WOD position + score lookup (only for athletes with results)
         wod_pos_maps = {}    # wname -> {athlete_id: position}
         wod_score_maps = {}  # wname -> {athlete_id: {time, reps, tiebreak}}
         for wod_entry in lb.get("wods", []):
-            wname = wod_entry.get("wod", {}).get("name", "?")
-            workout = wod_entry["workouts"][0] if wod_entry.get("workouts") else {}
-            result_ids_wod = {participant_id(r) for r in workout.get("results", []) if participant_id(r)}
-            wk_p = workout.get("teams", workout.get("athletes", []))
-            if isinstance(wk_p, dict):
-                wk_p = list(wk_p.values())
-            wod_pos_maps[wname] = {
-                a["id"]: a.get("position")
-                for a in wk_p
-                if a.get("position") is not None and a["id"] in result_ids_wod
-            }
-            wod_score_maps[wname] = {
-                participant_id(r): {
-                    "time": r.get("time"),
-                    "reps": r.get("how_many"),
-                    "tiebreak": r.get("athlete_tie_break"),
+            for workout_entry in wod_entry.get("workouts", []):
+                wname = workout_entry.get("workout", {}).get("name", "?")
+                first_field = workout_entry.get("workout", {}).get("first_field", "time")
+                is_reps_based = first_field == "how_many"
+                result_ids_wod = {participant_id(r) for r in workout_entry.get("results", []) if participant_id(r)}
+                wk_p = workout_entry.get("teams", workout_entry.get("athletes", []))
+                if isinstance(wk_p, dict):
+                    wk_p = list(wk_p.values())
+                wod_pos_maps[wname] = {
+                    a["id"]: a.get("position")
+                    for a in wk_p
+                    if a.get("position") is not None and a["id"] in result_ids_wod
                 }
-                for r in workout.get("results", []) if participant_id(r)
-            }
+                wod_score_maps[wname] = {
+                    participant_id(r): {
+                        "time": None if is_reps_based else r.get("time"),
+                        "reps": r.get("how_many"),
+                        "tiebreak": r.get("athlete_tie_break"),
+                    }
+                    for r in workout_entry.get("results", []) if participant_id(r)
+                }
 
         # Sort athletes/teams by their overall points (lower = better)
         ranked_athletes = sorted(

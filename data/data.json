@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-17T05:51:10Z",
-    "updated_at_readable": "2026-06-17 07:51 UTC"
+    "updated_at": "2026-06-17T06:10:46Z",
+    "updated_at_readable": "2026-06-17 08:10 UTC"
   },
   "divisions": [
     {
@@ -16,7 +16,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -32,9 +33,15 @@
               "reps": 1,
               "tiebreak": 0
             },
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
-              "time": 360000,
+              "time": null,
+              "reps": 1,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
               "reps": 1,
               "tiebreak": 0
             }
@@ -78,13 +85,24 @@
             "tiebreak": 0
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
-            "time": 360000,
+            "time": null,
+            "reps": 1,
+            "tiebreak": 0
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Kyle MacDonald",
+            "country": "GB",
+            "club": "",
+            "time": null,
             "reps": 1,
             "tiebreak": 0
           }
@@ -101,13 +119,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -120,7 +140,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -136,10 +157,16 @@
               "reps": 0,
               "tiebreak": 0
             },
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
-              "time": 360000,
+              "time": null,
               "reps": 114,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 100,
               "tiebreak": 0
             }
           }
@@ -278,14 +305,25 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
-            "time": 360000,
+            "time": null,
             "reps": 114,
+            "tiebreak": 0
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Kevin Späth",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 100,
             "tiebreak": 0
           }
         ]
@@ -301,7 +339,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -311,10 +350,16 @@
           "club": "AREA57",
           "points": 51,
           "wods": {
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
-              "time": 360000,
+              "time": null,
               "reps": 173,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 93,
               "tiebreak": 0
             }
           }
@@ -396,14 +441,25 @@
             "tiebreak": 0
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Denise Roeger",
             "country": "DE",
             "club": "AREA57",
-            "time": 360000,
+            "time": null,
             "reps": 173,
+            "tiebreak": 0
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Denise Roeger",
+            "country": "DE",
+            "club": "AREA57",
+            "time": null,
+            "reps": 93,
             "tiebreak": 0
           }
         ]
@@ -419,7 +475,8 @@
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -429,10 +486,16 @@
           "club": "",
           "points": 2,
           "wods": {
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
-              "time": 360000,
+              "time": null,
               "reps": 112,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 80,
               "tiebreak": 0
             }
           }
@@ -441,14 +504,25 @@
       "per_wod": {
         "GTD QWOD26.1 SC": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Dominik Stephan",
             "country": "DE",
             "club": "",
-            "time": 360000,
+            "time": null,
             "reps": 112,
+            "tiebreak": 0
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Dominik Stephan",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 80,
             "tiebreak": 0
           }
         ]
@@ -464,7 +538,8 @@
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -486,10 +561,16 @@
               "reps": 0,
               "tiebreak": 0
             },
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
-              "time": 360000,
+              "time": null,
               "reps": 145,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 45,
               "tiebreak": 0
             }
           }
@@ -566,14 +647,25 @@
             "tiebreak": 0
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Elena Grizenko",
             "country": "DE",
             "club": "AREA57",
-            "time": 360000,
+            "time": null,
             "reps": 145,
+            "tiebreak": 0
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Elena Grizenko",
+            "country": "DE",
+            "club": "AREA57",
+            "time": null,
+            "reps": 45,
             "tiebreak": 0
           }
         ]
@@ -589,7 +681,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -645,7 +738,8 @@
             "tiebreak": 0
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -658,7 +752,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -706,7 +801,8 @@
             "tiebreak": 0
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -719,7 +815,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -751,7 +848,8 @@
           }
         ],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -764,7 +862,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -780,10 +879,16 @@
               "reps": null,
               "tiebreak": null
             },
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
               "reps": 113,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 73.5,
               "tiebreak": null
             }
           }
@@ -802,7 +907,7 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Kette",
@@ -810,6 +915,17 @@
             "club": "CrossFit PMA",
             "time": null,
             "reps": 113,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Kette",
+            "country": "DE",
+            "club": "CrossFit PMA",
+            "time": null,
+            "reps": 73.5,
             "tiebreak": null
           }
         ]
@@ -825,13 +941,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -844,7 +962,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -876,7 +995,8 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -889,13 +1009,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -908,7 +1030,8 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -930,10 +1053,16 @@
               "reps": null,
               "tiebreak": null
             },
-            "GTD QWOD26.3 A, GTD QWOD26.3 B": {
+            "GTD QWOD26.3 A": {
               "position": 1,
-              "time": 360000,
+              "time": null,
               "reps": 275,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 232.5,
               "tiebreak": null
             }
           }
@@ -986,14 +1115,25 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": [
+        "GTD QWOD26.3 A": [
           {
             "rank": 1,
             "name": "Ravegaarden",
             "country": "DE",
             "club": "",
-            "time": 360000,
+            "time": null,
             "reps": 275,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Ravegaarden",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 232.5,
             "tiebreak": null
           }
         ]
@@ -1009,13 +1149,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1028,13 +1170,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1047,7 +1191,8 @@
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [
         {
@@ -1079,7 +1224,8 @@
           }
         ],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1092,13 +1238,15 @@
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1 SC": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1111,13 +1259,15 @@
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1 SC": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1130,13 +1280,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1149,13 +1301,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1168,13 +1322,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     },
     {
@@ -1187,13 +1343,15 @@
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
-        "GTD QWOD26.3 A, GTD QWOD26.3 B"
+        "GTD QWOD26.3 A",
+        "GTD QWOD26.3 B"
       ],
       "overall": [],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A, GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [],
+        "GTD QWOD26.3 B": []
       }
     }
   ]
