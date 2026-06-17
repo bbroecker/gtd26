@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-17T15:03:00Z",
-    "updated_at_readable": "2026-06-17 15:03 UTC"
+    "updated_at": "2026-06-17T17:00:18Z",
+    "updated_at_readable": "2026-06-17 17:00 UTC"
   },
   "divisions": [
     {
@@ -549,7 +549,7 @@
       "order": 5,
       "individual": true,
       "athlete_count": 45,
-      "result_count": 1,
+      "result_count": 2,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -565,19 +565,40 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Dominik Stephan",
-          "country": "DE",
-          "club": "",
+          "name": "Daniel Ruszczyk",
+          "country": "PL",
+          "club": "CrossFit Strong House",
           "points": 2,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
-              "reps": 112,
+              "reps": 148,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
               "position": 1,
+              "time": null,
+              "reps": 96,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Dominik Stephan",
+          "country": "DE",
+          "club": "",
+          "points": 4,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 112,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
               "time": null,
               "reps": 80,
               "tiebreak": 0
@@ -591,6 +612,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Daniel Ruszczyk",
+            "country": "PL",
+            "club": "CrossFit Strong House",
+            "time": null,
+            "reps": 148,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Dominik Stephan",
             "country": "DE",
             "club": "",
@@ -602,6 +632,15 @@
         "GTD QWOD26.3 B": [
           {
             "rank": 1,
+            "name": "Daniel Ruszczyk",
+            "country": "PL",
+            "club": "CrossFit Strong House",
+            "time": null,
+            "reps": 96,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Dominik Stephan",
             "country": "DE",
             "club": "",
@@ -767,7 +806,7 @@
       "order": 7,
       "individual": true,
       "athlete_count": 13,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -798,13 +837,28 @@
         },
         {
           "rank": 2,
-          "name": "BEN ROSS",
-          "country": "GB",
-          "club": "CrossFit Devils Path",
+          "name": "Ian Dieckmann",
+          "country": "DE",
+          "club": "CHLKD Crossfit Hagsfeld",
           "points": 2,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
+              "time": 356000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "BEN ROSS",
+          "country": "GB",
+          "club": "CrossFit Devils Path",
+          "points": 3,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
               "time": 400000,
               "reps": 0,
               "tiebreak": 0
@@ -826,6 +880,15 @@
           },
           {
             "rank": 2,
+            "name": "Ian Dieckmann",
+            "country": "DE",
+            "club": "CHLKD Crossfit Hagsfeld",
+            "time": 356000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "BEN ROSS",
             "country": "GB",
             "club": "CrossFit Devils Path",
@@ -844,7 +907,7 @@
       "order": 8,
       "individual": true,
       "athlete_count": 14,
-      "result_count": 1,
+      "result_count": 2,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -878,6 +941,21 @@
               "tiebreak": 0
             }
           }
+        },
+        {
+          "rank": 2,
+          "name": "Cathrine Mamsen",
+          "country": "DK",
+          "club": "",
+          "points": 16,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 376000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
         }
       ],
       "per_wod": {
@@ -899,6 +977,15 @@
             "country": "DE",
             "club": "CrossFit Fächerstadt",
             "time": 314000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "Cathrine Mamsen",
+            "country": "DK",
+            "club": "",
+            "time": 376000,
             "reps": 0,
             "tiebreak": 0
           }
