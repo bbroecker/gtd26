@@ -111,12 +111,17 @@ def fetch_all():
             participants = list(participants.values())
         athletes_map = {a["id"]: a for a in participants}
 
-        # Collect athletes who have submitted at least one result
+        # Collect athletes/teams who have submitted at least one result
+        def participant_id(r):
+            return r.get("team_id") or r.get("athlete_id")
+
         athletes_with_results = set()
         for wod_entry in lb.get("wods", []):
             workout = wod_entry["workouts"][0] if wod_entry.get("workouts") else {}
             for r in workout.get("results", []):
-                athletes_with_results.add(r["athlete_id"])
+                pid = participant_id(r)
+                if pid:
+                    athletes_with_results.add(pid)
 
         # ---- Per-WOD data ----
         wod_names = []
@@ -139,14 +144,14 @@ def fetch_all():
                 for a in wk_participants
                 if a.get("position") is not None
             }
-            # Scores: athlete_id -> {time, reps, tiebreak}
+            # Scores: participant_id -> {time, reps, tiebreak}
             scores_map = {
-                r["athlete_id"]: {
+                participant_id(r): {
                     "time": r.get("time"),
                     "reps": r.get("how_many"),
                     "tiebreak": r.get("athlete_tie_break"),
                 }
-                for r in results
+                for r in results if participant_id(r)
             }
             result_ids = set(scores_map.keys())
 
@@ -177,7 +182,7 @@ def fetch_all():
         for wod_entry in lb.get("wods", []):
             wname = wod_entry.get("wod", {}).get("name", "?")
             workout = wod_entry["workouts"][0] if wod_entry.get("workouts") else {}
-            result_ids_wod = {r["athlete_id"] for r in workout.get("results", [])}
+            result_ids_wod = {participant_id(r) for r in workout.get("results", []) if participant_id(r)}
             wk_p = workout.get("teams", workout.get("athletes", []))
             if isinstance(wk_p, dict):
                 wk_p = list(wk_p.values())
@@ -187,12 +192,12 @@ def fetch_all():
                 if a.get("position") is not None and a["id"] in result_ids_wod
             }
             wod_score_maps[wname] = {
-                r["athlete_id"]: {
+                participant_id(r): {
                     "time": r.get("time"),
                     "reps": r.get("how_many"),
                     "tiebreak": r.get("athlete_tie_break"),
                 }
-                for r in workout.get("results", [])
+                for r in workout.get("results", []) if participant_id(r)
             }
 
         # Sort athletes/teams by their overall points (lower = better)
