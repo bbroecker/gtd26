@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-17T20:41:12Z",
-    "updated_at_readable": "2026-06-17 20:41 UTC"
+    "updated_at": "2026-06-17T21:37:56Z",
+    "updated_at_readable": "2026-06-17 21:37 UTC"
   },
   "divisions": [
     {
@@ -177,8 +177,8 @@
       "name": "Intermediate Male",
       "order": 3,
       "individual": true,
-      "athlete_count": 83,
-      "result_count": 7,
+      "athlete_count": 84,
+      "result_count": 8,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -194,25 +194,52 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Kevin Späth",
+          "name": "Tobias Bachmann",
           "country": "DE",
-          "club": "",
-          "points": 6,
+          "club": "CrossFit Speyer",
+          "points": 5,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
-              "time": 411000,
+              "position": 3,
+              "time": 327000,
               "reps": 0,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
-              "reps": 114,
+              "reps": 147,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
               "position": 1,
+              "time": null,
+              "reps": 127,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Kevin Späth",
+          "country": "DE",
+          "club": "",
+          "points": 9,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 411000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 114,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
               "time": null,
               "reps": 100,
               "tiebreak": 0
@@ -220,11 +247,11 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Federico Frixione",
           "country": "IT",
           "club": "",
-          "points": 167,
+          "points": 169,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -235,11 +262,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
-          "points": 168,
+          "points": 170,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -250,14 +277,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
-          "points": 169,
+          "points": 172,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 335000,
               "reps": 0,
               "tiebreak": 0
@@ -265,14 +292,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Kirsten Bauer",
           "country": "DE",
           "club": "",
-          "points": 171,
+          "points": 174,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 428000,
               "reps": 0,
               "tiebreak": 0
@@ -280,14 +307,14 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
-          "points": 172,
+          "points": 175,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 434000,
               "reps": null,
               "tiebreak": null
@@ -295,14 +322,14 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
-          "points": 173,
+          "points": 176,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 480000,
               "reps": null,
               "tiebreak": null
@@ -333,6 +360,15 @@
           },
           {
             "rank": 3,
+            "name": "Tobias Bachmann",
+            "country": "DE",
+            "club": "CrossFit Speyer",
+            "time": 327000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
             "name": "Sascha Nowakewitz",
             "country": "DE",
             "club": "CrossFit Oldenburg GmbH",
@@ -341,7 +377,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -350,7 +386,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kirsten Bauer",
             "country": "DE",
             "club": "",
@@ -359,7 +395,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Jason  Oostveen",
             "country": "NL",
             "club": "",
@@ -368,7 +404,7 @@
             "tiebreak": null
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Jannis Weis",
             "country": "DE",
             "club": "CrossFit Kirkel",
@@ -380,6 +416,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Tobias Bachmann",
+            "country": "DE",
+            "club": "CrossFit Speyer",
+            "time": null,
+            "reps": 147,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -391,6 +436,15 @@
         "GTD QWOD26.3 B": [
           {
             "rank": 1,
+            "name": "Tobias Bachmann",
+            "country": "DE",
+            "club": "CrossFit Speyer",
+            "time": null,
+            "reps": 127,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
