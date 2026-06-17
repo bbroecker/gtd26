@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-17T19:41:17Z",
-    "updated_at_readable": "2026-06-17 19:41 UTC"
+    "updated_at": "2026-06-17T20:41:12Z",
+    "updated_at_readable": "2026-06-17 20:41 UTC"
   },
   "divisions": [
     {
@@ -1000,7 +1000,7 @@
       "order": 9,
       "individual": true,
       "athlete_count": 24,
-      "result_count": 1,
+      "result_count": 2,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -1016,10 +1016,37 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Sébastien REMY",
+          "country": "FR",
+          "club": "",
+          "points": 27,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 299000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 141,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 122,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Oliver Malik",
           "country": "DE",
           "club": "",
-          "points": 1,
+          "points": 73,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -1042,9 +1069,39 @@
             "tiebreak": 853000
           }
         ],
-        "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A": [],
-        "GTD QWOD26.3 B": []
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Sébastien REMY",
+            "country": "FR",
+            "club": "",
+            "time": 299000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 A": [
+          {
+            "rank": 1,
+            "name": "Sébastien REMY",
+            "country": "FR",
+            "club": "",
+            "time": null,
+            "reps": 141,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Sébastien REMY",
+            "country": "FR",
+            "club": "",
+            "time": null,
+            "reps": 122,
+            "tiebreak": null
+          }
+        ]
       }
     },
     {
@@ -1525,7 +1582,7 @@
       "order": 18,
       "individual": false,
       "athlete_count": 12,
-      "result_count": 0,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -1538,10 +1595,36 @@
         "GTD QWOD26.3 A": "Reps",
         "GTD QWOD26.3 B": "Kilograms"
       },
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Warmup war schwerer",
+          "country": "DE",
+          "club": "CrossFit Pfalzschmiede",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 736000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1 SC": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Warmup war schwerer",
+            "country": "DE",
+            "club": "CrossFit Pfalzschmiede",
+            "time": 736000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
         "GTD QWOD26.3 A": [],
         "GTD QWOD26.3 B": []
       }
