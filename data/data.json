@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-17T13:09:58Z",
-    "updated_at_readable": "2026-06-17 13:09 UTC"
+    "updated_at": "2026-06-17T15:03:00Z",
+    "updated_at_readable": "2026-06-17 15:03 UTC"
   },
   "divisions": [
     {
@@ -178,7 +178,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 83,
-      "result_count": 6,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -197,10 +197,10 @@
           "name": "Kevin Späth",
           "country": "DE",
           "club": "",
-          "points": 5,
+          "points": 6,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 411000,
               "reps": 0,
               "tiebreak": 0
@@ -221,13 +221,28 @@
         },
         {
           "rank": 2,
-          "name": "Fabrizio Legnani",
+          "name": "Federico Frixione",
           "country": "IT",
           "club": "",
           "points": 167,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
+              "time": 294000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Fabrizio Legnani",
+          "country": "IT",
+          "club": "",
+          "points": 168,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
               "time": 303000,
               "reps": 0,
               "tiebreak": 0
@@ -235,14 +250,14 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
-          "points": 168,
+          "points": 169,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 335000,
               "reps": 0,
               "tiebreak": 0
@@ -250,14 +265,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Kirsten Bauer",
           "country": "DE",
           "club": "",
-          "points": 170,
+          "points": 171,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 428000,
               "reps": 0,
               "tiebreak": 0
@@ -265,14 +280,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
-          "points": 171,
+          "points": 172,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 434000,
               "reps": null,
               "tiebreak": null
@@ -280,14 +295,14 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
-          "points": 172,
+          "points": 173,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 480000,
               "reps": null,
               "tiebreak": null
@@ -300,6 +315,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Federico Frixione",
+            "country": "IT",
+            "club": "",
+            "time": 294000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
             "name": "Fabrizio Legnani",
             "country": "IT",
             "club": "",
@@ -308,7 +332,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Sascha Nowakewitz",
             "country": "DE",
             "club": "CrossFit Oldenburg GmbH",
@@ -317,7 +341,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -326,7 +350,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kirsten Bauer",
             "country": "DE",
             "club": "",
@@ -335,7 +359,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Jason  Oostveen",
             "country": "NL",
             "club": "",
@@ -344,7 +368,7 @@
             "tiebreak": null
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Jannis Weis",
             "country": "DE",
             "club": "CrossFit Kirkel",
@@ -1073,19 +1097,47 @@
           "name": "Hearth of No Limits",
           "country": "DE",
           "club": "No Limits Coaching",
-          "points": 1,
+          "points": 4,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 2181000,
+              "reps": null,
+              "tiebreak": null
+            },
             "GTD QWOD26.2": {
               "position": 1,
               "time": 695000,
               "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 274,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 232.5,
               "tiebreak": null
             }
           }
         }
       ],
       "per_wod": {
-        "GTD QWOD26.1": [],
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Hearth of No Limits",
+            "country": "DE",
+            "club": "No Limits Coaching",
+            "time": 2181000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
         "GTD QWOD26.2": [
           {
             "rank": 1,
@@ -1097,8 +1149,28 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A": [],
-        "GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [
+          {
+            "rank": 1,
+            "name": "Hearth of No Limits",
+            "country": "DE",
+            "club": "No Limits Coaching",
+            "time": null,
+            "reps": 274,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Hearth of No Limits",
+            "country": "DE",
+            "club": "No Limits Coaching",
+            "time": null,
+            "reps": 232.5,
+            "tiebreak": null
+          }
+        ]
       }
     },
     {
@@ -1285,7 +1357,7 @@
       "name": "Intermediate Teams of 2 Female/Female",
       "order": 16,
       "individual": false,
-      "athlete_count": 19,
+      "athlete_count": 20,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1",
