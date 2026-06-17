@@ -125,12 +125,14 @@ def fetch_all():
 
         # ---- Per-WOD data ----
         wod_names = []
+        wod_units = {}  # wname -> display unit string (e.g. "Reps", "Kilograms")
         per_wod = {}
 
         for wod_entry in lb.get("wods", []):
             for workout_entry in wod_entry.get("workouts", []):
                 wname = workout_entry.get("workout", {}).get("name", "?")
                 wod_names.append(wname)
+                wod_units[wname] = workout_entry.get("workout", {}).get("units_of_measure") or ""
 
                 results = workout_entry.get("results", [])
                 first_field = workout_entry.get("workout", {}).get("first_field", "time")
@@ -252,6 +254,7 @@ def fetch_all():
                 "athlete_count": total_count,
                 "result_count": result_count,
                 "wods": wod_names,
+                "wod_units": wod_units,
                 "overall": overall_top20,
                 "per_wod": per_wod,
             }

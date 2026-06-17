@@ -235,7 +235,7 @@ function renderOverall() {
       }
       const posClass = wod.position === 1 ? 'p1' : wod.position === 2 ? 'p2' :
                        wod.position === 3 ? 'p3' : wod.position <= 10 ? 'top10' : '';
-      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak);
+      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak, div.wod_units?.[wname]);
       html += `<td class="wod-pos ${posClass}">
         <div>#${wod.position}</div>
         ${scoreStr ? `<div style="font-size:0.75rem;opacity:0.75;font-weight:normal">${scoreStr}</div>` : ''}
@@ -271,8 +271,13 @@ function renderCombined(teamMode) {
   }
 
   // Collect unique WOD names in order (preserve first-seen order across divisions)
+  // and build a unit map across all relevant divisions
   const wodSet = new Set();
-  relevant.forEach(div => (div.wods || []).forEach(w => wodSet.add(w)));
+  const wodUnits = {};
+  relevant.forEach(div => {
+    (div.wods || []).forEach(w => wodSet.add(w));
+    Object.assign(wodUnits, div.wod_units || {});
+  });
   const wods = [...wodSet];
 
   // Sort by points ascending (lower = better in CrossFit), break ties alphabetically
@@ -308,7 +313,7 @@ function renderCombined(teamMode) {
       }
       const posClass = wod.position === 1 ? 'p1' : wod.position === 2 ? 'p2' :
                        wod.position === 3 ? 'p3' : wod.position <= 10 ? 'top10' : '';
-      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak);
+      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak, wodUnits[wname]);
       html += `<td class="wod-pos ${posClass}">
         <div>#${wod.position}</div>
         ${scoreStr ? `<div style="font-size:0.75rem;opacity:0.75;font-weight:normal">${scoreStr}</div>` : ''}
@@ -353,7 +358,7 @@ function renderPerWod() {
   rows.forEach(r => {
     const rankClass = r.rank <= 3 ? `rank-${r.rank}` : 'rank-other';
     const flag = countryFlag(r.country);
-    const scoreStr = formatScore(r.time, r.reps, r.tiebreak) || '—';
+    const scoreStr = formatScore(r.time, r.reps, r.tiebreak, div.wod_units?.[currentWod]) || '—';
     html += `<tr class="${rankClass}">
       <td class="num"><span class="rank-badge">${r.rank}</span></td>
       <td>
@@ -371,21 +376,23 @@ function renderPerWod() {
 // ---------------------------------------------------------------------------
 // Score formatting
 // ---------------------------------------------------------------------------
-function formatScore(time, reps, tiebreak) {
+function formatScore(time, reps, tiebreak, unit) {
+  // Determine display label from API unit string
+  const unitLabel = unit && unit.toLowerCase().startsWith('kilo') ? 'kg' : 'reps';
   // Time in milliseconds
   if (time != null && time > 0) {
     const timeStr = fmtTime(time);
     if (reps != null && reps > 0) {
       // Capped: show reps + time-at-cap
-      return `${reps} reps (${timeStr})`;
+      return `${reps} ${unitLabel} (${timeStr})`;
     }
     return timeStr;
   }
-  // No time but reps (amrap / maxweight)
+  // No time but reps/weight (amrap / max weight)
   if (reps != null && reps > 0) {
-    const base = `${reps} reps`;
+    const base = `${reps} ${unitLabel}`;
     if (tiebreak != null && tiebreak > 0) {
-      return `${base} / ${tiebreak} kg`;
+      return `${base} @ ${fmtTime(tiebreak)}`;
     }
     return base;
   }
