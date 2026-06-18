@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-18T07:35:35Z",
-    "updated_at_readable": "2026-06-18 07:35 UTC"
+    "updated_at": "2026-06-18T09:27:53Z",
+    "updated_at_readable": "2026-06-18 09:27 UTC"
   },
   "divisions": [
     {
@@ -150,7 +150,7 @@
       "name": "Elite Female",
       "order": 2,
       "individual": true,
-      "athlete_count": 17,
+      "athlete_count": 18,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1",
@@ -603,7 +603,7 @@
       "order": 5,
       "individual": true,
       "athlete_count": 45,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -622,7 +622,7 @@
           "name": "Daniel Ruszczyk",
           "country": "PL",
           "club": "CrossFit Strong House",
-          "points": 2,
+          "points": 47,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
@@ -643,7 +643,7 @@
           "name": "Dominik Stephan",
           "country": "DE",
           "club": "",
-          "points": 4,
+          "points": 49,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 2,
@@ -658,10 +658,35 @@
               "tiebreak": 0
             }
           }
+        },
+        {
+          "rank": 3,
+          "name": "Stefan Schrock",
+          "country": "DE",
+          "club": "Minden Athletics",
+          "points": 91,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 1,
+              "time": 900000,
+              "reps": 0,
+              "tiebreak": 830000
+            }
+          }
         }
       ],
       "per_wod": {
-        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.1 SC": [
+          {
+            "rank": 1,
+            "name": "Stefan Schrock",
+            "country": "DE",
+            "club": "Minden Athletics",
+            "time": 900000,
+            "reps": 0,
+            "tiebreak": 830000
+          }
+        ],
         "GTD QWOD26.2": [],
         "GTD QWOD26.3 A": [
           {
