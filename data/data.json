@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-19T13:06:45Z",
-    "updated_at_readable": "2026-06-19 13:06 UTC"
+    "updated_at": "2026-06-19T15:01:38Z",
+    "updated_at_readable": "2026-06-19 15:01 UTC"
   },
   "divisions": [
     {
@@ -11,8 +11,8 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 25,
-      "result_count": 2,
+      "athlete_count": 26,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -64,7 +64,7 @@
           "name": "Guillaume Carabetta",
           "country": "FR",
           "club": "",
-          "points": 29,
+          "points": 30,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -82,6 +82,21 @@
               "position": 1,
               "time": null,
               "reps": 163,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Maximilian Gewehr",
+          "country": "DE",
+          "club": "Einfach Fitness Essen",
+          "points": 81,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 303000,
+              "reps": 0,
               "tiebreak": 0
             }
           }
@@ -115,6 +130,15 @@
             "country": "FR",
             "club": "",
             "time": 302000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
+            "name": "Maximilian Gewehr",
+            "country": "DE",
+            "club": "Einfach Fitness Essen",
+            "time": 303000,
             "reps": 0,
             "tiebreak": 0
           }
@@ -683,7 +707,7 @@
       "order": 5,
       "individual": true,
       "athlete_count": 45,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -702,8 +726,14 @@
           "name": "Daniel Ruszczyk",
           "country": "PL",
           "club": "CrossFit Strong House",
-          "points": 92,
+          "points": 48,
           "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 291000,
+              "reps": 0,
+              "tiebreak": 0
+            },
             "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
@@ -741,13 +771,28 @@
         },
         {
           "rank": 3,
+          "name": "Daniel Russ",
+          "country": "DE",
+          "club": "CrossFit Zollhafen",
+          "points": 136,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 1,
+              "time": 900000,
+              "reps": 104,
+              "tiebreak": 900000
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 136,
+          "points": 137,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 340000,
               "reps": 0,
               "tiebreak": 0
@@ -755,14 +800,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Stefan Schrock",
           "country": "DE",
           "club": "Minden Athletics",
-          "points": 136,
+          "points": 137,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 1,
+              "position": 2,
               "time": 900000,
               "reps": 0,
               "tiebreak": 830000
@@ -774,6 +819,15 @@
         "GTD QWOD26.1 SC": [
           {
             "rank": 1,
+            "name": "Daniel Russ",
+            "country": "DE",
+            "club": "CrossFit Zollhafen",
+            "time": 900000,
+            "reps": 104,
+            "tiebreak": 900000
+          },
+          {
+            "rank": 2,
             "name": "Stefan Schrock",
             "country": "DE",
             "club": "Minden Athletics",
@@ -785,6 +839,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Daniel Ruszczyk",
+            "country": "PL",
+            "club": "CrossFit Strong House",
+            "time": 291000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
@@ -841,7 +904,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 40,
-      "result_count": 3,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -905,13 +968,28 @@
         },
         {
           "rank": 3,
-          "name": "Melina Mühlbauer",
+          "name": "Helen Kruse",
           "country": "DE",
-          "club": "",
+          "club": "CrossFit Seven Lakes",
           "points": 123,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
+              "time": 397000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 4,
+          "name": "Melina Mühlbauer",
+          "country": "DE",
+          "club": "",
+          "points": 124,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 4,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -952,6 +1030,15 @@
           },
           {
             "rank": 3,
+            "name": "Helen Kruse",
+            "country": "DE",
+            "club": "CrossFit Seven Lakes",
+            "time": 397000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -1183,8 +1270,8 @@
       "name": "Masters 40+ Male",
       "order": 9,
       "individual": true,
-      "athlete_count": 24,
-      "result_count": 3,
+      "athlete_count": 25,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -1200,19 +1287,46 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Sébastien REMY",
-          "country": "FR",
-          "club": "",
-          "points": 27,
+          "name": "Dario Sarmadi",
+          "country": "DE",
+          "club": "Think Outside CrossFit",
+          "points": 29,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
+              "time": 293000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 143,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 121,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Sébastien REMY",
+          "country": "FR",
+          "club": "",
+          "points": 30,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
               "time": 299000,
               "reps": null,
               "tiebreak": null
             },
             "GTD QWOD26.3 A": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 141,
               "tiebreak": null
@@ -1226,26 +1340,26 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "james ferrell",
           "country": "DE",
           "club": "CrossFit Horde",
-          "points": 30,
+          "points": 34,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 468000,
               "reps": null,
               "tiebreak": null
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 75,
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 110,
               "tiebreak": null
@@ -1253,11 +1367,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Oliver Malik",
           "country": "DE",
           "club": "",
-          "points": 73,
+          "points": 76,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -1283,6 +1397,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Dario Sarmadi",
+            "country": "DE",
+            "club": "Think Outside CrossFit",
+            "time": 293000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Sébastien REMY",
             "country": "FR",
             "club": "",
@@ -1291,7 +1414,7 @@
             "tiebreak": null
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "james ferrell",
             "country": "DE",
             "club": "CrossFit Horde",
@@ -1303,6 +1426,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Dario Sarmadi",
+            "country": "DE",
+            "club": "Think Outside CrossFit",
+            "time": null,
+            "reps": 143,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Sébastien REMY",
             "country": "FR",
             "club": "",
@@ -1311,7 +1443,7 @@
             "tiebreak": null
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "james ferrell",
             "country": "DE",
             "club": "CrossFit Horde",
@@ -1332,6 +1464,15 @@
           },
           {
             "rank": 2,
+            "name": "Dario Sarmadi",
+            "country": "DE",
+            "club": "Think Outside CrossFit",
+            "time": null,
+            "reps": 121,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "james ferrell",
             "country": "DE",
             "club": "CrossFit Horde",
