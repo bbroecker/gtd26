@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-19T03:05:07Z",
-    "updated_at_readable": "2026-06-19 03:05 UTC"
+    "updated_at": "2026-06-19T05:40:58Z",
+    "updated_at_readable": "2026-06-19 05:40 UTC"
   },
   "divisions": [
     {
@@ -461,7 +461,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 50,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -480,7 +480,7 @@
           "name": "Denise Roeger",
           "country": "DE",
           "club": "AREA57",
-          "points": 52,
+          "points": 102,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
@@ -498,10 +498,31 @@
         },
         {
           "rank": 2,
+          "name": "Sarah Emmermann",
+          "country": "DE",
+          "club": "Rockfit Northeim",
+          "points": 103,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 811000,
+              "reps": 0,
+              "tiebreak": 673000
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 393000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
-          "points": 101,
+          "points": 151,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -512,14 +533,14 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
-          "points": 102,
+          "points": 153,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 467000,
               "reps": 0,
               "tiebreak": 0
@@ -527,14 +548,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 103,
+          "points": 154,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 532000,
               "reps": 0,
               "tiebreak": 0
@@ -543,7 +564,17 @@
         }
       ],
       "per_wod": {
-        "GTD QWOD26.1": [],
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Sarah Emmermann",
+            "country": "DE",
+            "club": "Rockfit Northeim",
+            "time": 811000,
+            "reps": 0,
+            "tiebreak": 673000
+          }
+        ],
         "GTD QWOD26.2": [
           {
             "rank": 1,
@@ -556,6 +587,15 @@
           },
           {
             "rank": 2,
+            "name": "Sarah Emmermann",
+            "country": "DE",
+            "club": "Rockfit Northeim",
+            "time": 393000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "Nora Küüts",
             "country": "EE",
             "club": "CROSSFIT Kōu",
@@ -564,7 +604,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Viktoria Schlammerl",
             "country": "DE",
             "club": "",
