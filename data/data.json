@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-19T22:18:49Z",
-    "updated_at_readable": "2026-06-19 22:18 UTC"
+    "updated_at": "2026-06-19T23:20:23Z",
+    "updated_at_readable": "2026-06-19 23:20 UTC"
   },
   "divisions": [
     {
@@ -501,7 +501,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 51,
-      "result_count": 6,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -574,6 +574,21 @@
         },
         {
           "rank": 4,
+          "name": "Carina Frolov",
+          "country": "DE",
+          "club": "Peak Vitality",
+          "points": 155,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 848000,
+              "reps": null,
+              "tiebreak": 687000
+            }
+          }
+        },
+        {
+          "rank": 5,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
@@ -588,7 +603,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
@@ -603,7 +618,7 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
@@ -628,6 +643,15 @@
             "time": 811000,
             "reps": 0,
             "tiebreak": 673000
+          },
+          {
+            "rank": 2,
+            "name": "Carina Frolov",
+            "country": "DE",
+            "club": "Peak Vitality",
+            "time": 848000,
+            "reps": null,
+            "tiebreak": 687000
           }
         ],
         "GTD QWOD26.2": [
