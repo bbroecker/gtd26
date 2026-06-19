@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-19T17:35:00Z",
-    "updated_at_readable": "2026-06-19 17:35 UTC"
+    "updated_at": "2026-06-19T18:33:25Z",
+    "updated_at_readable": "2026-06-19 18:33 UTC"
   },
   "divisions": [
     {
@@ -771,6 +771,27 @@
         },
         {
           "rank": 3,
+          "name": "Stefan Schrock",
+          "country": "DE",
+          "club": "Minden Athletics",
+          "points": 95,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 900000,
+              "reps": 0,
+              "tiebreak": 830000
+            },
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 412000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Daniel Russ",
           "country": "DE",
           "club": "CrossFit Zollhafen",
@@ -785,7 +806,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
@@ -796,21 +817,6 @@
               "time": 340000,
               "reps": 0,
               "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 5,
-          "name": "Stefan Schrock",
-          "country": "DE",
-          "club": "Minden Athletics",
-          "points": 137,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 2,
-              "time": 900000,
-              "reps": 0,
-              "tiebreak": 830000
             }
           }
         }
@@ -852,6 +858,15 @@
             "country": "DE",
             "club": "ELVT Athletics",
             "time": 340000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
+            "name": "Stefan Schrock",
+            "country": "DE",
+            "club": "Minden Athletics",
+            "time": 412000,
             "reps": 0,
             "tiebreak": 0
           }
