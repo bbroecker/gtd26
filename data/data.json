@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-19T21:23:45Z",
-    "updated_at_readable": "2026-06-19 21:23 UTC"
+    "updated_at": "2026-06-19T22:18:49Z",
+    "updated_at_readable": "2026-06-19 22:18 UTC"
   },
   "divisions": [
     {
@@ -1820,12 +1820,24 @@
           "name": "🇧🇷 1 zu 7 🇩🇪",
           "country": "BR",
           "club": "Neumünster Crossfit",
-          "points": 74,
+          "points": 30,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
               "time": 719000,
               "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 258,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 188,
               "tiebreak": null
             }
           }
@@ -1872,6 +1884,15 @@
             "time": null,
             "reps": 275,
             "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "🇧🇷 1 zu 7 🇩🇪",
+            "country": "BR",
+            "club": "Neumünster Crossfit",
+            "time": null,
+            "reps": 258,
+            "tiebreak": null
           }
         ],
         "GTD QWOD26.3 B": [
@@ -1882,6 +1903,15 @@
             "club": "",
             "time": null,
             "reps": 232.5,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "🇧🇷 1 zu 7 🇩🇪",
+            "country": "BR",
+            "club": "Neumünster Crossfit",
+            "time": null,
+            "reps": 188,
             "tiebreak": null
           }
         ]
