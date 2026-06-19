@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-19T19:31:41Z",
-    "updated_at_readable": "2026-06-19 19:31 UTC"
+    "updated_at": "2026-06-19T20:29:47Z",
+    "updated_at_readable": "2026-06-19 20:29 UTC"
   },
   "divisions": [
     {
@@ -918,8 +918,8 @@
       "name": "Scaled Female",
       "order": 6,
       "individual": true,
-      "athlete_count": 41,
-      "result_count": 4,
+      "athlete_count": 42,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -971,7 +971,7 @@
           "name": "Marie Friess",
           "country": "DE",
           "club": "",
-          "points": 124,
+          "points": 127,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -983,10 +983,25 @@
         },
         {
           "rank": 3,
+          "name": "Liane-Sophie Freitag",
+          "country": "DE",
+          "club": "",
+          "points": 128,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 900000,
+              "reps": 116,
+              "tiebreak": 900000
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Helen Kruse",
           "country": "DE",
           "club": "CrossFit Seven Lakes",
-          "points": 126,
+          "points": 129,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
@@ -997,11 +1012,11 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 127,
+          "points": 130,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
@@ -1022,6 +1037,15 @@
             "time": 841000,
             "reps": 0,
             "tiebreak": 841000
+          },
+          {
+            "rank": 2,
+            "name": "Liane-Sophie Freitag",
+            "country": "DE",
+            "club": "",
+            "time": 900000,
+            "reps": 116,
+            "tiebreak": 900000
           }
         ],
         "GTD QWOD26.2": [
