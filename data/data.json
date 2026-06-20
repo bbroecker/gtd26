@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-20T09:01:19Z",
-    "updated_at_readable": "2026-06-20 09:01 UTC"
+    "updated_at": "2026-06-20T10:46:28Z",
+    "updated_at_readable": "2026-06-20 10:46 UTC"
   },
   "divisions": [
     {
@@ -943,7 +943,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 42,
-      "result_count": 6,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -992,6 +992,27 @@
         },
         {
           "rank": 2,
+          "name": "Lisa Pitschmann",
+          "country": "DE",
+          "club": "CrossFit Barleben",
+          "points": 91,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 900000,
+              "reps": 150,
+              "tiebreak": 688000
+            },
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 424000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
           "name": "Marie Friess",
           "country": "DE",
           "club": "",
@@ -1002,21 +1023,6 @@
               "time": 316000,
               "reps": 0,
               "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 3,
-          "name": "Liane-Sophie Freitag",
-          "country": "DE",
-          "club": "",
-          "points": 128,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 2,
-              "time": 900000,
-              "reps": 116,
-              "tiebreak": 900000
             }
           }
         },
@@ -1037,6 +1043,21 @@
         },
         {
           "rank": 5,
+          "name": "Liane-Sophie Freitag",
+          "country": "DE",
+          "club": "",
+          "points": 129,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 3,
+              "time": 900000,
+              "reps": 116,
+              "tiebreak": 900000
+            }
+          }
+        },
+        {
+          "rank": 6,
           "name": "Zoe Krause",
           "country": "DE",
           "club": "THORTRAINING",
@@ -1051,14 +1072,14 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 131,
+          "points": 132,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -1079,6 +1100,15 @@
           },
           {
             "rank": 2,
+            "name": "Lisa Pitschmann",
+            "country": "DE",
+            "club": "CrossFit Barleben",
+            "time": 900000,
+            "reps": 150,
+            "tiebreak": 688000
+          },
+          {
+            "rank": 3,
             "name": "Liane-Sophie Freitag",
             "country": "DE",
             "club": "",
@@ -1126,6 +1156,15 @@
           },
           {
             "rank": 5,
+            "name": "Lisa Pitschmann",
+            "country": "DE",
+            "club": "CrossFit Barleben",
+            "time": 424000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 6,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -2078,7 +2117,7 @@
       "order": 18,
       "individual": false,
       "athlete_count": 13,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -2127,6 +2166,21 @@
               "tiebreak": null
             }
           }
+        },
+        {
+          "rank": 3,
+          "name": "Der Schöne und das Biescht",
+          "country": "DE",
+          "club": "RISE Functional Fitness",
+          "points": 16,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 869000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
         }
       ],
       "per_wod": {
@@ -2157,6 +2211,15 @@
             "country": "DE",
             "club": "CrossFit Pfalzschmiede",
             "time": 736000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 3,
+            "name": "Der Schöne und das Biescht",
+            "country": "DE",
+            "club": "RISE Functional Fitness",
+            "time": 869000,
             "reps": null,
             "tiebreak": null
           }
