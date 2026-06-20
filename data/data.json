@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-20T10:46:28Z",
-    "updated_at_readable": "2026-06-20 10:46 UTC"
+    "updated_at": "2026-06-20T11:36:57Z",
+    "updated_at_readable": "2026-06-20 11:36 UTC"
   },
   "divisions": [
     {
@@ -2083,11 +2083,17 @@
           "name": "Lift weights-eat cakes",
           "country": "DE",
           "club": "CrossFit Nienburg",
-          "points": 1,
+          "points": 2,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
               "time": 1491000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 668000,
               "reps": null,
               "tiebreak": null
             }
@@ -2106,7 +2112,17 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Lift weights-eat cakes",
+            "country": "DE",
+            "club": "CrossFit Nienburg",
+            "time": 668000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
         "GTD QWOD26.3 A": [],
         "GTD QWOD26.3 B": []
       }
