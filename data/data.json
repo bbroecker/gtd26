@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-20T05:27:38Z",
-    "updated_at_readable": "2026-06-20 05:27 UTC"
+    "updated_at": "2026-06-20T07:16:29Z",
+    "updated_at_readable": "2026-06-20 07:16 UTC"
   },
   "divisions": [
     {
@@ -943,7 +943,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 42,
-      "result_count": 5,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -1037,13 +1037,28 @@
         },
         {
           "rank": 5,
+          "name": "Zoe Krause",
+          "country": "DE",
+          "club": "THORTRAINING",
+          "points": 129,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 397000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 6,
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 130,
+          "points": 131,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -1101,7 +1116,16 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 3,
+            "name": "Zoe Krause",
+            "country": "DE",
+            "club": "THORTRAINING",
+            "time": 397000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
