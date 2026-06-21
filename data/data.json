@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-21T12:35:45Z",
-    "updated_at_readable": "2026-06-21 12:35 UTC"
+    "updated_at": "2026-06-21T13:33:06Z",
+    "updated_at_readable": "2026-06-21 13:33 UTC"
   },
   "divisions": [
     {
@@ -210,8 +210,14 @@
           "name": "Julia Jakobsen",
           "country": "DE",
           "club": "Athletenschmiede Kiel",
-          "points": 2,
+          "points": 3,
           "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 301000,
+              "reps": 0,
+              "tiebreak": 0
+            },
             "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
@@ -229,7 +235,17 @@
       ],
       "per_wod": {
         "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Julia Jakobsen",
+            "country": "DE",
+            "club": "Athletenschmiede Kiel",
+            "time": 301000,
+            "reps": 0,
+            "tiebreak": 0
+          }
+        ],
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
