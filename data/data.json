@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-21T13:33:06Z",
-    "updated_at_readable": "2026-06-21 13:33 UTC"
+    "updated_at": "2026-06-21T14:44:45Z",
+    "updated_at_readable": "2026-06-21 14:44 UTC"
   },
   "divisions": [
     {
@@ -860,8 +860,8 @@
       "name": "Scaled Male",
       "order": 5,
       "individual": true,
-      "athlete_count": 45,
-      "result_count": 6,
+      "athlete_count": 46,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -880,7 +880,7 @@
           "name": "Daniel Ruszczyk",
           "country": "PL",
           "club": "CrossFit Strong House",
-          "points": 50,
+          "points": 51,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -907,7 +907,7 @@
           "name": "Hugo Guguen",
           "country": "FR",
           "club": "",
-          "points": 92,
+          "points": 94,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
@@ -925,31 +925,10 @@
         },
         {
           "rank": 3,
-          "name": "Stefan Schrock",
-          "country": "DE",
-          "club": "Minden Athletics",
-          "points": 95,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 2,
-              "time": 900000,
-              "reps": 0,
-              "tiebreak": 830000
-            },
-            "GTD QWOD26.2": {
-              "position": 3,
-              "time": 412000,
-              "reps": 0,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 4,
           "name": "Dominik Stephan",
           "country": "DE",
           "club": "",
-          "points": 96,
+          "points": 98,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 3,
@@ -966,11 +945,32 @@
           }
         },
         {
+          "rank": 4,
+          "name": "Stefan Schrock",
+          "country": "DE",
+          "club": "Minden Athletics",
+          "points": 98,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 900000,
+              "reps": 0,
+              "tiebreak": 830000
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 412000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
           "rank": 5,
           "name": "Daniel Russ",
           "country": "DE",
           "club": "CrossFit Zollhafen",
-          "points": 136,
+          "points": 139,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -985,13 +985,28 @@
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 137,
+          "points": 140,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
               "time": 340000,
               "reps": 0,
               "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 7,
+          "name": "Oliver Pätzold",
+          "country": "DE",
+          "club": "CrossFit Eching",
+          "points": 141,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 358000,
+              "reps": null,
+              "tiebreak": null
             }
           }
         }
@@ -1038,6 +1053,15 @@
           },
           {
             "rank": 3,
+            "name": "Oliver Pätzold",
+            "country": "DE",
+            "club": "CrossFit Eching",
+            "time": 358000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 4,
             "name": "Stefan Schrock",
             "country": "DE",
             "club": "Minden Athletics",
