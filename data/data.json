@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-21T18:28:51Z",
-    "updated_at_readable": "2026-06-21 18:28 UTC"
+    "updated_at": "2026-06-21T19:30:21Z",
+    "updated_at_readable": "2026-06-21 19:30 UTC"
   },
   "divisions": [
     {
@@ -1470,8 +1470,8 @@
       "name": "Masters 35+ Male",
       "order": 7,
       "individual": true,
-      "athlete_count": 13,
-      "result_count": 5,
+      "athlete_count": 14,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -1487,25 +1487,58 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Alexander Kenzler",
-          "country": "DE",
-          "club": "Lev Athletics Box",
-          "points": 7,
+          "name": "Hugo Monnoyer",
+          "country": "FR",
+          "club": "",
+          "points": 4,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 761000,
+              "reps": 0,
+              "tiebreak": 583000
+            },
             "GTD QWOD26.2": {
-              "position": 5,
-              "time": 660000,
-              "reps": 144,
+              "position": 1,
+              "time": 268000,
+              "reps": 0,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
-              "reps": 79,
+              "reps": 144,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
               "position": 1,
+              "time": null,
+              "reps": 136,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Alexander Kenzler",
+          "country": "DE",
+          "club": "Lev Athletics Box",
+          "points": 24,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 6,
+              "time": 660000,
+              "reps": 144,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 79,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
               "time": null,
               "reps": 112,
               "tiebreak": 0
@@ -1513,14 +1546,14 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Alain SCHANET",
           "country": "LU",
           "club": "ATHLETENFABRIK",
-          "points": 27,
+          "points": 44,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 343000,
               "reps": 0,
               "tiebreak": 0
@@ -1528,14 +1561,14 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Ian Dieckmann",
           "country": "DE",
           "club": "CHLKD Crossfit Hagsfeld",
-          "points": 28,
+          "points": 45,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 356000,
               "reps": 0,
               "tiebreak": 0
@@ -1543,14 +1576,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Domenic Lembach",
           "country": "DE",
           "club": "",
-          "points": 29,
+          "points": 46,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 367000,
               "reps": 0,
               "tiebreak": 0
@@ -1558,14 +1591,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "BEN ROSS",
           "country": "GB",
           "club": "CrossFit Devils Path",
-          "points": 30,
+          "points": 47,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 400000,
               "reps": 0,
               "tiebreak": 0
@@ -1574,10 +1607,29 @@
         }
       ],
       "per_wod": {
-        "GTD QWOD26.1": [],
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Hugo Monnoyer",
+            "country": "FR",
+            "club": "",
+            "time": 761000,
+            "reps": 0,
+            "tiebreak": 583000
+          }
+        ],
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Hugo Monnoyer",
+            "country": "FR",
+            "club": "",
+            "time": 268000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Alain SCHANET",
             "country": "LU",
             "club": "ATHLETENFABRIK",
@@ -1586,7 +1638,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Ian Dieckmann",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
@@ -1595,7 +1647,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
@@ -1604,7 +1656,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "BEN ROSS",
             "country": "GB",
             "club": "CrossFit Devils Path",
@@ -1613,7 +1665,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -1625,6 +1677,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Hugo Monnoyer",
+            "country": "FR",
+            "club": "",
+            "time": null,
+            "reps": 144,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -1636,6 +1697,15 @@
         "GTD QWOD26.3 B": [
           {
             "rank": 1,
+            "name": "Hugo Monnoyer",
+            "country": "FR",
+            "club": "",
+            "time": null,
+            "reps": 136,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -2612,7 +2682,7 @@
       "name": "Scaled Teams of 2 Female/Female",
       "order": 19,
       "individual": false,
-      "athlete_count": 10,
+      "athlete_count": 11,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
