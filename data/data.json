@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-21T19:30:21Z",
-    "updated_at_readable": "2026-06-21 19:30 UTC"
+    "updated_at": "2026-06-21T20:30:01Z",
+    "updated_at_readable": "2026-06-21 20:30 UTC"
   },
   "divisions": [
     {
@@ -276,7 +276,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 87,
-      "result_count": 10,
+      "result_count": 11,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -295,7 +295,7 @@
           "name": "Tobias Bachmann",
           "country": "DE",
           "club": "CrossFit Speyer",
-          "points": 6,
+          "points": 93,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
@@ -322,7 +322,7 @@
           "name": "Kevin Späth",
           "country": "DE",
           "club": "",
-          "points": 11,
+          "points": 98,
           "wods": {
             "GTD QWOD26.2": {
               "position": 7,
@@ -349,8 +349,14 @@
           "name": "Federico Frixione",
           "country": "IT",
           "club": "",
-          "points": 175,
+          "points": 176,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 644000,
+              "reps": 0,
+              "tiebreak": 818000
+            },
             "GTD QWOD26.2": {
               "position": 1,
               "time": 294000,
@@ -364,7 +370,7 @@
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
-          "points": 176,
+          "points": 263,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -376,10 +382,25 @@
         },
         {
           "rank": 5,
+          "name": "Ole Staker",
+          "country": "DE",
+          "club": "CrossFit Aorta",
+          "points": 263,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 810000,
+              "reps": 0,
+              "tiebreak": 615000
+            }
+          }
+        },
+        {
+          "rank": 6,
           "name": "Tobias VB",
           "country": "BE",
           "club": "",
-          "points": 177,
+          "points": 264,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
@@ -390,11 +411,11 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Kai Stäblein",
           "country": "DE",
           "club": "CrossFit Black Arrow",
-          "points": 179,
+          "points": 266,
           "wods": {
             "GTD QWOD26.2": {
               "position": 5,
@@ -405,11 +426,11 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
-          "points": 180,
+          "points": 267,
           "wods": {
             "GTD QWOD26.2": {
               "position": 6,
@@ -420,11 +441,11 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Kirsten Bauer",
           "country": "DE",
           "club": "",
-          "points": 182,
+          "points": 269,
           "wods": {
             "GTD QWOD26.2": {
               "position": 8,
@@ -435,11 +456,11 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
-          "points": 183,
+          "points": 270,
           "wods": {
             "GTD QWOD26.2": {
               "position": 9,
@@ -450,11 +471,11 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
-          "points": 184,
+          "points": 271,
           "wods": {
             "GTD QWOD26.2": {
               "position": 10,
@@ -466,7 +487,26 @@
         }
       ],
       "per_wod": {
-        "GTD QWOD26.1": [],
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Federico Frixione",
+            "country": "IT",
+            "club": "",
+            "time": 644000,
+            "reps": 0,
+            "tiebreak": 818000
+          },
+          {
+            "rank": 2,
+            "name": "Ole Staker",
+            "country": "DE",
+            "club": "CrossFit Aorta",
+            "time": 810000,
+            "reps": 0,
+            "tiebreak": 615000
+          }
+        ],
         "GTD QWOD26.2": [
           {
             "rank": 1,
