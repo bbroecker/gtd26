@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-21T17:30:21Z",
-    "updated_at_readable": "2026-06-21 17:30 UTC"
+    "updated_at": "2026-06-21T18:28:51Z",
+    "updated_at_readable": "2026-06-21 18:28 UTC"
   },
   "divisions": [
     {
@@ -1155,10 +1155,10 @@
           "name": "Elena Grizenko",
           "country": "DE",
           "club": "AREA57",
-          "points": 6,
+          "points": 7,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 1,
+              "position": 2,
               "time": 841000,
               "reps": 0,
               "tiebreak": 841000
@@ -1212,13 +1212,34 @@
         },
         {
           "rank": 3,
+          "name": "Marie Friess",
+          "country": "DE",
+          "club": "",
+          "points": 88,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 1,
+              "time": 587000,
+              "reps": 0,
+              "tiebreak": 461000
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 316000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Lisa Pitschmann",
           "country": "DE",
           "club": "CrossFit Barleben",
-          "points": 93,
+          "points": 94,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 2,
+              "position": 3,
               "time": 900000,
               "reps": 150,
               "tiebreak": 688000
@@ -1232,14 +1253,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Zoe Krause",
           "country": "DE",
           "club": "THORTRAINING",
-          "points": 93,
+          "points": 94,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 4,
+              "position": 5,
               "time": 900000,
               "reps": 107,
               "tiebreak": 900000
@@ -1253,14 +1274,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Helen Kruse",
           "country": "DE",
           "club": "CrossFit Seven Lakes",
-          "points": 94,
+          "points": 95,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 5,
+              "position": 6,
               "time": 900000,
               "reps": 103,
               "tiebreak": 900000
@@ -1274,29 +1295,14 @@
           }
         },
         {
-          "rank": 6,
-          "name": "Marie Friess",
-          "country": "DE",
-          "club": "",
-          "points": 130,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 1,
-              "time": 316000,
-              "reps": 0,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
           "rank": 7,
           "name": "Liane-Sophie Freitag",
           "country": "DE",
           "club": "",
-          "points": 132,
+          "points": 133,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 3,
+              "position": 4,
               "time": 900000,
               "reps": 116,
               "tiebreak": 900000
@@ -1308,6 +1314,15 @@
         "GTD QWOD26.1 SC": [
           {
             "rank": 1,
+            "name": "Marie Friess",
+            "country": "DE",
+            "club": "",
+            "time": 587000,
+            "reps": 0,
+            "tiebreak": 461000
+          },
+          {
+            "rank": 2,
             "name": "Elena Grizenko",
             "country": "DE",
             "club": "AREA57",
@@ -1316,7 +1331,7 @@
             "tiebreak": 841000
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Lisa Pitschmann",
             "country": "DE",
             "club": "CrossFit Barleben",
@@ -1325,7 +1340,7 @@
             "tiebreak": 688000
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Liane-Sophie Freitag",
             "country": "DE",
             "club": "",
@@ -1334,7 +1349,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Zoe Krause",
             "country": "DE",
             "club": "THORTRAINING",
@@ -1343,7 +1358,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Helen Kruse",
             "country": "DE",
             "club": "CrossFit Seven Lakes",
