@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-22T22:32:31Z",
-    "updated_at_readable": "2026-06-22 22:32 UTC"
+    "updated_at": "2026-06-22T23:28:38Z",
+    "updated_at_readable": "2026-06-22 23:28 UTC"
   },
   "divisions": [
     {
@@ -757,10 +757,37 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Carina Frolov",
+          "country": "DE",
+          "club": "Peak Vitality",
+          "points": 56,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 848000,
+              "reps": null,
+              "tiebreak": 687000
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 127,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 107.5,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Denise Roeger",
           "country": "DE",
           "club": "AREA57",
-          "points": 104,
+          "points": 105,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
@@ -769,7 +796,7 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 93,
               "tiebreak": 0
@@ -777,7 +804,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Sarah Emmermann",
           "country": "DE",
           "club": "Rockfit Northeim",
@@ -798,7 +825,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Katharina Gärtner",
           "country": "DE",
           "club": "",
@@ -809,21 +836,6 @@
               "time": 332000,
               "reps": 0,
               "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 4,
-          "name": "Carina Frolov",
-          "country": "DE",
-          "club": "Peak Vitality",
-          "points": 155,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 2,
-              "time": 848000,
-              "reps": null,
-              "tiebreak": 687000
             }
           }
         },
@@ -974,11 +986,29 @@
             "time": null,
             "reps": 173,
             "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "Carina Frolov",
+            "country": "DE",
+            "club": "Peak Vitality",
+            "time": null,
+            "reps": 127,
+            "tiebreak": null
           }
         ],
         "GTD QWOD26.3 B": [
           {
             "rank": 1,
+            "name": "Carina Frolov",
+            "country": "DE",
+            "club": "Peak Vitality",
+            "time": null,
+            "reps": 107.5,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
             "name": "Denise Roeger",
             "country": "DE",
             "club": "AREA57",
