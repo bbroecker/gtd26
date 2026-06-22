@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-22T12:06:48Z",
-    "updated_at_readable": "2026-06-22 12:06 UTC"
+    "updated_at": "2026-06-22T14:52:19Z",
+    "updated_at_readable": "2026-06-22 14:52 UTC"
   },
   "divisions": [
     {
@@ -1597,7 +1597,7 @@
       "name": "Masters 35+ Male",
       "order": 7,
       "individual": true,
-      "athlete_count": 14,
+      "athlete_count": 15,
       "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
@@ -1650,7 +1650,7 @@
           "name": "Alexander Kenzler",
           "country": "DE",
           "club": "Lev Athletics Box",
-          "points": 24,
+          "points": 25,
           "wods": {
             "GTD QWOD26.2": {
               "position": 6,
@@ -1677,7 +1677,7 @@
           "name": "Alain SCHANET",
           "country": "LU",
           "club": "ATHLETENFABRIK",
-          "points": 44,
+          "points": 47,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -1692,7 +1692,7 @@
           "name": "Ian Dieckmann",
           "country": "DE",
           "club": "CHLKD Crossfit Hagsfeld",
-          "points": 45,
+          "points": 48,
           "wods": {
             "GTD QWOD26.2": {
               "position": 3,
@@ -1707,7 +1707,7 @@
           "name": "Domenic Lembach",
           "country": "DE",
           "club": "",
-          "points": 46,
+          "points": 49,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
@@ -1722,7 +1722,7 @@
           "name": "BEN ROSS",
           "country": "GB",
           "club": "CrossFit Devils Path",
-          "points": 47,
+          "points": 50,
           "wods": {
             "GTD QWOD26.2": {
               "position": 5,
@@ -2922,7 +2922,7 @@
       "order": 22,
       "individual": false,
       "athlete_count": 12,
-      "result_count": 0,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -2935,10 +2935,36 @@
         "GTD QWOD26.3 A": "Reps",
         "GTD QWOD26.3 B": "Kilograms"
       },
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Die Akkumulierten",
+          "country": "DE",
+          "club": "",
+          "points": 1,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 707000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Die Akkumulierten",
+            "country": "DE",
+            "club": "",
+            "time": 707000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
         "GTD QWOD26.3 A": [],
         "GTD QWOD26.3 B": []
       }
