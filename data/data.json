@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-23T09:03:29Z",
-    "updated_at_readable": "2026-06-23 09:03 UTC"
+    "updated_at": "2026-06-23T11:01:31Z",
+    "updated_at_readable": "2026-06-23 11:01 UTC"
   },
   "divisions": [
     {
@@ -28,13 +28,46 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Kyle MacDonald",
-          "country": "GB",
+          "name": "Guillaume Carabetta",
+          "country": "FR",
           "club": "",
-          "points": 6,
+          "points": 5,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
+              "time": 724000,
+              "reps": 0,
+              "tiebreak": 591000
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 302000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 161,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 163,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Kyle MacDonald",
+          "country": "GB",
+          "club": "",
+          "points": 7,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
               "time": 900000,
               "reps": 132,
               "tiebreak": 848000
@@ -60,33 +93,6 @@
           }
         },
         {
-          "rank": 2,
-          "name": "Guillaume Carabetta",
-          "country": "FR",
-          "club": "",
-          "points": 29,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 2,
-              "time": 302000,
-              "reps": 0,
-              "tiebreak": 0
-            },
-            "GTD QWOD26.3 A": {
-              "position": 1,
-              "time": null,
-              "reps": 161,
-              "tiebreak": 0
-            },
-            "GTD QWOD26.3 B": {
-              "position": 1,
-              "time": null,
-              "reps": 163,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
           "rank": 3,
           "name": "Maximilian Gewehr",
           "country": "DE",
@@ -106,6 +112,15 @@
         "GTD QWOD26.1": [
           {
             "rank": 1,
+            "name": "Guillaume Carabetta",
+            "country": "FR",
+            "club": "",
+            "time": 724000,
+            "reps": 0,
+            "tiebreak": 591000
+          },
+          {
+            "rank": 2,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -1070,7 +1085,7 @@
       "order": 5,
       "individual": true,
       "athlete_count": 48,
-      "result_count": 7,
+      "result_count": 8,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -1134,6 +1149,27 @@
         },
         {
           "rank": 3,
+          "name": "Daniel Russ",
+          "country": "DE",
+          "club": "CrossFit Zollhafen",
+          "points": 100,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 1,
+              "time": 900000,
+              "reps": 104,
+              "tiebreak": 900000
+            },
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 339000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Dominik Stephan",
           "country": "DE",
           "club": "",
@@ -1154,11 +1190,11 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Stefan Schrock",
           "country": "DE",
           "club": "Minden Athletics",
-          "points": 102,
+          "points": 104,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 2,
@@ -1167,7 +1203,7 @@
               "tiebreak": 830000
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 6,
               "time": 412000,
               "reps": 0,
               "tiebreak": 0
@@ -1175,29 +1211,29 @@
           }
         },
         {
-          "rank": 5,
-          "name": "Daniel Russ",
-          "country": "DE",
-          "club": "CrossFit Zollhafen",
-          "points": 145,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 1,
-              "time": 900000,
-              "reps": 104,
-              "tiebreak": 900000
-            }
-          }
-        },
-        {
           "rank": 6,
-          "name": "Fabian Kellner",
+          "name": "René  Kohlmann",
           "country": "DE",
-          "club": "ELVT Athletics",
+          "club": "",
           "points": 146,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
+              "time": 328000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 7,
+          "name": "Fabian Kellner",
+          "country": "DE",
+          "club": "ELVT Athletics",
+          "points": 148,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 4,
               "time": 340000,
               "reps": 0,
               "tiebreak": 0
@@ -1205,14 +1241,14 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Oliver Pätzold",
           "country": "DE",
           "club": "CrossFit Eching",
-          "points": 147,
+          "points": 149,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 5,
               "time": 358000,
               "reps": null,
               "tiebreak": null
@@ -1253,6 +1289,24 @@
           },
           {
             "rank": 2,
+            "name": "René  Kohlmann",
+            "country": "DE",
+            "club": "",
+            "time": 328000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 3,
+            "name": "Daniel Russ",
+            "country": "DE",
+            "club": "CrossFit Zollhafen",
+            "time": 339000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
@@ -1261,7 +1315,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 5,
             "name": "Oliver Pätzold",
             "country": "DE",
             "club": "CrossFit Eching",
@@ -1270,7 +1324,7 @@
             "tiebreak": null
           },
           {
-            "rank": 4,
+            "rank": 6,
             "name": "Stefan Schrock",
             "country": "DE",
             "club": "Minden Athletics",
