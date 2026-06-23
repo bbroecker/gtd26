@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-23T11:01:31Z",
-    "updated_at_readable": "2026-06-23 11:01 UTC"
+    "updated_at": "2026-06-23T12:52:32Z",
+    "updated_at_readable": "2026-06-23 12:52 UTC"
   },
   "divisions": [
     {
@@ -307,7 +307,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 88,
-      "result_count": 13,
+      "result_count": 14,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -380,10 +380,10 @@
           "name": "Björn Werle",
           "country": "DE",
           "club": "CrossFit Crefeld",
-          "points": 102,
+          "points": 103,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 9,
+              "position": 10,
               "time": 418000,
               "reps": 0,
               "tiebreak": 0
@@ -515,14 +515,14 @@
         },
         {
           "rank": 11,
-          "name": "Kirsten Bauer",
-          "country": "DE",
-          "club": "",
-          "points": 274,
+          "name": "Majid Al haddad",
+          "country": "IQ",
+          "club": "962 Compete",
+          "points": 273,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 10,
-              "time": 428000,
+              "position": 9,
+              "time": 369000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -530,13 +530,28 @@
         },
         {
           "rank": 12,
-          "name": "Jason  Oostveen",
-          "country": "NL",
+          "name": "Kirsten Bauer",
+          "country": "DE",
           "club": "",
           "points": 275,
           "wods": {
             "GTD QWOD26.2": {
               "position": 11,
+              "time": 428000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 13,
+          "name": "Jason  Oostveen",
+          "country": "NL",
+          "club": "",
+          "points": 276,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 12,
               "time": 434000,
               "reps": null,
               "tiebreak": null
@@ -544,14 +559,14 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
-          "points": 276,
+          "points": 277,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 12,
+              "position": 13,
               "time": 480000,
               "reps": null,
               "tiebreak": null
@@ -655,6 +670,15 @@
           },
           {
             "rank": 9,
+            "name": "Majid Al haddad",
+            "country": "IQ",
+            "club": "962 Compete",
+            "time": 369000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 10,
             "name": "Björn Werle",
             "country": "DE",
             "club": "CrossFit Crefeld",
@@ -663,7 +687,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Kirsten Bauer",
             "country": "DE",
             "club": "",
@@ -672,7 +696,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Jason  Oostveen",
             "country": "NL",
             "club": "",
@@ -681,7 +705,7 @@
             "tiebreak": null
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Jannis Weis",
             "country": "DE",
             "club": "CrossFit Kirkel",
@@ -772,6 +796,39 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Sarah Emmermann",
+          "country": "DE",
+          "club": "Rockfit Northeim",
+          "points": 13,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 811000,
+              "reps": 0,
+              "tiebreak": 673000
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 393000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 4,
+              "time": null,
+              "reps": 126,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 4,
+              "time": null,
+              "reps": 68.5,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Carina Frolov",
           "country": "DE",
           "club": "Peak Vitality",
@@ -798,7 +855,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Denise Roeger",
           "country": "DE",
           "club": "AREA57",
@@ -825,7 +882,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
@@ -847,27 +904,6 @@
               "position": 3,
               "time": null,
               "reps": 83.5,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 4,
-          "name": "Sarah Emmermann",
-          "country": "DE",
-          "club": "Rockfit Northeim",
-          "points": 107,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 1,
-              "time": 811000,
-              "reps": 0,
-              "tiebreak": 673000
-            },
-            "GTD QWOD26.2": {
-              "position": 4,
-              "time": 393000,
-              "reps": 0,
               "tiebreak": 0
             }
           }
@@ -1046,6 +1082,15 @@
             "time": null,
             "reps": 127,
             "tiebreak": 0
+          },
+          {
+            "rank": 4,
+            "name": "Sarah Emmermann",
+            "country": "DE",
+            "club": "Rockfit Northeim",
+            "time": null,
+            "reps": 126,
+            "tiebreak": 0
           }
         ],
         "GTD QWOD26.3 B": [
@@ -1074,6 +1119,15 @@
             "club": "Crossfit Flensburg",
             "time": null,
             "reps": 83.5,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
+            "name": "Sarah Emmermann",
+            "country": "DE",
+            "club": "Rockfit Northeim",
+            "time": null,
+            "reps": 68.5,
             "tiebreak": 0
           }
         ]
