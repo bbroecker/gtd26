@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-23T07:09:53Z",
-    "updated_at_readable": "2026-06-23 07:09 UTC"
+    "updated_at": "2026-06-23T09:03:29Z",
+    "updated_at_readable": "2026-06-23 09:03 UTC"
   },
   "divisions": [
     {
@@ -784,6 +784,33 @@
         },
         {
           "rank": 2,
+          "name": "Denise Roeger",
+          "country": "DE",
+          "club": "AREA57",
+          "points": 57,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 377000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 173,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 93,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
@@ -810,32 +837,11 @@
           }
         },
         {
-          "rank": 3,
-          "name": "Denise Roeger",
-          "country": "DE",
-          "club": "AREA57",
-          "points": 105,
-          "wods": {
-            "GTD QWOD26.3 A": {
-              "position": 1,
-              "time": null,
-              "reps": 173,
-              "tiebreak": 0
-            },
-            "GTD QWOD26.3 B": {
-              "position": 2,
-              "time": null,
-              "reps": 93,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
           "rank": 4,
           "name": "Sarah Emmermann",
           "country": "DE",
           "club": "Rockfit Northeim",
-          "points": 106,
+          "points": 107,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -844,7 +850,7 @@
               "tiebreak": 673000
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 393000,
               "reps": 0,
               "tiebreak": 0
@@ -871,10 +877,10 @@
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
-          "points": 157,
+          "points": 158,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 467000,
               "reps": 0,
               "tiebreak": 0
@@ -886,10 +892,10 @@
           "name": "Lea Ilsen",
           "country": "DE",
           "club": "RedHawk CrossFit",
-          "points": 158,
+          "points": 159,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 511000,
               "reps": 0,
               "tiebreak": 0
@@ -901,10 +907,10 @@
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 159,
+          "points": 160,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 532000,
               "reps": 0,
               "tiebreak": 0
@@ -954,6 +960,15 @@
           },
           {
             "rank": 3,
+            "name": "Denise Roeger",
+            "country": "DE",
+            "club": "AREA57",
+            "time": 377000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
             "name": "Sarah Emmermann",
             "country": "DE",
             "club": "Rockfit Northeim",
@@ -962,7 +977,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Nora Küüts",
             "country": "EE",
             "club": "CROSSFIT Kōu",
@@ -971,7 +986,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Lea Ilsen",
             "country": "DE",
             "club": "RedHawk CrossFit",
@@ -980,7 +995,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Viktoria Schlammerl",
             "country": "DE",
             "club": "",
