@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-24T16:41:49Z",
-    "updated_at_readable": "2026-06-24 16:41 UTC"
+    "updated_at": "2026-06-24T17:35:33Z",
+    "updated_at_readable": "2026-06-24 17:35 UTC"
   },
   "divisions": [
     {
@@ -3514,8 +3514,14 @@
           "name": "Warmup war schwerer",
           "country": "DE",
           "club": "CrossFit Pfalzschmiede",
-          "points": 17,
+          "points": 4,
           "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 1670000,
+              "reps": null,
+              "tiebreak": null
+            },
             "GTD QWOD26.2": {
               "position": 2,
               "time": 736000,
@@ -3548,6 +3554,15 @@
             "country": "DE",
             "club": "CrossFit Recklinghausen",
             "time": 1273000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "Warmup war schwerer",
+            "country": "DE",
+            "club": "CrossFit Pfalzschmiede",
+            "time": 1670000,
             "reps": null,
             "tiebreak": null
           }
