@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-24T17:35:33Z",
-    "updated_at_readable": "2026-06-24 17:35 UTC"
+    "updated_at": "2026-06-24T18:33:26Z",
+    "updated_at_readable": "2026-06-24 18:33 UTC"
   },
   "divisions": [
     {
@@ -11,8 +11,8 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 26,
-      "result_count": 5,
+      "athlete_count": 27,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -31,7 +31,7 @@
           "name": "Guillaume Carabetta",
           "country": "FR",
           "club": "",
-          "points": 7,
+          "points": 8,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -40,7 +40,7 @@
               "tiebreak": 591000
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 302000,
               "reps": 0,
               "tiebreak": 0
@@ -64,7 +64,7 @@
           "name": "Dorian Monna",
           "country": "FR",
           "club": "",
-          "points": 9,
+          "points": 10,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
@@ -73,7 +73,7 @@
               "tiebreak": 679000
             },
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 287000,
               "reps": 0,
               "tiebreak": 0
@@ -97,7 +97,7 @@
           "name": "Stefano Fuscaldo",
           "country": "IT",
           "club": "",
-          "points": 12,
+          "points": 13,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -106,7 +106,7 @@
               "tiebreak": 700000
             },
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 308000,
               "reps": null,
               "tiebreak": null
@@ -130,7 +130,7 @@
           "name": "Kyle MacDonald",
           "country": "GB",
           "club": "",
-          "points": 13,
+          "points": 14,
           "wods": {
             "GTD QWOD26.1": {
               "position": 4,
@@ -139,7 +139,7 @@
               "tiebreak": 848000
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 288000,
               "reps": 0,
               "tiebreak": 0
@@ -160,13 +160,28 @@
         },
         {
           "rank": 5,
-          "name": "Maximilian Gewehr",
-          "country": "DE",
-          "club": "Einfach Fitness Essen",
+          "name": "Marcin Leszkowicz",
+          "country": "PL",
+          "club": "Centrum Sportu Stocznia",
           "points": 82,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 1,
+              "time": 248000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 6,
+          "name": "Maximilian Gewehr",
+          "country": "DE",
+          "club": "Einfach Fitness Essen",
+          "points": 86,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 5,
               "time": 303000,
               "reps": 0,
               "tiebreak": 0
@@ -216,6 +231,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Marcin Leszkowicz",
+            "country": "PL",
+            "club": "Centrum Sportu Stocznia",
+            "time": 248000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
             "name": "Dorian Monna",
             "country": "FR",
             "club": "",
@@ -224,7 +248,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -233,7 +257,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Guillaume Carabetta",
             "country": "FR",
             "club": "",
@@ -242,7 +266,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Maximilian Gewehr",
             "country": "DE",
             "club": "Einfach Fitness Essen",
@@ -251,7 +275,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -3605,7 +3629,7 @@
       "name": "Scaled Teams of 2 Female/Female",
       "order": 19,
       "individual": false,
-      "athlete_count": 13,
+      "athlete_count": 14,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
