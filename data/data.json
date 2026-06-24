@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-24T22:27:00Z",
-    "updated_at_readable": "2026-06-24 22:27 UTC"
+    "updated_at": "2026-06-24T23:23:58Z",
+    "updated_at_readable": "2026-06-24 23:23 UTC"
   },
   "divisions": [
     {
@@ -523,7 +523,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 92,
-      "result_count": 17,
+      "result_count": 18,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -701,6 +701,27 @@
         },
         {
           "rank": 7,
+          "name": "Daniel Rath",
+          "country": "DE",
+          "club": "",
+          "points": 196,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 6,
+              "time": null,
+              "reps": 96,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 6,
+              "time": null,
+              "reps": 80,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 8,
           "name": "Konstantinos Pitoglou",
           "country": "GR",
           "club": "",
@@ -715,7 +736,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Ole Staker",
           "country": "DE",
           "club": "CrossFit Aorta",
@@ -730,7 +751,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
@@ -745,7 +766,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Piotr Bylina",
           "country": "PL",
           "club": "",
@@ -760,7 +781,7 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Tobias VB",
           "country": "BE",
           "club": "",
@@ -775,7 +796,7 @@
           }
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
@@ -790,7 +811,7 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Tauno Randmaa",
           "country": "EE",
           "club": "CrossFit Viljandi",
@@ -805,7 +826,7 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Majid Al haddad",
           "country": "IQ",
           "club": "962 Compete",
@@ -820,7 +841,7 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Kirsten Bauer",
           "country": "DE",
           "club": "",
@@ -835,7 +856,7 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
@@ -850,7 +871,7 @@
           }
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
@@ -1086,6 +1107,15 @@
             "time": null,
             "reps": 108,
             "tiebreak": 0
+          },
+          {
+            "rank": 6,
+            "name": "Daniel Rath",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 96,
+            "tiebreak": null
           }
         ],
         "GTD QWOD26.3 B": [
@@ -1133,6 +1163,15 @@
             "time": null,
             "reps": 100,
             "tiebreak": 0
+          },
+          {
+            "rank": 6,
+            "name": "Daniel Rath",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 80,
+            "tiebreak": null
           }
         ]
       }
