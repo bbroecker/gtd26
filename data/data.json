@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-24T10:59:39Z",
-    "updated_at_readable": "2026-06-24 10:59 UTC"
+    "updated_at": "2026-06-24T12:00:16Z",
+    "updated_at_readable": "2026-06-24 12:00 UTC"
   },
   "divisions": [
     {
@@ -1776,7 +1776,7 @@
       "name": "Scaled Female",
       "order": 6,
       "individual": true,
-      "athlete_count": 46,
+      "athlete_count": 47,
       "result_count": 9,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -1829,7 +1829,7 @@
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 56,
+          "points": 57,
           "wods": {
             "GTD QWOD26.2": {
               "position": 7,
@@ -1856,7 +1856,7 @@
           "name": "Marie Friess",
           "country": "DE",
           "club": "",
-          "points": 94,
+          "points": 96,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -1877,7 +1877,7 @@
           "name": "Tabea Bütefür",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 96,
+          "points": 98,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 2,
@@ -1898,7 +1898,7 @@
           "name": "Lisa Pitschmann",
           "country": "DE",
           "club": "CrossFit Barleben",
-          "points": 103,
+          "points": 105,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 5,
@@ -1919,7 +1919,7 @@
           "name": "Zoe Krause",
           "country": "DE",
           "club": "THORTRAINING",
-          "points": 103,
+          "points": 105,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 7,
@@ -1940,7 +1940,7 @@
           "name": "Helen Kruse",
           "country": "DE",
           "club": "CrossFit Seven Lakes",
-          "points": 104,
+          "points": 106,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 8,
@@ -1961,7 +1961,7 @@
           "name": "Inka Schmidt",
           "country": "DE",
           "club": "CrossFit Ahoi",
-          "points": 142,
+          "points": 145,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 4,
@@ -1976,7 +1976,7 @@
           "name": "Liane-Sophie Freitag",
           "country": "DE",
           "club": "",
-          "points": 144,
+          "points": 147,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 6,
@@ -3022,7 +3022,7 @@
       "order": 14,
       "individual": false,
       "athlete_count": 23,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -3041,7 +3041,7 @@
           "name": "Ravegaarden",
           "country": "DE",
           "club": "",
-          "points": 4,
+          "points": 5,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -3050,7 +3050,7 @@
               "tiebreak": null
             },
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 676000,
               "reps": null,
               "tiebreak": null
@@ -3074,10 +3074,10 @@
           "name": "🇧🇷 1 zu 7 🇩🇪",
           "country": "BR",
           "club": "Neumünster Crossfit",
-          "points": 29,
+          "points": 30,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 719000,
               "reps": null,
               "tiebreak": null
@@ -3092,6 +3092,21 @@
               "position": 2,
               "time": null,
               "reps": 188,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Chalk the law",
+          "country": "DE",
+          "club": "Crossfit Wuid",
+          "points": 70,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 645000,
+              "reps": null,
               "tiebreak": null
             }
           }
@@ -3112,6 +3127,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Chalk the law",
+            "country": "DE",
+            "club": "Crossfit Wuid",
+            "time": 645000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
             "name": "Ravegaarden",
             "country": "DE",
             "club": "",
@@ -3120,7 +3144,7 @@
             "tiebreak": null
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "🇧🇷 1 zu 7 🇩🇪",
             "country": "BR",
             "club": "Neumünster Crossfit",
