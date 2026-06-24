@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-24T12:00:16Z",
-    "updated_at_readable": "2026-06-24 12:00 UTC"
+    "updated_at": "2026-06-24T13:41:48Z",
+    "updated_at_readable": "2026-06-24 13:41 UTC"
   },
   "divisions": [
     {
@@ -12,7 +12,7 @@
       "order": 1,
       "individual": true,
       "athlete_count": 26,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -31,7 +31,7 @@
           "name": "Guillaume Carabetta",
           "country": "FR",
           "club": "",
-          "points": 5,
+          "points": 7,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -40,13 +40,13 @@
               "tiebreak": 591000
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 302000,
               "reps": 0,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 161,
               "tiebreak": 0
@@ -61,33 +61,33 @@
         },
         {
           "rank": 2,
-          "name": "Kyle MacDonald",
-          "country": "GB",
+          "name": "Dorian Monna",
+          "country": "FR",
           "club": "",
-          "points": 10,
+          "points": 9,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
-              "time": 900000,
-              "reps": 132,
-              "tiebreak": 848000
+              "time": 858000,
+              "reps": 0,
+              "tiebreak": 679000
             },
             "GTD QWOD26.2": {
               "position": 1,
-              "time": 288000,
+              "time": 287000,
               "reps": 0,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 1,
               "time": null,
-              "reps": 130,
+              "reps": 208,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
-              "reps": 133,
+              "reps": 122,
               "tiebreak": 0
             }
           }
@@ -97,7 +97,7 @@
           "name": "Stefano Fuscaldo",
           "country": "IT",
           "club": "",
-          "points": 10,
+          "points": 12,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -106,13 +106,13 @@
               "tiebreak": 700000
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 308000,
               "reps": null,
               "tiebreak": null
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 143,
               "tiebreak": null
@@ -127,13 +127,46 @@
         },
         {
           "rank": 4,
+          "name": "Kyle MacDonald",
+          "country": "GB",
+          "club": "",
+          "points": 13,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 4,
+              "time": 900000,
+              "reps": 132,
+              "tiebreak": 848000
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 288000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 4,
+              "time": null,
+              "reps": 130,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 133,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 5,
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 81,
+          "points": 82,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 303000,
               "reps": 0,
               "tiebreak": 0
@@ -163,6 +196,15 @@
           },
           {
             "rank": 3,
+            "name": "Dorian Monna",
+            "country": "FR",
+            "club": "",
+            "time": 858000,
+            "reps": 0,
+            "tiebreak": 679000
+          },
+          {
+            "rank": 4,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -174,6 +216,15 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Dorian Monna",
+            "country": "FR",
+            "club": "",
+            "time": 287000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -182,7 +233,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Guillaume Carabetta",
             "country": "FR",
             "club": "",
@@ -191,7 +242,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Maximilian Gewehr",
             "country": "DE",
             "club": "Einfach Fitness Essen",
@@ -200,7 +251,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -212,6 +263,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Dorian Monna",
+            "country": "FR",
+            "club": "",
+            "time": null,
+            "reps": 208,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Guillaume Carabetta",
             "country": "FR",
             "club": "",
@@ -220,7 +280,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -229,7 +289,7 @@
             "tiebreak": null
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -264,6 +324,15 @@
             "club": "",
             "time": null,
             "reps": 133,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
+            "name": "Dorian Monna",
+            "country": "FR",
+            "club": "",
+            "time": null,
+            "reps": 122,
             "tiebreak": 0
           }
         ]
@@ -1777,7 +1846,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 47,
-      "result_count": 9,
+      "result_count": 10,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -1829,10 +1898,10 @@
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 57,
+          "points": 58,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -1985,6 +2054,21 @@
               "tiebreak": 900000
             }
           }
+        },
+        {
+          "rank": 10,
+          "name": "Jacqueline Starke",
+          "country": "DE",
+          "club": "CrossFit PMA",
+          "points": 148,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 7,
+              "time": 438000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
         }
       ],
       "per_wod": {
@@ -2119,6 +2203,15 @@
           },
           {
             "rank": 7,
+            "name": "Jacqueline Starke",
+            "country": "DE",
+            "club": "CrossFit PMA",
+            "time": 438000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 8,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -3200,8 +3293,8 @@
       "name": "Intermediate Teams of 2 Male/Female",
       "order": 15,
       "individual": false,
-      "athlete_count": 27,
-      "result_count": 0,
+      "athlete_count": 28,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -3214,12 +3307,54 @@
         "GTD QWOD26.3 A": "Reps",
         "GTD QWOD26.3 B": "Kilograms"
       },
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "CrossFit1995",
+          "country": "IT",
+          "club": "Crossfit1995",
+          "points": 2,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 266,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 215,
+              "tiebreak": null
+            }
+          }
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A": [],
-        "GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [
+          {
+            "rank": 1,
+            "name": "CrossFit1995",
+            "country": "IT",
+            "club": "Crossfit1995",
+            "time": null,
+            "reps": 266,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "CrossFit1995",
+            "country": "IT",
+            "club": "Crossfit1995",
+            "time": null,
+            "reps": 215,
+            "tiebreak": null
+          }
+        ]
       }
     },
     {
