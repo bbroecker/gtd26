@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-24T13:41:48Z",
-    "updated_at_readable": "2026-06-24 13:41 UTC"
+    "updated_at": "2026-06-24T14:55:07Z",
+    "updated_at_readable": "2026-06-24 14:55 UTC"
   },
   "divisions": [
     {
@@ -503,8 +503,14 @@
           "name": "Mike Vogel",
           "country": "DE",
           "club": "",
-          "points": 99,
+          "points": 10,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": 900000,
+              "reps": 178,
+              "tiebreak": 736000
+            },
             "GTD QWOD26.2": {
               "position": 3,
               "time": 302000,
@@ -839,6 +845,15 @@
             "time": 810000,
             "reps": 0,
             "tiebreak": 615000
+          },
+          {
+            "rank": 3,
+            "name": "Mike Vogel",
+            "country": "DE",
+            "club": "",
+            "time": 900000,
+            "reps": 178,
+            "tiebreak": 736000
           }
         ],
         "GTD QWOD26.2": [
