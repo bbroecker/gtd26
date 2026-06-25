@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-25T09:01:55Z",
-    "updated_at_readable": "2026-06-25 09:01 UTC"
+    "updated_at": "2026-06-25T10:54:57Z",
+    "updated_at_readable": "2026-06-25 10:54 UTC"
   },
   "divisions": [
     {
@@ -539,10 +539,43 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Federico Frixione",
+          "country": "IT",
+          "club": "",
+          "points": 7,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 644000,
+              "reps": 0,
+              "tiebreak": 818000
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 294000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 168,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 120,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Mike Vogel",
           "country": "DE",
           "club": "",
-          "points": 10,
+          "points": 11,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
@@ -557,7 +590,7 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 134,
               "tiebreak": 0
@@ -571,11 +604,11 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Tobias Bachmann",
           "country": "DE",
           "club": "CrossFit Speyer",
-          "points": 101,
+          "points": 102,
           "wods": {
             "GTD QWOD26.2": {
               "position": 7,
@@ -584,7 +617,7 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 147,
               "tiebreak": 0
@@ -598,11 +631,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Kai Stäblein",
           "country": "DE",
           "club": "CrossFit Black Arrow",
-          "points": 107,
+          "points": 109,
           "wods": {
             "GTD QWOD26.2": {
               "position": 8,
@@ -611,40 +644,13 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 117,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
-              "time": null,
-              "reps": 100,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 4,
-          "name": "Kevin Späth",
-          "country": "DE",
-          "club": "",
-          "points": 111,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 11,
-              "time": 360000,
-              "reps": 0,
-              "tiebreak": 0
-            },
-            "GTD QWOD26.3 A": {
-              "position": 4,
-              "time": null,
-              "reps": 114,
-              "tiebreak": 0
-            },
-            "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 100,
               "tiebreak": 0
@@ -653,10 +659,37 @@
         },
         {
           "rank": 5,
+          "name": "Kevin Späth",
+          "country": "DE",
+          "club": "",
+          "points": 113,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 11,
+              "time": 360000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 5,
+              "time": null,
+              "reps": 114,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 5,
+              "time": null,
+              "reps": 100,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 6,
           "name": "Björn Werle",
           "country": "DE",
           "club": "CrossFit Crefeld",
-          "points": 113,
+          "points": 115,
           "wods": {
             "GTD QWOD26.2": {
               "position": 13,
@@ -665,37 +698,16 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 108,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 102.5,
               "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 6,
-          "name": "Federico Frixione",
-          "country": "IT",
-          "club": "",
-          "points": 187,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 1,
-              "time": 644000,
-              "reps": 0,
-              "tiebreak": 818000
-            },
-            "GTD QWOD26.2": {
-              "position": 2,
-              "time": 294000,
-              "reps": null,
-              "tiebreak": null
             }
           }
         },
@@ -704,16 +716,16 @@
           "name": "Daniel Rath",
           "country": "DE",
           "club": "",
-          "points": 196,
+          "points": 198,
           "wods": {
             "GTD QWOD26.3 A": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 96,
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 80,
               "tiebreak": null
@@ -1065,6 +1077,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Federico Frixione",
+            "country": "IT",
+            "club": "",
+            "time": null,
+            "reps": 168,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Tobias Bachmann",
             "country": "DE",
             "club": "CrossFit Speyer",
@@ -1073,7 +1094,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Mike Vogel",
             "country": "DE",
             "club": "",
@@ -1082,7 +1103,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Kai Stäblein",
             "country": "DE",
             "club": "CrossFit Black Arrow",
@@ -1091,7 +1112,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -1100,7 +1121,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Björn Werle",
             "country": "DE",
             "club": "CrossFit Crefeld",
@@ -1109,7 +1130,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Daniel Rath",
             "country": "DE",
             "club": "",
@@ -1139,6 +1160,15 @@
           },
           {
             "rank": 3,
+            "name": "Federico Frixione",
+            "country": "IT",
+            "club": "",
+            "time": null,
+            "reps": 120,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
             "name": "Björn Werle",
             "country": "DE",
             "club": "CrossFit Crefeld",
@@ -1147,7 +1177,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -1156,7 +1186,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Kai Stäblein",
             "country": "DE",
             "club": "CrossFit Black Arrow",
@@ -1165,7 +1195,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Daniel Rath",
             "country": "DE",
             "club": "",
@@ -2805,6 +2835,39 @@
       "overall": [
         {
           "rank": 1,
+          "name": "james ferrell",
+          "country": "DE",
+          "club": "CrossFit Horde",
+          "points": 12,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 900000,
+              "reps": 57,
+              "tiebreak": 900000
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 468000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
+              "time": null,
+              "reps": 75,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 110,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Dario Sarmadi",
           "country": "DE",
           "club": "Think Outside CrossFit",
@@ -2831,7 +2894,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Sébastien REMY",
           "country": "FR",
           "club": "",
@@ -2853,33 +2916,6 @@
               "position": 1,
               "time": null,
               "reps": 122,
-              "tiebreak": null
-            }
-          }
-        },
-        {
-          "rank": 3,
-          "name": "james ferrell",
-          "country": "DE",
-          "club": "CrossFit Horde",
-          "points": 35,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 4,
-              "time": 468000,
-              "reps": null,
-              "tiebreak": null
-            },
-            "GTD QWOD26.3 A": {
-              "position": 3,
-              "time": null,
-              "reps": 75,
-              "tiebreak": null
-            },
-            "GTD QWOD26.3 B": {
-              "position": 3,
-              "time": null,
-              "reps": 110,
               "tiebreak": null
             }
           }
@@ -2916,6 +2952,15 @@
             "time": 900000,
             "reps": 126,
             "tiebreak": 853000
+          },
+          {
+            "rank": 2,
+            "name": "james ferrell",
+            "country": "DE",
+            "club": "CrossFit Horde",
+            "time": 900000,
+            "reps": 57,
+            "tiebreak": 900000
           }
         ],
         "GTD QWOD26.2": [
