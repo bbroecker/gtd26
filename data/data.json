@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-25T18:41:44Z",
-    "updated_at_readable": "2026-06-25 18:41 UTC"
+    "updated_at": "2026-06-25T19:33:29Z",
+    "updated_at_readable": "2026-06-25 19:33 UTC"
   },
   "divisions": [
     {
@@ -2889,13 +2889,46 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Sébastien REMY",
+          "country": "FR",
+          "club": "",
+          "points": 6,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 900000,
+              "reps": 178,
+              "tiebreak": 743000
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 299000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 141,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 122,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "james ferrell",
           "country": "DE",
           "club": "CrossFit Horde",
-          "points": 12,
+          "points": 13,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 2,
+              "position": 3,
               "time": 900000,
               "reps": 57,
               "tiebreak": 900000
@@ -2921,7 +2954,7 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Dario Sarmadi",
           "country": "DE",
           "club": "Think Outside CrossFit",
@@ -2948,41 +2981,14 @@
           }
         },
         {
-          "rank": 3,
-          "name": "Sébastien REMY",
-          "country": "FR",
-          "club": "",
-          "points": 30,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 2,
-              "time": 299000,
-              "reps": null,
-              "tiebreak": null
-            },
-            "GTD QWOD26.3 A": {
-              "position": 2,
-              "time": null,
-              "reps": 141,
-              "tiebreak": null
-            },
-            "GTD QWOD26.3 B": {
-              "position": 1,
-              "time": null,
-              "reps": 122,
-              "tiebreak": null
-            }
-          }
-        },
-        {
           "rank": 4,
           "name": "Oliver Malik",
           "country": "DE",
           "club": "",
-          "points": 54,
+          "points": 55,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 1,
+              "position": 2,
               "time": 900000,
               "reps": 126,
               "tiebreak": 853000
@@ -3000,6 +3006,15 @@
         "GTD QWOD26.1": [
           {
             "rank": 1,
+            "name": "Sébastien REMY",
+            "country": "FR",
+            "club": "",
+            "time": 900000,
+            "reps": 178,
+            "tiebreak": 743000
+          },
+          {
+            "rank": 2,
             "name": "Oliver Malik",
             "country": "DE",
             "club": "",
@@ -3008,7 +3023,7 @@
             "tiebreak": 853000
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "james ferrell",
             "country": "DE",
             "club": "CrossFit Horde",
@@ -3678,7 +3693,7 @@
       "name": "Intermediate Teams of 2 Female/Female",
       "order": 16,
       "individual": false,
-      "athlete_count": 22,
+      "athlete_count": 23,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1",
