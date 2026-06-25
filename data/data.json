@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-25T13:41:18Z",
-    "updated_at_readable": "2026-06-25 13:41 UTC"
+    "updated_at": "2026-06-25T14:56:50Z",
+    "updated_at_readable": "2026-06-25 14:56 UTC"
   },
   "divisions": [
     {
@@ -1242,7 +1242,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 50,
-      "result_count": 8,
+      "result_count": 9,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -1441,6 +1441,21 @@
               "tiebreak": 0
             }
           }
+        },
+        {
+          "rank": 9,
+          "name": "Imke Bruhns",
+          "country": "DE",
+          "club": "Crossfit Osmium",
+          "points": 158,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 8,
+              "time": 538000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
         }
       ],
       "per_wod": {
@@ -1525,6 +1540,15 @@
             "country": "DE",
             "club": "",
             "time": 532000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 8,
+            "name": "Imke Bruhns",
+            "country": "DE",
+            "club": "Crossfit Osmium",
+            "time": 538000,
             "reps": 0,
             "tiebreak": 0
           }
