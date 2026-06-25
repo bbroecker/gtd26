@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-25T19:33:29Z",
-    "updated_at_readable": "2026-06-25 19:33 UTC"
+    "updated_at": "2026-06-25T20:37:58Z",
+    "updated_at_readable": "2026-06-25 20:37 UTC"
   },
   "divisions": [
     {
@@ -3946,7 +3946,7 @@
       "order": 19,
       "individual": false,
       "athlete_count": 14,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -3962,13 +3962,46 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Busy Burpee Bees",
+          "country": "DE",
+          "club": "Athletic Nation",
+          "points": 6,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 1,
+              "time": 1336000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 698000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 245,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 111,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Double trouble",
           "country": "DE",
           "club": "CrossFit Kampfgeist",
-          "points": 3,
+          "points": 18,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 818000,
               "reps": null,
               "tiebreak": null
@@ -3988,20 +4021,20 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Unbreakable",
           "country": "DE",
           "club": "Lev Athletics Box",
-          "points": 18,
+          "points": 34,
           "wods": {
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 203,
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 110,
               "tiebreak": null
@@ -4010,10 +4043,29 @@
         }
       ],
       "per_wod": {
-        "GTD QWOD26.1 SC": [],
+        "GTD QWOD26.1 SC": [
+          {
+            "rank": 1,
+            "name": "Busy Burpee Bees",
+            "country": "DE",
+            "club": "Athletic Nation",
+            "time": 1336000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Busy Burpee Bees",
+            "country": "DE",
+            "club": "Athletic Nation",
+            "time": 698000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
             "name": "Double trouble",
             "country": "DE",
             "club": "CrossFit Kampfgeist",
@@ -4034,6 +4086,15 @@
           },
           {
             "rank": 2,
+            "name": "Busy Burpee Bees",
+            "country": "DE",
+            "club": "Athletic Nation",
+            "time": null,
+            "reps": 245,
+            "tiebreak": null
+          },
+          {
+            "rank": 3,
             "name": "Unbreakable",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -4054,6 +4115,15 @@
           },
           {
             "rank": 2,
+            "name": "Busy Burpee Bees",
+            "country": "DE",
+            "club": "Athletic Nation",
+            "time": null,
+            "reps": 111,
+            "tiebreak": null
+          },
+          {
+            "rank": 3,
             "name": "Unbreakable",
             "country": "DE",
             "club": "Lev Athletics Box",
