@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-25T03:02:47Z",
-    "updated_at_readable": "2026-06-25 03:02 UTC"
+    "updated_at": "2026-06-25T05:18:56Z",
+    "updated_at_readable": "2026-06-25 05:18 UTC"
   },
   "divisions": [
     {
@@ -1201,7 +1201,7 @@
           "name": "Sarah Emmermann",
           "country": "DE",
           "club": "Rockfit Northeim",
-          "points": 13,
+          "points": 14,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -1222,7 +1222,7 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 68.5,
               "tiebreak": 0
@@ -1312,6 +1312,33 @@
         },
         {
           "rank": 5,
+          "name": "Nora Küüts",
+          "country": "EE",
+          "club": "CROSSFIT Kōu",
+          "points": 64,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 467000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 5,
+              "time": null,
+              "reps": 101,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 4,
+              "time": null,
+              "reps": 70,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 6,
           "name": "Katharina Gärtner",
           "country": "DE",
           "club": "",
@@ -1320,21 +1347,6 @@
             "GTD QWOD26.2": {
               "position": 1,
               "time": 332000,
-              "reps": 0,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 6,
-          "name": "Nora Küüts",
-          "country": "EE",
-          "club": "CROSSFIT Kōu",
-          "points": 155,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 5,
-              "time": 467000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -1493,6 +1505,15 @@
             "time": null,
             "reps": 126,
             "tiebreak": 0
+          },
+          {
+            "rank": 5,
+            "name": "Nora Küüts",
+            "country": "EE",
+            "club": "CROSSFIT Kōu",
+            "time": null,
+            "reps": 101,
+            "tiebreak": 0
           }
         ],
         "GTD QWOD26.3 B": [
@@ -1525,6 +1546,15 @@
           },
           {
             "rank": 4,
+            "name": "Nora Küüts",
+            "country": "EE",
+            "club": "CROSSFIT Kōu",
+            "time": null,
+            "reps": 70,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Sarah Emmermann",
             "country": "DE",
             "club": "Rockfit Northeim",
