@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-25T20:37:58Z",
-    "updated_at_readable": "2026-06-25 20:37 UTC"
+    "updated_at": "2026-06-25T21:31:03Z",
+    "updated_at_readable": "2026-06-25 21:31 UTC"
   },
   "divisions": [
     {
@@ -11,7 +11,7 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 27,
+      "athlete_count": 28,
       "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
@@ -163,7 +163,7 @@
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 61,
+          "points": 63,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -184,7 +184,7 @@
           "name": "Marcin Leszkowicz",
           "country": "PL",
           "club": "Centrum Sportu Stocznia",
-          "points": 82,
+          "points": 85,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -3136,7 +3136,7 @@
       "order": 10,
       "individual": true,
       "athlete_count": 19,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -3155,7 +3155,7 @@
           "name": "Rita Maggio",
           "country": "IT",
           "club": "CrossFit Ad Maiora",
-          "points": 4,
+          "points": 6,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -3170,13 +3170,13 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 144,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 78,
               "tiebreak": 0
@@ -3188,7 +3188,7 @@
           "name": "Kette",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 25,
+          "points": 27,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -3197,16 +3197,37 @@
               "tiebreak": null
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 113,
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 73.5,
               "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Gracja Mecwaldowska",
+          "country": "PL",
+          "club": "Peak Lab Team",
+          "points": 40,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 175,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 91,
+              "tiebreak": 0
             }
           }
         }
@@ -3246,6 +3267,15 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Gracja Mecwaldowska",
+            "country": "PL",
+            "club": "Peak Lab Team",
+            "time": null,
+            "reps": 175,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Rita Maggio",
             "country": "IT",
             "club": "CrossFit Ad Maiora",
@@ -3254,7 +3284,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -3266,6 +3296,15 @@
         "GTD QWOD26.3 B": [
           {
             "rank": 1,
+            "name": "Gracja Mecwaldowska",
+            "country": "PL",
+            "club": "Peak Lab Team",
+            "time": null,
+            "reps": 91,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
             "name": "Rita Maggio",
             "country": "IT",
             "club": "CrossFit Ad Maiora",
@@ -3274,7 +3313,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -3965,7 +4004,7 @@
           "name": "Busy Burpee Bees",
           "country": "DE",
           "club": "Athletic Nation",
-          "points": 6,
+          "points": 5,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -3980,9 +4019,9 @@
               "tiebreak": null
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 1,
               "time": null,
-              "reps": 245,
+              "reps": 281,
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
@@ -3998,7 +4037,7 @@
           "name": "Double trouble",
           "country": "DE",
           "club": "CrossFit Kampfgeist",
-          "points": 18,
+          "points": 19,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -4007,7 +4046,7 @@
               "tiebreak": null
             },
             "GTD QWOD26.3 A": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 278,
               "tiebreak": null
@@ -4077,20 +4116,20 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "Busy Burpee Bees",
+            "country": "DE",
+            "club": "Athletic Nation",
+            "time": null,
+            "reps": 281,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
             "name": "Double trouble",
             "country": "DE",
             "club": "CrossFit Kampfgeist",
             "time": null,
             "reps": 278,
-            "tiebreak": null
-          },
-          {
-            "rank": 2,
-            "name": "Busy Burpee Bees",
-            "country": "DE",
-            "club": "Athletic Nation",
-            "time": null,
-            "reps": 245,
             "tiebreak": null
           },
           {
