@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-26T13:39:00Z",
-    "updated_at_readable": "2026-06-26 13:39 UTC"
+    "updated_at": "2026-06-26T14:51:37Z",
+    "updated_at_readable": "2026-06-26 14:51 UTC"
   },
   "divisions": [
     {
@@ -2178,8 +2178,8 @@
       "name": "Scaled Female",
       "order": 6,
       "individual": true,
-      "athlete_count": 47,
-      "result_count": 10,
+      "athlete_count": 48,
+      "result_count": 11,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -2228,13 +2228,46 @@
         },
         {
           "rank": 2,
+          "name": "Caroline Fischer (geb. Wegener)",
+          "country": "DE",
+          "club": "AXT Athlete",
+          "points": 15,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 6,
+              "time": 900000,
+              "reps": 148,
+              "tiebreak": 740000
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 386000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
+              "time": null,
+              "reps": 100,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 45,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 58,
+          "points": 60,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 8,
+              "position": 9,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0
@@ -2254,11 +2287,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Marie Friess",
           "country": "DE",
           "club": "",
-          "points": 96,
+          "points": 98,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -2275,11 +2308,11 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Tabea Bütefür",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 98,
+          "points": 100,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 2,
@@ -2296,11 +2329,11 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Lisa Pitschmann",
           "country": "DE",
           "club": "CrossFit Barleben",
-          "points": 105,
+          "points": 108,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 5,
@@ -2309,7 +2342,7 @@
               "tiebreak": 688000
             },
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 424000,
               "reps": 0,
               "tiebreak": 0
@@ -2317,41 +2350,20 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Zoe Krause",
           "country": "DE",
           "club": "THORTRAINING",
-          "points": 105,
+          "points": 109,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 7,
+              "position": 8,
               "time": 900000,
               "reps": 107,
               "tiebreak": 900000
             },
             "GTD QWOD26.2": {
-              "position": 4,
-              "time": 397000,
-              "reps": 0,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 7,
-          "name": "Helen Kruse",
-          "country": "DE",
-          "club": "CrossFit Seven Lakes",
-          "points": 106,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 8,
-              "time": 900000,
-              "reps": 103,
-              "tiebreak": 900000
-            },
-            "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 397000,
               "reps": 0,
               "tiebreak": 0
@@ -2360,10 +2372,31 @@
         },
         {
           "rank": 8,
+          "name": "Helen Kruse",
+          "country": "DE",
+          "club": "CrossFit Seven Lakes",
+          "points": 110,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 9,
+              "time": 900000,
+              "reps": 103,
+              "tiebreak": 900000
+            },
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 397000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 9,
           "name": "Inka Schmidt",
           "country": "DE",
           "club": "CrossFit Ahoi",
-          "points": 145,
+          "points": 148,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 4,
@@ -2374,14 +2407,14 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Liane-Sophie Freitag",
           "country": "DE",
           "club": "",
-          "points": 147,
+          "points": 151,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 6,
+              "position": 7,
               "time": 900000,
               "reps": 116,
               "tiebreak": 900000
@@ -2389,14 +2422,14 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Jacqueline Starke",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 148,
+          "points": 152,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 438000,
               "reps": 0,
               "tiebreak": 0
@@ -2453,6 +2486,15 @@
           },
           {
             "rank": 6,
+            "name": "Caroline Fischer (geb. Wegener)",
+            "country": "DE",
+            "club": "AXT Athlete",
+            "time": 900000,
+            "reps": 148,
+            "tiebreak": 740000
+          },
+          {
+            "rank": 7,
             "name": "Liane-Sophie Freitag",
             "country": "DE",
             "club": "",
@@ -2461,7 +2503,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Zoe Krause",
             "country": "DE",
             "club": "THORTRAINING",
@@ -2470,7 +2512,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Helen Kruse",
             "country": "DE",
             "club": "CrossFit Seven Lakes",
@@ -2509,6 +2551,15 @@
           },
           {
             "rank": 4,
+            "name": "Caroline Fischer (geb. Wegener)",
+            "country": "DE",
+            "club": "AXT Athlete",
+            "time": 386000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Helen Kruse",
             "country": "DE",
             "club": "CrossFit Seven Lakes",
@@ -2517,7 +2568,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Zoe Krause",
             "country": "DE",
             "club": "THORTRAINING",
@@ -2526,7 +2577,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Lisa Pitschmann",
             "country": "DE",
             "club": "CrossFit Barleben",
@@ -2535,7 +2586,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Jacqueline Starke",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -2544,7 +2595,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -2571,6 +2622,15 @@
             "time": null,
             "reps": 108,
             "tiebreak": 0
+          },
+          {
+            "rank": 3,
+            "name": "Caroline Fischer (geb. Wegener)",
+            "country": "DE",
+            "club": "AXT Athlete",
+            "time": null,
+            "reps": 100,
+            "tiebreak": 0
           }
         ],
         "GTD QWOD26.3 B": [
@@ -2588,6 +2648,15 @@
             "name": "Elena Grizenko",
             "country": "DE",
             "club": "AREA57",
+            "time": null,
+            "reps": 45,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "Caroline Fischer (geb. Wegener)",
+            "country": "DE",
+            "club": "AXT Athlete",
             "time": null,
             "reps": 45,
             "tiebreak": 0
