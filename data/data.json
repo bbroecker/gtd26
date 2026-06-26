@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-26T19:31:29Z",
-    "updated_at_readable": "2026-06-26 19:31 UTC"
+    "updated_at": "2026-06-26T20:32:09Z",
+    "updated_at_readable": "2026-06-26 20:32 UTC"
   },
   "divisions": [
     {
@@ -2975,7 +2975,7 @@
       "order": 8,
       "individual": true,
       "athlete_count": 19,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -3012,13 +3012,28 @@
         },
         {
           "rank": 2,
-          "name": "Cathrine Mamsen",
-          "country": "DK",
-          "club": "",
+          "name": "Alica Grabitsch",
+          "country": "DE",
+          "club": "CrossFit GenGym",
           "points": 21,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
+              "time": 355000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Cathrine Mamsen",
+          "country": "DK",
+          "club": "",
+          "points": 22,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
               "time": 376000,
               "reps": 0,
               "tiebreak": 0
@@ -3050,6 +3065,15 @@
           },
           {
             "rank": 2,
+            "name": "Alica Grabitsch",
+            "country": "DE",
+            "club": "CrossFit GenGym",
+            "time": 355000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "Cathrine Mamsen",
             "country": "DK",
             "club": "",
