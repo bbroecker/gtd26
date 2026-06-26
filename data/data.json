@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-26T12:46:03Z",
-    "updated_at_readable": "2026-06-26 12:46 UTC"
+    "updated_at": "2026-06-26T13:39:00Z",
+    "updated_at_readable": "2026-06-26 13:39 UTC"
   },
   "divisions": [
     {
@@ -12,7 +12,7 @@
       "order": 1,
       "individual": true,
       "athlete_count": 28,
-      "result_count": 6,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -64,10 +64,10 @@
           "name": "Dorian Monna",
           "country": "FR",
           "club": "",
-          "points": 11,
+          "points": 12,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": 858000,
               "reps": 0,
               "tiebreak": 679000
@@ -97,10 +97,10 @@
           "name": "Stefano Fuscaldo",
           "country": "IT",
           "club": "",
-          "points": 14,
+          "points": 15,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": 815000,
               "reps": null,
               "tiebreak": 700000
@@ -130,10 +130,10 @@
           "name": "Kyle MacDonald",
           "country": "GB",
           "club": "",
-          "points": 15,
+          "points": 16,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 6,
               "time": 900000,
               "reps": 132,
               "tiebreak": 848000
@@ -163,10 +163,10 @@
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 63,
+          "points": 64,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 2,
+              "position": 3,
               "time": 778000,
               "reps": 0,
               "tiebreak": 616000
@@ -193,6 +193,21 @@
               "tiebreak": null
             }
           }
+        },
+        {
+          "rank": 7,
+          "name": "Jassem ALQUALLAF",
+          "country": "KW",
+          "club": "",
+          "points": 86,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 726000,
+              "reps": 0,
+              "tiebreak": 609000
+            }
+          }
         }
       ],
       "per_wod": {
@@ -208,6 +223,15 @@
           },
           {
             "rank": 2,
+            "name": "Jassem ALQUALLAF",
+            "country": "KW",
+            "club": "",
+            "time": 726000,
+            "reps": 0,
+            "tiebreak": 609000
+          },
+          {
+            "rank": 3,
             "name": "Maximilian Gewehr",
             "country": "DE",
             "club": "Einfach Fitness Essen",
@@ -216,7 +240,7 @@
             "tiebreak": 616000
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -225,7 +249,7 @@
             "tiebreak": 700000
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Dorian Monna",
             "country": "FR",
             "club": "",
@@ -234,7 +258,7 @@
             "tiebreak": 679000
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
