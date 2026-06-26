@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-26T10:59:10Z",
-    "updated_at_readable": "2026-06-26 10:59 UTC"
+    "updated_at": "2026-06-26T11:56:18Z",
+    "updated_at_readable": "2026-06-26 11:56 UTC"
   },
   "divisions": [
     {
@@ -1731,10 +1731,10 @@
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 17,
+          "points": 18,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 3,
+              "position": 4,
               "time": 900000,
               "reps": 94,
               "tiebreak": 900000
@@ -1782,6 +1782,27 @@
         },
         {
           "rank": 4,
+          "name": "René  Kohlmann",
+          "country": "DE",
+          "club": "",
+          "points": 105,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 853000,
+              "reps": 0,
+              "tiebreak": 615000
+            },
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 328000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 5,
           "name": "Dominik Stephan",
           "country": "DE",
           "club": "",
@@ -1802,14 +1823,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Daniel Russ",
           "country": "DE",
           "club": "CrossFit Zollhafen",
-          "points": 107,
+          "points": 108,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 2,
+              "position": 3,
               "time": 900000,
               "reps": 104,
               "tiebreak": 900000
@@ -1823,14 +1844,14 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Stefan Schrock",
           "country": "DE",
           "club": "Minden Athletics",
-          "points": 112,
+          "points": 113,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 4,
+              "position": 5,
               "time": 900000,
               "reps": 0,
               "tiebreak": 830000
@@ -1844,7 +1865,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Bartłomiej Gieroń",
           "country": "PL",
           "club": "Peak Lab Team",
@@ -1855,21 +1876,6 @@
               "time": 283000,
               "reps": 0,
               "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 8,
-          "name": "René  Kohlmann",
-          "country": "DE",
-          "club": "",
-          "points": 153,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 3,
-              "time": 328000,
-              "reps": null,
-              "tiebreak": null
             }
           }
         },
@@ -1917,6 +1923,15 @@
           },
           {
             "rank": 2,
+            "name": "René  Kohlmann",
+            "country": "DE",
+            "club": "",
+            "time": 853000,
+            "reps": 0,
+            "tiebreak": 615000
+          },
+          {
+            "rank": 3,
             "name": "Daniel Russ",
             "country": "DE",
             "club": "CrossFit Zollhafen",
@@ -1925,7 +1940,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
@@ -1934,7 +1949,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Stefan Schrock",
             "country": "DE",
             "club": "Minden Athletics",
@@ -3803,7 +3818,7 @@
           "name": "Lift weights-eat cakes",
           "country": "DE",
           "club": "CrossFit Nienburg",
-          "points": 2,
+          "points": 4,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -3815,6 +3830,18 @@
               "position": 1,
               "time": 668000,
               "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 254,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 167.5,
               "tiebreak": null
             }
           }
@@ -3843,8 +3870,28 @@
             "tiebreak": null
           }
         ],
-        "GTD QWOD26.3 A": [],
-        "GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [
+          {
+            "rank": 1,
+            "name": "Lift weights-eat cakes",
+            "country": "DE",
+            "club": "CrossFit Nienburg",
+            "time": null,
+            "reps": 254,
+            "tiebreak": null
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Lift weights-eat cakes",
+            "country": "DE",
+            "club": "CrossFit Nienburg",
+            "time": null,
+            "reps": 167.5,
+            "tiebreak": null
+          }
+        ]
       }
     },
     {
