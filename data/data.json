@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-27T08:52:33Z",
-    "updated_at_readable": "2026-06-27 08:52 UTC"
+    "updated_at": "2026-06-27T09:41:26Z",
+    "updated_at_readable": "2026-06-27 09:41 UTC"
   },
   "divisions": [
     {
@@ -3930,8 +3930,14 @@
           "name": "Chalk the law",
           "country": "DE",
           "club": "Crossfit Wuid",
-          "points": 70,
+          "points": 49,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 2070000,
+              "reps": null,
+              "tiebreak": null
+            },
             "GTD QWOD26.2": {
               "position": 1,
               "time": 645000,
@@ -3949,6 +3955,15 @@
             "country": "DE",
             "club": "",
             "time": 1474000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "Chalk the law",
+            "country": "DE",
+            "club": "Crossfit Wuid",
+            "time": 2070000,
             "reps": null,
             "tiebreak": null
           }
