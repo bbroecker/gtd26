@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-27T14:30:33Z",
-    "updated_at_readable": "2026-06-27 14:30 UTC"
+    "updated_at": "2026-06-27T15:25:55Z",
+    "updated_at_readable": "2026-06-27 15:25 UTC"
   },
   "divisions": [
     {
@@ -2394,7 +2394,7 @@
       "name": "Scaled Female",
       "order": 6,
       "individual": true,
-      "athlete_count": 48,
+      "athlete_count": 49,
       "result_count": 11,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -2546,7 +2546,7 @@
           "name": "Marie Friess",
           "country": "DE",
           "club": "",
-          "points": 98,
+          "points": 100,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -2567,7 +2567,7 @@
           "name": "Tabea Bütefür",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 100,
+          "points": 102,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 2,
@@ -2588,7 +2588,7 @@
           "name": "Lisa Pitschmann",
           "country": "DE",
           "club": "CrossFit Barleben",
-          "points": 109,
+          "points": 111,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 5,
@@ -2609,7 +2609,7 @@
           "name": "Zoe Krause",
           "country": "DE",
           "club": "THORTRAINING",
-          "points": 110,
+          "points": 112,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 8,
@@ -2630,7 +2630,7 @@
           "name": "Helen Kruse",
           "country": "DE",
           "club": "CrossFit Seven Lakes",
-          "points": 111,
+          "points": 113,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 9,
@@ -2651,7 +2651,7 @@
           "name": "Inka Schmidt",
           "country": "DE",
           "club": "CrossFit Ahoi",
-          "points": 148,
+          "points": 151,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 4,
@@ -2666,7 +2666,7 @@
           "name": "Jacqueline Starke",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 153,
+          "points": 156,
           "wods": {
             "GTD QWOD26.2": {
               "position": 9,
@@ -2946,7 +2946,7 @@
       "order": 7,
       "individual": true,
       "athlete_count": 16,
-      "result_count": 6,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -2995,19 +2995,46 @@
         },
         {
           "rank": 2,
-          "name": "Ian Dieckmann",
+          "name": "Andy Dalay",
           "country": "DE",
-          "club": "CHLKD Crossfit Hagsfeld",
-          "points": 23,
+          "club": "CrossFit Halle",
+          "points": 24,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
-              "time": 356000,
+              "position": 2,
+              "time": 299000,
               "reps": 0,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
               "position": 2,
+              "time": null,
+              "reps": 132,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 4,
+              "time": null,
+              "reps": 103,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Ian Dieckmann",
+          "country": "DE",
+          "club": "CHLKD Crossfit Hagsfeld",
+          "points": 25,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 356000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
               "time": null,
               "reps": 129,
               "tiebreak": 0
@@ -3021,26 +3048,26 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Domenic Lembach",
           "country": "DE",
           "club": "",
-          "points": 27,
+          "points": 30,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 367000,
               "reps": 0,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 103,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 100,
               "tiebreak": 0
@@ -3048,20 +3075,20 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Alexander Kenzler",
           "country": "DE",
           "club": "Lev Athletics Box",
-          "points": 29,
+          "points": 31,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 660000,
               "reps": 144,
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 79,
               "tiebreak": 0
@@ -3075,14 +3102,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Alain SCHANET",
           "country": "LU",
           "club": "ATHLETENFABRIK",
-          "points": 50,
+          "points": 51,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 343000,
               "reps": 0,
               "tiebreak": 0
@@ -3090,14 +3117,14 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "BEN ROSS",
           "country": "GB",
           "club": "CrossFit Devils Path",
-          "points": 53,
+          "points": 54,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 400000,
               "reps": 0,
               "tiebreak": 0
@@ -3129,6 +3156,15 @@
           },
           {
             "rank": 2,
+            "name": "Andy Dalay",
+            "country": "DE",
+            "club": "CrossFit Halle",
+            "time": 299000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "Alain SCHANET",
             "country": "LU",
             "club": "ATHLETENFABRIK",
@@ -3137,7 +3173,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Ian Dieckmann",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
@@ -3146,7 +3182,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
@@ -3155,7 +3191,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "BEN ROSS",
             "country": "GB",
             "club": "CrossFit Devils Path",
@@ -3164,7 +3200,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -3185,6 +3221,15 @@
           },
           {
             "rank": 2,
+            "name": "Andy Dalay",
+            "country": "DE",
+            "club": "CrossFit Halle",
+            "time": null,
+            "reps": 132,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "Ian Dieckmann",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
@@ -3193,7 +3238,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
@@ -3202,7 +3247,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -3241,6 +3286,15 @@
           },
           {
             "rank": 4,
+            "name": "Andy Dalay",
+            "country": "DE",
+            "club": "CrossFit Halle",
+            "time": null,
+            "reps": 103,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
