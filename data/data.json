@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-27T20:22:04Z",
-    "updated_at_readable": "2026-06-27 20:22 UTC"
+    "updated_at": "2026-06-27T21:22:24Z",
+    "updated_at_readable": "2026-06-27 21:22 UTC"
   },
   "divisions": [
     {
@@ -4366,7 +4366,7 @@
       "order": 15,
       "individual": false,
       "athlete_count": 29,
-      "result_count": 1,
+      "result_count": 2,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -4406,6 +4406,33 @@
               "tiebreak": null
             }
           }
+        },
+        {
+          "rank": 2,
+          "name": "Crossfit DAHU",
+          "country": "FR",
+          "club": "Crossfit DAHU",
+          "points": 6,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 800000,
+              "reps": null,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 249,
+              "tiebreak": null
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 187.5,
+              "tiebreak": null
+            }
+          }
         }
       ],
       "per_wod": {
@@ -4419,6 +4446,15 @@
             "time": 709000,
             "reps": null,
             "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "Crossfit DAHU",
+            "country": "FR",
+            "club": "Crossfit DAHU",
+            "time": 800000,
+            "reps": null,
+            "tiebreak": null
           }
         ],
         "GTD QWOD26.3 A": [
@@ -4430,6 +4466,15 @@
             "time": null,
             "reps": 266,
             "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "Crossfit DAHU",
+            "country": "FR",
+            "club": "Crossfit DAHU",
+            "time": null,
+            "reps": 249,
+            "tiebreak": null
           }
         ],
         "GTD QWOD26.3 B": [
@@ -4440,6 +4485,15 @@
             "club": "Crossfit1995",
             "time": null,
             "reps": 215,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "Crossfit DAHU",
+            "country": "FR",
+            "club": "Crossfit DAHU",
+            "time": null,
+            "reps": 187.5,
             "tiebreak": null
           }
         ]
