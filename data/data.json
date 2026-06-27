@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-27T11:29:32Z",
-    "updated_at_readable": "2026-06-27 11:29 UTC"
+    "updated_at": "2026-06-27T12:23:40Z",
+    "updated_at_readable": "2026-06-27 12:23 UTC"
   },
   "divisions": [
     {
@@ -407,7 +407,7 @@
       "order": 2,
       "individual": true,
       "athlete_count": 20,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -480,6 +480,21 @@
               "tiebreak": 0
             }
           }
+        },
+        {
+          "rank": 3,
+          "name": "Anna Bittner",
+          "country": "DE",
+          "club": "",
+          "points": 62,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 331000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
         }
       ],
       "per_wod": {
@@ -510,6 +525,15 @@
             "country": "DE",
             "club": "Athletenschmiede Kiel",
             "time": 301000,
+            "reps": 0,
+            "tiebreak": 0
+          },
+          {
+            "rank": 2,
+            "name": "Anna Bittner",
+            "country": "DE",
+            "club": "",
+            "time": 331000,
             "reps": 0,
             "tiebreak": 0
           }
@@ -1872,10 +1896,10 @@
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 19,
+          "points": 20,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 5,
+              "position": 6,
               "time": 900000,
               "reps": 94,
               "tiebreak": 900000
@@ -1968,10 +1992,10 @@
           "name": "Daniel Russ",
           "country": "DE",
           "club": "CrossFit Zollhafen",
-          "points": 109,
+          "points": 110,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 4,
+              "position": 5,
               "time": 900000,
               "reps": 104,
               "tiebreak": 900000
@@ -1986,13 +2010,34 @@
         },
         {
           "rank": 7,
-          "name": "Onur Celik",
-          "country": "TR",
-          "club": "Traininglab antalya",
-          "points": 110,
+          "name": "Oliver Pätzold",
+          "country": "DE",
+          "club": "CrossFit Eching",
+          "points": 111,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 3,
+              "time": 900000,
+              "reps": 125,
+              "tiebreak": 790000
+            },
+            "GTD QWOD26.2": {
+              "position": 8,
+              "time": 358000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
+        },
+        {
+          "rank": 8,
+          "name": "Onur Celik",
+          "country": "TR",
+          "club": "Traininglab antalya",
+          "points": 111,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 4,
               "time": 900000,
               "reps": 112,
               "tiebreak": 877000
@@ -2006,14 +2051,14 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Stefan Schrock",
           "country": "DE",
           "club": "Minden Athletics",
-          "points": 115,
+          "points": 116,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 6,
+              "position": 7,
               "time": 900000,
               "reps": 0,
               "tiebreak": 830000
@@ -2027,7 +2072,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Bartłomiej Gieroń",
           "country": "PL",
           "club": "Peak Lab Team",
@@ -2042,7 +2087,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Jakob Abel",
           "country": "DE",
           "club": "CrossFit ICKE",
@@ -2053,21 +2098,6 @@
               "time": 337000,
               "reps": 0,
               "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 11,
-          "name": "Oliver Pätzold",
-          "country": "DE",
-          "club": "CrossFit Eching",
-          "points": 158,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 8,
-              "time": 358000,
-              "reps": null,
-              "tiebreak": null
             }
           }
         }
@@ -2094,6 +2124,15 @@
           },
           {
             "rank": 3,
+            "name": "Oliver Pätzold",
+            "country": "DE",
+            "club": "CrossFit Eching",
+            "time": 900000,
+            "reps": 125,
+            "tiebreak": 790000
+          },
+          {
+            "rank": 4,
             "name": "Onur Celik",
             "country": "TR",
             "club": "Traininglab antalya",
@@ -2102,7 +2141,7 @@
             "tiebreak": 877000
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Daniel Russ",
             "country": "DE",
             "club": "CrossFit Zollhafen",
@@ -2111,7 +2150,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
@@ -2120,7 +2159,7 @@
             "tiebreak": 900000
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Stefan Schrock",
             "country": "DE",
             "club": "Minden Athletics",
@@ -4109,8 +4148,14 @@
           "name": "CrossFit1995",
           "country": "IT",
           "club": "Crossfit1995",
-          "points": 2,
+          "points": 3,
           "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 709000,
+              "reps": null,
+              "tiebreak": null
+            },
             "GTD QWOD26.3 A": {
               "position": 1,
               "time": null,
@@ -4128,7 +4173,17 @@
       ],
       "per_wod": {
         "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "CrossFit1995",
+            "country": "IT",
+            "club": "Crossfit1995",
+            "time": 709000,
+            "reps": null,
+            "tiebreak": null
+          }
+        ],
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
