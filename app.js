@@ -235,10 +235,12 @@ function renderOverall() {
       }
       const posClass = wod.position === 1 ? 'p1' : wod.position === 2 ? 'p2' :
                        wod.position === 3 ? 'p3' : wod.position <= 10 ? 'top10' : '';
-      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak, div.wod_units?.[wname]);
+      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak, wod.cap, div.wod_units?.[wname]);
+      const membersHtml = renderMemberScores(wod.members, wod.cap, div.wod_units?.[wname]);
       html += `<td class="wod-pos ${posClass}">
         <div>#${wod.position}</div>
         ${scoreStr ? `<div style="font-size:0.75rem;opacity:0.75;font-weight:normal">${scoreStr}</div>` : ''}
+        ${membersHtml}
       </td>`;
     });
 
@@ -313,10 +315,12 @@ function renderCombined(teamMode) {
       }
       const posClass = wod.position === 1 ? 'p1' : wod.position === 2 ? 'p2' :
                        wod.position === 3 ? 'p3' : wod.position <= 10 ? 'top10' : '';
-      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak, wodUnits[wname]);
+      const scoreStr = formatScore(wod.time, wod.reps, wod.tiebreak, wod.cap, wodUnits[wname]);
+      const membersHtml = renderMemberScores(wod.members, wod.cap, wodUnits[wname]);
       html += `<td class="wod-pos ${posClass}">
         <div>#${wod.position}</div>
         ${scoreStr ? `<div style="font-size:0.75rem;opacity:0.75;font-weight:normal">${scoreStr}</div>` : ''}
+        ${membersHtml}
       </td>`;
     });
     html += `<td class="points-cell">${athlete.points}</td>`;
@@ -358,12 +362,14 @@ function renderPerWod() {
   rows.forEach(r => {
     const rankClass = r.rank <= 3 ? `rank-${r.rank}` : 'rank-other';
     const flag = countryFlag(r.country);
-    const scoreStr = formatScore(r.time, r.reps, r.tiebreak, div.wod_units?.[currentWod]) || '—';
+    const scoreStr = formatScore(r.time, r.reps, r.tiebreak, r.cap, div.wod_units?.[currentWod]) || '—';
+    const membersHtml = renderMemberScores(r.members, r.cap, div.wod_units?.[currentWod]);
     html += `<tr class="${rankClass}">
       <td class="num"><span class="rank-badge">${r.rank}</span></td>
       <td>
         <div class="athlete-name">${flag}${escHtml(r.name)}</div>
         ${r.club ? `<div class="athlete-club">${escHtml(r.club)}</div>` : ''}
+        ${membersHtml}
       </td>
       <td class="score-cell num">${scoreStr}</td>
     </tr>`;
@@ -376,19 +382,28 @@ function renderPerWod() {
 // ---------------------------------------------------------------------------
 // Score formatting
 // ---------------------------------------------------------------------------
-function formatScore(time, reps, tiebreak, unit) {
+function formatScore(time, reps, tiebreak, cap, unit) {
   // Determine display label from API unit string
   const unitLabel = unit && unit.toLowerCase().startsWith('kilo') ? 'kg' : 'reps';
-  // Time in milliseconds
-  if (time != null && time > 0) {
-    const timeStr = fmtTime(time);
-    if (reps != null && reps > 0) {
-      // Capped: show reps + time-at-cap
-      return `${reps} ${unitLabel} (${timeStr})`;
-    }
-    return timeStr;
+  // Time-based workout finished under cap
+  if (time != null && time > 0 && !cap) {
+    return fmtTime(time);
   }
-  // No time but reps/weight (amrap / max weight)
+  // Hit the time cap — show reps (+ tiebreak if available)
+  if (cap || (reps != null && reps > 0)) {
+    if (reps != null && reps > 0) {
+      const base = `${reps} ${unitLabel}`;
+      if (tiebreak != null && tiebreak > 0) {
+        return `${base} @ ${fmtTime(tiebreak)}`;
+      }
+      return base;
+    }
+  }
+  // Time-based, no cap flag but time present (fallback)
+  if (time != null && time > 0) {
+    return fmtTime(time);
+  }
+  // AMRAP / max weight with no cap info
   if (reps != null && reps > 0) {
     const base = `${reps} ${unitLabel}`;
     if (tiebreak != null && tiebreak > 0) {
@@ -410,6 +425,20 @@ function fmtTime(ms) {
 }
 
 function pad(n) { return String(n).padStart(2, '0'); }
+
+// ---------------------------------------------------------------------------
+// Member scores sub-display (teams only)
+// ---------------------------------------------------------------------------
+function renderMemberScores(members, teamCap, unit) {
+  if (!members || !members.length) return '';
+  const genderIcon = g => g === 'm' ? '♂' : g === 'f' ? '♀' : '';
+  const lines = members.map(m => {
+    const score = formatScore(m.time, m.reps, m.tiebreak, m.cap, unit);
+    const capBadge = m.cap ? ' ⏱' : '';
+    return `<div class="member-score">${genderIcon(m.gender)} ${escHtml(m.name)}: ${score || '—'}${capBadge}</div>`;
+  });
+  return `<div class="member-scores">${lines.join('')}</div>`;
+}
 
 // ---------------------------------------------------------------------------
 // Helpers

@@ -247,6 +247,19 @@ tbody td.num { text-align: center; }
   margin-top: 1px;
 }
 
+/* Per-member score breakdown (team divisions) */
+.member-scores {
+  margin-top: 4px;
+  border-top: 1px solid var(--border);
+  padding-top: 3px;
+}
+.member-score {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
 /* Country flag */
 .flag {
   font-size: 1.1em;

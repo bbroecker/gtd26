@@ -126,6 +126,7 @@ def fetch_all():
         # ---- Per-WOD data ----
         wod_names = []
         wod_units = {}  # wname -> display unit string (e.g. "Reps", "Kilograms")
+        wod_exercise_ids = {}  # wname -> exercise UUID (needed for per-athlete fetch)
         per_wod = {}
 
         for wod_entry in lb.get("wods", []):
@@ -133,6 +134,7 @@ def fetch_all():
                 wname = workout_entry.get("workout", {}).get("name", "?")
                 wod_names.append(wname)
                 wod_units[wname] = workout_entry.get("workout", {}).get("units_of_measure") or ""
+                wod_exercise_ids[wname] = workout_entry.get("workout", {}).get("id", "")
 
                 results = workout_entry.get("results", [])
                 first_field = workout_entry.get("workout", {}).get("first_field", "time")
@@ -148,14 +150,13 @@ def fetch_all():
                     for a in wk_participants
                     if a.get("position") is not None
                 }
-                # Scores: participant_id -> {time, reps, tiebreak}
-                # For reps-based WODs, `time` in results is the cap (same for everyone)
-                # so we null it out to avoid misleading display.
+                # Scores: participant_id -> {time, reps, tiebreak, cap}
                 scores_map = {
                     participant_id(r): {
-                        "time": None if is_reps_based else r.get("time"),
+                        "time": r.get("time"),
                         "reps": r.get("how_many"),
-                        "tiebreak": r.get("athlete_tie_break"),
+                        "tiebreak": r.get("tie_break"),
+                        "cap": bool(r.get("cap")),
                     }
                     for r in results if participant_id(r)
                 }
@@ -168,28 +169,26 @@ def fetch_all():
                         continue
                     athlete = athletes_map.get(a_id, {})
                     score = scores_map[a_id]
-                    wod_ranked.append(
-                        {
-                            "rank": pos,
-                            "name": athlete.get("name", "?"),
-                            "country": athlete.get("country") or "",
-                            "club": athlete.get("club_name") or "",
-                            "time": score["time"],
-                            "reps": score["reps"],
-                            "tiebreak": score["tiebreak"],
-                        }
-                    )
+                    entry = {
+                        "rank": pos,
+                        "name": athlete.get("name", "?"),
+                        "country": athlete.get("country") or "",
+                        "club": athlete.get("club_name") or "",
+                        "time": score["time"],
+                        "reps": score["reps"],
+                        "tiebreak": score["tiebreak"],
+                        "cap": score["cap"],
+                    }
+                    wod_ranked.append(entry)
                 per_wod[wname] = wod_ranked[:TOP_N]
 
         # ---- Overall top-20 ----
         # Build per-WOD position + score lookup (only for athletes with results)
         wod_pos_maps = {}    # wname -> {athlete_id: position}
-        wod_score_maps = {}  # wname -> {athlete_id: {time, reps, tiebreak}}
+        wod_score_maps = {}  # wname -> {athlete_id: {time, reps, tiebreak, cap}}
         for wod_entry in lb.get("wods", []):
             for workout_entry in wod_entry.get("workouts", []):
                 wname = workout_entry.get("workout", {}).get("name", "?")
-                first_field = workout_entry.get("workout", {}).get("first_field", "time")
-                is_reps_based = first_field == "how_many"
                 result_ids_wod = {participant_id(r) for r in workout_entry.get("results", []) if participant_id(r)}
                 wk_p = workout_entry.get("teams", workout_entry.get("athletes", []))
                 if isinstance(wk_p, dict):
@@ -201,9 +200,10 @@ def fetch_all():
                 }
                 wod_score_maps[wname] = {
                     participant_id(r): {
-                        "time": None if is_reps_based else r.get("time"),
+                        "time": r.get("time"),
                         "reps": r.get("how_many"),
-                        "tiebreak": r.get("athlete_tie_break"),
+                        "tiebreak": r.get("tie_break"),
+                        "cap": bool(r.get("cap")),
                     }
                     for r in workout_entry.get("results", []) if participant_id(r)
                 }
@@ -214,6 +214,63 @@ def fetch_all():
             key=lambda a: (a.get("points") or 0, a.get("name", "")),
         )
 
+        # ---- For team divisions: fetch per-member scores per exercise ----
+        # team_id -> [{ name, gender, athlete_id }]
+        team_members_map = {}  # team_id -> list of member dicts
+        # team_id -> { wname -> [{ name, gender, time, reps, tiebreak, cap }] }
+        team_member_scores = {}  # team_id -> wname -> member score list
+
+        if not is_individual:
+            teams_with_results = [a for a in participants if a["id"] in athletes_with_results]
+            print(f"   Fetching member details for {len(teams_with_results)} teams...")
+            for team in teams_with_results:
+                team_id = team["id"]
+                try:
+                    member_resp = get(f"{API_BASE}/teams/{team_id}/member")
+                    members = []
+                    for m in (member_resp if isinstance(member_resp, list) else []):
+                        ath = m.get("athlete", {})
+                        user = ath.get("user", {})
+                        members.append({
+                            "athlete_id": m.get("athlete_id"),
+                            "name": user.get("name") or ath.get("name") or "?",
+                            "gender": user.get("gender") or "",
+                        })
+                    team_members_map[team_id] = members
+                    time.sleep(0.3)
+
+                    # Fetch per-member score for each exercise
+                    wname_scores = {}
+                    for wname, ex_id in wod_exercise_ids.items():
+                        if not ex_id:
+                            continue
+                        member_wod_scores = []
+                        for member in members:
+                            ath_id = member["athlete_id"]
+                            if not ath_id:
+                                continue
+                            try:
+                                res = get(f"{API_BASE}/workouts/{ex_id}/results?athlete_id={ath_id}")
+                                data = res.get("data", [])
+                                if data:
+                                    r = data[0]
+                                    member_wod_scores.append({
+                                        "name": member["name"],
+                                        "gender": member["gender"],
+                                        "time": r.get("time"),
+                                        "reps": r.get("how_many"),
+                                        "tiebreak": r.get("tie_break"),
+                                        "cap": bool(r.get("cap")),
+                                    })
+                                time.sleep(0.2)
+                            except Exception:
+                                pass
+                        if member_wod_scores:
+                            wname_scores[wname] = member_wod_scores
+                    team_member_scores[team_id] = wname_scores
+                except Exception as e:
+                    print(f"     ⚠️  Members for {team.get('name')}: {e}")
+
         overall_top20 = []
         for rank, athlete in enumerate(ranked_athletes[:TOP_N], 1):
             wod_data = {}
@@ -221,22 +278,38 @@ def fetch_all():
                 pos = wod_pos_maps.get(wname, {}).get(athlete["id"])
                 score = wod_score_maps.get(wname, {}).get(athlete["id"])
                 if pos is not None:
-                    wod_data[wname] = {
+                    wod_entry_data = {
                         "position": pos,
                         "time": score["time"] if score else None,
                         "reps": score["reps"] if score else None,
                         "tiebreak": score["tiebreak"] if score else None,
+                        "cap": score["cap"] if score else False,
                     }
-            overall_top20.append(
-                {
-                    "rank": rank,
-                    "name": athlete.get("name", "?"),
-                    "country": athlete.get("country") or "",
-                    "club": athlete.get("club_name") or "",
-                    "points": athlete.get("points") or 0,
-                    "wods": wod_data,
-                }
-            )
+                    members_for_wod = team_member_scores.get(athlete["id"], {}).get(wname)
+                    if members_for_wod:
+                        wod_entry_data["members"] = members_for_wod
+                    wod_data[wname] = wod_entry_data
+            entry = {
+                "rank": rank,
+                "name": athlete.get("name", "?"),
+                "country": athlete.get("country") or "",
+                "club": athlete.get("club_name") or "",
+                "points": athlete.get("points") or 0,
+                "wods": wod_data,
+            }
+            if athlete["id"] in team_members_map:
+                entry["members"] = team_members_map[athlete["id"]]
+            overall_top20.append(entry)
+
+        # Attach member scores to per_wod entries too
+        if not is_individual:
+            for wname, rows in per_wod.items():
+                for row in rows:
+                    team = next((a for a in participants if a.get("name") == row["name"]), None)
+                    if team:
+                        members_for_wod = team_member_scores.get(team["id"], {}).get(wname)
+                        if members_for_wod:
+                            row["members"] = members_for_wod
 
         result_count = len(athletes_with_results)
         total_count = len(participants)
