@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-28T14:32:57Z",
-    "updated_at_readable": "2026-06-28 14:32 UTC"
+    "updated_at": "2026-06-28T15:26:35Z",
+    "updated_at_readable": "2026-06-28 15:26 UTC"
   },
   "divisions": [
     {
@@ -851,6 +851,33 @@
         },
         {
           "rank": 9,
+          "name": "Kirsten Bauer",
+          "country": "DE",
+          "club": "",
+          "points": 133,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 18,
+              "time": 428000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 10,
+              "time": null,
+              "reps": 84,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 10,
+              "time": null,
+              "reps": 85,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 10,
           "name": "Elouan Le Jan",
           "country": "FR",
           "club": "",
@@ -871,7 +898,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
@@ -892,14 +919,14 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Junior  Osei",
           "country": "DE",
           "club": "",
-          "points": 206,
+          "points": 207,
           "wods": {
             "GTD QWOD26.3 A": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 75,
               "tiebreak": 0
@@ -913,11 +940,11 @@
           }
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Daniel Rath",
           "country": "DE",
           "club": "",
-          "points": 209,
+          "points": 210,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 9,
@@ -926,7 +953,7 @@
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 80,
               "tiebreak": null
@@ -934,7 +961,7 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Konstantinos Pitoglou",
           "country": "GR",
           "club": "",
@@ -949,7 +976,7 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Ole Staker",
           "country": "DE",
           "club": "CrossFit Aorta",
@@ -964,7 +991,7 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Florian Genevet",
           "country": "FR",
           "club": "",
@@ -979,7 +1006,7 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
@@ -994,7 +1021,7 @@
           }
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Piotr Bylina",
           "country": "PL",
           "club": "",
@@ -1009,7 +1036,7 @@
           }
         },
         {
-          "rank": 18,
+          "rank": 19,
           "name": "Tobias VB",
           "country": "BE",
           "club": "",
@@ -1024,7 +1051,7 @@
           }
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
@@ -1033,21 +1060,6 @@
             "GTD QWOD26.2": {
               "position": 13,
               "time": 335000,
-              "reps": 0,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 20,
-          "name": "Majid Al haddad",
-          "country": "IQ",
-          "club": "962 Compete",
-          "points": 301,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 16,
-              "time": 369000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -1368,6 +1380,15 @@
           },
           {
             "rank": 10,
+            "name": "Kirsten Bauer",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 84,
+            "tiebreak": 0
+          },
+          {
+            "rank": 11,
             "name": "Junior  Osei",
             "country": "DE",
             "club": "",
@@ -1460,6 +1481,15 @@
           },
           {
             "rank": 10,
+            "name": "Kirsten Bauer",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 85,
+            "tiebreak": 0
+          },
+          {
+            "rank": 11,
             "name": "Daniel Rath",
             "country": "DE",
             "club": "",
@@ -5068,7 +5098,7 @@
       "order": 19,
       "individual": false,
       "athlete_count": 16,
-      "result_count": 3,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -5162,6 +5192,21 @@
               "tiebreak": null
             }
           }
+        },
+        {
+          "rank": 4,
+          "name": "Power Freckles",
+          "country": "DE",
+          "club": "NOEX BERLIN",
+          "points": 50,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 1488000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
         }
       ],
       "per_wod": {
@@ -5172,6 +5217,15 @@
             "country": "DE",
             "club": "Athletic Nation",
             "time": 1336000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 2,
+            "name": "Power Freckles",
+            "country": "DE",
+            "club": "NOEX BERLIN",
+            "time": 1488000,
             "reps": null,
             "tiebreak": null
           }
