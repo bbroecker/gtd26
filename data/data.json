@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-28T03:03:19Z",
-    "updated_at_readable": "2026-06-28 03:03 UTC"
+    "updated_at": "2026-06-28T05:28:09Z",
+    "updated_at_readable": "2026-06-28 05:28 UTC"
   },
   "divisions": [
     {
@@ -2119,9 +2119,9 @@
             },
             "GTD QWOD26.2": {
               "position": 8,
-              "time": 358000,
-              "reps": null,
-              "tiebreak": null
+              "time": 357000,
+              "reps": 0,
+              "tiebreak": 0
             }
           }
         },
@@ -2318,9 +2318,9 @@
             "name": "Oliver Pätzold",
             "country": "DE",
             "club": "CrossFit Eching",
-            "time": 358000,
-            "reps": null,
-            "tiebreak": null
+            "time": 357000,
+            "reps": 0,
+            "tiebreak": 0
           },
           {
             "rank": 9,
@@ -4366,7 +4366,7 @@
       "order": 15,
       "individual": false,
       "athlete_count": 29,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -4433,6 +4433,21 @@
               "tiebreak": null
             }
           }
+        },
+        {
+          "rank": 3,
+          "name": "Schicht im Schacht",
+          "country": "DE",
+          "club": "CrossFit Kohlestollen",
+          "points": 61,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 865000,
+              "reps": null,
+              "tiebreak": null
+            }
+          }
         }
       ],
       "per_wod": {
@@ -4453,6 +4468,15 @@
             "country": "FR",
             "club": "Crossfit DAHU",
             "time": 800000,
+            "reps": null,
+            "tiebreak": null
+          },
+          {
+            "rank": 3,
+            "name": "Schicht im Schacht",
+            "country": "DE",
+            "club": "CrossFit Kohlestollen",
+            "time": 865000,
             "reps": null,
             "tiebreak": null
           }
