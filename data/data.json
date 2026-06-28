@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-28T10:42:42Z",
-    "updated_at_readable": "2026-06-28 10:42 UTC"
+    "updated_at": "2026-06-28T11:32:26Z",
+    "updated_at_readable": "2026-06-28 11:32 UTC"
   },
   "divisions": [
     {
@@ -653,13 +653,13 @@
           "name": "Mike Vogel",
           "country": "DE",
           "club": "",
-          "points": 17,
+          "points": 15,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 6,
-              "time": 900000,
-              "reps": 178,
-              "tiebreak": 736000
+              "position": 4,
+              "time": 818000,
+              "reps": 0,
+              "tiebreak": 663000
             },
             "GTD QWOD26.2": {
               "position": 5,
@@ -686,10 +686,10 @@
           "name": "Volkan Gülen",
           "country": "CH",
           "club": "Atomic Monkey",
-          "points": 23,
+          "points": 24,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 6,
               "time": 900000,
               "reps": 186,
               "tiebreak": 900000
@@ -875,10 +875,10 @@
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
-          "points": 204,
+          "points": 205,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": 870000,
               "reps": null,
               "tiebreak": 660000
@@ -1085,6 +1085,15 @@
           },
           {
             "rank": 4,
+            "name": "Mike Vogel",
+            "country": "DE",
+            "club": "",
+            "time": 818000,
+            "reps": 0,
+            "tiebreak": 663000
+          },
+          {
+            "rank": 5,
             "name": "Jannis Weis",
             "country": "DE",
             "club": "CrossFit Kirkel",
@@ -1093,22 +1102,13 @@
             "tiebreak": 660000
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Volkan Gülen",
             "country": "CH",
             "club": "Atomic Monkey",
             "time": 900000,
             "reps": 186,
             "tiebreak": 900000
-          },
-          {
-            "rank": 6,
-            "name": "Mike Vogel",
-            "country": "DE",
-            "club": "",
-            "time": 900000,
-            "reps": 178,
-            "tiebreak": 736000
           }
         ],
         "GTD QWOD26.2": [
@@ -1928,7 +1928,7 @@
       "order": 5,
       "individual": true,
       "athlete_count": 50,
-      "result_count": 11,
+      "result_count": 12,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -1980,7 +1980,7 @@
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 22,
+          "points": 24,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 6,
@@ -1995,13 +1995,13 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 94,
               "tiebreak": null
             },
             "GTD QWOD26.3 B": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 75,
               "tiebreak": null
@@ -2079,21 +2079,21 @@
         },
         {
           "rank": 6,
-          "name": "Dominik Stephan",
+          "name": "Dominik Rebel",
           "country": "DE",
-          "club": "",
+          "club": "CrossFit Rodgau",
           "points": 108,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 4,
               "time": null,
-              "reps": 112,
+              "reps": 115,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
               "position": 4,
               "time": null,
-              "reps": 80,
+              "reps": 90,
               "tiebreak": 0
             }
           }
@@ -2121,6 +2121,27 @@
         },
         {
           "rank": 8,
+          "name": "Dominik Stephan",
+          "country": "DE",
+          "club": "",
+          "points": 110,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 5,
+              "time": null,
+              "reps": 112,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 5,
+              "time": null,
+              "reps": 80,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 9,
           "name": "Oliver Pätzold",
           "country": "DE",
           "club": "CrossFit Eching",
@@ -2141,7 +2162,7 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Onur Celik",
           "country": "TR",
           "club": "Traininglab antalya",
@@ -2162,7 +2183,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Stefan Schrock",
           "country": "DE",
           "club": "Minden Athletics",
@@ -2183,7 +2204,7 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Jakob Abel",
           "country": "DE",
           "club": "CrossFit ICKE",
@@ -2377,6 +2398,15 @@
           },
           {
             "rank": 4,
+            "name": "Dominik Rebel",
+            "country": "DE",
+            "club": "CrossFit Rodgau",
+            "time": null,
+            "reps": 115,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Dominik Stephan",
             "country": "DE",
             "club": "",
@@ -2385,7 +2415,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
@@ -2424,6 +2454,15 @@
           },
           {
             "rank": 4,
+            "name": "Dominik Rebel",
+            "country": "DE",
+            "club": "CrossFit Rodgau",
+            "time": null,
+            "reps": 90,
+            "tiebreak": 0
+          },
+          {
+            "rank": 5,
             "name": "Dominik Stephan",
             "country": "DE",
             "club": "",
@@ -2432,7 +2471,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
