@@ -173,9 +173,11 @@ def fetch_all():
                     if a.get("position") is not None
                 }
                 # Scores: participant_id -> {time, reps, tiebreak, cap}
+                # For reps/weight WODs the `time` field is the cap (same for all,
+                # meaningless) — null it so we never display it as a finish time.
                 scores_map = {
                     participant_id(r): {
-                        "time": r.get("time"),
+                        "time": None if is_reps_based else r.get("time"),
                         "reps": r.get("how_many"),
                         "tiebreak": r.get("tie_break"),
                         "cap": bool(r.get("cap")),
@@ -196,7 +198,7 @@ def fetch_all():
                         "name": athlete.get("name", "?"),
                         "country": athlete.get("country") or "",
                         "club": athlete.get("club_name") or "",
-                        "time": score["time"],
+                        "time": None if is_reps_based else score["time"],
                         "reps": score["reps"],
                         "tiebreak": score["tiebreak"],
                         "cap": score["cap"],
@@ -222,7 +224,7 @@ def fetch_all():
                 }
                 wod_score_maps[wname] = {
                     participant_id(r): {
-                        "time": r.get("time"),
+                        "time": None if (workout_entry.get("workout", {}).get("first_field", "time") == "how_many") else r.get("time"),
                         "reps": r.get("how_many"),
                         "tiebreak": r.get("tie_break"),
                         "cap": bool(r.get("cap")),
@@ -276,11 +278,18 @@ def fetch_all():
                                 data = res.get("data", [])
                                 if data:
                                     r = data[0]
+                                    # For weight WODs the weight may be in `lift`
+                                    # rather than `how_many`; prefer `how_many` first.
+                                    reps_val = r.get("how_many") if r.get("how_many") is not None else r.get("lift")
+                                    # Null time when both time and reps present
+                                    # (cap-time on per-athlete result is meaningless)
+                                    # unless it's a time-based WOD where athlete capped.
+                                    t = r.get("time")
                                     member_wod_scores.append({
                                         "name": member["name"],
                                         "gender": member["gender"],
-                                        "time": r.get("time"),
-                                        "reps": r.get("how_many"),
+                                        "time": t,
+                                        "reps": reps_val,
                                         "tiebreak": r.get("tie_break"),
                                         "cap": bool(r.get("cap")),
                                     })
