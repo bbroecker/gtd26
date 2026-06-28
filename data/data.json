@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-28T17:25:15Z",
-    "updated_at_readable": "2026-06-28 17:25 UTC"
+    "updated_at": "2026-06-28T18:22:19Z",
+    "updated_at_readable": "2026-06-28 18:22 UTC"
   },
   "divisions": [
     {
@@ -2603,10 +2603,43 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Marie Friess",
+          "country": "DE",
+          "club": "",
+          "points": 7,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 1,
+              "time": 587000,
+              "reps": 0,
+              "tiebreak": 461000
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 316000,
+              "reps": 0,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
+              "time": null,
+              "reps": 143,
+              "tiebreak": 0
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 53,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Elena Grizenko",
           "country": "DE",
           "club": "AREA57",
-          "points": 14,
+          "points": 15,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 3,
@@ -2627,7 +2660,7 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 45,
               "tiebreak": 0
@@ -2635,11 +2668,11 @@
           }
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Liane-Sophie Freitag",
           "country": "DE",
           "club": "",
-          "points": 16,
+          "points": 17,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 7,
@@ -2654,7 +2687,7 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 74,
               "tiebreak": 0
@@ -2668,11 +2701,11 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Caroline Fischer",
           "country": "DE",
           "club": "AXT Athlete",
-          "points": 20,
+          "points": 22,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 6,
@@ -2687,13 +2720,13 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 100,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 45,
               "tiebreak": 0
@@ -2701,11 +2734,11 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 26,
+          "points": 28,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 9,
@@ -2720,13 +2753,13 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 108,
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 50,
               "tiebreak": 0
@@ -2734,11 +2767,11 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Sandra Baldauf",
           "country": "DE",
           "club": "360 Functional",
-          "points": 57,
+          "points": 58,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
@@ -2753,30 +2786,9 @@
               "tiebreak": 0
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 51,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 6,
-          "name": "Marie Friess",
-          "country": "DE",
-          "club": "",
-          "points": 102,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 1,
-              "time": 587000,
-              "reps": 0,
-              "tiebreak": 461000
-            },
-            "GTD QWOD26.2": {
-              "position": 1,
-              "time": 316000,
-              "reps": 0,
               "tiebreak": 0
             }
           }
@@ -3111,6 +3123,15 @@
           },
           {
             "rank": 3,
+            "name": "Marie Friess",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 143,
+            "tiebreak": 0
+          },
+          {
+            "rank": 4,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -3119,7 +3140,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Caroline Fischer",
             "country": "DE",
             "club": "AXT Athlete",
@@ -3128,7 +3149,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Liane-Sophie Freitag",
             "country": "DE",
             "club": "",
@@ -3149,6 +3170,15 @@
           },
           {
             "rank": 2,
+            "name": "Marie Friess",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 53,
+            "tiebreak": 0
+          },
+          {
+            "rank": 3,
             "name": "Sandra Baldauf",
             "country": "DE",
             "club": "360 Functional",
@@ -3157,7 +3187,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -3166,7 +3196,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Elena Grizenko",
             "country": "DE",
             "club": "AREA57",
@@ -3175,7 +3205,7 @@
             "tiebreak": 0
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Caroline Fischer",
             "country": "DE",
             "club": "AXT Athlete",
