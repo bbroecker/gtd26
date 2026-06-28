@@ -61,6 +61,28 @@ def get(url, retries=3):
 
 
 # ---------------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------------
+def apply_member_combined_score(entry, members):
+    """
+    If team members hit the timecap (time > 0 AND reps > 0), the platform's
+    combined team `time` field is unreliable. Derive the correct score:
+    - any member capped → sum reps, sum tiebreaks, clear misleading time
+    - all members finished → keep existing combined time (platform is reliable here)
+    """
+    any_capped = any(m.get("time") and m.get("reps") for m in members)
+    if any_capped:
+        total_reps = sum(m.get("reps") or 0 for m in members)
+        combined_tb = sum(m.get("tiebreak") or 0 for m in members)
+        if total_reps > 0:
+            entry["reps"] = total_reps
+            entry["cap"] = True
+            entry["time"] = None
+            if combined_tb > 0:
+                entry["tiebreak"] = combined_tb
+
+
+# ---------------------------------------------------------------------------
 # Main fetch logic
 # ---------------------------------------------------------------------------
 def fetch_all():
@@ -287,6 +309,7 @@ def fetch_all():
                     }
                     members_for_wod = team_member_scores.get(athlete["id"], {}).get(wname)
                     if members_for_wod:
+                        apply_member_combined_score(wod_entry_data, members_for_wod)
                         wod_entry_data["members"] = members_for_wod
                     wod_data[wname] = wod_entry_data
             entry = {
@@ -309,6 +332,7 @@ def fetch_all():
                     if team:
                         members_for_wod = team_member_scores.get(team["id"], {}).get(wname)
                         if members_for_wod:
+                            apply_member_combined_score(row, members_for_wod)
                             row["members"] = members_for_wod
 
         result_count = len(athletes_with_results)

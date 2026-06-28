@@ -385,25 +385,20 @@ function renderPerWod() {
 function formatScore(time, reps, tiebreak, cap, unit) {
   // Determine display label from API unit string
   const unitLabel = unit && unit.toLowerCase().startsWith('kilo') ? 'kg' : 'reps';
-  // Time-based workout finished under cap
-  if (time != null && time > 0 && !cap) {
-    return fmtTime(time);
-  }
-  // Hit the time cap — show reps (+ tiebreak if available)
-  if (cap || (reps != null && reps > 0)) {
-    if (reps != null && reps > 0) {
-      const base = `${reps} ${unitLabel}`;
-      if (tiebreak != null && tiebreak > 0) {
-        return `${base} @ ${fmtTime(tiebreak)}`;
-      }
-      return base;
+  // Capped: explicit cap flag OR both time and reps present (API cap flag is unreliable)
+  const isCapped = cap || (time != null && time > 0 && reps != null && reps > 0);
+  if (isCapped && reps != null && reps > 0) {
+    const base = `${reps} ${unitLabel}`;
+    if (tiebreak != null && tiebreak > 0) {
+      return `${base} @ ${fmtTime(tiebreak)}`;
     }
+    return base;
   }
-  // Time-based, no cap flag but time present (fallback)
+  // Finished under cap — show time
   if (time != null && time > 0) {
     return fmtTime(time);
   }
-  // AMRAP / max weight with no cap info
+  // AMRAP / max weight — only reps, no time
   if (reps != null && reps > 0) {
     const base = `${reps} ${unitLabel}`;
     if (tiebreak != null && tiebreak > 0) {
