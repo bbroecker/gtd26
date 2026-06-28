@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-28T12:24:19Z",
-    "updated_at_readable": "2026-06-28 12:24 UTC"
+    "updated_at": "2026-06-28T13:30:43Z",
+    "updated_at_readable": "2026-06-28 13:30 UTC"
   },
   "divisions": [
     {
@@ -1654,6 +1654,27 @@
         },
         {
           "rank": 7,
+          "name": "Viktoria Schlammerl",
+          "country": "DE",
+          "club": "",
+          "points": 112,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": 900000,
+              "reps": 175,
+              "tiebreak": 784000
+            },
+            "GTD QWOD26.2": {
+              "position": 7,
+              "time": 532000,
+              "reps": 0,
+              "tiebreak": 0
+            }
+          }
+        },
+        {
+          "rank": 8,
           "name": "Katharina Gärtner",
           "country": "DE",
           "club": "",
@@ -1668,7 +1689,7 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Lea Ilsen",
           "country": "DE",
           "club": "RedHawk CrossFit",
@@ -1677,21 +1698,6 @@
             "GTD QWOD26.2": {
               "position": 6,
               "time": 511000,
-              "reps": 0,
-              "tiebreak": 0
-            }
-          }
-        },
-        {
-          "rank": 9,
-          "name": "Viktoria Schlammerl",
-          "country": "DE",
-          "club": "",
-          "points": 160,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 7,
-              "time": 532000,
               "reps": 0,
               "tiebreak": 0
             }
@@ -1732,6 +1738,15 @@
             "time": 848000,
             "reps": null,
             "tiebreak": 687000
+          },
+          {
+            "rank": 3,
+            "name": "Viktoria Schlammerl",
+            "country": "DE",
+            "club": "",
+            "time": 900000,
+            "reps": 175,
+            "tiebreak": 784000
           }
         ],
         "GTD QWOD26.2": [
@@ -4112,7 +4127,7 @@
       "name": "Elite Teams of 2 Male/Female",
       "order": 12,
       "individual": false,
-      "athlete_count": 7,
+      "athlete_count": 8,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
