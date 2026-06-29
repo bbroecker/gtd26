@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-29T13:23:18Z",
-    "updated_at_readable": "2026-06-29 13:23 UTC"
+    "updated_at": "2026-06-29T15:07:07Z",
+    "updated_at_readable": "2026-06-29 15:07 UTC"
   },
   "divisions": [
     {
@@ -960,7 +960,7 @@
           "name": "Luigi di Giovanni",
           "country": "IT",
           "club": "Athletics Giulianova",
-          "points": 8,
+          "points": 9,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -970,7 +970,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 285000,
               "reps": 0,
               "tiebreak": 0,
@@ -997,7 +997,7 @@
           "name": "Federico Frixione",
           "country": "IT",
           "club": "",
-          "points": 15,
+          "points": 16,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -1007,7 +1007,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 294000,
               "reps": null,
               "tiebreak": null,
@@ -1034,7 +1034,7 @@
           "name": "Mike Vogel",
           "country": "DE",
           "club": "",
-          "points": 23,
+          "points": 19,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -1044,8 +1044,8 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 8,
-              "time": 302000,
+              "position": 4,
+              "time": 284000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -1380,7 +1380,7 @@
           "wods": {
             "GTD QWOD26.2": {
               "position": 24,
-              "time": 630000,
+              "time": 627000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -1502,22 +1502,6 @@
         },
         {
           "rank": 18,
-          "name": "Mesut Schedler",
-          "country": "DE",
-          "club": "Amboss Athletics",
-          "points": 293,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 5,
-              "time": 294000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 19,
           "name": "Ole Staker",
           "country": "DE",
           "club": "CrossFit Aorta",
@@ -1533,14 +1517,30 @@
           }
         },
         {
+          "rank": 19,
+          "name": "Mesut Schedler",
+          "country": "DE",
+          "club": "Amboss Athletics",
+          "points": 294,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 6,
+              "time": 294000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
           "rank": 20,
           "name": "Florian Genevet",
           "country": "FR",
           "club": "",
-          "points": 295,
+          "points": 296,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 297000,
               "reps": 0,
               "tiebreak": 0,
@@ -1695,6 +1695,16 @@
           },
           {
             "rank": 4,
+            "name": "Mike Vogel",
+            "country": "DE",
+            "club": "",
+            "time": 284000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "Luigi di Giovanni",
             "country": "IT",
             "club": "Athletics Giulianova",
@@ -1704,7 +1714,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Federico Frixione",
             "country": "IT",
             "club": "",
@@ -1714,7 +1724,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Mesut Schedler",
             "country": "DE",
             "club": "Amboss Athletics",
@@ -1724,21 +1734,11 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Florian Genevet",
             "country": "FR",
             "club": "",
             "time": 297000,
-            "reps": 0,
-            "tiebreak": 0,
-            "cap": false
-          },
-          {
-            "rank": 8,
-            "name": "Mike Vogel",
-            "country": "DE",
-            "club": "",
-            "time": 302000,
             "reps": 0,
             "tiebreak": 0,
             "cap": false
@@ -4484,7 +4484,7 @@
       "order": 8,
       "individual": true,
       "athlete_count": 20,
-      "result_count": 3,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -4523,6 +4523,29 @@
         },
         {
           "rank": 2,
+          "name": "Charlotte Cailly",
+          "country": "FR",
+          "club": "",
+          "points": 6,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 900000,
+              "reps": 168,
+              "tiebreak": 787000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 410000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 3,
           "name": "Alica Grabitsch",
           "country": "DE",
           "club": "CrossFit GenGym",
@@ -4538,7 +4561,7 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Cathrine Mamsen",
           "country": "DK",
           "club": "",
@@ -4564,6 +4587,16 @@
             "time": 710000,
             "reps": 0,
             "tiebreak": 604000,
+            "cap": false
+          },
+          {
+            "rank": 2,
+            "name": "Charlotte Cailly",
+            "country": "FR",
+            "club": "",
+            "time": 900000,
+            "reps": 168,
+            "tiebreak": 787000,
             "cap": false
           }
         ],
@@ -4597,6 +4630,16 @@
             "reps": 0,
             "tiebreak": 0,
             "cap": false
+          },
+          {
+            "rank": 4,
+            "name": "Charlotte Cailly",
+            "country": "FR",
+            "club": "",
+            "time": 410000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false
           }
         ],
         "GTD QWOD26.3 A": [],
@@ -4609,7 +4652,7 @@
       "order": 9,
       "individual": true,
       "athlete_count": 25,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -4749,6 +4792,22 @@
               "cap": false
             }
           }
+        },
+        {
+          "rank": 5,
+          "name": "Christopher Geissler",
+          "country": "DE",
+          "club": "",
+          "points": 80,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 586000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
         }
       ],
       "per_wod": {
@@ -4823,6 +4882,16 @@
             "time": 468000,
             "reps": null,
             "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 5,
+            "name": "Christopher Geissler",
+            "country": "DE",
+            "club": "",
+            "time": 586000,
+            "reps": 0,
+            "tiebreak": 0,
             "cap": false
           }
         ],
