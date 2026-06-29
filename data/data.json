@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-29T18:37:59Z",
-    "updated_at_readable": "2026-06-29 18:37 UTC"
+    "updated_at": "2026-06-29T19:32:39Z",
+    "updated_at_readable": "2026-06-29 19:32 UTC"
   },
   "divisions": [
     {
@@ -2792,7 +2792,7 @@
       "order": 5,
       "individual": true,
       "athlete_count": 51,
-      "result_count": 13,
+      "result_count": 14,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -2848,7 +2848,7 @@
           "name": "Fabian Kellner",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 27,
+          "points": 28,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 6,
@@ -2858,7 +2858,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 340000,
               "reps": 0,
               "tiebreak": 0,
@@ -2968,7 +2968,7 @@
           "name": "René  Kohlmann",
           "country": "DE",
           "club": "",
-          "points": 108,
+          "points": 109,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 2,
@@ -2978,7 +2978,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 328000,
               "reps": null,
               "tiebreak": null,
@@ -3014,7 +3014,7 @@
           "name": "Daniel Russ",
           "country": "DE",
           "club": "CrossFit Zollhafen",
-          "points": 113,
+          "points": 114,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 5,
@@ -3024,7 +3024,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 339000,
               "reps": 0,
               "tiebreak": 0,
@@ -3060,7 +3060,7 @@
           "name": "Oliver Pätzold",
           "country": "DE",
           "club": "CrossFit Eching",
-          "points": 114,
+          "points": 115,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 3,
@@ -3070,7 +3070,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 9,
+              "position": 10,
               "time": 357000,
               "reps": 0,
               "tiebreak": 0,
@@ -3083,7 +3083,7 @@
           "name": "Onur Celik",
           "country": "TR",
           "club": "Traininglab antalya",
-          "points": 114,
+          "points": 115,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 4,
@@ -3093,7 +3093,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 8,
+              "position": 9,
               "time": 341000,
               "reps": 0,
               "tiebreak": 0,
@@ -3106,7 +3106,7 @@
           "name": "Stefan Schrock",
           "country": "DE",
           "club": "Minden Athletics",
-          "points": 119,
+          "points": 120,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 7,
@@ -3116,7 +3116,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 10,
+              "position": 11,
               "time": 412000,
               "reps": 0,
               "tiebreak": 0,
@@ -3126,13 +3126,29 @@
         },
         {
           "rank": 13,
+          "name": "Quentin Perez",
+          "country": "FR",
+          "club": "",
+          "points": 157,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 312000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 14,
           "name": "Jakob Abel",
           "country": "DE",
           "club": "CrossFit ICKE",
-          "points": 158,
+          "points": 159,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 337000,
               "reps": 0,
               "tiebreak": 0,
@@ -3247,6 +3263,16 @@
           },
           {
             "rank": 4,
+            "name": "Quentin Perez",
+            "country": "FR",
+            "club": "",
+            "time": 312000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "René  Kohlmann",
             "country": "DE",
             "club": "",
@@ -3256,7 +3282,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Jakob Abel",
             "country": "DE",
             "club": "CrossFit ICKE",
@@ -3266,7 +3292,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Daniel Russ",
             "country": "DE",
             "club": "CrossFit Zollhafen",
@@ -3276,7 +3302,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Fabian Kellner",
             "country": "DE",
             "club": "ELVT Athletics",
@@ -3286,7 +3312,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Onur Celik",
             "country": "TR",
             "club": "Traininglab antalya",
@@ -3296,7 +3322,7 @@
             "cap": false
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Oliver Pätzold",
             "country": "DE",
             "club": "CrossFit Eching",
@@ -3306,7 +3332,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Stefan Schrock",
             "country": "DE",
             "club": "Minden Athletics",
@@ -5130,7 +5156,7 @@
       "order": 10,
       "individual": true,
       "athlete_count": 19,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -5223,10 +5249,10 @@
           "name": "Kette",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 29,
+          "points": 30,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 423000,
               "reps": null,
               "tiebreak": null,
@@ -5258,6 +5284,22 @@
             "GTD QWOD26.2": {
               "position": 1,
               "time": 354000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 5,
+          "name": "Aleksandra Ziemba",
+          "country": "PL",
+          "club": "",
+          "points": 61,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 396000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -5321,6 +5363,16 @@
           },
           {
             "rank": 4,
+            "name": "Aleksandra Ziemba",
+            "country": "PL",
+            "club": "",
+            "time": 396000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -7071,7 +7123,7 @@
       "name": "Scaled Teams of 2 Male/Male",
       "order": 17,
       "individual": false,
-      "athlete_count": 4,
+      "athlete_count": 5,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -7337,7 +7389,7 @@
       "order": 18,
       "individual": false,
       "athlete_count": 17,
-      "result_count": 5,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -7690,10 +7742,10 @@
           "name": "PS - Prepared to sweat",
           "country": "DE",
           "club": "CrossFit saarlouis",
-          "points": 42,
+          "points": 43,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 255,
               "tiebreak": 1654000,
@@ -7752,6 +7804,52 @@
             {
               "athlete_id": "0483ec99-75e7-4faf-9f3a-9f3a58d56eb1",
               "name": "Stephanie Abel",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "name": "RX-tra langsam",
+          "country": "DE",
+          "club": "Greifenpower e.V.",
+          "points": 54,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 3,
+              "time": null,
+              "reps": 128,
+              "tiebreak": 1453000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Toni Kurzweg",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 128,
+                  "tiebreak": 807000,
+                  "cap": false
+                },
+                {
+                  "name": "Nele Franka Ahlhaus",
+                  "gender": "f",
+                  "time": 795000,
+                  "reps": 0,
+                  "tiebreak": 646000,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "801424d4-d311-4295-9446-d28c56140456",
+              "name": "Toni Kurzweg",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "0383b605-ff4d-4dd8-8550-92fef4dafd39",
+              "name": "Nele Franka Ahlhaus",
               "gender": "f"
             }
           ]
@@ -7817,6 +7915,34 @@
           },
           {
             "rank": 3,
+            "name": "RX-tra langsam",
+            "country": "DE",
+            "club": "Greifenpower e.V.",
+            "time": null,
+            "reps": 128,
+            "tiebreak": 1453000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Toni Kurzweg",
+                "gender": "m",
+                "time": 900000,
+                "reps": 128,
+                "tiebreak": 807000,
+                "cap": false
+              },
+              {
+                "name": "Nele Franka Ahlhaus",
+                "gender": "f",
+                "time": 795000,
+                "reps": 0,
+                "tiebreak": 646000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 4,
             "name": "PS - Prepared to sweat",
             "country": "DE",
             "club": "CrossFit saarlouis",
