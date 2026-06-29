@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-29T15:07:07Z",
-    "updated_at_readable": "2026-06-29 15:07 UTC"
+    "updated_at": "2026-06-29T16:58:22Z",
+    "updated_at_readable": "2026-06-29 16:58 UTC"
   },
   "divisions": [
     {
@@ -11,8 +11,8 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 29,
-      "result_count": 8,
+      "athlete_count": 31,
+      "result_count": 9,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -253,7 +253,7 @@
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 69,
+          "points": 73,
           "wods": {
             "GTD QWOD26.1": {
               "position": 4,
@@ -276,13 +276,29 @@
           "name": "Marcin Leszkowicz",
           "country": "PL",
           "club": "Centrum Sportu Stocznia",
-          "points": 88,
+          "points": 94,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
               "time": 248000,
               "reps": null,
               "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 9,
+          "name": "Lennart Palausch",
+          "country": "DE",
+          "club": "Crossfit New Energy",
+          "points": 102,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 9,
+              "time": 320000,
+              "reps": 0,
+              "tiebreak": 0,
               "cap": false
             }
           }
@@ -440,6 +456,16 @@
             "time": 308000,
             "reps": null,
             "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 9,
+            "name": "Lennart Palausch",
+            "country": "DE",
+            "club": "Crossfit New Energy",
+            "time": 320000,
+            "reps": 0,
+            "tiebreak": 0,
             "cap": false
           }
         ],
@@ -2176,7 +2202,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 51,
-      "result_count": 10,
+      "result_count": 11,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -2411,6 +2437,22 @@
         },
         {
           "rank": 9,
+          "name": "Anna Smogorzewska",
+          "country": "PL",
+          "club": "",
+          "points": 157,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 4,
+              "time": 900000,
+              "reps": 137,
+              "tiebreak": 900000,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 10,
           "name": "Lea Ilsen",
           "country": "DE",
           "club": "RedHawk CrossFit",
@@ -2426,7 +2468,7 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Imke Bruhns",
           "country": "DE",
           "club": "Crossfit Osmium",
@@ -2472,6 +2514,16 @@
             "time": 900000,
             "reps": 175,
             "tiebreak": 784000,
+            "cap": false
+          },
+          {
+            "rank": 4,
+            "name": "Anna Smogorzewska",
+            "country": "PL",
+            "club": "",
+            "time": 900000,
+            "reps": 137,
+            "tiebreak": 900000,
             "cap": false
           }
         ],
