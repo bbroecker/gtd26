@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-30T14:49:58Z",
-    "updated_at_readable": "2026-06-30 14:49 UTC"
+    "updated_at": "2026-06-30T15:48:26Z",
+    "updated_at_readable": "2026-06-30 15:48 UTC"
   },
   "divisions": [
     {
@@ -1366,7 +1366,7 @@
             "GTD QWOD26.3 A": {
               "position": 7,
               "time": null,
-              "reps": 137,
+              "reps": 140,
               "tiebreak": null,
               "cap": false
             },
@@ -2138,7 +2138,7 @@
             "country": "DE",
             "club": "CrossFit Kirkel",
             "time": null,
-            "reps": 137,
+            "reps": 140,
             "tiebreak": null,
             "cap": false
           },
@@ -5565,8 +5565,15 @@
           "name": "Kette",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 30,
+          "points": 14,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": 900000,
+              "reps": 136,
+              "tiebreak": 900000,
+              "cap": false
+            },
             "GTD QWOD26.2": {
               "position": 5,
               "time": 423000,
@@ -5643,6 +5650,16 @@
             "time": 806000,
             "reps": 0,
             "tiebreak": 673000,
+            "cap": false
+          },
+          {
+            "rank": 3,
+            "name": "Kette",
+            "country": "DE",
+            "club": "CrossFit PMA",
+            "time": 900000,
+            "reps": 136,
+            "tiebreak": 900000,
             "cap": false
           }
         ],
