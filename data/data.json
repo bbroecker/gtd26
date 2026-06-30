@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-30T13:33:31Z",
-    "updated_at_readable": "2026-06-30 13:33 UTC"
+    "updated_at": "2026-06-30T14:49:58Z",
+    "updated_at_readable": "2026-06-30 14:49 UTC"
   },
   "divisions": [
     {
@@ -6089,7 +6089,7 @@
       "order": 14,
       "individual": false,
       "athlete_count": 24,
-      "result_count": 3,
+      "result_count": 4,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -6108,10 +6108,10 @@
           "name": "Ravegaarden",
           "country": "DE",
           "club": "",
-          "points": 5,
+          "points": 7,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 1,
+              "position": 2,
               "time": 1474000,
               "reps": null,
               "tiebreak": 1187000,
@@ -6136,7 +6136,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 676000,
               "reps": null,
               "tiebreak": null,
@@ -6229,10 +6229,10 @@
           "name": "🇧🇷 1 zu 7 🇩🇪",
           "country": "BR",
           "club": "Neumünster Crossfit",
-          "points": 9,
+          "points": 11,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 295,
               "tiebreak": 1739000,
@@ -6257,7 +6257,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 719000,
               "reps": null,
               "tiebreak": null,
@@ -6347,13 +6347,84 @@
         },
         {
           "rank": 3,
+          "name": "CrossFit OB22 France",
+          "country": "FR",
+          "club": "",
+          "points": 50,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 1259000,
+              "reps": null,
+              "tiebreak": 925000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Jordan Jorion",
+                  "gender": "m",
+                  "time": 685000,
+                  "reps": 0,
+                  "tiebreak": 511000,
+                  "cap": false
+                },
+                {
+                  "name": "Miguel Da Rocha Dias",
+                  "gender": "m",
+                  "time": 574000,
+                  "reps": 0,
+                  "tiebreak": 414000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 545000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Jordan Jorion",
+                  "gender": "m",
+                  "time": 278000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Miguel Da Rocha Dias",
+                  "gender": "m",
+                  "time": 267000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "d17acd6e-1a68-4303-a9cb-445fe687378c",
+              "name": "Jordan Jorion",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "52ee150c-a257-4507-be61-0b6d5d57ac65",
+              "name": "Miguel Da Rocha Dias",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 4,
           "name": "Chalk the law",
           "country": "DE",
           "club": "Crossfit Wuid",
-          "points": 52,
+          "points": 54,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 290,
               "tiebreak": 1783000,
@@ -6378,7 +6449,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 645000,
               "reps": null,
               "tiebreak": null,
@@ -6421,6 +6492,34 @@
         "GTD QWOD26.1": [
           {
             "rank": 1,
+            "name": "CrossFit OB22 France",
+            "country": "FR",
+            "club": "",
+            "time": 1259000,
+            "reps": null,
+            "tiebreak": 925000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Jordan Jorion",
+                "gender": "m",
+                "time": 685000,
+                "reps": 0,
+                "tiebreak": 511000,
+                "cap": false
+              },
+              {
+                "name": "Miguel Da Rocha Dias",
+                "gender": "m",
+                "time": 574000,
+                "reps": 0,
+                "tiebreak": 414000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 2,
             "name": "Ravegaarden",
             "country": "DE",
             "club": "",
@@ -6448,7 +6547,7 @@
             ]
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "🇧🇷 1 zu 7 🇩🇪",
             "country": "BR",
             "club": "Neumünster Crossfit",
@@ -6476,7 +6575,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Chalk the law",
             "country": "DE",
             "club": "Crossfit Wuid",
@@ -6507,6 +6606,34 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "CrossFit OB22 France",
+            "country": "FR",
+            "club": "",
+            "time": 545000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Jordan Jorion",
+                "gender": "m",
+                "time": 278000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Miguel Da Rocha Dias",
+                "gender": "m",
+                "time": 267000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 2,
             "name": "Chalk the law",
             "country": "DE",
             "club": "Crossfit Wuid",
@@ -6534,7 +6661,7 @@
             ]
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Ravegaarden",
             "country": "DE",
             "club": "",
@@ -6562,7 +6689,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "🇧🇷 1 zu 7 🇩🇪",
             "country": "BR",
             "club": "Neumünster Crossfit",
