@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-06-30T09:03:18Z",
-    "updated_at_readable": "2026-06-30 09:03 UTC"
+    "updated_at": "2026-06-30T11:00:19Z",
+    "updated_at_readable": "2026-06-30 11:00 UTC"
   },
   "divisions": [
     {
@@ -1347,10 +1347,10 @@
           "name": "Wesley van Wijk",
           "country": "NL",
           "club": "",
-          "points": 44,
+          "points": 45,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 12,
+              "position": 13,
               "time": 900000,
               "reps": 163,
               "tiebreak": 850000,
@@ -1384,10 +1384,10 @@
           "name": "Kai Stäblein",
           "country": "DE",
           "club": "CrossFit Black Arrow",
-          "points": 49,
+          "points": 50,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 13,
+              "position": 14,
               "time": 900000,
               "reps": 112,
               "tiebreak": 900000,
@@ -1547,7 +1547,7 @@
           "rank": 14,
           "name": "Junior  Osei",
           "country": "DE",
-          "club": "",
+          "club": "CrossFit Landsberg am Lech",
           "points": 147,
           "wods": {
             "GTD QWOD26.2": {
@@ -1651,6 +1651,29 @@
         },
         {
           "rank": 18,
+          "name": "Mesut Schedler",
+          "country": "DE",
+          "club": "Amboss Athletics",
+          "points": 212,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 12,
+              "time": 900000,
+              "reps": 181,
+              "tiebreak": 900000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 6,
+              "time": 294000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 19,
           "name": "Daniel Rath",
           "country": "DE",
           "club": "",
@@ -1673,7 +1696,7 @@
           }
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Ole Staker",
           "country": "DE",
           "club": "CrossFit Aorta",
@@ -1684,22 +1707,6 @@
               "time": 810000,
               "reps": 0,
               "tiebreak": 615000,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 20,
-          "name": "Mesut Schedler",
-          "country": "DE",
-          "club": "Amboss Athletics",
-          "points": 297,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 6,
-              "time": 294000,
-              "reps": 0,
-              "tiebreak": 0,
               "cap": false
             }
           }
@@ -1819,6 +1826,16 @@
           },
           {
             "rank": 12,
+            "name": "Mesut Schedler",
+            "country": "DE",
+            "club": "Amboss Athletics",
+            "time": 900000,
+            "reps": 181,
+            "tiebreak": 900000,
+            "cap": false
+          },
+          {
+            "rank": 13,
             "name": "Wesley van Wijk",
             "country": "NL",
             "club": "",
@@ -1828,7 +1845,7 @@
             "cap": false
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Kai Stäblein",
             "country": "DE",
             "club": "CrossFit Black Arrow",
@@ -2195,7 +2212,7 @@
             "rank": 16,
             "name": "Junior  Osei",
             "country": "DE",
-            "club": "",
+            "club": "CrossFit Landsberg am Lech",
             "time": null,
             "reps": 75,
             "tiebreak": 0,
@@ -2287,7 +2304,7 @@
             "rank": 9,
             "name": "Junior  Osei",
             "country": "DE",
-            "club": "",
+            "club": "CrossFit Landsberg am Lech",
             "time": null,
             "reps": 115,
             "tiebreak": 0,
@@ -2388,13 +2405,50 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Sarah Emmermann",
+          "name": "Denise Roeger",
           "country": "DE",
-          "club": "Rockfit Northeim",
-          "points": 17,
+          "club": "AREA57",
+          "points": 8,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
+              "time": 728000,
+              "reps": 0,
+              "tiebreak": 595000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 377000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 173,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 93,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 2,
+          "name": "Sarah Emmermann",
+          "country": "DE",
+          "club": "Rockfit Northeim",
+          "points": 18,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
               "time": 811000,
               "reps": 0,
               "tiebreak": 673000,
@@ -2424,44 +2478,14 @@
           }
         },
         {
-          "rank": 2,
-          "name": "Denise Roeger",
-          "country": "DE",
-          "club": "AREA57",
-          "points": 59,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 3,
-              "time": 377000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 1,
-              "time": null,
-              "reps": 173,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 2,
-              "time": null,
-              "reps": 93,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
           "rank": 3,
           "name": "Carina Frolov",
           "country": "DE",
           "club": "Peak Vitality",
-          "points": 61,
+          "points": 62,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": 848000,
               "reps": null,
               "tiebreak": 687000,
@@ -2601,10 +2625,10 @@
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 118,
+          "points": 119,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": 900000,
               "reps": 175,
               "tiebreak": 784000,
@@ -2656,10 +2680,10 @@
           "name": "Anna Smogorzewska",
           "country": "PL",
           "club": "",
-          "points": 164,
+          "points": 165,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 6,
               "time": 900000,
               "reps": 137,
               "tiebreak": 900000,
@@ -2714,6 +2738,16 @@
           },
           {
             "rank": 2,
+            "name": "Denise Roeger",
+            "country": "DE",
+            "club": "AREA57",
+            "time": 728000,
+            "reps": 0,
+            "tiebreak": 595000,
+            "cap": false
+          },
+          {
+            "rank": 3,
             "name": "Sarah Emmermann",
             "country": "DE",
             "club": "Rockfit Northeim",
@@ -2723,7 +2757,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Carina Frolov",
             "country": "DE",
             "club": "Peak Vitality",
@@ -2733,7 +2767,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Viktoria Schlammerl",
             "country": "DE",
             "club": "",
@@ -2743,7 +2777,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Anna Smogorzewska",
             "country": "PL",
             "club": "",
@@ -3716,7 +3750,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 51,
-      "result_count": 12,
+      "result_count": 13,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -3883,7 +3917,7 @@
           "name": "Melina Mühlbauer",
           "country": "DE",
           "club": "",
-          "points": 28,
+          "points": 29,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 9,
@@ -3893,7 +3927,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 11,
+              "position": 12,
               "time": 450000,
               "reps": 0,
               "tiebreak": 0,
@@ -4055,13 +4089,29 @@
         },
         {
           "rank": 12,
-          "name": "Jacqueline Starke",
-          "country": "DE",
-          "club": "CrossFit PMA",
+          "name": "celine rueher",
+          "country": "FR",
+          "club": "CrossFit Grillen",
           "points": 163,
           "wods": {
             "GTD QWOD26.2": {
               "position": 10,
+              "time": 429000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 13,
+          "name": "Jacqueline Starke",
+          "country": "DE",
+          "club": "CrossFit PMA",
+          "points": 164,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 11,
               "time": 438000,
               "reps": 0,
               "tiebreak": 0,
@@ -4266,6 +4316,16 @@
           },
           {
             "rank": 10,
+            "name": "celine rueher",
+            "country": "FR",
+            "club": "CrossFit Grillen",
+            "time": 429000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 11,
             "name": "Jacqueline Starke",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -4275,7 +4335,7 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Melina Mühlbauer",
             "country": "DE",
             "club": "",
@@ -7627,6 +7687,127 @@
       "overall": [
         {
           "rank": 1,
+          "name": "PS - Prepared to sweat",
+          "country": "DE",
+          "club": "CrossFit saarlouis",
+          "points": 15,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 4,
+              "time": null,
+              "reps": 255,
+              "tiebreak": 1654000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Pascal Brauchler",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 125,
+                  "tiebreak": 837000,
+                  "cap": false
+                },
+                {
+                  "name": "Stephanie Abel",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 130,
+                  "tiebreak": 817000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 873000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Pascal Brauchler",
+                  "gender": "m",
+                  "time": 377000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Stephanie Abel",
+                  "gender": "f",
+                  "time": 496000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
+              "time": null,
+              "reps": 206,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Pascal Brauchler",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 105,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Stephanie Abel",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 101,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 120,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Pascal Brauchler",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 75,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Stephanie Abel",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 45,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "630a87a1-0fb7-487f-8883-28c61ec5cab8",
+              "name": "Pascal Brauchler",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "0483ec99-75e7-4faf-9f3a-9f3a58d56eb1",
+              "name": "Stephanie Abel",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 2,
           "name": "No Limits Coaching",
           "country": "DE",
           "club": "Kings Avenue CrossFit",
@@ -7722,7 +7903,7 @@
           ]
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Der Schöne und das Biescht",
           "country": "DE",
           "club": "RISE Functional Fitness",
@@ -7818,7 +7999,7 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Lift Me Baby One More Time",
           "country": "DE",
           "club": "CrossFit Recklinghausen",
@@ -7889,7 +8070,7 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Warmup war schwerer",
           "country": "DE",
           "club": "CrossFit Pfalzschmiede",
@@ -7955,77 +8136,6 @@
             {
               "athlete_id": "a5674d96-adc7-4121-aa64-05b2fd478711",
               "name": "Antje Langer",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 5,
-          "name": "PS - Prepared to sweat",
-          "country": "DE",
-          "club": "CrossFit saarlouis",
-          "points": 45,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 4,
-              "time": null,
-              "reps": 255,
-              "tiebreak": 1654000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Pascal Brauchler",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 125,
-                  "tiebreak": 837000,
-                  "cap": false
-                },
-                {
-                  "name": "Stephanie Abel",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 130,
-                  "tiebreak": 817000,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.2": {
-              "position": 5,
-              "time": 873000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Pascal Brauchler",
-                  "gender": "m",
-                  "time": 377000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Stephanie Abel",
-                  "gender": "f",
-                  "time": 496000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "630a87a1-0fb7-487f-8883-28c61ec5cab8",
-              "name": "Pascal Brauchler",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "0483ec99-75e7-4faf-9f3a-9f3a58d56eb1",
-              "name": "Stephanie Abel",
               "gender": "f"
             }
           ]
@@ -8390,6 +8500,34 @@
                 "cap": false
               }
             ]
+          },
+          {
+            "rank": 3,
+            "name": "PS - Prepared to sweat",
+            "country": "DE",
+            "club": "CrossFit saarlouis",
+            "time": null,
+            "reps": 206,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Pascal Brauchler",
+                "gender": "m",
+                "time": 360000,
+                "reps": 105,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Stephanie Abel",
+                "gender": "f",
+                "time": 360000,
+                "reps": 101,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
           }
         ],
         "GTD QWOD26.3 B": [
@@ -8444,6 +8582,34 @@
                 "gender": "m",
                 "time": 300000,
                 "reps": 85,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
+            "name": "PS - Prepared to sweat",
+            "country": "DE",
+            "club": "CrossFit saarlouis",
+            "time": null,
+            "reps": 120,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Pascal Brauchler",
+                "gender": "m",
+                "time": 300000,
+                "reps": 75,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Stephanie Abel",
+                "gender": "f",
+                "time": 300000,
+                "reps": 45,
                 "tiebreak": 0,
                 "cap": false
               }
