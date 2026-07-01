@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-01T14:57:17Z",
-    "updated_at_readable": "2026-07-01 14:57 UTC"
+    "updated_at": "2026-07-01T15:54:29Z",
+    "updated_at_readable": "2026-07-01 15:54 UTC"
   },
   "divisions": [
     {
@@ -2477,7 +2477,7 @@
       "order": 4,
       "individual": true,
       "athlete_count": 55,
-      "result_count": 14,
+      "result_count": 15,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -2750,10 +2750,10 @@
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 125,
+          "points": 126,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 6,
+              "position": 7,
               "time": 900000,
               "reps": 175,
               "tiebreak": 784000,
@@ -2802,16 +2802,16 @@
         },
         {
           "rank": 12,
-          "name": "Anna Smogorzewska",
-          "country": "PL",
-          "club": "",
-          "points": 172,
+          "name": "Natalie  Melzer",
+          "country": "DE",
+          "club": "Crossfit Kia Ora",
+          "points": 171,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 7,
-              "time": 900000,
-              "reps": 137,
-              "tiebreak": 900000,
+              "position": 6,
+              "time": 879000,
+              "reps": 0,
+              "tiebreak": 879000,
               "cap": false
             }
           }
@@ -2834,6 +2834,22 @@
         },
         {
           "rank": 14,
+          "name": "Anna Smogorzewska",
+          "country": "PL",
+          "club": "",
+          "points": 173,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 8,
+              "time": 900000,
+              "reps": 137,
+              "tiebreak": 900000,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 15,
           "name": "Imke Bruhns",
           "country": "DE",
           "club": "Crossfit Osmium",
@@ -2903,6 +2919,16 @@
           },
           {
             "rank": 6,
+            "name": "Natalie  Melzer",
+            "country": "DE",
+            "club": "Crossfit Kia Ora",
+            "time": 879000,
+            "reps": 0,
+            "tiebreak": 879000,
+            "cap": false
+          },
+          {
+            "rank": 7,
             "name": "Viktoria Schlammerl",
             "country": "DE",
             "club": "",
@@ -2912,7 +2938,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Anna Smogorzewska",
             "country": "PL",
             "club": "",
@@ -3975,7 +4001,7 @@
       "order": 6,
       "individual": true,
       "athlete_count": 51,
-      "result_count": 15,
+      "result_count": 16,
       "wods": [
         "GTD QWOD26.1 SC",
         "GTD QWOD26.2",
@@ -4424,6 +4450,22 @@
               "cap": false
             }
           }
+        },
+        {
+          "rank": 16,
+          "name": "Nicole Bredfeldt",
+          "country": "DE",
+          "club": "Trave CrossFit",
+          "points": 169,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 16,
+              "time": 452000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
         }
       ],
       "per_wod": {
@@ -4696,6 +4738,16 @@
             "country": "DE",
             "club": "",
             "time": 450000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 16,
+            "name": "Nicole Bredfeldt",
+            "country": "DE",
+            "club": "Trave CrossFit",
+            "time": 452000,
             "reps": 0,
             "tiebreak": 0,
             "cap": false
