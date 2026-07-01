@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-01T16:45:55Z",
-    "updated_at_readable": "2026-07-01 16:45 UTC"
+    "updated_at": "2026-07-01T17:35:20Z",
+    "updated_at_readable": "2026-07-01 17:35 UTC"
   },
   "divisions": [
     {
@@ -2476,7 +2476,7 @@
       "name": "Intermediate Female",
       "order": 4,
       "individual": true,
-      "athlete_count": 55,
+      "athlete_count": 56,
       "result_count": 15,
       "wods": [
         "GTD QWOD26.1",
@@ -2607,7 +2607,7 @@
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
-          "points": 65,
+          "points": 66,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -2637,7 +2637,7 @@
           "name": "Carina Frolov",
           "country": "DE",
           "club": "Peak Vitality",
-          "points": 66,
+          "points": 67,
           "wods": {
             "GTD QWOD26.1": {
               "position": 5,
@@ -2667,7 +2667,7 @@
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
-          "points": 75,
+          "points": 76,
           "wods": {
             "GTD QWOD26.2": {
               "position": 6,
@@ -2697,7 +2697,7 @@
           "name": "Pauline Sander",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 78,
+          "points": 79,
           "wods": {
             "GTD QWOD26.2": {
               "position": 8,
@@ -2727,7 +2727,7 @@
           "name": "Jana Zinnecker",
           "country": "DE",
           "club": "",
-          "points": 115,
+          "points": 117,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 2,
@@ -2750,7 +2750,7 @@
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 126,
+          "points": 128,
           "wods": {
             "GTD QWOD26.1": {
               "position": 7,
@@ -2773,7 +2773,7 @@
           "name": "Katharina Gärtner",
           "country": "DE",
           "club": "",
-          "points": 166,
+          "points": 169,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -2789,7 +2789,7 @@
           "name": "Valerie Coucouriki",
           "country": "DE",
           "club": "CrossFit Düsseldorf",
-          "points": 166,
+          "points": 169,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -2805,7 +2805,7 @@
           "name": "Natalie  Melzer",
           "country": "DE",
           "club": "Crossfit Kia Ora",
-          "points": 171,
+          "points": 174,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -2821,7 +2821,7 @@
           "name": "Lea Ilsen",
           "country": "DE",
           "club": "RedHawk CrossFit",
-          "points": 172,
+          "points": 175,
           "wods": {
             "GTD QWOD26.2": {
               "position": 7,
@@ -2837,7 +2837,7 @@
           "name": "Anna Smogorzewska",
           "country": "PL",
           "club": "",
-          "points": 173,
+          "points": 176,
           "wods": {
             "GTD QWOD26.1": {
               "position": 8,
@@ -2853,7 +2853,7 @@
           "name": "Imke Bruhns",
           "country": "DE",
           "club": "Crossfit Osmium",
-          "points": 175,
+          "points": 178,
           "wods": {
             "GTD QWOD26.2": {
               "position": 10,
@@ -8094,7 +8094,7 @@
       "order": 16,
       "individual": false,
       "athlete_count": 25,
-      "result_count": 0,
+      "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -8107,12 +8107,142 @@
         "GTD QWOD26.3 A": "Reps",
         "GTD QWOD26.3 B": "Kilograms"
       },
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "Girls against Thruster",
+          "country": "DE",
+          "club": "",
+          "points": 2,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 279,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Katharina Möhn",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 152,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Jana Blechschmidt",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 127,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 133,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Katharina Möhn",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 65,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Jana Blechschmidt",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 68,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "72bdc930-ee74-4465-a7a1-c5799046c9a5",
+              "name": "Katharina Möhn",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "f8b87d53-fe17-4591-b4be-b8a17a2acb3b",
+              "name": "Jana Blechschmidt",
+              "gender": "f"
+            }
+          ]
+        }
+      ],
       "per_wod": {
         "GTD QWOD26.1": [],
         "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A": [],
-        "GTD QWOD26.3 B": []
+        "GTD QWOD26.3 A": [
+          {
+            "rank": 1,
+            "name": "Girls against Thruster",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 279,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Katharina Möhn",
+                "gender": "f",
+                "time": 360000,
+                "reps": 152,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Jana Blechschmidt",
+                "gender": "f",
+                "time": 360000,
+                "reps": 127,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "Girls against Thruster",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 133,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Katharina Möhn",
+                "gender": "f",
+                "time": 300000,
+                "reps": 65,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Jana Blechschmidt",
+                "gender": "f",
+                "time": 300000,
+                "reps": 68,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          }
+        ]
       }
     },
     {
