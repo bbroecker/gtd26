@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-01T22:26:59Z",
-    "updated_at_readable": "2026-07-01 22:26 UTC"
+    "updated_at": "2026-07-01T23:27:41Z",
+    "updated_at_readable": "2026-07-01 23:27 UTC"
   },
   "divisions": [
     {
@@ -2604,6 +2604,43 @@
         },
         {
           "rank": 4,
+          "name": "Lea Ilsen",
+          "country": "DE",
+          "club": "RedHawk CrossFit",
+          "points": 26,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 9,
+              "time": 900000,
+              "reps": 119,
+              "tiebreak": 900000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 7,
+              "time": 511000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 7,
+              "time": null,
+              "reps": 119,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 86,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 5,
           "name": "Carina Frolov",
           "country": "DE",
           "club": "Peak Vitality",
@@ -2633,7 +2670,7 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
@@ -2657,36 +2694,6 @@
               "position": 5,
               "time": null,
               "reps": 83.5,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 6,
-          "name": "Lea Ilsen",
-          "country": "DE",
-          "club": "RedHawk CrossFit",
-          "points": 74,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 7,
-              "time": 511000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 7,
-              "time": null,
-              "reps": 119,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 3,
-              "time": null,
-              "reps": 86,
               "tiebreak": 0,
               "cap": false
             }
@@ -2958,6 +2965,16 @@
             "club": "",
             "time": 900000,
             "reps": 137,
+            "tiebreak": 900000,
+            "cap": false
+          },
+          {
+            "rank": 9,
+            "name": "Lea Ilsen",
+            "country": "DE",
+            "club": "RedHawk CrossFit",
+            "time": 900000,
+            "reps": 119,
             "tiebreak": 900000,
             "cap": false
           }
