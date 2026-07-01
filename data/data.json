@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-01T15:54:29Z",
-    "updated_at_readable": "2026-07-01 15:54 UTC"
+    "updated_at": "2026-07-01T16:45:55Z",
+    "updated_at_readable": "2026-07-01 16:45 UTC"
   },
   "divisions": [
     {
@@ -5135,14 +5135,21 @@
         },
         {
           "rank": 7,
-          "name": "Alain SCHANET",
-          "country": "LU",
-          "club": "ATHLETENFABRIK",
-          "points": 55,
+          "name": "BEN ROSS",
+          "country": "GB",
+          "club": "CrossFit Devils Path",
+          "points": 44,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": 900000,
+              "reps": 99,
+              "tiebreak": 900000,
+              "cap": false
+            },
             "GTD QWOD26.2": {
-              "position": 4,
-              "time": 343000,
+              "position": 7,
+              "time": 400000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -5151,14 +5158,14 @@
         },
         {
           "rank": 8,
-          "name": "BEN ROSS",
-          "country": "GB",
-          "club": "CrossFit Devils Path",
-          "points": 58,
+          "name": "Alain SCHANET",
+          "country": "LU",
+          "club": "ATHLETENFABRIK",
+          "points": 55,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
-              "time": 400000,
+              "position": 4,
+              "time": 343000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -5186,6 +5193,16 @@
             "time": 785000,
             "reps": null,
             "tiebreak": 641000,
+            "cap": false
+          },
+          {
+            "rank": 3,
+            "name": "BEN ROSS",
+            "country": "GB",
+            "club": "CrossFit Devils Path",
+            "time": 900000,
+            "reps": 99,
+            "tiebreak": 900000,
             "cap": false
           }
         ],
@@ -8385,10 +8402,131 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Warmup war schwerer",
+          "country": "DE",
+          "club": "CrossFit Pfalzschmiede",
+          "points": 9,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 2,
+              "time": 1670000,
+              "reps": null,
+              "tiebreak": 1278000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Janosch Janson",
+                  "gender": "m",
+                  "time": 879000,
+                  "reps": 0,
+                  "tiebreak": 677000,
+                  "cap": false
+                },
+                {
+                  "name": "Antje Langer",
+                  "gender": "f",
+                  "time": 791000,
+                  "reps": 0,
+                  "tiebreak": 601000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 736000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Janosch Janson",
+                  "gender": "m",
+                  "time": 365000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Antje Langer",
+                  "gender": "f",
+                  "time": 371000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
+              "time": null,
+              "reps": 221,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Janosch Janson",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 107,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Antje Langer",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 114,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 165,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Janosch Janson",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 100,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Antje Langer",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 65,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "ff1e67ec-3357-463b-989b-ea1785609a54",
+              "name": "Janosch Janson",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "a5674d96-adc7-4121-aa64-05b2fd478711",
+              "name": "Antje Langer",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 2,
           "name": "PS - Prepared to sweat",
           "country": "DE",
           "club": "CrossFit saarlouis",
-          "points": 15,
+          "points": 17,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 4,
@@ -8441,7 +8579,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 206,
               "tiebreak": null,
@@ -8466,7 +8604,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 120,
               "tiebreak": null,
@@ -8505,7 +8643,7 @@
           ]
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "No Limits Coaching",
           "country": "DE",
           "club": "Kings Avenue CrossFit",
@@ -8601,11 +8739,11 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Der Schöne und das Biescht",
           "country": "DE",
           "club": "RISE Functional Fitness",
-          "points": 27,
+          "points": 28,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
@@ -8658,7 +8796,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 142.5,
               "tiebreak": null,
@@ -8697,7 +8835,7 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Lift Me Baby One More Time",
           "country": "DE",
           "club": "CrossFit Recklinghausen",
@@ -8764,77 +8902,6 @@
               "athlete_id": "3cd3c3a6-7c00-48af-91d4-f9a400468bac",
               "name": "Philipp Teßner-Müller",
               "gender": "m"
-            }
-          ]
-        },
-        {
-          "rank": 5,
-          "name": "Warmup war schwerer",
-          "country": "DE",
-          "club": "CrossFit Pfalzschmiede",
-          "points": 42,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 2,
-              "time": 1670000,
-              "reps": null,
-              "tiebreak": 1278000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Janosch Janson",
-                  "gender": "m",
-                  "time": 879000,
-                  "reps": 0,
-                  "tiebreak": 677000,
-                  "cap": false
-                },
-                {
-                  "name": "Antje Langer",
-                  "gender": "f",
-                  "time": 791000,
-                  "reps": 0,
-                  "tiebreak": 601000,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.2": {
-              "position": 2,
-              "time": 736000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Janosch Janson",
-                  "gender": "m",
-                  "time": 365000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Antje Langer",
-                  "gender": "f",
-                  "time": 371000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "ff1e67ec-3357-463b-989b-ea1785609a54",
-              "name": "Janosch Janson",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "a5674d96-adc7-4121-aa64-05b2fd478711",
-              "name": "Antje Langer",
-              "gender": "f"
             }
           ]
         },
@@ -9201,6 +9268,34 @@
           },
           {
             "rank": 3,
+            "name": "Warmup war schwerer",
+            "country": "DE",
+            "club": "CrossFit Pfalzschmiede",
+            "time": null,
+            "reps": 221,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Janosch Janson",
+                "gender": "m",
+                "time": 360000,
+                "reps": 107,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Antje Langer",
+                "gender": "f",
+                "time": 360000,
+                "reps": 114,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 4,
             "name": "PS - Prepared to sweat",
             "country": "DE",
             "club": "CrossFit saarlouis",
@@ -9259,6 +9354,34 @@
           },
           {
             "rank": 2,
+            "name": "Warmup war schwerer",
+            "country": "DE",
+            "club": "CrossFit Pfalzschmiede",
+            "time": null,
+            "reps": 165,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Janosch Janson",
+                "gender": "m",
+                "time": 300000,
+                "reps": 100,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Antje Langer",
+                "gender": "f",
+                "time": 300000,
+                "reps": 65,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
             "name": "Der Schöne und das Biescht",
             "country": "DE",
             "club": "RISE Functional Fitness",
@@ -9286,7 +9409,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "PS - Prepared to sweat",
             "country": "DE",
             "club": "CrossFit saarlouis",
