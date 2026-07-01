@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-01T05:30:18Z",
-    "updated_at_readable": "2026-07-01 05:30 UTC"
+    "updated_at": "2026-07-01T07:25:05Z",
+    "updated_at_readable": "2026-07-01 07:25 UTC"
   },
   "divisions": [
     {
@@ -1522,6 +1522,36 @@
         },
         {
           "rank": 13,
+          "name": "Majid Al haddad",
+          "country": "IQ",
+          "club": "962 Compete",
+          "points": 136,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 20,
+              "time": 369000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 9,
+              "time": null,
+              "reps": 134,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 10,
+              "time": null,
+              "reps": 115,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 14,
           "name": "Tauno Randmaa",
           "country": "EE",
           "club": "CrossFit Viljandi",
@@ -1545,36 +1575,6 @@
               "position": 7,
               "time": null,
               "reps": 120,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 14,
-          "name": "Majid Al haddad",
-          "country": "IQ",
-          "club": "962 Compete",
-          "points": 138,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 20,
-              "time": 369000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 11,
-              "time": null,
-              "reps": 133,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 10,
-              "time": null,
-              "reps": 115,
               "tiebreak": 0,
               "cap": false
             }
@@ -2187,12 +2187,12 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 9,
             "name": "Majid Al haddad",
             "country": "IQ",
             "club": "962 Compete",
             "time": null,
-            "reps": 133,
+            "reps": 134,
             "tiebreak": 0,
             "cap": false
           },
@@ -6027,7 +6027,7 @@
       "name": "Elite Teams of 2 Male/Female",
       "order": 12,
       "individual": false,
-      "athlete_count": 8,
+      "athlete_count": 9,
       "result_count": 1,
       "wods": [
         "GTD QWOD26.1",
