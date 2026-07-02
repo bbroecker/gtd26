@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-02T11:46:34Z",
-    "updated_at_readable": "2026-07-02 11:46 UTC"
+    "updated_at": "2026-07-02T12:36:24Z",
+    "updated_at_readable": "2026-07-02 12:36 UTC"
   },
   "divisions": [
     {
@@ -12,7 +12,7 @@
       "order": 1,
       "individual": true,
       "athlete_count": 34,
-      "result_count": 9,
+      "result_count": 10,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -290,7 +290,7 @@
           "name": "Lennart Palausch",
           "country": "DE",
           "club": "Crossfit New Energy",
-          "points": 30,
+          "points": 31,
           "wods": {
             "GTD QWOD26.1": {
               "position": 9,
@@ -300,7 +300,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 9,
+              "position": 10,
               "time": 320000,
               "reps": 0,
               "tiebreak": 0,
@@ -339,6 +339,22 @@
             "GTD QWOD26.2": {
               "position": 7,
               "time": 303000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 10,
+          "name": "Tim Hönecke",
+          "country": "DE",
+          "club": "Argo Athletics",
+          "points": 111,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 9,
+              "time": 310000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -522,6 +538,16 @@
           },
           {
             "rank": 9,
+            "name": "Tim Hönecke",
+            "country": "DE",
+            "club": "Argo Athletics",
+            "time": 310000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 10,
             "name": "Lennart Palausch",
             "country": "DE",
             "club": "Crossfit New Energy",
@@ -1129,9 +1155,9 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
-              "time": 710000,
+              "time": 699000,
               "reps": null,
-              "tiebreak": 558000,
+              "tiebreak": 551000,
               "cap": false
             },
             "GTD QWOD26.2": {
@@ -1418,6 +1444,43 @@
         },
         {
           "rank": 10,
+          "name": "Tauno Randmaa",
+          "country": "EE",
+          "club": "CrossFit Viljandi",
+          "points": 56,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 15,
+              "time": 900000,
+              "reps": 81,
+              "tiebreak": 900000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 18,
+              "time": 342000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 16,
+              "time": null,
+              "reps": 113,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 7,
+              "time": null,
+              "reps": 120,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 11,
           "name": "Kai Stäblein",
           "country": "DE",
           "club": "CrossFit Black Arrow",
@@ -1454,7 +1517,7 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Kevin Späth",
           "country": "DE",
           "club": "",
@@ -1491,7 +1554,7 @@
           }
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Danil Zaripov",
           "country": "DE",
           "club": "",
@@ -1521,7 +1584,7 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Majid Al haddad",
           "country": "IQ",
           "club": "962 Compete",
@@ -1545,36 +1608,6 @@
               "position": 10,
               "time": null,
               "reps": 115,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 14,
-          "name": "Tauno Randmaa",
-          "country": "EE",
-          "club": "CrossFit Viljandi",
-          "points": 140,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 18,
-              "time": 342000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 16,
-              "time": null,
-              "reps": 113,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 7,
-              "time": null,
-              "reps": 120,
               "tiebreak": 0,
               "cap": false
             }
@@ -1916,9 +1949,9 @@
             "name": "Elouan Le Jan",
             "country": "FR",
             "club": "",
-            "time": 710000,
+            "time": 699000,
             "reps": null,
-            "tiebreak": 558000,
+            "tiebreak": 551000,
             "cap": false
           },
           {
@@ -2028,6 +2061,16 @@
             "club": "CrossFit Black Arrow",
             "time": 900000,
             "reps": 112,
+            "tiebreak": 900000,
+            "cap": false
+          },
+          {
+            "rank": 15,
+            "name": "Tauno Randmaa",
+            "country": "EE",
+            "club": "CrossFit Viljandi",
+            "time": 900000,
+            "reps": 81,
             "tiebreak": 900000,
             "cap": false
           }
@@ -8484,7 +8527,7 @@
       "order": 16,
       "individual": false,
       "athlete_count": 25,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -8500,10 +8543,131 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Box Paranoia",
+          "country": "DE",
+          "club": "Fitnessclub Kleegarten",
+          "points": 6,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": null,
+              "reps": 313,
+              "tiebreak": 1667000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 182,
+                  "tiebreak": 767000,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 131,
+                  "tiebreak": 900000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 978000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 465000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 513000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 245,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 139,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 106,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 155,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 80,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 75,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "546c4a88-28da-4a04-9579-756a35f919be",
+              "name": "Johanne Grün",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "d54ecac3-a638-46a4-9b8c-30146d707802",
+              "name": "Melina  Müller",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 2,
           "name": "Girls against Thruster",
           "country": "DE",
           "club": "",
-          "points": 27,
+          "points": 53,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
@@ -8531,7 +8695,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 1,
+              "position": 2,
               "time": null,
               "reps": 133,
               "tiebreak": null,
@@ -8570,11 +8734,11 @@
           ]
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Wings & Weights",
           "country": "DE",
           "club": "CrossFit 383",
-          "points": 51,
+          "points": 76,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -8645,9 +8809,66 @@
                 "cap": false
               }
             ]
+          },
+          {
+            "rank": 2,
+            "name": "Box Paranoia",
+            "country": "DE",
+            "club": "Fitnessclub Kleegarten",
+            "time": null,
+            "reps": 313,
+            "tiebreak": 1667000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Johanne Grün",
+                "gender": "f",
+                "time": 900000,
+                "reps": 182,
+                "tiebreak": 767000,
+                "cap": false
+              },
+              {
+                "name": "Melina  Müller",
+                "gender": "f",
+                "time": 900000,
+                "reps": 131,
+                "tiebreak": 900000,
+                "cap": false
+              }
+            ]
           }
         ],
-        "GTD QWOD26.2": [],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Box Paranoia",
+            "country": "DE",
+            "club": "Fitnessclub Kleegarten",
+            "time": 978000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Johanne Grün",
+                "gender": "f",
+                "time": 465000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Melina  Müller",
+                "gender": "f",
+                "time": 513000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          }
+        ],
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
@@ -8676,11 +8897,67 @@
                 "cap": false
               }
             ]
+          },
+          {
+            "rank": 2,
+            "name": "Box Paranoia",
+            "country": "DE",
+            "club": "Fitnessclub Kleegarten",
+            "time": null,
+            "reps": 245,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Johanne Grün",
+                "gender": "f",
+                "time": 360000,
+                "reps": 139,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Melina  Müller",
+                "gender": "f",
+                "time": 360000,
+                "reps": 106,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
           }
         ],
         "GTD QWOD26.3 B": [
           {
             "rank": 1,
+            "name": "Box Paranoia",
+            "country": "DE",
+            "club": "Fitnessclub Kleegarten",
+            "time": null,
+            "reps": 155,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Johanne Grün",
+                "gender": "f",
+                "time": 300000,
+                "reps": 80,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Melina  Müller",
+                "gender": "f",
+                "time": 300000,
+                "reps": 75,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 2,
             "name": "Girls against Thruster",
             "country": "DE",
             "club": "",
