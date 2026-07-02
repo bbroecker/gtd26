@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-02T15:44:45Z",
-    "updated_at_readable": "2026-07-02 15:44 UTC"
+    "updated_at": "2026-07-02T16:33:33Z",
+    "updated_at_readable": "2026-07-02 16:33 UTC"
   },
   "divisions": [
     {
@@ -5589,7 +5589,7 @@
       "order": 7,
       "individual": true,
       "athlete_count": 16,
-      "result_count": 7,
+      "result_count": 8,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -5679,10 +5679,47 @@
         },
         {
           "rank": 3,
+          "name": "Benito",
+          "country": "DE",
+          "club": "",
+          "points": 14,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 4,
+              "time": 900000,
+              "reps": 170,
+              "tiebreak": 808000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 281000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 3,
+              "time": null,
+              "reps": 136,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 4,
+              "time": null,
+              "reps": 123,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Ian Dieckmann",
           "country": "DE",
           "club": "CHLKD Crossfit Hagsfeld",
-          "points": 13,
+          "points": 15,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
@@ -5692,14 +5729,14 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 356000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 129,
               "tiebreak": 0,
@@ -5715,28 +5752,28 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Domenic Lembach",
           "country": "DE",
           "club": "",
-          "points": 30,
+          "points": 33,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 367000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 103,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 100,
               "tiebreak": 0,
@@ -5745,28 +5782,28 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Alexander Kenzler",
           "country": "DE",
           "club": "Lev Athletics Box",
-          "points": 32,
+          "points": 35,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 660000,
               "reps": 144,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 79,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 112,
               "tiebreak": 0,
@@ -5775,21 +5812,21 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "BEN ROSS",
           "country": "GB",
           "club": "CrossFit Devils Path",
-          "points": 42,
+          "points": 44,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": 900000,
               "reps": 99,
               "tiebreak": 900000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 400000,
               "reps": 0,
               "tiebreak": 0,
@@ -5798,14 +5835,14 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Alain SCHANET",
           "country": "LU",
           "club": "ATHLETENFABRIK",
-          "points": 51,
+          "points": 52,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 343000,
               "reps": 0,
               "tiebreak": 0,
@@ -5848,6 +5885,16 @@
           },
           {
             "rank": 4,
+            "name": "Benito",
+            "country": "DE",
+            "club": "",
+            "time": 900000,
+            "reps": 170,
+            "tiebreak": 808000,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "BEN ROSS",
             "country": "GB",
             "club": "CrossFit Devils Path",
@@ -5880,6 +5927,16 @@
           },
           {
             "rank": 3,
+            "name": "Benito",
+            "country": "DE",
+            "club": "",
+            "time": 281000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 4,
             "name": "Alain SCHANET",
             "country": "LU",
             "club": "ATHLETENFABRIK",
@@ -5889,7 +5946,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Ian Dieckmann",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
@@ -5899,7 +5956,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
@@ -5909,7 +5966,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "BEN ROSS",
             "country": "GB",
             "club": "CrossFit Devils Path",
@@ -5919,7 +5976,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -5952,6 +6009,16 @@
           },
           {
             "rank": 3,
+            "name": "Benito",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 136,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 4,
             "name": "Ian Dieckmann",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
@@ -5961,7 +6028,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
@@ -5971,7 +6038,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -6014,6 +6081,16 @@
           },
           {
             "rank": 4,
+            "name": "Benito",
+            "country": "DE",
+            "club": "",
+            "time": null,
+            "reps": 123,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "Alexander Kenzler",
             "country": "DE",
             "club": "Lev Athletics Box",
@@ -6023,7 +6100,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Domenic Lembach",
             "country": "DE",
             "club": "",
