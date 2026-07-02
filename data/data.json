@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-02T20:27:22Z",
-    "updated_at_readable": "2026-07-02 20:27 UTC"
+    "updated_at": "2026-07-02T21:24:12Z",
+    "updated_at_readable": "2026-07-02 21:24 UTC"
   },
   "divisions": [
     {
@@ -6926,7 +6926,7 @@
       "order": 10,
       "individual": true,
       "athlete_count": 20,
-      "result_count": 5,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -7082,6 +7082,22 @@
               "cap": false
             }
           }
+        },
+        {
+          "rank": 6,
+          "name": "Deniese Lee",
+          "country": "DE",
+          "club": "CrossFit Pfalzschmiede",
+          "points": 66,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 6,
+              "time": 489000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
         }
       ],
       "per_wod": {
@@ -7166,6 +7182,16 @@
             "time": 423000,
             "reps": null,
             "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 6,
+            "name": "Deniese Lee",
+            "country": "DE",
+            "club": "CrossFit Pfalzschmiede",
+            "time": 489000,
+            "reps": 0,
+            "tiebreak": 0,
             "cap": false
           }
         ],
