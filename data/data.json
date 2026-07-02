@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-02T17:31:43Z",
-    "updated_at_readable": "2026-07-02 17:31 UTC"
+    "updated_at": "2026-07-02T18:29:40Z",
+    "updated_at_readable": "2026-07-02 18:29 UTC"
   },
   "divisions": [
     {
@@ -6320,7 +6320,7 @@
       "order": 9,
       "individual": true,
       "athlete_count": 27,
-      "result_count": 6,
+      "result_count": 7,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -6339,7 +6339,7 @@
           "name": "Sébastien REMY",
           "country": "FR",
           "club": "",
-          "points": 9,
+          "points": 10,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -6349,7 +6349,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 299000,
               "reps": null,
               "tiebreak": null,
@@ -6376,7 +6376,7 @@
           "name": "james ferrell",
           "country": "DE",
           "club": "CrossFit Horde",
-          "points": 16,
+          "points": 17,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
@@ -6386,7 +6386,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 468000,
               "reps": null,
               "tiebreak": null,
@@ -6413,10 +6413,10 @@
           "name": "Amin Mirzaei",
           "country": "DE",
           "club": "",
-          "points": 31,
+          "points": 32,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 282000,
               "reps": 0,
               "tiebreak": 0,
@@ -6443,10 +6443,10 @@
           "name": "Dario Sarmadi",
           "country": "DE",
           "club": "Think Outside CrossFit",
-          "points": 33,
+          "points": 34,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 293000,
               "reps": 0,
               "tiebreak": 0,
@@ -6473,7 +6473,7 @@
           "name": "Oliver Malik",
           "country": "DE",
           "club": "",
-          "points": 60,
+          "points": 61,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -6483,7 +6483,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 397000,
               "reps": 0,
               "tiebreak": 0,
@@ -6493,13 +6493,29 @@
         },
         {
           "rank": 6,
+          "name": "Markus Höfling",
+          "country": "DE",
+          "club": "CrossFit Airfield",
+          "points": 82,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 281000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 7,
           "name": "Christopher Geissler",
           "country": "DE",
           "club": "",
-          "points": 87,
+          "points": 88,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 586000,
               "reps": 0,
               "tiebreak": 0,
@@ -6544,6 +6560,16 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "Markus Höfling",
+            "country": "DE",
+            "club": "CrossFit Airfield",
+            "time": 281000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 2,
             "name": "Amin Mirzaei",
             "country": "DE",
             "club": "",
@@ -6553,7 +6579,7 @@
             "cap": false
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Dario Sarmadi",
             "country": "DE",
             "club": "Think Outside CrossFit",
@@ -6563,7 +6589,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Sébastien REMY",
             "country": "FR",
             "club": "",
@@ -6573,7 +6599,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Oliver Malik",
             "country": "DE",
             "club": "",
@@ -6583,7 +6609,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "james ferrell",
             "country": "DE",
             "club": "CrossFit Horde",
@@ -6593,7 +6619,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Christopher Geissler",
             "country": "DE",
             "club": "",
