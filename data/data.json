@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-02T09:01:07Z",
-    "updated_at_readable": "2026-07-02 09:01 UTC"
+    "updated_at": "2026-07-02T10:52:54Z",
+    "updated_at_readable": "2026-07-02 10:52 UTC"
   },
   "divisions": [
     {
@@ -11,7 +11,7 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 33,
+      "athlete_count": 34,
       "result_count": 9,
       "wods": [
         "GTD QWOD26.1",
@@ -327,7 +327,7 @@
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 78,
+          "points": 80,
           "wods": {
             "GTD QWOD26.1": {
               "position": 5,
@@ -1344,43 +1344,6 @@
         },
         {
           "rank": 8,
-          "name": "Jannis Weis",
-          "country": "DE",
-          "club": "CrossFit Kirkel",
-          "points": 47,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 9,
-              "time": 884000,
-              "reps": null,
-              "tiebreak": 660000,
-              "cap": false
-            },
-            "GTD QWOD26.2": {
-              "position": 17,
-              "time": 338000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 7,
-              "time": null,
-              "reps": 140,
-              "tiebreak": null,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 14,
-              "time": null,
-              "reps": 100,
-              "tiebreak": null,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 9,
           "name": "Wesley van Wijk",
           "country": "NL",
           "club": "",
@@ -1417,11 +1380,48 @@
           }
         },
         {
+          "rank": 9,
+          "name": "Jannis Weis",
+          "country": "DE",
+          "club": "CrossFit Kirkel",
+          "points": 48,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 9,
+              "time": 884000,
+              "reps": null,
+              "tiebreak": 660000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 17,
+              "time": 338000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 7,
+              "time": null,
+              "reps": 140,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 15,
+              "time": null,
+              "reps": 100,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
           "rank": 10,
           "name": "Kai Stäblein",
           "country": "DE",
           "club": "CrossFit Black Arrow",
-          "points": 55,
+          "points": 57,
           "wods": {
             "GTD QWOD26.1": {
               "position": 14,
@@ -1438,14 +1438,14 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 13,
+              "position": 14,
               "time": null,
               "reps": 117,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 14,
+              "position": 15,
               "time": null,
               "reps": 100,
               "tiebreak": 0,
@@ -1458,7 +1458,7 @@
           "name": "Kevin Späth",
           "country": "DE",
           "club": "",
-          "points": 55,
+          "points": 57,
           "wods": {
             "GTD QWOD26.1": {
               "position": 8,
@@ -1475,14 +1475,14 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 14,
+              "position": 15,
               "time": null,
               "reps": 114,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 14,
+              "position": 15,
               "time": null,
               "reps": 100,
               "tiebreak": 0,
@@ -1555,7 +1555,7 @@
           "name": "Tauno Randmaa",
           "country": "EE",
           "club": "CrossFit Viljandi",
-          "points": 139,
+          "points": 140,
           "wods": {
             "GTD QWOD26.2": {
               "position": 18,
@@ -1565,7 +1565,7 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 15,
+              "position": 16,
               "time": null,
               "reps": 113,
               "tiebreak": 0,
@@ -1582,10 +1582,40 @@
         },
         {
           "rank": 15,
+          "name": "Sascha Nowakewitz",
+          "country": "DE",
+          "club": "CrossFit Oldenburg GmbH",
+          "points": 142,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 16,
+              "time": 335000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 13,
+              "time": null,
+              "reps": 120,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 14,
+              "time": null,
+              "reps": 101,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 16,
           "name": "Björn Werle",
           "country": "DE",
           "club": "CrossFit Crefeld",
-          "points": 150,
+          "points": 151,
           "wods": {
             "GTD QWOD26.2": {
               "position": 22,
@@ -1595,7 +1625,7 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 16,
+              "position": 17,
               "time": null,
               "reps": 108,
               "tiebreak": 0,
@@ -1611,11 +1641,11 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Junior  Osei",
           "country": "DE",
           "club": "CrossFit Landsberg am Lech",
-          "points": 153,
+          "points": 154,
           "wods": {
             "GTD QWOD26.2": {
               "position": 25,
@@ -1625,7 +1655,7 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 19,
+              "position": 20,
               "time": null,
               "reps": 75,
               "tiebreak": 0,
@@ -1641,11 +1671,11 @@
           }
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Kirsten Bauer",
           "country": "DE",
           "club": "",
-          "points": 158,
+          "points": 160,
           "wods": {
             "GTD QWOD26.2": {
               "position": 23,
@@ -1655,14 +1685,14 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 18,
+              "position": 19,
               "time": null,
               "reps": 84,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 18,
+              "position": 19,
               "time": null,
               "reps": 85,
               "tiebreak": 0,
@@ -1671,7 +1701,7 @@
           }
         },
         {
-          "rank": 18,
+          "rank": 19,
           "name": "Konstantinos Pitoglou",
           "country": "GR",
           "club": "",
@@ -1694,7 +1724,7 @@
           }
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Mesut Schedler",
           "country": "DE",
           "club": "Amboss Athletics",
@@ -1717,11 +1747,11 @@
           }
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Koray Aydogdu",
           "country": "DE",
           "club": "",
-          "points": 222,
+          "points": 223,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 7,
@@ -1731,7 +1761,7 @@
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 90,
               "tiebreak": 0,
@@ -1740,21 +1770,21 @@
           }
         },
         {
-          "rank": 21,
+          "rank": 22,
           "name": "Daniel Rath",
           "country": "DE",
           "club": "",
-          "points": 234,
+          "points": 236,
           "wods": {
             "GTD QWOD26.3 A": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 96,
               "tiebreak": null,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 19,
+              "position": 20,
               "time": null,
               "reps": 80,
               "tiebreak": null,
@@ -1763,7 +1793,7 @@
           }
         },
         {
-          "rank": 22,
+          "rank": 23,
           "name": "Ole Staker",
           "country": "DE",
           "club": "CrossFit Aorta",
@@ -1779,7 +1809,7 @@
           }
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "Florian Genevet",
           "country": "FR",
           "club": "",
@@ -1795,7 +1825,7 @@
           }
         },
         {
-          "rank": 24,
+          "rank": 25,
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
@@ -1811,7 +1841,7 @@
           }
         },
         {
-          "rank": 25,
+          "rank": 26,
           "name": "Piotr Bylina",
           "country": "PL",
           "club": "",
@@ -1827,7 +1857,7 @@
           }
         },
         {
-          "rank": 26,
+          "rank": 27,
           "name": "Tobias VB",
           "country": "BE",
           "club": "",
@@ -1836,22 +1866,6 @@
             "GTD QWOD26.2": {
               "position": 11,
               "time": 314000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 27,
-          "name": "Sascha Nowakewitz",
-          "country": "DE",
-          "club": "CrossFit Oldenburg GmbH",
-          "points": 313,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 16,
-              "time": 335000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -2393,6 +2407,16 @@
           },
           {
             "rank": 13,
+            "name": "Sascha Nowakewitz",
+            "country": "DE",
+            "club": "CrossFit Oldenburg GmbH",
+            "time": null,
+            "reps": 120,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 14,
             "name": "Kai Stäblein",
             "country": "DE",
             "club": "CrossFit Black Arrow",
@@ -2402,7 +2426,7 @@
             "cap": false
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -2412,7 +2436,7 @@
             "cap": false
           },
           {
-            "rank": 15,
+            "rank": 16,
             "name": "Tauno Randmaa",
             "country": "EE",
             "club": "CrossFit Viljandi",
@@ -2422,7 +2446,7 @@
             "cap": false
           },
           {
-            "rank": 16,
+            "rank": 17,
             "name": "Björn Werle",
             "country": "DE",
             "club": "CrossFit Crefeld",
@@ -2432,7 +2456,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Daniel Rath",
             "country": "DE",
             "club": "",
@@ -2442,7 +2466,7 @@
             "cap": false
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "Kirsten Bauer",
             "country": "DE",
             "club": "",
@@ -2452,7 +2476,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Junior  Osei",
             "country": "DE",
             "club": "CrossFit Landsberg am Lech",
@@ -2595,6 +2619,16 @@
           },
           {
             "rank": 14,
+            "name": "Sascha Nowakewitz",
+            "country": "DE",
+            "club": "CrossFit Oldenburg GmbH",
+            "time": null,
+            "reps": 101,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 15,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -2604,7 +2638,7 @@
             "cap": false
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Kai Stäblein",
             "country": "DE",
             "club": "CrossFit Black Arrow",
@@ -2614,7 +2648,7 @@
             "cap": false
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Jannis Weis",
             "country": "DE",
             "club": "CrossFit Kirkel",
@@ -2624,7 +2658,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Koray Aydogdu",
             "country": "DE",
             "club": "",
@@ -2634,7 +2668,7 @@
             "cap": false
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "Kirsten Bauer",
             "country": "DE",
             "club": "",
@@ -2644,7 +2678,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Daniel Rath",
             "country": "DE",
             "club": "",
@@ -2661,7 +2695,7 @@
       "name": "Intermediate Female",
       "order": 4,
       "individual": true,
-      "athlete_count": 57,
+      "athlete_count": 58,
       "result_count": 16,
       "wods": [
         "GTD QWOD26.1",
@@ -2829,7 +2863,7 @@
           "name": "Carina Frolov",
           "country": "DE",
           "club": "Peak Vitality",
-          "points": 68,
+          "points": 69,
           "wods": {
             "GTD QWOD26.1": {
               "position": 5,
@@ -2859,7 +2893,7 @@
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
-          "points": 68,
+          "points": 69,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -2889,7 +2923,7 @@
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
-          "points": 80,
+          "points": 81,
           "wods": {
             "GTD QWOD26.2": {
               "position": 7,
@@ -2919,7 +2953,7 @@
           "name": "Pauline Sander",
           "country": "DE",
           "club": "ELVT Athletics",
-          "points": 83,
+          "points": 84,
           "wods": {
             "GTD QWOD26.2": {
               "position": 9,
@@ -2949,7 +2983,7 @@
           "name": "Jana Zinnecker",
           "country": "DE",
           "club": "",
-          "points": 120,
+          "points": 122,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 2,
@@ -2972,7 +3006,7 @@
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
-          "points": 131,
+          "points": 133,
           "wods": {
             "GTD QWOD26.1": {
               "position": 7,
@@ -2995,7 +3029,7 @@
           "name": "Katharina Gärtner",
           "country": "DE",
           "club": "",
-          "points": 172,
+          "points": 175,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -3011,7 +3045,7 @@
           "name": "Valerie Coucouriki",
           "country": "DE",
           "club": "CrossFit Düsseldorf",
-          "points": 172,
+          "points": 175,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -3027,7 +3061,7 @@
           "name": "Natalie  Melzer",
           "country": "DE",
           "club": "Crossfit Kia Ora",
-          "points": 177,
+          "points": 180,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -3043,7 +3077,7 @@
           "name": "Selina Keppler",
           "country": "DE",
           "club": "Crossfit Barbell Bros",
-          "points": 177,
+          "points": 180,
           "wods": {
             "GTD QWOD26.2": {
               "position": 6,
@@ -3059,7 +3093,7 @@
           "name": "Anna Smogorzewska",
           "country": "PL",
           "club": "",
-          "points": 179,
+          "points": 182,
           "wods": {
             "GTD QWOD26.1": {
               "position": 8,
@@ -3075,7 +3109,7 @@
           "name": "Imke Bruhns",
           "country": "DE",
           "club": "Crossfit Osmium",
-          "points": 182,
+          "points": 185,
           "wods": {
             "GTD QWOD26.2": {
               "position": 11,
@@ -5357,8 +5391,15 @@
           "name": "Ian Dieckmann",
           "country": "DE",
           "club": "CHLKD Crossfit Hagsfeld",
-          "points": 26,
+          "points": 13,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": 900000,
+              "reps": 176,
+              "tiebreak": 765000,
+              "cap": false
+            },
             "GTD QWOD26.2": {
               "position": 4,
               "time": 356000,
@@ -5447,10 +5488,10 @@
           "name": "BEN ROSS",
           "country": "GB",
           "club": "CrossFit Devils Path",
-          "points": 41,
+          "points": 42,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": 900000,
               "reps": 99,
               "tiebreak": 900000,
@@ -5506,6 +5547,16 @@
           },
           {
             "rank": 3,
+            "name": "Ian Dieckmann",
+            "country": "DE",
+            "club": "CHLKD Crossfit Hagsfeld",
+            "time": 900000,
+            "reps": 176,
+            "tiebreak": 765000,
+            "cap": false
+          },
+          {
+            "rank": 4,
             "name": "BEN ROSS",
             "country": "GB",
             "club": "CrossFit Devils Path",
@@ -5886,7 +5937,7 @@
           "name": "Sébastien REMY",
           "country": "FR",
           "club": "",
-          "points": 8,
+          "points": 9,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -5896,7 +5947,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 299000,
               "reps": null,
               "tiebreak": null,
@@ -5923,7 +5974,7 @@
           "name": "james ferrell",
           "country": "DE",
           "club": "CrossFit Horde",
-          "points": 15,
+          "points": 16,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
@@ -5933,7 +5984,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 468000,
               "reps": null,
               "tiebreak": null,
@@ -5957,6 +6008,36 @@
         },
         {
           "rank": 3,
+          "name": "Amin Mirzaei",
+          "country": "DE",
+          "club": "",
+          "points": 32,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 295000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 142,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 128,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 4,
           "name": "Dario Sarmadi",
           "country": "DE",
           "club": "Think Outside CrossFit",
@@ -5986,34 +6067,11 @@
           }
         },
         {
-          "rank": 4,
-          "name": "Amin Mirzaei",
-          "country": "DE",
-          "club": "",
-          "points": 57,
-          "wods": {
-            "GTD QWOD26.3 A": {
-              "position": 2,
-              "time": null,
-              "reps": 142,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 1,
-              "time": null,
-              "reps": 128,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
           "rank": 5,
           "name": "Oliver Malik",
           "country": "DE",
           "club": "",
-          "points": 59,
+          "points": 60,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -6023,7 +6081,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 397000,
               "reps": 0,
               "tiebreak": 0,
@@ -6036,10 +6094,10 @@
           "name": "Christopher Geissler",
           "country": "DE",
           "club": "",
-          "points": 86,
+          "points": 87,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 586000,
               "reps": 0,
               "tiebreak": 0,
@@ -6094,6 +6152,16 @@
           },
           {
             "rank": 2,
+            "name": "Amin Mirzaei",
+            "country": "DE",
+            "club": "",
+            "time": 295000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 3,
             "name": "Sébastien REMY",
             "country": "FR",
             "club": "",
@@ -6103,7 +6171,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Oliver Malik",
             "country": "DE",
             "club": "",
@@ -6113,7 +6181,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "james ferrell",
             "country": "DE",
             "club": "CrossFit Horde",
@@ -6123,7 +6191,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Christopher Geissler",
             "country": "DE",
             "club": "",
