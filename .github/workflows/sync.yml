@@ -29,7 +29,7 @@ jobs:
 
       - name: Fetch leaderboard data
         env:
-          CIRCLE21_TOKEN: ${{ secrets.CIRCLE21_TOKEN }}
+          API_TOKEN: ${{ secrets.CIRCLE21_TOKEN }}
         run: python3 fetch.py
 
       - name: Commit & push data.json

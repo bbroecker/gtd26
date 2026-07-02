@@ -6,7 +6,7 @@ Usage:
     python3 fetch.py
 
 Token:
-    Set CIRCLE21_TOKEN env var, or replace the placeholder below.
+    Set API_TOKEN env var, or replace the placeholder below.
     Token expires: ~2027-05-04 (exp field in JWT).
 """
 
@@ -22,12 +22,13 @@ from datetime import datetime, timezone
 # Configuration
 # ---------------------------------------------------------------------------
 TOKEN = os.environ.get(
+    "API_TOKEN",
+) or os.environ.get(
     "CIRCLE21_TOKEN",
     "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODlmMDRjZC1iNWRhLTQ2ZTUtOTg0Yy1kYjU3YmIxOWNlZjIiLCJqdGkiOiJmZDE1NzM3MDM2YTczYWIyZTY4MjAyNmQ4YmJiMzdlNDVhNjY0YjlkZmM5YzI5YmFjZWFlMGIzNzZhYTdjZjM0ODZhZGM2ODhlYThmZmMyNiIsImlhdCI6MTc3Mjk4NjU5MC44NzI1MiwibmJmIjoxNzcyOTg2NTkwLjg3MjUyMywiZXhwIjoxODA0NTIyNTkwLjg2NjUzNywic3ViIjoiMzA1Y2M1ZGItMGNmMS00MzFiLThjYzktYjg5MWFiOWQwMzNmIiwic2NvcGVzIjpbXX0.qTGPTD2SmVhihQgeX_yYEjNXU8wuyXJOrm9OliEbWNUf48LoY1xRONGjtIQPbdVdk-7Ye2kpvyNOfdrT7N8dKCWPIht9wLXafasFGF4qRrdD-EPxPuR6Ygxvu-tmlrDEbTj9mF94bucWuil83cXfAVAYrTyGITa-mK26bPIBHGC-Wbk0VJzDGL9a4oiQEo_RDHyh3MOrkA_iralEStNYfdZ-jF8nJVsPkeWVcPYnyZK1Ar0NuIFD0yIEhGbaJKbZu8RoJDgFwAk2aRyrAhVSc1cRg6tF49VAISJAk-KGJr4Bs7Yw7rop89dOVdzh-ZeyqLvdMR4tpQzpt8t7Y6KSXl9Rmq9OYuOThfavvqir5CqCQmYWixy2yrXHwcqhBcVk0SvajUmRuKrDyqPrcv5xWFQjcDD_rYFPj355FQoZDmbqyhsp2P7NRMlXdCjWtwInnOQ2q1zGKnaXATkD1yHMD_C3bTqlxLLQy2odTQmX9U6Ggp8B6ZEvyL2GICEL7ZFT427M3O0WJhDSPRpR2w9K1bIyoRGzPy2t_aOfLwqoD3x-PxljIfB1O6hxbf1kSz3oeWjVvBkTm48V48v2fwgfubSiclm8hLn3wHErSj_u6LY8gQR42DSKGDHpSZVw8W0TNQ8RGTcwOs5WDnlh0FG5WAWc1CWXBvTVlSkXF3IIb6M",
 )
 COMPETITION_ID = "cd3809c9-4aae-43bd-9d78-53c3b19b97c9"
 API_BASE = "https://api.circle21.events/api"
-TOP_N = 20
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "data", "data.json")
 
 HDR = {
@@ -48,7 +49,7 @@ def get(url, retries=3):
         except urllib.error.HTTPError as e:
             print(f"  HTTP {e.code} for {url}")
             if e.code == 401:
-                print("  ❌ Unauthorized — token may be expired. Update CIRCLE21_TOKEN.")
+                print("  ❌ Unauthorized — token may be expired. Update API_TOKEN.")
                 sys.exit(1)
             if attempt == retries - 1:
                 raise
@@ -166,7 +167,7 @@ def fetch_all():
                 wk_participants = workout_entry.get("teams", workout_entry.get("athletes", []))
                 if isinstance(wk_participants, dict):
                     wk_participants = list(wk_participants.values())
-                # Position map: athlete_id -> position (Circle21 pre-computed)
+                # Position map: athlete_id -> position (pre-computed by platform)
                 pos_map = {
                     a["id"]: a.get("position")
                     for a in wk_participants
@@ -204,7 +205,7 @@ def fetch_all():
                         "cap": score["cap"],
                     }
                     wod_ranked.append(entry)
-                per_wod[wname] = wod_ranked[:TOP_N]
+                per_wod[wname] = wod_ranked
 
         # ---- Overall top-20 ----
         # Build per-WOD position + score lookup (only for athletes with results)
@@ -303,7 +304,7 @@ def fetch_all():
                     print(f"     ⚠️  Members for {team.get('name')}: {e}")
 
         overall_top20 = []
-        for rank, athlete in enumerate(ranked_athletes[:TOP_N], 1):
+        for rank, athlete in enumerate(ranked_athletes, 1):
             wod_data = {}
             for wname in wod_names:
                 pos = wod_pos_maps.get(wname, {}).get(athlete["id"])
