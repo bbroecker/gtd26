@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-03T22:20:21Z",
-    "updated_at_readable": "2026-07-03 22:20 UTC"
+    "updated_at": "2026-07-03T23:21:26Z",
+    "updated_at_readable": "2026-07-03 23:21 UTC"
   },
   "divisions": [
     {
@@ -11,7 +11,7 @@
       "name": "Elite Male",
       "order": 1,
       "individual": true,
-      "athlete_count": 38,
+      "athlete_count": 39,
       "result_count": 13,
       "wods": [
         "GTD QWOD26.1",
@@ -361,36 +361,6 @@
         },
         {
           "rank": 10,
-          "name": "Filip Mickiewicz",
-          "country": "PL",
-          "club": "",
-          "points": 46,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 1,
-              "time": 244000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 5,
-              "time": null,
-              "reps": 152,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 2,
-              "time": null,
-              "reps": 161,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 11,
           "name": "Robin saidane",
           "country": "BE",
           "club": "",
@@ -427,11 +397,41 @@
           }
         },
         {
+          "rank": 11,
+          "name": "Filip Mickiewicz",
+          "country": "PL",
+          "club": "",
+          "points": 47,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 244000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 5,
+              "time": null,
+              "reps": 152,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 161,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
           "rank": 12,
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 91,
+          "points": 93,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -454,7 +454,7 @@
           "name": "Tim Hönecke",
           "country": "DE",
           "club": "Argo Athletics",
-          "points": 125,
+          "points": 128,
           "wods": {
             "GTD QWOD26.2": {
               "position": 11,
