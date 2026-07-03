@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-03T09:01:00Z",
-    "updated_at_readable": "2026-07-03 09:01 UTC"
+    "updated_at": "2026-07-03T10:52:08Z",
+    "updated_at_readable": "2026-07-03 10:52 UTC"
   },
   "divisions": [
     {
@@ -4964,7 +4964,7 @@
       "name": "Scaled Female",
       "order": 6,
       "individual": true,
-      "athlete_count": 51,
+      "athlete_count": 52,
       "result_count": 16,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -5280,7 +5280,7 @@
           "name": "Sandra Baldauf",
           "country": "DE",
           "club": "360 Functional",
-          "points": 63,
+          "points": 64,
           "wods": {
             "GTD QWOD26.2": {
               "position": 5,
@@ -5310,7 +5310,7 @@
           "name": "Tabea Bütefür",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 109,
+          "points": 111,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 4,
@@ -5333,7 +5333,7 @@
           "name": "Inka Schmidt",
           "country": "DE",
           "club": "CrossFit Ahoi",
-          "points": 113,
+          "points": 115,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 5,
@@ -5356,7 +5356,7 @@
           "name": "Lisa Pitschmann",
           "country": "DE",
           "club": "CrossFit Barleben",
-          "points": 122,
+          "points": 124,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 8,
@@ -5379,7 +5379,7 @@
           "name": "Zoe Krause",
           "country": "DE",
           "club": "THORTRAINING",
-          "points": 123,
+          "points": 125,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 11,
@@ -5402,7 +5402,7 @@
           "name": "Helen Kruse",
           "country": "DE",
           "club": "CrossFit Seven Lakes",
-          "points": 124,
+          "points": 126,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 12,
@@ -5425,7 +5425,7 @@
           "name": "celine rueher",
           "country": "FR",
           "club": "CrossFit Grillen",
-          "points": 166,
+          "points": 169,
           "wods": {
             "GTD QWOD26.2": {
               "position": 13,
@@ -5441,7 +5441,7 @@
           "name": "Nicole Bredfeldt",
           "country": "DE",
           "club": "Trave CrossFit",
-          "points": 169,
+          "points": 172,
           "wods": {
             "GTD QWOD26.2": {
               "position": 16,
@@ -8876,7 +8876,7 @@
       "order": 15,
       "individual": false,
       "athlete_count": 30,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -8895,7 +8895,7 @@
           "name": "Denji & Power",
           "country": "DE",
           "club": "CrossFit Kupferstadt",
-          "points": 9,
+          "points": 10,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -8923,7 +8923,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 848000,
               "reps": null,
               "tiebreak": null,
@@ -9205,13 +9205,59 @@
         },
         {
           "rank": 4,
+          "name": "BarbellBuddies",
+          "country": "DE",
+          "club": "",
+          "points": 93,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 3,
+              "time": 837000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Adelina Dartsch-Kautz",
+                  "gender": "f",
+                  "time": 444000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Denny Dartsch",
+                  "gender": "m",
+                  "time": 393000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "b630a0d2-6a80-45fc-848d-2be36732bdb9",
+              "name": "Adelina Dartsch-Kautz",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "cd890606-bf07-49b9-94fe-cf37ec6c16a7",
+              "name": "Denny Dartsch",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 5,
           "name": "Schicht im Schacht",
           "country": "DE",
           "club": "CrossFit Kohlestollen",
-          "points": 94,
+          "points": 95,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 865000,
               "reps": null,
               "tiebreak": null,
@@ -9340,6 +9386,34 @@
           },
           {
             "rank": 3,
+            "name": "BarbellBuddies",
+            "country": "DE",
+            "club": "",
+            "time": 837000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Adelina Dartsch-Kautz",
+                "gender": "f",
+                "time": 444000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Denny Dartsch",
+                "gender": "m",
+                "time": 393000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 4,
             "name": "Denji & Power",
             "country": "DE",
             "club": "CrossFit Kupferstadt",
@@ -9367,7 +9441,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Schicht im Schacht",
             "country": "DE",
             "club": "CrossFit Kohlestollen",
