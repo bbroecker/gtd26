@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-04T03:01:15Z",
-    "updated_at_readable": "2026-07-04 03:01 UTC"
+    "updated_at": "2026-07-04T05:14:26Z",
+    "updated_at_readable": "2026-07-04 05:14 UTC"
   },
   "divisions": [
     {
@@ -9017,7 +9017,7 @@
       "order": 14,
       "individual": false,
       "athlete_count": 26,
-      "result_count": 5,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -9278,10 +9278,10 @@
           "name": "Old Fuel - New Engine",
           "country": "DE",
           "club": "CrossFit saarlouis",
-          "points": 13,
+          "points": 14,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 272,
               "tiebreak": 1535000,
@@ -9399,10 +9399,10 @@
           "name": "🇧🇷 1 zu 7 🇩🇪",
           "country": "BR",
           "club": "Neumünster Crossfit",
-          "points": 16,
+          "points": 17,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 295,
               "tiebreak": 1739000,
@@ -9520,10 +9520,10 @@
           "name": "Chalk the law",
           "country": "DE",
           "club": "Crossfit Wuid",
-          "points": 58,
+          "points": 59,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 290,
               "tiebreak": 1783000,
@@ -9582,6 +9582,52 @@
             {
               "athlete_id": "5ec3e8d9-a2cb-4809-8b55-c9eb4c4f215a",
               "name": "Christoph Callegari",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "name": "Die gebrochenen Brüder",
+          "country": "CH",
+          "club": "",
+          "points": 81,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": null,
+              "reps": 308,
+              "tiebreak": 1800000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Oktay Celebioglu",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 122,
+                  "tiebreak": 900000,
+                  "cap": false
+                },
+                {
+                  "name": "Volkan Gülen",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 186,
+                  "tiebreak": 900000,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "3b7d5fd1-885d-4e82-ae14-642aa053e52a",
+              "name": "Oktay Celebioglu",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "72c0a1b7-677d-499b-978f-1c4a25aff79e",
+              "name": "Volkan Gülen",
               "gender": "m"
             }
           ]
@@ -9647,6 +9693,34 @@
           },
           {
             "rank": 3,
+            "name": "Die gebrochenen Brüder",
+            "country": "CH",
+            "club": "",
+            "time": null,
+            "reps": 308,
+            "tiebreak": 1800000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Oktay Celebioglu",
+                "gender": "m",
+                "time": 900000,
+                "reps": 122,
+                "tiebreak": 900000,
+                "cap": false
+              },
+              {
+                "name": "Volkan Gülen",
+                "gender": "m",
+                "time": 900000,
+                "reps": 186,
+                "tiebreak": 900000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 4,
             "name": "🇧🇷 1 zu 7 🇩🇪",
             "country": "BR",
             "club": "Neumünster Crossfit",
@@ -9674,7 +9748,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Chalk the law",
             "country": "DE",
             "club": "Crossfit Wuid",
@@ -9702,7 +9776,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Old Fuel - New Engine",
             "country": "DE",
             "club": "CrossFit saarlouis",
