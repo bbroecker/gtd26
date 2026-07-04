@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-04T22:17:17Z",
-    "updated_at_readable": "2026-07-04 22:17 UTC"
+    "updated_at": "2026-07-04T23:19:01Z",
+    "updated_at_readable": "2026-07-04 23:19 UTC"
   },
   "divisions": [
     {
@@ -11469,7 +11469,7 @@
       "order": 15,
       "individual": false,
       "athlete_count": 30,
-      "result_count": 8,
+      "result_count": 9,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -11606,13 +11606,134 @@
         },
         {
           "rank": 2,
+          "name": "190kg+",
+          "country": "DE",
+          "club": "Crossfit Ostfildern",
+          "points": 14,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": null,
+              "reps": 145,
+              "tiebreak": 1457000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Laura Lucrezia",
+                  "gender": "f",
+                  "time": 691000,
+                  "reps": 0,
+                  "tiebreak": 571000,
+                  "cap": false
+                },
+                {
+                  "name": "Manuel Walz",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 145,
+                  "tiebreak": 886000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 786000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Laura Lucrezia",
+                  "gender": "f",
+                  "time": 427000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Manuel Walz",
+                  "gender": "m",
+                  "time": 359000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 4,
+              "time": null,
+              "reps": 274,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Laura Lucrezia",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 136,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Manuel Walz",
+                  "gender": "m",
+                  "time": null,
+                  "reps": 138,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 4,
+              "time": null,
+              "reps": 195.5,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Laura Lucrezia",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 85.5,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Manuel Walz",
+                  "gender": "m",
+                  "time": null,
+                  "reps": 110,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "f0646d6f-e30e-417b-b7fd-5c217e206331",
+              "name": "Laura Lucrezia",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "969af63a-b974-4044-b5ef-10688bb5ab90",
+              "name": "Manuel Walz",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 3,
           "name": "Denji & Power",
           "country": "DE",
           "club": "CrossFit Kupferstadt",
-          "points": 20,
+          "points": 24,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 311,
               "tiebreak": 1676000,
@@ -11637,7 +11758,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 848000,
               "reps": null,
               "tiebreak": null,
@@ -11662,7 +11783,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 229,
               "tiebreak": null,
@@ -11687,7 +11808,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 192.5,
               "tiebreak": null,
@@ -11726,107 +11847,11 @@
           ]
         },
         {
-          "rank": 3,
-          "name": "Abi‘s",
-          "country": "DE",
-          "club": "CrossFit Zugkraft",
-          "points": 37,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 2,
-              "time": null,
-              "reps": 125,
-              "tiebreak": 1472000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Nico Abele",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 125,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Gina Abele",
-                  "gender": "f",
-                  "time": 726000,
-                  "reps": 0,
-                  "tiebreak": 572000,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 A": {
-              "position": 1,
-              "time": null,
-              "reps": 309,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Nico Abele",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 143,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Gina Abele",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 166,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 B": {
-              "position": 4,
-              "time": null,
-              "reps": 195,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Nico Abele",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 110,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Gina Abele",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 85,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "ff0cb58a-d20a-48c6-8215-39e0bab1d01e",
-              "name": "Nico Abele",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "8f87ed26-c1a8-44bb-8463-530143831b57",
-              "name": "Gina Abele",
-              "gender": "f"
-            }
-          ]
-        },
-        {
           "rank": 4,
           "name": "CrossFit1995",
           "country": "IT",
           "club": "Crossfit1995",
-          "points": 37,
+          "points": 38,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -11854,7 +11879,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 266,
               "tiebreak": null,
@@ -11919,6 +11944,102 @@
         },
         {
           "rank": 5,
+          "name": "Abi‘s",
+          "country": "DE",
+          "club": "CrossFit Zugkraft",
+          "points": 39,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": null,
+              "reps": 125,
+              "tiebreak": 1472000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Nico Abele",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 125,
+                  "tiebreak": 900000,
+                  "cap": false
+                },
+                {
+                  "name": "Gina Abele",
+                  "gender": "f",
+                  "time": 726000,
+                  "reps": 0,
+                  "tiebreak": 572000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 309,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Nico Abele",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 143,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Gina Abele",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 166,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 5,
+              "time": null,
+              "reps": 195,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Nico Abele",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 110,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Gina Abele",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 85,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "ff0cb58a-d20a-48c6-8215-39e0bab1d01e",
+              "name": "Nico Abele",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "8f87ed26-c1a8-44bb-8463-530143831b57",
+              "name": "Gina Abele",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 6,
           "name": "TEAM  PEANUTS PROGRAM",
           "country": "IT",
           "club": "",
@@ -12014,14 +12135,14 @@
           ]
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Crossfit DAHU",
           "country": "FR",
           "club": "Crossfit DAHU",
-          "points": 45,
+          "points": 48,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 800000,
               "reps": null,
               "tiebreak": null,
@@ -12046,7 +12167,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 249,
               "tiebreak": null,
@@ -12071,7 +12192,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 187.5,
               "tiebreak": null,
@@ -12110,14 +12231,14 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "BarbellBuddies",
           "country": "DE",
           "club": "",
-          "points": 95,
+          "points": 96,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 837000,
               "reps": null,
               "tiebreak": null,
@@ -12156,14 +12277,14 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Schicht im Schacht",
           "country": "DE",
           "club": "CrossFit Kohlestollen",
-          "points": 97,
+          "points": 98,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 865000,
               "reps": null,
               "tiebreak": null,
@@ -12234,6 +12355,34 @@
           },
           {
             "rank": 2,
+            "name": "190kg+",
+            "country": "DE",
+            "club": "Crossfit Ostfildern",
+            "time": null,
+            "reps": 145,
+            "tiebreak": 1457000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Laura Lucrezia",
+                "gender": "f",
+                "time": 691000,
+                "reps": 0,
+                "tiebreak": 571000,
+                "cap": false
+              },
+              {
+                "name": "Manuel Walz",
+                "gender": "m",
+                "time": 900000,
+                "reps": 145,
+                "tiebreak": 886000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
             "name": "Abi‘s",
             "country": "DE",
             "club": "CrossFit Zugkraft",
@@ -12261,7 +12410,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Denji & Power",
             "country": "DE",
             "club": "CrossFit Kupferstadt",
@@ -12376,6 +12525,34 @@
           },
           {
             "rank": 4,
+            "name": "190kg+",
+            "country": "DE",
+            "club": "Crossfit Ostfildern",
+            "time": 786000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Laura Lucrezia",
+                "gender": "f",
+                "time": 427000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Manuel Walz",
+                "gender": "m",
+                "time": 359000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 5,
             "name": "Crossfit DAHU",
             "country": "FR",
             "club": "Crossfit DAHU",
@@ -12403,7 +12580,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "BarbellBuddies",
             "country": "DE",
             "club": "",
@@ -12431,7 +12608,7 @@
             ]
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Denji & Power",
             "country": "DE",
             "club": "CrossFit Kupferstadt",
@@ -12459,7 +12636,7 @@
             ]
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Schicht im Schacht",
             "country": "DE",
             "club": "CrossFit Kohlestollen",
@@ -12574,6 +12751,34 @@
           },
           {
             "rank": 4,
+            "name": "190kg+",
+            "country": "DE",
+            "club": "Crossfit Ostfildern",
+            "time": null,
+            "reps": 274,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Laura Lucrezia",
+                "gender": "f",
+                "time": 360000,
+                "reps": 136,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Manuel Walz",
+                "gender": "m",
+                "time": null,
+                "reps": 138,
+                "tiebreak": null,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 5,
             "name": "CrossFit1995",
             "country": "IT",
             "club": "Crossfit1995",
@@ -12601,7 +12806,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Crossfit DAHU",
             "country": "FR",
             "club": "Crossfit DAHU",
@@ -12629,7 +12834,7 @@
             ]
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Denji & Power",
             "country": "DE",
             "club": "CrossFit Kupferstadt",
@@ -12744,6 +12949,34 @@
           },
           {
             "rank": 4,
+            "name": "190kg+",
+            "country": "DE",
+            "club": "Crossfit Ostfildern",
+            "time": null,
+            "reps": 195.5,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Laura Lucrezia",
+                "gender": "f",
+                "time": 300000,
+                "reps": 85.5,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Manuel Walz",
+                "gender": "m",
+                "time": null,
+                "reps": 110,
+                "tiebreak": null,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 5,
             "name": "Abi‘s",
             "country": "DE",
             "club": "CrossFit Zugkraft",
@@ -12771,7 +13004,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Denji & Power",
             "country": "DE",
             "club": "CrossFit Kupferstadt",
@@ -12799,7 +13032,7 @@
             ]
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Crossfit DAHU",
             "country": "FR",
             "club": "Crossfit DAHU",
