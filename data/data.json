@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-04T06:57:48Z",
-    "updated_at_readable": "2026-07-04 06:57 UTC"
+    "updated_at": "2026-07-04T08:00:08Z",
+    "updated_at_readable": "2026-07-04 08:00 UTC"
   },
   "divisions": [
     {
@@ -942,7 +942,7 @@
       "name": "Elite Female",
       "order": 2,
       "individual": true,
-      "athlete_count": 25,
+      "athlete_count": 26,
       "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
@@ -1110,7 +1110,7 @@
           "name": "Lena Trick",
           "country": "DE",
           "club": "Die Krafthalle Köln",
-          "points": 52,
+          "points": 54,
           "wods": {
             "GTD QWOD26.3 A": {
               "position": 1,
@@ -1133,7 +1133,7 @@
           "name": "Anna Bittner",
           "country": "DE",
           "club": "",
-          "points": 79,
+          "points": 82,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
@@ -4926,6 +4926,43 @@
         },
         {
           "rank": 12,
+          "name": "Onur Celik",
+          "country": "TR",
+          "club": "Traininglab antalya",
+          "points": 61,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 12,
+              "time": 900000,
+              "reps": 112,
+              "tiebreak": 877000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 17,
+              "time": 341000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 16,
+              "time": null,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 16,
+              "time": null,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 13,
           "name": "Bartłomiej Gieroń",
           "country": "PL",
           "club": "Peak Lab Team",
@@ -4955,7 +4992,7 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Dominik Rebel",
           "country": "DE",
           "club": "CrossFit Rodgau",
@@ -4985,7 +5022,7 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Hugo Guguen",
           "country": "FR",
           "club": "",
@@ -5008,7 +5045,7 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Callum Drummond",
           "country": "GB",
           "club": "CrossFit WDN",
@@ -5031,7 +5068,7 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Dominik Stephan",
           "country": "DE",
           "club": "",
@@ -5048,29 +5085,6 @@
               "position": 12,
               "time": null,
               "reps": 80,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 17,
-          "name": "Onur Celik",
-          "country": "TR",
-          "club": "Traininglab antalya",
-          "points": 137,
-          "wods": {
-            "GTD QWOD26.1 SC": {
-              "position": 12,
-              "time": 900000,
-              "reps": 112,
-              "tiebreak": 877000,
-              "cap": false
-            },
-            "GTD QWOD26.2": {
-              "position": 17,
-              "time": 341000,
-              "reps": 0,
               "tiebreak": 0,
               "cap": false
             }
@@ -5684,6 +5698,16 @@
             "reps": 102,
             "tiebreak": 0,
             "cap": false
+          },
+          {
+            "rank": 16,
+            "name": "Onur Celik",
+            "country": "TR",
+            "club": "Traininglab antalya",
+            "time": null,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
           }
         ],
         "GTD QWOD26.3 B": [
@@ -5835,6 +5859,16 @@
             "time": null,
             "reps": 70,
             "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 16,
+            "name": "Onur Celik",
+            "country": "TR",
+            "club": "Traininglab antalya",
+            "time": null,
+            "reps": 0,
+            "tiebreak": 0,
             "cap": false
           }
         ]
@@ -7061,9 +7095,9 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
-              "time": 761000,
+              "time": 673000,
               "reps": 0,
-              "tiebreak": 583000,
+              "tiebreak": 521000,
               "cap": false
             },
             "GTD QWOD26.2": {
@@ -7300,9 +7334,9 @@
             "name": "Hugo Monnoyer",
             "country": "FR",
             "club": "",
-            "time": 761000,
+            "time": 673000,
             "reps": 0,
-            "tiebreak": 583000,
+            "tiebreak": 521000,
             "cap": false
           },
           {
@@ -9275,127 +9309,6 @@
         },
         {
           "rank": 3,
-          "name": "Die gebrochenen Brüder",
-          "country": "CH",
-          "club": "",
-          "points": 15,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 3,
-              "time": null,
-              "reps": 308,
-              "tiebreak": 1800000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 122,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 186,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.2": {
-              "position": 6,
-              "time": 790000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 457000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 333000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 A": {
-              "position": 4,
-              "time": null,
-              "reps": 264,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 129,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 135,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 B": {
-              "position": 2,
-              "time": null,
-              "reps": 226,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 105,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 121,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "3b7d5fd1-885d-4e82-ae14-642aa053e52a",
-              "name": "Oktay Celebioglu",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "72c0a1b7-677d-499b-978f-1c4a25aff79e",
-              "name": "Volkan Gülen",
-              "gender": "m"
-            }
-          ]
-        },
-        {
-          "rank": 4,
           "name": "Old Fuel - New Engine",
           "country": "DE",
           "club": "CrossFit saarlouis",
@@ -9516,14 +9429,135 @@
           ]
         },
         {
+          "rank": 4,
+          "name": "Die gebrochenen Brüder",
+          "country": "CH",
+          "club": "",
+          "points": 17,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 5,
+              "time": null,
+              "reps": 283,
+              "tiebreak": 1800000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Oktay Celebioglu",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 122,
+                  "tiebreak": 900000,
+                  "cap": false
+                },
+                {
+                  "name": "Volkan Gülen",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 161,
+                  "tiebreak": 900000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 6,
+              "time": 790000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Oktay Celebioglu",
+                  "gender": "m",
+                  "time": 457000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Volkan Gülen",
+                  "gender": "m",
+                  "time": 333000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 4,
+              "time": null,
+              "reps": 264,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Oktay Celebioglu",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 129,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Volkan Gülen",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 135,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 226,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Oktay Celebioglu",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 105,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Volkan Gülen",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 121,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "3b7d5fd1-885d-4e82-ae14-642aa053e52a",
+              "name": "Oktay Celebioglu",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "72c0a1b7-677d-499b-978f-1c4a25aff79e",
+              "name": "Volkan Gülen",
+              "gender": "m"
+            }
+          ]
+        },
+        {
           "rank": 5,
           "name": "🇧🇷 1 zu 7 🇩🇪",
           "country": "BR",
           "club": "Neumünster Crossfit",
-          "points": 19,
+          "points": 18,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 3,
               "time": null,
               "reps": 295,
               "tiebreak": 1739000,
@@ -9641,10 +9675,10 @@
           "name": "Chalk the law",
           "country": "DE",
           "club": "Crossfit Wuid",
-          "points": 59,
+          "points": 58,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 4,
               "time": null,
               "reps": 290,
               "tiebreak": 1783000,
@@ -9768,34 +9802,6 @@
           },
           {
             "rank": 3,
-            "name": "Die gebrochenen Brüder",
-            "country": "CH",
-            "club": "",
-            "time": null,
-            "reps": 308,
-            "tiebreak": 1800000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Oktay Celebioglu",
-                "gender": "m",
-                "time": 900000,
-                "reps": 122,
-                "tiebreak": 900000,
-                "cap": false
-              },
-              {
-                "name": "Volkan Gülen",
-                "gender": "m",
-                "time": 900000,
-                "reps": 186,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
-          },
-          {
-            "rank": 4,
             "name": "🇧🇷 1 zu 7 🇩🇪",
             "country": "BR",
             "club": "Neumünster Crossfit",
@@ -9823,7 +9829,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 4,
             "name": "Chalk the law",
             "country": "DE",
             "club": "Crossfit Wuid",
@@ -9845,6 +9851,34 @@
                 "gender": "m",
                 "time": 900000,
                 "reps": 144,
+                "tiebreak": 900000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 5,
+            "name": "Die gebrochenen Brüder",
+            "country": "CH",
+            "club": "",
+            "time": null,
+            "reps": 283,
+            "tiebreak": 1800000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Oktay Celebioglu",
+                "gender": "m",
+                "time": 900000,
+                "reps": 122,
+                "tiebreak": 900000,
+                "cap": false
+              },
+              {
+                "name": "Volkan Gülen",
+                "gender": "m",
+                "time": 900000,
+                "reps": 161,
                 "tiebreak": 900000,
                 "cap": false
               }
@@ -14479,7 +14513,7 @@
       "order": 23,
       "individual": false,
       "athlete_count": 8,
-      "result_count": 0,
+      "result_count": 2,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -14492,12 +14526,271 @@
         "GTD QWOD26.3 A": "Reps",
         "GTD QWOD26.3 B": "Kilograms"
       },
-      "overall": [],
+      "overall": [
+        {
+          "rank": 1,
+          "name": "AREA57 MASTERS",
+          "country": "DE",
+          "club": "AREA57",
+          "points": 18,
+          "wods": {
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 323,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Ronny Arendt",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 171,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alexander Schubert",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 152,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 222,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Ronny Arendt",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 117,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alexander Schubert",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 105,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "654cab30-272e-4657-94a9-408b7dc3f1d9",
+              "name": "Ronny Arendt",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "3eb0fb26-7387-4ff2-8456-f24a0f0f2807",
+              "name": "Alexander Schubert",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "name": "Burpees Before Doner",
+          "country": "PL",
+          "club": "Niezależny",
+          "points": 18,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 1,
+              "time": 1676000,
+              "reps": null,
+              "tiebreak": 1367000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Przemysław Nawojczyk",
+                  "gender": "m",
+                  "time": 849000,
+                  "reps": 0,
+                  "tiebreak": 702000,
+                  "cap": false
+                },
+                {
+                  "name": "Aleksander Ostrowski",
+                  "gender": "m",
+                  "time": 827000,
+                  "reps": 0,
+                  "tiebreak": 665000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 601000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Przemysław Nawojczyk",
+                  "gender": "m",
+                  "time": 309000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Aleksander Ostrowski",
+                  "gender": "m",
+                  "time": 292000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "cfbebf86-8b02-4a2a-9f7b-6a95105ca464",
+              "name": "Przemysław Nawojczyk",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "e40cb5e6-520e-4d7f-b258-10f0a4211377",
+              "name": "Aleksander Ostrowski",
+              "gender": "m"
+            }
+          ]
+        }
+      ],
       "per_wod": {
-        "GTD QWOD26.1": [],
-        "GTD QWOD26.2": [],
-        "GTD QWOD26.3 A": [],
-        "GTD QWOD26.3 B": []
+        "GTD QWOD26.1": [
+          {
+            "rank": 1,
+            "name": "Burpees Before Doner",
+            "country": "PL",
+            "club": "Niezależny",
+            "time": 1676000,
+            "reps": null,
+            "tiebreak": 1367000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Przemysław Nawojczyk",
+                "gender": "m",
+                "time": 849000,
+                "reps": 0,
+                "tiebreak": 702000,
+                "cap": false
+              },
+              {
+                "name": "Aleksander Ostrowski",
+                "gender": "m",
+                "time": 827000,
+                "reps": 0,
+                "tiebreak": 665000,
+                "cap": false
+              }
+            ]
+          }
+        ],
+        "GTD QWOD26.2": [
+          {
+            "rank": 1,
+            "name": "Burpees Before Doner",
+            "country": "PL",
+            "club": "Niezależny",
+            "time": 601000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Przemysław Nawojczyk",
+                "gender": "m",
+                "time": 309000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Aleksander Ostrowski",
+                "gender": "m",
+                "time": 292000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          }
+        ],
+        "GTD QWOD26.3 A": [
+          {
+            "rank": 1,
+            "name": "AREA57 MASTERS",
+            "country": "DE",
+            "club": "AREA57",
+            "time": null,
+            "reps": 323,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Ronny Arendt",
+                "gender": "m",
+                "time": 360000,
+                "reps": 171,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Alexander Schubert",
+                "gender": "m",
+                "time": 360000,
+                "reps": 152,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          }
+        ],
+        "GTD QWOD26.3 B": [
+          {
+            "rank": 1,
+            "name": "AREA57 MASTERS",
+            "country": "DE",
+            "club": "AREA57",
+            "time": null,
+            "reps": 222,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Ronny Arendt",
+                "gender": "m",
+                "time": 300000,
+                "reps": 117,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Alexander Schubert",
+                "gender": "m",
+                "time": 300000,
+                "reps": 105,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          }
+        ]
       }
     },
     {
