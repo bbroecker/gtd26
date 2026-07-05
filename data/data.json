@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-05T16:21:22Z",
-    "updated_at_readable": "2026-07-05 16:21 UTC"
+    "updated_at": "2026-07-05T17:25:06Z",
+    "updated_at_readable": "2026-07-05 17:25 UTC"
   },
   "divisions": [
     {
@@ -10325,7 +10325,7 @@
           "name": "Aleksandra Ziemba",
           "country": "PL",
           "club": "",
-          "points": 52,
+          "points": 26,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -10338,6 +10338,20 @@
               "position": 6,
               "time": 396000,
               "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 7,
+              "time": null,
+              "reps": 1,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 7,
+              "time": null,
+              "reps": 1,
               "tiebreak": 0,
               "cap": false
             }
@@ -10618,6 +10632,16 @@
             "reps": 113,
             "tiebreak": null,
             "cap": false
+          },
+          {
+            "rank": 7,
+            "name": "Aleksandra Ziemba",
+            "country": "PL",
+            "club": "",
+            "time": null,
+            "reps": 1,
+            "tiebreak": 0,
+            "cap": false
           }
         ],
         "GTD QWOD26.3 B": [
@@ -10678,6 +10702,16 @@
             "club": "The Box Ebelsbach",
             "time": null,
             "reps": 70,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 7,
+            "name": "Aleksandra Ziemba",
+            "country": "PL",
+            "club": "",
+            "time": null,
+            "reps": 1,
             "tiebreak": 0,
             "cap": false
           }
@@ -10981,7 +11015,7 @@
       "name": "Elite Teams of 2 Female/Female",
       "order": 13,
       "individual": false,
-      "athlete_count": 4,
+      "athlete_count": 5,
       "result_count": 0,
       "wods": [
         "GTD QWOD26.1",
@@ -15054,7 +15088,7 @@
       "name": "Scaled Teams of 2 Male/Female",
       "order": 18,
       "individual": false,
-      "athlete_count": 21,
+      "athlete_count": 22,
       "result_count": 8,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -15316,7 +15350,7 @@
           "name": "No Limits Coaching",
           "country": "DE",
           "club": "Kings Avenue CrossFit",
-          "points": 28,
+          "points": 29,
           "wods": {
             "GTD QWOD26.2": {
               "position": 5,
@@ -15412,7 +15446,7 @@
           "name": "Der Schöne und das Biescht",
           "country": "DE",
           "club": "RISE Functional Fitness",
-          "points": 32,
+          "points": 33,
           "wods": {
             "GTD QWOD26.2": {
               "position": 6,
@@ -15508,7 +15542,7 @@
           "name": "Lift Me Baby One More Time",
           "country": "DE",
           "club": "CrossFit Recklinghausen",
-          "points": 44,
+          "points": 46,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -15579,7 +15613,7 @@
           "name": "Mostly in Sync",
           "country": "DE",
           "club": "Animo Forte",
-          "points": 65,
+          "points": 68,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -15625,7 +15659,7 @@
           "name": "RX-tra langsam",
           "country": "DE",
           "club": "Greifenpower e.V.",
-          "points": 66,
+          "points": 69,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 3,
@@ -15671,7 +15705,7 @@
           "name": "Aorta Candy Crusher",
           "country": "DE",
           "club": "CrossFit Aorta",
-          "points": 67,
+          "points": 70,
           "wods": {
             "GTD QWOD26.2": {
               "position": 4,
