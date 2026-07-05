@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-05T20:22:44Z",
-    "updated_at_readable": "2026-07-05 20:22 UTC"
+    "updated_at": "2026-07-05T21:21:48Z",
+    "updated_at_readable": "2026-07-05 21:21 UTC"
   },
   "divisions": [
     {
@@ -4474,6 +4474,43 @@
         },
         {
           "rank": 10,
+          "name": "Selina Keppler",
+          "country": "DE",
+          "club": "Crossfit Barbell Bros",
+          "points": 45,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 20,
+              "time": 900000,
+              "reps": 0,
+              "tiebreak": 751000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 10,
+              "time": 407000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 10,
+              "time": null,
+              "reps": 127,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 5,
+              "time": null,
+              "reps": 80,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 11,
           "name": "Lea Ilsen",
           "country": "DE",
           "club": "RedHawk CrossFit",
@@ -4510,7 +4547,7 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Maria Müller",
           "country": "DE",
           "club": "Heart N Heavy CrossFit",
@@ -4547,7 +4584,7 @@
           }
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Nora Küüts",
           "country": "EE",
           "club": "CROSSFIT Kōu",
@@ -4584,7 +4621,7 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Viktoria Schlammerl",
           "country": "DE",
           "club": "",
@@ -4621,7 +4658,7 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Pauline Sander",
           "country": "DE",
           "club": "ELVT Athletics",
@@ -4658,7 +4695,7 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
@@ -4695,7 +4732,7 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Carina Frolov",
           "country": "DE",
           "club": "Peak Vitality",
@@ -4719,36 +4756,6 @@
               "position": 1,
               "time": null,
               "reps": 107.5,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 17,
-          "name": "Selina Keppler",
-          "country": "DE",
-          "club": "Crossfit Barbell Bros",
-          "points": 86,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 10,
-              "time": 407000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 10,
-              "time": null,
-              "reps": 127,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 5,
-              "time": null,
-              "reps": 80,
               "tiebreak": 0,
               "cap": false
             }
@@ -5048,6 +5055,16 @@
             "time": 900000,
             "reps": 75,
             "tiebreak": 900000,
+            "cap": false
+          },
+          {
+            "rank": 20,
+            "name": "Selina Keppler",
+            "country": "DE",
+            "club": "Crossfit Barbell Bros",
+            "time": 900000,
+            "reps": 0,
+            "tiebreak": 751000,
             "cap": false
           }
         ],
