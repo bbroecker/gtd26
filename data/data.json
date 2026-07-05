@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-05T09:53:25Z",
-    "updated_at_readable": "2026-07-05 09:53 UTC"
+    "updated_at": "2026-07-05T10:42:47Z",
+    "updated_at_readable": "2026-07-05 10:42 UTC"
   },
   "divisions": [
     {
@@ -2066,7 +2066,7 @@
           "name": "Volkan Gülen",
           "country": "CH",
           "club": "Atomic Monkey",
-          "points": 71,
+          "points": 72,
           "wods": {
             "GTD QWOD26.1": {
               "position": 18,
@@ -2076,7 +2076,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 21,
+              "position": 22,
               "time": 333000,
               "reps": 0,
               "tiebreak": 0,
@@ -2140,7 +2140,7 @@
           "name": "Jannis Weis",
           "country": "DE",
           "club": "CrossFit Kirkel",
-          "points": 79,
+          "points": 80,
           "wods": {
             "GTD QWOD26.1": {
               "position": 14,
@@ -2150,7 +2150,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 23,
+              "position": 24,
               "time": 338000,
               "reps": null,
               "tiebreak": null,
@@ -2177,7 +2177,7 @@
           "name": "Tauno Randmaa",
           "country": "EE",
           "club": "CrossFit Viljandi",
-          "points": 85,
+          "points": 86,
           "wods": {
             "GTD QWOD26.1": {
               "position": 21,
@@ -2187,7 +2187,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 24,
+              "position": 25,
               "time": 342000,
               "reps": 0,
               "tiebreak": 0,
@@ -2251,7 +2251,7 @@
           "name": "Kevin Späth",
           "country": "DE",
           "club": "",
-          "points": 88,
+          "points": 89,
           "wods": {
             "GTD QWOD26.1": {
               "position": 13,
@@ -2261,7 +2261,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 25,
+              "position": 26,
               "time": 360000,
               "reps": 0,
               "tiebreak": 0,
@@ -2359,6 +2359,36 @@
         },
         {
           "rank": 22,
+          "name": "Niklas Stennulat",
+          "country": "DE",
+          "club": "Moin Moin Athletik",
+          "points": 140,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 21,
+              "time": 331000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 11,
+              "time": null,
+              "reps": 150,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 131,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 23,
           "name": "Paweł Kuczmarski",
           "country": "PL",
           "club": "Centrum Sportu Stocznia",
@@ -2388,7 +2418,7 @@
           }
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "Danil Zaripov",
           "country": "DE",
           "club": "",
@@ -2412,36 +2442,6 @@
               "position": 12,
               "time": null,
               "reps": 125,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 24,
-          "name": "Niklas Stennulat",
-          "country": "DE",
-          "club": "Moin Moin Athletik",
-          "points": 144,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 25,
-              "time": 360000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 11,
-              "time": null,
-              "reps": 150,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 1,
-              "time": null,
-              "reps": 131,
               "tiebreak": 0,
               "cap": false
             }
@@ -2482,10 +2482,10 @@
           "name": "Sascha Nowakewitz",
           "country": "DE",
           "club": "CrossFit Oldenburg GmbH",
-          "points": 176,
+          "points": 177,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 22,
+              "position": 23,
               "time": 335000,
               "reps": 0,
               "tiebreak": 0,
@@ -3120,6 +3120,16 @@
           },
           {
             "rank": 21,
+            "name": "Niklas Stennulat",
+            "country": "DE",
+            "club": "Moin Moin Athletik",
+            "time": 331000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 22,
             "name": "Volkan Gülen",
             "country": "CH",
             "club": "Atomic Monkey",
@@ -3129,7 +3139,7 @@
             "cap": false
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "Sascha Nowakewitz",
             "country": "DE",
             "club": "CrossFit Oldenburg GmbH",
@@ -3139,7 +3149,7 @@
             "cap": false
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "Jannis Weis",
             "country": "DE",
             "club": "CrossFit Kirkel",
@@ -3149,7 +3159,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Tauno Randmaa",
             "country": "EE",
             "club": "CrossFit Viljandi",
@@ -3159,17 +3169,7 @@
             "cap": false
           },
           {
-            "rank": 25,
-            "name": "Niklas Stennulat",
-            "country": "DE",
-            "club": "Moin Moin Athletik",
-            "time": 360000,
-            "reps": 0,
-            "tiebreak": 0,
-            "cap": false
-          },
-          {
-            "rank": 25,
+            "rank": 26,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "",
@@ -13258,7 +13258,7 @@
           "name": "Box Paranoia",
           "country": "DE",
           "club": "Fitnessclub Kleegarten",
-          "points": 7,
+          "points": 8,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
@@ -13286,7 +13286,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 978000,
               "reps": null,
               "tiebreak": null,
@@ -13475,7 +13475,7 @@
           "name": "Wings & Weights",
           "country": "DE",
           "club": "CrossFit 383",
-          "points": 79,
+          "points": 55,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -13498,6 +13498,31 @@
                   "time": 900000,
                   "reps": 152,
                   "tiebreak": 865000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 819000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Mariell Sophie Pichl",
+                  "gender": "f",
+                  "time": 382000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nina Kirschner",
+                  "gender": "f",
+                  "time": 437000,
+                  "reps": 0,
+                  "tiebreak": 0,
                   "cap": false
                 }
               ]
@@ -13607,6 +13632,34 @@
           },
           {
             "rank": 2,
+            "name": "Wings & Weights",
+            "country": "DE",
+            "club": "CrossFit 383",
+            "time": 819000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Mariell Sophie Pichl",
+                "gender": "f",
+                "time": 382000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Nina Kirschner",
+                "gender": "f",
+                "time": 437000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
             "name": "Box Paranoia",
             "country": "DE",
             "club": "Fitnessclub Kleegarten",
