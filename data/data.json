@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-05T05:17:39Z",
-    "updated_at_readable": "2026-07-05 05:17 UTC"
+    "updated_at": "2026-07-05T07:02:58Z",
+    "updated_at_readable": "2026-07-05 07:02 UTC"
   },
   "divisions": [
     {
@@ -250,43 +250,6 @@
         },
         {
           "rank": 7,
-          "name": "Luca Catelani",
-          "country": "IT",
-          "club": "CROSSFIT BMH 🦁",
-          "points": 30,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 5,
-              "time": 753000,
-              "reps": 0,
-              "tiebreak": 645000,
-              "cap": false
-            },
-            "GTD QWOD26.2": {
-              "position": 7,
-              "time": 283000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 A": {
-              "position": 8,
-              "time": null,
-              "reps": 133,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "GTD QWOD26.3 B": {
-              "position": 10,
-              "time": null,
-              "reps": 132,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 8,
           "name": "Dorian Monna",
           "country": "FR",
           "club": "",
@@ -323,48 +286,48 @@
           }
         },
         {
-          "rank": 9,
-          "name": "Stefano Fuscaldo",
+          "rank": 8,
+          "name": "Luca Catelani",
           "country": "IT",
-          "club": "",
-          "points": 35,
+          "club": "CROSSFIT BMH 🦁",
+          "points": 31,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 8,
-              "time": 815000,
-              "reps": null,
-              "tiebreak": 700000,
+              "position": 5,
+              "time": 753000,
+              "reps": 0,
+              "tiebreak": 645000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 13,
-              "time": 308000,
-              "reps": null,
-              "tiebreak": null,
+              "position": 7,
+              "time": 283000,
+              "reps": 0,
+              "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 7,
+              "position": 9,
               "time": null,
-              "reps": 143,
-              "tiebreak": null,
+              "reps": 133,
+              "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 7,
+              "position": 10,
               "time": null,
-              "reps": 140,
-              "tiebreak": null,
+              "reps": 132,
+              "tiebreak": 0,
               "cap": false
             }
           }
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 36,
+          "points": 33,
           "wods": {
             "GTD QWOD26.1": {
               "position": 7,
@@ -381,9 +344,9 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 9,
+              "position": 6,
               "time": null,
-              "reps": 132,
+              "reps": 150,
               "tiebreak": 0,
               "cap": false
             },
@@ -392,6 +355,43 @@
               "time": null,
               "reps": 136,
               "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 10,
+          "name": "Stefano Fuscaldo",
+          "country": "IT",
+          "club": "",
+          "points": 36,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 8,
+              "time": 815000,
+              "reps": null,
+              "tiebreak": 700000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 13,
+              "time": 308000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 8,
+              "time": null,
+              "reps": 143,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 7,
+              "time": null,
+              "reps": 140,
+              "tiebreak": null,
               "cap": false
             }
           }
@@ -927,7 +927,17 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 6,
+            "name": "Maximilian Gewehr",
+            "country": "DE",
+            "club": "Einfach Fitness Essen",
+            "time": null,
+            "reps": 150,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 8,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -937,22 +947,12 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Luca Catelani",
             "country": "IT",
             "club": "CROSSFIT BMH 🦁",
             "time": null,
             "reps": 133,
-            "tiebreak": 0,
-            "cap": false
-          },
-          {
-            "rank": 9,
-            "name": "Maximilian Gewehr",
-            "country": "DE",
-            "club": "Einfach Fitness Essen",
-            "time": null,
-            "reps": 132,
             "tiebreak": 0,
             "cap": false
           },
@@ -9331,7 +9331,7 @@
       "order": 10,
       "individual": true,
       "athlete_count": 20,
-      "result_count": 8,
+      "result_count": 9,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -9387,10 +9387,10 @@
           "name": "Gracja Mecwaldowska",
           "country": "PL",
           "club": "Peak Lab Team",
-          "points": 9,
+          "points": 10,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": 806000,
               "reps": 0,
               "tiebreak": 673000,
@@ -9424,7 +9424,7 @@
           "name": "Rita Maggio",
           "country": "IT",
           "club": "CrossFit Ad Maiora",
-          "points": 11,
+          "points": 12,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -9434,7 +9434,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 394000,
               "reps": 0,
               "tiebreak": 0,
@@ -9458,34 +9458,71 @@
         },
         {
           "rank": 4,
+          "name": "Agata Lackowska-Wandas",
+          "country": "PL",
+          "club": "",
+          "points": 15,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
+              "time": 802000,
+              "reps": null,
+              "tiebreak": 639000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 4,
+              "time": 372000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 4,
+              "time": null,
+              "reps": 142,
+              "tiebreak": null,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 4,
+              "time": null,
+              "reps": 74,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 5,
           "name": "Kette",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 21,
+          "points": 25,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 6,
+              "position": 7,
               "time": 900000,
               "reps": 136,
               "tiebreak": 900000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 423000,
               "reps": null,
               "tiebreak": null,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 113,
               "tiebreak": null,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 73.5,
               "tiebreak": null,
@@ -9494,35 +9531,35 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Larissa Stubner",
           "country": "DE",
           "club": "The Box Ebelsbach",
-          "points": 21,
+          "points": 25,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": 900000,
               "reps": 155,
               "tiebreak": 849000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 8,
+              "position": 9,
               "time": 660000,
               "reps": 202,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 131,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 70,
               "tiebreak": 0,
@@ -9531,21 +9568,21 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Aleksandra Ziemba",
           "country": "PL",
           "club": "",
-          "points": 50,
+          "points": 52,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 6,
               "time": 900000,
               "reps": 139,
               "tiebreak": 900000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 396000,
               "reps": 0,
               "tiebreak": 0,
@@ -9554,7 +9591,7 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Marta vantaggiato",
           "country": "IT",
           "club": "H100 Crossfit",
@@ -9570,14 +9607,14 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Deniese Lee",
           "country": "DE",
           "club": "CrossFit Pfalzschmiede",
-          "points": 67,
+          "points": 68,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 489000,
               "reps": 0,
               "tiebreak": 0,
@@ -9610,6 +9647,16 @@
           },
           {
             "rank": 3,
+            "name": "Agata Lackowska-Wandas",
+            "country": "PL",
+            "club": "",
+            "time": 802000,
+            "reps": null,
+            "tiebreak": 639000,
+            "cap": false
+          },
+          {
+            "rank": 4,
             "name": "Gracja Mecwaldowska",
             "country": "PL",
             "club": "Peak Lab Team",
@@ -9619,7 +9666,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Larissa Stubner",
             "country": "DE",
             "club": "The Box Ebelsbach",
@@ -9629,7 +9676,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Aleksandra Ziemba",
             "country": "PL",
             "club": "",
@@ -9639,7 +9686,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -9682,6 +9729,16 @@
           },
           {
             "rank": 4,
+            "name": "Agata Lackowska-Wandas",
+            "country": "PL",
+            "club": "",
+            "time": 372000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "Rita Maggio",
             "country": "IT",
             "club": "CrossFit Ad Maiora",
@@ -9691,7 +9748,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Aleksandra Ziemba",
             "country": "PL",
             "club": "",
@@ -9701,7 +9758,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -9711,7 +9768,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Deniese Lee",
             "country": "DE",
             "club": "CrossFit Pfalzschmiede",
@@ -9721,7 +9778,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Larissa Stubner",
             "country": "DE",
             "club": "The Box Ebelsbach",
@@ -9764,6 +9821,16 @@
           },
           {
             "rank": 4,
+            "name": "Agata Lackowska-Wandas",
+            "country": "PL",
+            "club": "",
+            "time": null,
+            "reps": 142,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "Larissa Stubner",
             "country": "DE",
             "club": "The Box Ebelsbach",
@@ -9773,7 +9840,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -9816,6 +9883,16 @@
           },
           {
             "rank": 4,
+            "name": "Agata Lackowska-Wandas",
+            "country": "PL",
+            "club": "",
+            "time": null,
+            "reps": 74,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 5,
             "name": "Kette",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -9825,7 +9902,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Larissa Stubner",
             "country": "DE",
             "club": "The Box Ebelsbach",
