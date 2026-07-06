@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-06T05:24:40Z",
-    "updated_at_readable": "2026-07-06 05:24 UTC"
+    "updated_at": "2026-07-06T07:27:10Z",
+    "updated_at_readable": "2026-07-06 07:27 UTC"
   },
   "divisions": [
     {
@@ -1737,7 +1737,7 @@
       "order": 3,
       "individual": true,
       "athlete_count": 107,
-      "result_count": 39,
+      "result_count": 40,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -2459,10 +2459,10 @@
           "name": "Tauno Randmaa",
           "country": "EE",
           "club": "CrossFit Viljandi",
-          "points": 95,
+          "points": 96,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 25,
+              "position": 26,
               "time": 900000,
               "reps": 81,
               "tiebreak": 900000,
@@ -2496,10 +2496,10 @@
           "name": "Kai Stäblein",
           "country": "DE",
           "club": "CrossFit Black Arrow",
-          "points": 97,
+          "points": 98,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 22,
+              "position": 23,
               "time": 900000,
               "reps": 112,
               "tiebreak": 900000,
@@ -2533,10 +2533,10 @@
           "name": "Stanislav Pashchenko",
           "country": "UA",
           "club": "Mordor Kołobrzeg",
-          "points": 109,
+          "points": 110,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 23,
+              "position": 24,
               "time": 900000,
               "reps": 100,
               "tiebreak": 900000,
@@ -2570,10 +2570,10 @@
           "name": "Björn Werle",
           "country": "DE",
           "club": "CrossFit Crefeld",
-          "points": 111,
+          "points": 112,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 26,
+              "position": 27,
               "time": 900000,
               "reps": 61,
               "tiebreak": 900000,
@@ -2607,17 +2607,17 @@
           "name": "Junior  Osei",
           "country": "DE",
           "club": "CrossFit Landsberg am Lech",
-          "points": 112,
+          "points": 114,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 24,
+              "position": 25,
               "time": 900000,
               "reps": 96,
               "tiebreak": 900000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 35,
+              "position": 36,
               "time": 627000,
               "reps": 0,
               "tiebreak": 0,
@@ -2890,6 +2890,29 @@
         },
         {
           "rank": 34,
+          "name": "Jannis Simmet",
+          "country": "DE",
+          "club": "",
+          "points": 271,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 22,
+              "time": 900000,
+              "reps": 136,
+              "tiebreak": 900000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 35,
+              "time": 582000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 35,
           "name": "Daniel Rath",
           "country": "DE",
           "club": "",
@@ -2912,7 +2935,7 @@
           }
         },
         {
-          "rank": 35,
+          "rank": 36,
           "name": "Fabrizio Legnani",
           "country": "IT",
           "club": "",
@@ -2928,7 +2951,7 @@
           }
         },
         {
-          "rank": 36,
+          "rank": 37,
           "name": "Piotr Bylina",
           "country": "PL",
           "club": "",
@@ -2944,7 +2967,7 @@
           }
         },
         {
-          "rank": 37,
+          "rank": 38,
           "name": "Tobias VB",
           "country": "BE",
           "club": "",
@@ -2960,7 +2983,7 @@
           }
         },
         {
-          "rank": 38,
+          "rank": 39,
           "name": "Jason  Oostveen",
           "country": "NL",
           "club": "",
@@ -2976,7 +2999,7 @@
           }
         },
         {
-          "rank": 39,
+          "rank": 40,
           "name": "Jan Czogalla",
           "country": "DE",
           "club": "",
@@ -3206,6 +3229,16 @@
           },
           {
             "rank": 22,
+            "name": "Jannis Simmet",
+            "country": "DE",
+            "club": "",
+            "time": 900000,
+            "reps": 136,
+            "tiebreak": 900000,
+            "cap": false
+          },
+          {
+            "rank": 23,
             "name": "Kai Stäblein",
             "country": "DE",
             "club": "CrossFit Black Arrow",
@@ -3215,7 +3248,7 @@
             "cap": false
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "Stanislav Pashchenko",
             "country": "UA",
             "club": "Mordor Kołobrzeg",
@@ -3225,7 +3258,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Junior  Osei",
             "country": "DE",
             "club": "CrossFit Landsberg am Lech",
@@ -3235,7 +3268,7 @@
             "cap": false
           },
           {
-            "rank": 25,
+            "rank": 26,
             "name": "Tauno Randmaa",
             "country": "EE",
             "club": "CrossFit Viljandi",
@@ -3245,7 +3278,7 @@
             "cap": false
           },
           {
-            "rank": 26,
+            "rank": 27,
             "name": "Björn Werle",
             "country": "DE",
             "club": "CrossFit Crefeld",
@@ -3598,6 +3631,16 @@
           },
           {
             "rank": 35,
+            "name": "Jannis Simmet",
+            "country": "DE",
+            "club": "",
+            "time": 582000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 36,
             "name": "Junior  Osei",
             "country": "DE",
             "club": "CrossFit Landsberg am Lech",
@@ -15740,7 +15783,7 @@
       "name": "Scaled Teams of 2 Male/Female",
       "order": 18,
       "individual": false,
-      "athlete_count": 22,
+      "athlete_count": 23,
       "result_count": 9,
       "wods": [
         "GTD QWOD26.1 SC",
@@ -15881,10 +15924,10 @@
           "name": "Warmup war schwerer",
           "country": "DE",
           "club": "CrossFit Pfalzschmiede",
-          "points": 14,
+          "points": 15,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 3,
+              "position": 4,
               "time": 1670000,
               "reps": null,
               "tiebreak": 1278000,
@@ -16002,10 +16045,10 @@
           "name": "PS - Prepared to sweat",
           "country": "DE",
           "club": "CrossFit saarlouis",
-          "points": 23,
+          "points": 24,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 255,
               "tiebreak": 1654000,
@@ -16123,7 +16166,7 @@
           "name": "No Limits Coaching",
           "country": "DE",
           "club": "Kings Avenue CrossFit",
-          "points": 32,
+          "points": 33,
           "wods": {
             "GTD QWOD26.2": {
               "position": 6,
@@ -16219,7 +16262,7 @@
           "name": "Der Schöne und das Biescht",
           "country": "DE",
           "club": "RISE Functional Fitness",
-          "points": 36,
+          "points": 37,
           "wods": {
             "GTD QWOD26.2": {
               "position": 7,
@@ -16315,7 +16358,7 @@
           "name": "Lift Me Baby One More Time",
           "country": "DE",
           "club": "CrossFit Recklinghausen",
-          "points": 46,
+          "points": 48,
           "wods": {
             "GTD QWOD26.1 SC": {
               "position": 1,
@@ -16383,10 +16426,81 @@
         },
         {
           "rank": 7,
+          "name": "Aorta Candy Crusher",
+          "country": "DE",
+          "club": "CrossFit Aorta",
+          "points": 54,
+          "wods": {
+            "GTD QWOD26.1 SC": {
+              "position": 3,
+              "time": 1505000,
+              "reps": null,
+              "tiebreak": 1505000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Thomas Kramer",
+                  "gender": "m",
+                  "time": 740000,
+                  "reps": null,
+                  "tiebreak": 740000,
+                  "cap": false
+                },
+                {
+                  "name": "Tine Rupp",
+                  "gender": "f",
+                  "time": 765000,
+                  "reps": 0,
+                  "tiebreak": 765000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 5,
+              "time": 757000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Thomas Kramer",
+                  "gender": "m",
+                  "time": 336000,
+                  "reps": null,
+                  "tiebreak": null,
+                  "cap": false
+                },
+                {
+                  "name": "Tine Rupp",
+                  "gender": "f",
+                  "time": 421000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "383ff644-1705-4bc1-a689-d6ce61086b8b",
+              "name": "Thomas Kramer",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "702d2d55-d88b-4c03-a674-5ec528c648c8",
+              "name": "Tine Rupp",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 8,
           "name": "Mostly in Sync",
           "country": "DE",
           "club": "Animo Forte",
-          "points": 68,
+          "points": 71,
           "wods": {
             "GTD QWOD26.2": {
               "position": 2,
@@ -16428,14 +16542,14 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "RX-tra langsam",
           "country": "DE",
           "club": "Greifenpower e.V.",
-          "points": 70,
+          "points": 74,
           "wods": {
             "GTD QWOD26.1 SC": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 128,
               "tiebreak": 1453000,
@@ -16469,52 +16583,6 @@
             {
               "athlete_id": "0383b605-ff4d-4dd8-8550-92fef4dafd39",
               "name": "Nele Franka Ahlhaus",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 9,
-          "name": "Aorta Candy Crusher",
-          "country": "DE",
-          "club": "CrossFit Aorta",
-          "points": 71,
-          "wods": {
-            "GTD QWOD26.2": {
-              "position": 5,
-              "time": 757000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Thomas Kramer",
-                  "gender": "m",
-                  "time": 336000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Tine Rupp",
-                  "gender": "f",
-                  "time": 421000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "383ff644-1705-4bc1-a689-d6ce61086b8b",
-              "name": "Thomas Kramer",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "702d2d55-d88b-4c03-a674-5ec528c648c8",
-              "name": "Tine Rupp",
               "gender": "f"
             }
           ]
@@ -16580,6 +16648,34 @@
           },
           {
             "rank": 3,
+            "name": "Aorta Candy Crusher",
+            "country": "DE",
+            "club": "CrossFit Aorta",
+            "time": 1505000,
+            "reps": null,
+            "tiebreak": 1505000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Thomas Kramer",
+                "gender": "m",
+                "time": 740000,
+                "reps": null,
+                "tiebreak": 740000,
+                "cap": false
+              },
+              {
+                "name": "Tine Rupp",
+                "gender": "f",
+                "time": 765000,
+                "reps": 0,
+                "tiebreak": 765000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 4,
             "name": "Warmup war schwerer",
             "country": "DE",
             "club": "CrossFit Pfalzschmiede",
@@ -16607,7 +16703,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "RX-tra langsam",
             "country": "DE",
             "club": "Greifenpower e.V.",
@@ -16635,7 +16731,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "PS - Prepared to sweat",
             "country": "DE",
             "club": "CrossFit saarlouis",
@@ -18624,10 +18720,131 @@
       "overall": [
         {
           "rank": 1,
+          "name": "AREA57 MASTERS",
+          "country": "DE",
+          "club": "AREA57",
+          "points": 5,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": null,
+              "reps": 162,
+              "tiebreak": 1375000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Ronny Arendt",
+                  "gender": "m",
+                  "time": 716000,
+                  "reps": 0,
+                  "tiebreak": 558000,
+                  "cap": false
+                },
+                {
+                  "name": "Alexander Schubert",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 162,
+                  "tiebreak": 817000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 586000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Ronny Arendt",
+                  "gender": "m",
+                  "time": 280000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alexander Schubert",
+                  "gender": "m",
+                  "time": 306000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 323,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Ronny Arendt",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 171,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alexander Schubert",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 152,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 222,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Ronny Arendt",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 117,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alexander Schubert",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 105,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "654cab30-272e-4657-94a9-408b7dc3f1d9",
+              "name": "Ronny Arendt",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "3eb0fb26-7387-4ff2-8456-f24a0f0f2807",
+              "name": "Alexander Schubert",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 2,
           "name": "Burpees Before Doner",
           "country": "PL",
           "club": "Niezależny",
-          "points": 5,
+          "points": 6,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -18655,7 +18872,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 601000,
               "reps": null,
               "tiebreak": null,
@@ -18742,77 +18959,6 @@
               "gender": "m"
             }
           ]
-        },
-        {
-          "rank": 2,
-          "name": "AREA57 MASTERS",
-          "country": "DE",
-          "club": "AREA57",
-          "points": 18,
-          "wods": {
-            "GTD QWOD26.3 A": {
-              "position": 1,
-              "time": null,
-              "reps": 323,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Ronny Arendt",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 171,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Alexander Schubert",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 152,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 B": {
-              "position": 1,
-              "time": null,
-              "reps": 222,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Ronny Arendt",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 117,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Alexander Schubert",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 105,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "654cab30-272e-4657-94a9-408b7dc3f1d9",
-              "name": "Ronny Arendt",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "3eb0fb26-7387-4ff2-8456-f24a0f0f2807",
-              "name": "Alexander Schubert",
-              "gender": "m"
-            }
-          ]
         }
       ],
       "per_wod": {
@@ -18844,11 +18990,67 @@
                 "cap": false
               }
             ]
+          },
+          {
+            "rank": 2,
+            "name": "AREA57 MASTERS",
+            "country": "DE",
+            "club": "AREA57",
+            "time": null,
+            "reps": 162,
+            "tiebreak": 1375000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Ronny Arendt",
+                "gender": "m",
+                "time": 716000,
+                "reps": 0,
+                "tiebreak": 558000,
+                "cap": false
+              },
+              {
+                "name": "Alexander Schubert",
+                "gender": "m",
+                "time": 900000,
+                "reps": 162,
+                "tiebreak": 817000,
+                "cap": false
+              }
+            ]
           }
         ],
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "AREA57 MASTERS",
+            "country": "DE",
+            "club": "AREA57",
+            "time": 586000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Ronny Arendt",
+                "gender": "m",
+                "time": 280000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Alexander Schubert",
+                "gender": "m",
+                "time": 306000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 2,
             "name": "Burpees Before Doner",
             "country": "PL",
             "club": "Niezależny",
