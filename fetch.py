@@ -173,51 +173,131 @@ def _rfc2822(iso_str):
         return iso_str
 
 
-def write_rss_feed(all_entries):
-    # Group entries by run timestamp → one RSS item per sync run
-    runs = {}
+def _slugify(name):
+    return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
+
+
+def write_rss_feeds(all_entries, divisions_info):
+    """Write one RSS feed per division. Returns list of feed-info dicts."""
+    by_division = {}
     for e in all_entries:
-        runs.setdefault(e["at"], []).append(e)
+        by_division.setdefault(e["division"], []).append(e)
 
-    site = SITE_URL or "https://example.com"
-    items_xml = []
-    for run_time, entries in list(runs.items())[:20]:
-        n_new = sum(1 for e in entries if e["type"] == "new")
-        n_upd = sum(1 for e in entries if e["type"] == "updated")
-        parts = ([f"{n_new} new"] if n_new else []) + ([f"{n_upd} updated"] if n_upd else [])
-        count = n_new + n_upd
-        title = f"{', '.join(parts)} score{'s' if count != 1 else ''} — {run_time[:16].replace('T', ' ')} UTC"
-        lines = [
-            f"{'NEW' if e['type'] == 'new' else 'UPD'} {e['division']} | {e['wod']}: "
-            f"{e['athlete']} — {e['score']} (#{e['rank']})"
-            for e in entries
-        ]
-        items_xml.append(
-            f"    <item>\n"
-            f"      <title>{_xml_esc(title)}</title>\n"
-            f"      <description><![CDATA[{'<br>'.join(lines)}]]></description>\n"
-            f"      <pubDate>{_rfc2822(run_time)}</pubDate>\n"
-            f"      <guid isPermaLink=\"false\">gtd2026-sync-{_xml_esc(run_time)}</guid>\n"
-            f"      <link>{_xml_esc(site)}</link>\n"
-            f"    </item>"
+    os.makedirs(FEEDS_DIR, exist_ok=True)
+    site = SITE_URL
+    feed_infos = []
+
+    for div in divisions_info:
+        div_name = div["name"]
+        slug = _slugify(div_name)
+        feed_filename = f"feed-{slug}.xml"
+        feed_path = os.path.join(FEEDS_DIR, feed_filename)
+        feed_url = f"{site}/data/{feed_filename}" if site else f"data/{feed_filename}"
+
+        entries = by_division.get(div_name, [])
+        runs = {}
+        for e in entries:
+            runs.setdefault(e["at"], []).append(e)
+
+        items_xml = []
+        for run_time, run_entries in list(runs.items())[:20]:
+            n_new = sum(1 for e in run_entries if e["type"] == "new")
+            n_upd = sum(1 for e in run_entries if e["type"] == "updated")
+            parts = ([f"{n_new} new"] if n_new else []) + ([f"{n_upd} updated"] if n_upd else [])
+            if not parts:
+                continue
+            count = n_new + n_upd
+            title = f"{', '.join(parts)} score{'s' if count != 1 else ''} \u2014 {run_time[:16].replace('T', ' ')} UTC"
+            lines = [
+                f"{'NEW' if e['type'] == 'new' else 'UPD'} {e['wod']}: "
+                f"{e['athlete']} \u2014 {e['score']} (#{e['rank']})"
+                for e in run_entries
+            ]
+            page_link = site or "https://example.com"
+            items_xml.append(
+                f"    <item>\n"
+                f"      <title>{_xml_esc(title)}</title>\n"
+                f"      <description><![CDATA[{'<br>'.join(lines)}]]></description>\n"
+                f"      <pubDate>{_rfc2822(run_time)}</pubDate>\n"
+                f"      <guid isPermaLink=\"false\">gtd2026-{_xml_esc(slug)}-{_xml_esc(run_time)}</guid>\n"
+                f"      <link>{_xml_esc(page_link)}</link>\n"
+                f"    </item>"
+            )
+
+        page_link = site or "https://example.com"
+        feed = (
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<rss version="2.0">\n'
+            '  <channel>\n'
+            f'    <title>GTD 2026 \u2014 {_xml_esc(div_name)}</title>\n'
+            f'    <link>{_xml_esc(page_link)}</link>\n'
+            f'    <description>Score updates for {_xml_esc(div_name)} \u2014 German Throwdown 2026</description>\n'
+            '    <language>en</language>\n'
+            '    <ttl>60</ttl>\n'
+            + ("\n".join(items_xml) + "\n" if items_xml else "")
+            + '  </channel>\n</rss>\n'
         )
+        with open(feed_path, "w", encoding="utf-8") as f:
+            f.write(feed)
 
-    feed = (
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<rss version="2.0">\n'
-        '  <channel>\n'
-        '    <title>German Throwdown 2026 \u2014 Score Updates</title>\n'
-        f'    <link>{_xml_esc(site)}</link>\n'
-        '    <description>New and updated scores for the German Throwdown 2026 Online Qualifier</description>\n'
-        '    <language>en</language>\n'
-        '    <ttl>60</ttl>\n'
-        + "\n".join(items_xml) + "\n"
-        '  </channel>\n'
-        '</rss>\n'
+        feed_infos.append({"name": div_name, "individual": div["individual"],
+                           "slug": slug, "url": feed_url})
+    return feed_infos
+
+
+def write_feeds_page(feed_infos):
+    """Generate feeds.html listing all division RSS feeds (not linked from main page)."""
+    individual = [f for f in feed_infos if f["individual"]]
+    teams = [f for f in feed_infos if not f["individual"]]
+
+    def feed_rows(infos):
+        rows = []
+        for fi in infos:
+            escaped_url = _xml_esc(fi["url"])
+            rows.append(
+                f'    <li>'
+                f'<a href="{escaped_url}">{_xml_esc(fi["name"])}</a>'
+                f' <button class="copy" onclick="navigator.clipboard.writeText(\'{escaped_url}\');'
+                f'this.textContent=\'\u2713 copied\'">\U0001f4cb copy URL</button>'
+                f'</li>'
+            )
+        return "\n".join(rows)
+
+    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    html = (
+        '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
+        '  <meta charset="UTF-8">\n'
+        '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
+        '  <title>GTD 2026 \u2014 Score Update Feeds</title>\n'
+        '  <style>\n'
+        '    body{font-family:system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;color:#ddd;background:#111}\n'
+        '    h1{font-size:1.4rem;margin-bottom:.25rem}\n'
+        '    p{color:#999;font-size:.9rem}\n'
+        '    h2{font-size:1rem;margin-top:2rem;color:#aaa;border-bottom:1px solid #333;padding-bottom:4px}\n'
+        '    ul{list-style:none;padding:0}\n'
+        '    li{padding:8px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px}\n'
+        '    a{color:#58a6ff;text-decoration:none}\n'
+        '    a:hover{text-decoration:underline}\n'
+        '    .copy{background:none;border:1px solid #444;color:#666;cursor:pointer;font-size:.75rem;padding:2px 8px;border-radius:4px}\n'
+        '    .copy:hover{color:#aaa;border-color:#666}\n'
+        '    .hint{background:#1a1a2e;border:1px solid #333;padding:12px 16px;border-radius:6px;font-size:.85rem;color:#aaa;margin:1.5rem 0}\n'
+        '  </style>\n</head>\n<body>\n'
+        '  <h1>GTD 2026 \u2014 Score Update Feeds</h1>\n'
+        '  <p>RSS feeds for the German Throwdown 2026 Online Qualifier. Subscribe to the divisions you care about.</p>\n'
+        '  <div class="hint">\n'
+        '    Paste a feed URL into any RSS reader (Feedly, Reeder, NetNewsWire&nbsp;\u2026).<br>\n'
+        '    For email updates try <a href="https://blogtrottr.com" target="_blank" rel="noopener">Blogtrottr</a>'
+        ' or <a href="https://ifttt.com" target="_blank" rel="noopener">IFTTT</a>.\n'
+        '  </div>\n'
+        '  <h2>Individual</h2>\n  <ul>\n'
+        + feed_rows(individual) + '\n  </ul>\n'
+        '  <h2>Teams</h2>\n  <ul>\n'
+        + feed_rows(teams) + '\n  </ul>\n'
+        f'  <p style="margin-top:3rem;font-size:.75rem;color:#555">Updated: {updated}</p>\n'
+        '</body>\n</html>\n'
     )
-    os.makedirs(os.path.dirname(FEED_PATH), exist_ok=True)
-    with open(FEED_PATH, "w", encoding="utf-8") as f:
-        f.write(feed)
+    with open(FEEDS_PAGE_PATH, "w", encoding="utf-8") as f:
+        f.write(html)
 
 
 # ---------------------------------------------------------------------------
