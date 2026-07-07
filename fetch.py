@@ -12,6 +12,7 @@ Token:
 
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -31,9 +32,9 @@ COMPETITION_ID = "cd3809c9-4aae-43bd-9d78-53c3b19b97c9"
 API_BASE = "https://api.circle21.events/api"
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "data", "data.json")
 CHANGES_PATH = os.path.join(os.path.dirname(__file__), "data", "changes.json")
-FEED_PATH = os.path.join(os.path.dirname(__file__), "data", "feed.xml")
-SITE_URL = os.environ.get("SITE_URL", "")
-DISABLE_NOTIFICATIONS = os.environ.get("DISABLE_NOTIFICATIONS", "").lower() in ("1", "true", "yes")
+FEEDS_DIR = os.path.join(os.path.dirname(__file__), "data")
+FEEDS_PAGE_PATH = os.path.join(os.path.dirname(__file__), "feeds.html")
+SITE_URL = os.environ.get("SITE_URL", "").rstrip("/")
 CHANGES_MAX_DAYS = 7
 
 HDR = {
@@ -520,16 +521,17 @@ def fetch_all():
     print(f"\n✅ Done — wrote {OUTPUT_PATH}")
     print(f"   {div_count} divisions, updated at {output['meta']['updated_at_readable']}")
 
-    # Step 4: Notifications (skip with DISABLE_NOTIFICATIONS=1)
-    if not DISABLE_NOTIFICATIONS:
-        run_time = output["meta"]["updated_at"]
-        new_changes = detect_changes(old_data, output, run_time)
-        if new_changes:
-            print(f"\n📣 {len(new_changes)} change(s) detected — updating feed")
-        else:
-            print("\n📣 No score changes detected")
-        all_entries = update_changes_json(new_changes)
-        write_rss_feed(all_entries)
+    # Step 4: Write per-division RSS feeds
+    run_time = output["meta"]["updated_at"]
+    new_changes = detect_changes(old_data, output, run_time)
+    if new_changes:
+        print(f"\n📣 {len(new_changes)} change(s) detected — updating feeds")
+    else:
+        print("\n📣 No score changes detected")
+    all_entries = update_changes_json(new_changes)
+    divisions_info = [{"name": d["name"], "individual": d["individual"]} for d in output["divisions"]]
+    feed_infos = write_rss_feeds(all_entries, divisions_info)
+    write_feeds_page(feed_infos)
 
 
 if __name__ == "__main__":
