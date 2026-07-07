@@ -16,7 +16,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -30,6 +30,11 @@ TOKEN = os.environ.get(
 COMPETITION_ID = "cd3809c9-4aae-43bd-9d78-53c3b19b97c9"
 API_BASE = "https://api.circle21.events/api"
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "data", "data.json")
+CHANGES_PATH = os.path.join(os.path.dirname(__file__), "data", "changes.json")
+FEED_PATH = os.path.join(os.path.dirname(__file__), "data", "feed.xml")
+SITE_URL = os.environ.get("SITE_URL", "")
+DISABLE_NOTIFICATIONS = os.environ.get("DISABLE_NOTIFICATIONS", "").lower() in ("1", "true", "yes")
+CHANGES_MAX_DAYS = 7
 
 HDR = {
     "accept": "application/json",
@@ -81,6 +86,137 @@ def apply_member_combined_score(entry, members):
             entry["time"] = None
             if combined_tb > 0:
                 entry["tiebreak"] = combined_tb
+
+
+# ---------------------------------------------------------------------------
+# Change detection & notifications
+# ---------------------------------------------------------------------------
+def _fmt_ms(ms):
+    if not ms:
+        return ""
+    total_sec = round(ms / 1000)
+    h, rem = divmod(total_sec, 3600)
+    m, s = divmod(rem, 60)
+    return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
+
+
+def _fmt_score_text(entry):
+    t, r, tb, cap = entry.get("time"), entry.get("reps"), entry.get("tiebreak"), entry.get("cap", False)
+    is_capped = cap or (t and r)
+    if is_capped and r:
+        return f"{r} reps @ {_fmt_ms(tb)}" if tb else f"{r} reps"
+    if t:
+        return f"{_fmt_ms(t)} (tb {_fmt_ms(tb)})" if tb else _fmt_ms(t)
+    if r:
+        return f"{r} reps"
+    return "?"
+
+
+def _score_changed(old, new):
+    return (
+        old.get("time") != new.get("time")
+        or old.get("reps") != new.get("reps")
+        or old.get("rank") != new.get("rank")
+    )
+
+
+def detect_changes(old_data, new_data, run_time):
+    if not old_data:
+        return []
+    changes = []
+    old_divs = {d["name"]: d for d in old_data.get("divisions", [])}
+    for new_div in new_data.get("divisions", []):
+        div_name = new_div["name"]
+        old_div = old_divs.get(div_name, {})
+        for wname, new_rows in new_div.get("per_wod", {}).items():
+            old_scores = {r["name"]: r for r in old_div.get("per_wod", {}).get(wname, [])}
+            for row in new_rows:
+                name = row["name"]
+                old = old_scores.get(name)
+                if old is None:
+                    changes.append({"at": run_time, "division": div_name, "athlete": name,
+                                    "wod": wname, "type": "new", "rank": row.get("rank"),
+                                    "score": _fmt_score_text(row)})
+                elif _score_changed(old, row):
+                    changes.append({"at": run_time, "division": div_name, "athlete": name,
+                                    "wod": wname, "type": "updated", "rank": row.get("rank"),
+                                    "score": _fmt_score_text(row)})
+    return changes
+
+
+def update_changes_json(new_changes):
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=CHANGES_MAX_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    existing = []
+    if os.path.exists(CHANGES_PATH):
+        try:
+            with open(CHANGES_PATH, encoding="utf-8") as f:
+                existing = json.load(f).get("entries", [])
+        except Exception:
+            pass
+    entries = new_changes + [e for e in existing if e.get("at", "") >= cutoff]
+    os.makedirs(os.path.dirname(CHANGES_PATH), exist_ok=True)
+    with open(CHANGES_PATH, "w", encoding="utf-8") as f:
+        json.dump({"entries": entries}, f, indent=2, ensure_ascii=False)
+    return entries
+
+
+def _xml_esc(s):
+    return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+
+def _rfc2822(iso_str):
+    try:
+        dt = datetime.strptime(iso_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+        return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+    except Exception:
+        return iso_str
+
+
+def write_rss_feed(all_entries):
+    # Group entries by run timestamp → one RSS item per sync run
+    runs = {}
+    for e in all_entries:
+        runs.setdefault(e["at"], []).append(e)
+
+    site = SITE_URL or "https://example.com"
+    items_xml = []
+    for run_time, entries in list(runs.items())[:20]:
+        n_new = sum(1 for e in entries if e["type"] == "new")
+        n_upd = sum(1 for e in entries if e["type"] == "updated")
+        parts = ([f"{n_new} new"] if n_new else []) + ([f"{n_upd} updated"] if n_upd else [])
+        count = n_new + n_upd
+        title = f"{', '.join(parts)} score{'s' if count != 1 else ''} — {run_time[:16].replace('T', ' ')} UTC"
+        lines = [
+            f"{'NEW' if e['type'] == 'new' else 'UPD'} {e['division']} | {e['wod']}: "
+            f"{e['athlete']} — {e['score']} (#{e['rank']})"
+            for e in entries
+        ]
+        items_xml.append(
+            f"    <item>\n"
+            f"      <title>{_xml_esc(title)}</title>\n"
+            f"      <description><![CDATA[{'<br>'.join(lines)}]]></description>\n"
+            f"      <pubDate>{_rfc2822(run_time)}</pubDate>\n"
+            f"      <guid isPermaLink=\"false\">gtd2026-sync-{_xml_esc(run_time)}</guid>\n"
+            f"      <link>{_xml_esc(site)}</link>\n"
+            f"    </item>"
+        )
+
+    feed = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        '  <channel>\n'
+        '    <title>German Throwdown 2026 \u2014 Score Updates</title>\n'
+        f'    <link>{_xml_esc(site)}</link>\n'
+        '    <description>New and updated scores for the German Throwdown 2026 Online Qualifier</description>\n'
+        '    <language>en</language>\n'
+        '    <ttl>60</ttl>\n'
+        + "\n".join(items_xml) + "\n"
+        '  </channel>\n'
+        '</rss>\n'
+    )
+    os.makedirs(os.path.dirname(FEED_PATH), exist_ok=True)
+    with open(FEED_PATH, "w", encoding="utf-8") as f:
+        f.write(feed)
 
 
 # ---------------------------------------------------------------------------
@@ -367,7 +503,15 @@ def fetch_all():
             }
         )
 
-    # Step 3: Write output
+    # Step 3: Load old data for diff, then write new output
+    old_data = None
+    if os.path.exists(OUTPUT_PATH):
+        try:
+            with open(OUTPUT_PATH, encoding="utf-8") as f:
+                old_data = json.load(f)
+        except Exception:
+            pass
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
@@ -375,6 +519,17 @@ def fetch_all():
     div_count = len(output["divisions"])
     print(f"\n✅ Done — wrote {OUTPUT_PATH}")
     print(f"   {div_count} divisions, updated at {output['meta']['updated_at_readable']}")
+
+    # Step 4: Notifications (skip with DISABLE_NOTIFICATIONS=1)
+    if not DISABLE_NOTIFICATIONS:
+        run_time = output["meta"]["updated_at"]
+        new_changes = detect_changes(old_data, output, run_time)
+        if new_changes:
+            print(f"\n📣 {len(new_changes)} change(s) detected — updating feed")
+        else:
+            print("\n📣 No score changes detected")
+        all_entries = update_changes_json(new_changes)
+        write_rss_feed(all_entries)
 
 
 if __name__ == "__main__":
