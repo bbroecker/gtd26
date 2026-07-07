@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-07T16:48:45Z",
-    "updated_at_readable": "2026-07-07 16:48 UTC"
+    "updated_at": "2026-07-07T17:37:41Z",
+    "updated_at_readable": "2026-07-07 17:37 UTC"
   },
   "divisions": [
     {
@@ -11962,7 +11962,7 @@
       "order": 8,
       "individual": true,
       "athlete_count": 20,
-      "result_count": 5,
+      "result_count": 6,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -11981,7 +11981,7 @@
           "name": "Aleksandra Lech-Nowicka",
           "country": "PL",
           "club": "",
-          "points": 6,
+          "points": 8,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -11991,14 +11991,14 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 352000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 145,
               "tiebreak": 0,
@@ -12015,13 +12015,50 @@
         },
         {
           "rank": 2,
-          "name": "Laura Dörr",
+          "name": "Anna Gebel",
           "country": "DE",
-          "club": "CrossFit Fächerstadt",
-          "points": 6,
+          "club": "First Class Performance",
+          "points": 8,
           "wods": {
             "GTD QWOD26.1": {
               "position": 2,
+              "time": 628000,
+              "reps": 0,
+              "tiebreak": 517000,
+              "cap": false
+            },
+            "GTD QWOD26.2": {
+              "position": 2,
+              "time": 326000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 161,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 83.5,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 3,
+          "name": "Laura Dörr",
+          "country": "DE",
+          "club": "CrossFit Fächerstadt",
+          "points": 8,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 3,
               "time": 710000,
               "reps": 0,
               "tiebreak": 604000,
@@ -12042,7 +12079,7 @@
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 80,
               "tiebreak": 0,
@@ -12051,35 +12088,35 @@
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Charlotte Cailly",
           "country": "FR",
           "club": "",
-          "points": 14,
+          "points": 18,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": 900000,
               "reps": 168,
               "tiebreak": 787000,
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 410000,
               "reps": null,
               "tiebreak": null,
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 139,
               "tiebreak": null,
               "cap": false
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 72,
               "tiebreak": null,
@@ -12088,14 +12125,14 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Alica Grabitsch",
           "country": "DE",
           "club": "CrossFit GenGym",
-          "points": 63,
+          "points": 64,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 355000,
               "reps": 0,
               "tiebreak": 0,
@@ -12104,14 +12141,14 @@
           }
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Cathrine Mamsen",
           "country": "DK",
           "club": "",
-          "points": 64,
+          "points": 65,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 376000,
               "reps": 0,
               "tiebreak": 0,
@@ -12134,6 +12171,16 @@
           },
           {
             "rank": 2,
+            "name": "Anna Gebel",
+            "country": "DE",
+            "club": "First Class Performance",
+            "time": 628000,
+            "reps": 0,
+            "tiebreak": 517000,
+            "cap": false
+          },
+          {
+            "rank": 3,
             "name": "Laura Dörr",
             "country": "DE",
             "club": "CrossFit Fächerstadt",
@@ -12143,7 +12190,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Charlotte Cailly",
             "country": "FR",
             "club": "",
@@ -12166,6 +12213,16 @@
           },
           {
             "rank": 2,
+            "name": "Anna Gebel",
+            "country": "DE",
+            "club": "First Class Performance",
+            "time": 326000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 3,
             "name": "Aleksandra Lech-Nowicka",
             "country": "PL",
             "club": "",
@@ -12175,7 +12232,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Alica Grabitsch",
             "country": "DE",
             "club": "CrossFit GenGym",
@@ -12185,7 +12242,7 @@
             "cap": false
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Cathrine Mamsen",
             "country": "DK",
             "club": "",
@@ -12195,7 +12252,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Charlotte Cailly",
             "country": "FR",
             "club": "",
@@ -12218,6 +12275,16 @@
           },
           {
             "rank": 2,
+            "name": "Anna Gebel",
+            "country": "DE",
+            "club": "First Class Performance",
+            "time": null,
+            "reps": 161,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 3,
             "name": "Aleksandra Lech-Nowicka",
             "country": "PL",
             "club": "",
@@ -12227,7 +12294,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Charlotte Cailly",
             "country": "FR",
             "club": "",
@@ -12250,6 +12317,16 @@
           },
           {
             "rank": 2,
+            "name": "Anna Gebel",
+            "country": "DE",
+            "club": "First Class Performance",
+            "time": null,
+            "reps": 83.5,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 3,
             "name": "Laura Dörr",
             "country": "DE",
             "club": "CrossFit Fächerstadt",
@@ -12259,7 +12336,7 @@
             "cap": false
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Charlotte Cailly",
             "country": "FR",
             "club": "",
