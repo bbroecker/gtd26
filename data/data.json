@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-08T23:23:47Z",
-    "updated_at_readable": "2026-07-08 23:23 UTC"
+    "updated_at": "2026-07-09T00:26:30Z",
+    "updated_at_readable": "2026-07-09 00:26 UTC"
   },
   "divisions": [
     {
@@ -1987,7 +1987,7 @@
       "order": 2,
       "individual": true,
       "athlete_count": 34,
-      "result_count": 15,
+      "result_count": 16,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -2339,7 +2339,7 @@
           "name": "Stephanie  Wayment",
           "country": "GB",
           "club": "",
-          "points": 43,
+          "points": 44,
           "wods": {
             "GTD QWOD26.1": {
               "position": 11,
@@ -2349,7 +2349,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 13,
+              "position": 14,
               "time": 361000,
               "reps": 0,
               "tiebreak": 0,
@@ -2376,7 +2376,7 @@
           "name": "Fee Bauer",
           "country": "DE",
           "club": "CrossFit Kampfgeist",
-          "points": 44,
+          "points": 45,
           "wods": {
             "GTD QWOD26.1": {
               "position": 7,
@@ -2386,7 +2386,7 @@
               "cap": false
             },
             "GTD QWOD26.2": {
-              "position": 12,
+              "position": 13,
               "time": 359000,
               "reps": 0,
               "tiebreak": 0,
@@ -2508,6 +2508,22 @@
             "GTD QWOD26.2": {
               "position": 10,
               "time": 331000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 16,
+          "name": "Jessica Rubino",
+          "country": "IT",
+          "club": "",
+          "points": 114,
+          "wods": {
+            "GTD QWOD26.2": {
+              "position": 12,
+              "time": 350000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
@@ -2761,6 +2777,16 @@
           },
           {
             "rank": 12,
+            "name": "Jessica Rubino",
+            "country": "IT",
+            "club": "",
+            "time": 350000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 13,
             "name": "Fee Bauer",
             "country": "DE",
             "club": "CrossFit Kampfgeist",
@@ -2770,7 +2796,7 @@
             "cap": false
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Stephanie  Wayment",
             "country": "GB",
             "club": "",
