@@ -17,6 +17,7 @@ import sys
 import time
 import urllib.request
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 
 # ---------------------------------------------------------------------------
@@ -492,12 +493,13 @@ def fetch_all(comp):
         if not is_individual:
             teams_with_results = [a for a in participants if a["id"] in athletes_with_results]
             print(f"   Fetching member details for {len(teams_with_results)} teams...")
-            for team in teams_with_results:
-                team_id = team["id"]
+
+            def _fetch_members(team):
+                tid = team["id"]
                 try:
-                    member_resp = get(f"{API_BASE}/teams/{team_id}/member")
+                    resp = get(f"{API_BASE}/teams/{tid}/member")
                     members = []
-                    for m in (member_resp if isinstance(member_resp, list) else []):
+                    for m in (resp if isinstance(resp, list) else []):
                         ath = m.get("athlete", {})
                         user = ath.get("user", {})
                         members.append({
@@ -505,47 +507,54 @@ def fetch_all(comp):
                             "name": user.get("name") or ath.get("name") or "?",
                             "gender": user.get("gender") or "",
                         })
-                    team_members_map[team_id] = members
-                    time.sleep(0.3)
-
-                    # Fetch per-member score for each exercise
-                    wname_scores = {}
-                    for wname, ex_id in wod_exercise_ids.items():
-                        if not ex_id:
-                            continue
-                        member_wod_scores = []
-                        for member in members:
-                            ath_id = member["athlete_id"]
-                            if not ath_id:
-                                continue
-                            try:
-                                res = get(f"{API_BASE}/workouts/{ex_id}/results?athlete_id={ath_id}")
-                                data = res.get("data", [])
-                                if data:
-                                    r = data[0]
-                                    # For weight WODs the weight may be in `lift`
-                                    # rather than `how_many`; prefer `how_many` first.
-                                    reps_val = r.get("how_many") if r.get("how_many") is not None else r.get("lift")
-                                    # Null time when both time and reps present
-                                    # (cap-time on per-athlete result is meaningless)
-                                    # unless it's a time-based WOD where athlete capped.
-                                    t = r.get("time")
-                                    member_wod_scores.append({
-                                        "name": member["name"],
-                                        "gender": member["gender"],
-                                        "time": t,
-                                        "reps": reps_val,
-                                        "tiebreak": r.get("tie_break"),
-                                        "cap": bool(r.get("cap")),
-                                    })
-                                time.sleep(0.2)
-                            except Exception:
-                                pass
-                        if member_wod_scores:
-                            wname_scores[wname] = member_wod_scores
-                    team_member_scores[team_id] = wname_scores
+                    return tid, members
                 except Exception as e:
                     print(f"     ⚠️  Members for {team.get('name')}: {e}")
+                    return tid, []
+
+            # Fetch all team member lists in parallel
+            with ThreadPoolExecutor(max_workers=6) as pool:
+                for tid, members in pool.map(_fetch_members, teams_with_results):
+                    if members:
+                        team_members_map[tid] = members
+
+            # Build flat list of all (team_id, member, wname, ex_id) score tasks
+            score_tasks = []
+            for team in teams_with_results:
+                tid = team["id"]
+                for wname, ex_id in wod_exercise_ids.items():
+                    if not ex_id:
+                        continue
+                    for member in team_members_map.get(tid, []):
+                        if member.get("athlete_id"):
+                            score_tasks.append((tid, wname, ex_id, member))
+
+            def _fetch_score(task):
+                tid, wname, ex_id, member = task
+                ath_id = member["athlete_id"]
+                try:
+                    res = get(f"{API_BASE}/workouts/{ex_id}/results?athlete_id={ath_id}")
+                    data = res.get("data", [])
+                    if data:
+                        r = data[0]
+                        reps_val = r.get("how_many") if r.get("how_many") is not None else r.get("lift")
+                        return tid, wname, {
+                            "name": member["name"],
+                            "gender": member["gender"],
+                            "time": r.get("time"),
+                            "reps": reps_val,
+                            "tiebreak": r.get("tie_break"),
+                            "cap": bool(r.get("cap")),
+                        }
+                except Exception:
+                    pass
+                return tid, wname, None
+
+            # Fetch all member scores in parallel
+            with ThreadPoolExecutor(max_workers=8) as pool:
+                for tid, wname, score in pool.map(_fetch_score, score_tasks):
+                    if score:
+                        team_member_scores.setdefault(tid, {}).setdefault(wname, []).append(score)
 
         overall_top20 = []
         for rank, athlete in enumerate(ranked_athletes, 1):
