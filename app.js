@@ -1,27 +1,44 @@
 /* ============================================================
    German Throwdown 2026 — Leaderboard App
-   Reads data/data.json, renders Overall + Per-WOD tables.
+   Reads data/data-{slug}.json, renders Overall + Per-WOD tables.
    ============================================================ */
 
 'use strict';
+
+const COMPETITIONS = {
+  gtd: { name: 'German Throwdown 2026', url: 'https://germanthrowdown.de' },
+  atd: { name: 'Austrian Throwdown 2026', url: 'https://austrianthrowdown.at' },
+};
 
 let appData = null;
 let currentDivision = null;
 let activeTab = 'overall';
 let currentWod = null;
 let currentView = 'division'; // 'division' | 'all_individual' | 'all_teams'
+let currentCompSlug = 'gtd';
 
 // ---------------------------------------------------------------------------
 // Initialise
 // ---------------------------------------------------------------------------
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadData();
+  await loadCompetition('gtd');
   bindEvents();
 });
 
-async function loadData() {
+async function loadCompetition(slug) {
+  currentCompSlug = slug;
+  const comp = COMPETITIONS[slug];
+  if (comp) {
+    document.getElementById('pageTitle').textContent = comp.name;
+    const link = document.querySelector('.gtd-link');
+    if (link) link.href = comp.url;
+  }
+  await loadData(slug);
+}
+
+async function loadData(slug) {
   try {
-    const res = await fetch('data/data.json');
+    const res = await fetch(`data/data-${slug}.json`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     appData = await res.json();
     populateDivisionSelect();
@@ -38,10 +55,10 @@ async function loadData() {
     }
     if (divSelect.value) onDivisionChange();
   } catch (e) {
-    console.error('Failed to load data/data.json:', e);
+    console.error(`Failed to load data/data-${slug}.json:`, e);
     document.getElementById('overallContainer').innerHTML =
       `<p class="empty-state">⚠️ Could not load data.<br>
-       Run <code>python3 fetch.py</code> to generate <code>data/data.json</code>, then reload.</p>`;
+       Run <code>python3 fetch.py</code> to generate <code>data/data-${slug}.json</code>, then reload.</p>`;
   }
 }
 
@@ -111,6 +128,9 @@ function populateDivisionSelect() {
 // Events
 // ---------------------------------------------------------------------------
 function bindEvents() {
+  document.getElementById('competitionSelect').addEventListener('change', async (e) => {
+    await loadCompetition(e.target.value);
+  });
   document.getElementById('divisionSelect').addEventListener('change', onDivisionChange);
   document.getElementById('wodSelect').addEventListener('change', onWodChange);
 

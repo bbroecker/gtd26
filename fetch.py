@@ -28,9 +28,20 @@ TOKEN = os.environ.get(
     "CIRCLE21_TOKEN",
     "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODlmMDRjZC1iNWRhLTQ2ZTUtOTg0Yy1kYjU3YmIxOWNlZjIiLCJqdGkiOiJmZDE1NzM3MDM2YTczYWIyZTY4MjAyNmQ4YmJiMzdlNDVhNjY0YjlkZmM5YzI5YmFjZWFlMGIzNzZhYTdjZjM0ODZhZGM2ODhlYThmZmMyNiIsImlhdCI6MTc3Mjk4NjU5MC44NzI1MiwibmJmIjoxNzcyOTg2NTkwLjg3MjUyMywiZXhwIjoxODA0NTIyNTkwLjg2NjUzNywic3ViIjoiMzA1Y2M1ZGItMGNmMS00MzFiLThjYzktYjg5MWFiOWQwMzNmIiwic2NvcGVzIjpbXX0.qTGPTD2SmVhihQgeX_yYEjNXU8wuyXJOrm9OliEbWNUf48LoY1xRONGjtIQPbdVdk-7Ye2kpvyNOfdrT7N8dKCWPIht9wLXafasFGF4qRrdD-EPxPuR6Ygxvu-tmlrDEbTj9mF94bucWuil83cXfAVAYrTyGITa-mK26bPIBHGC-Wbk0VJzDGL9a4oiQEo_RDHyh3MOrkA_iralEStNYfdZ-jF8nJVsPkeWVcPYnyZK1Ar0NuIFD0yIEhGbaJKbZu8RoJDgFwAk2aRyrAhVSc1cRg6tF49VAISJAk-KGJr4Bs7Yw7rop89dOVdzh-ZeyqLvdMR4tpQzpt8t7Y6KSXl9Rmq9OYuOThfavvqir5CqCQmYWixy2yrXHwcqhBcVk0SvajUmRuKrDyqPrcv5xWFQjcDD_rYFPj355FQoZDmbqyhsp2P7NRMlXdCjWtwInnOQ2q1zGKnaXATkD1yHMD_C3bTqlxLLQy2odTQmX9U6Ggp8B6ZEvyL2GICEL7ZFT427M3O0WJhDSPRpR2w9K1bIyoRGzPy2t_aOfLwqoD3x-PxljIfB1O6hxbf1kSz3oeWjVvBkTm48V48v2fwgfubSiclm8hLn3wHErSj_u6LY8gQR42DSKGDHpSZVw8W0TNQ8RGTcwOs5WDnlh0FG5WAWc1CWXBvTVlSkXF3IIb6M",
 )
-COMPETITION_ID = "cd3809c9-4aae-43bd-9d78-53c3b19b97c9"
+COMPETITIONS = [
+    {
+        "id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
+        "name": "German Throwdown 2026",
+        "slug": "gtd",
+    },
+    {
+        "id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
+        "name": "Austrian Throwdown 2026",
+        "slug": "atd",
+    },
+]
 API_BASE = "https://api.circle21.events/api"
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "data", "data.json")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CHANGES_PATH = os.path.join(os.path.dirname(__file__), "data", "changes.json")
 FEEDS_DIR = os.path.join(os.path.dirname(__file__), "data")
 FEEDS_PAGE_PATH = os.path.join(os.path.dirname(__file__), "feeds.html")
@@ -121,7 +132,7 @@ def _score_changed(old, new):
     )
 
 
-def detect_changes(old_data, new_data, run_time):
+def detect_changes(old_data, new_data, run_time, comp_slug=""):
     if not old_data:
         return []
     changes = []
@@ -135,11 +146,11 @@ def detect_changes(old_data, new_data, run_time):
                 name = row["name"]
                 old = old_scores.get(name)
                 if old is None:
-                    changes.append({"at": run_time, "division": div_name, "athlete": name,
+                    changes.append({"at": run_time, "comp": comp_slug, "division": div_name, "athlete": name,
                                     "wod": wname, "type": "new", "rank": row.get("rank"),
                                     "score": _fmt_score_text(row)})
                 elif _score_changed(old, row):
-                    changes.append({"at": run_time, "division": div_name, "athlete": name,
+                    changes.append({"at": run_time, "comp": comp_slug, "division": div_name, "athlete": name,
                                     "wod": wname, "type": "updated", "rank": row.get("rank"),
                                     "score": _fmt_score_text(row)})
     return changes
@@ -177,11 +188,13 @@ def _slugify(name):
     return re.sub(r'[^a-z0-9]+', '-', name.lower()).strip('-')
 
 
-def write_rss_feeds(all_entries, divisions_info):
+def write_rss_feeds(all_entries, divisions_info, comp_slug="", comp_name=""):
     """Write one RSS feed per division. Returns list of feed-info dicts."""
+    # Filter entries to this competition only
     by_division = {}
     for e in all_entries:
-        by_division.setdefault(e["division"], []).append(e)
+        if not comp_slug or e.get("comp", "") == comp_slug:
+            by_division.setdefault(e["division"], []).append(e)
 
     os.makedirs(FEEDS_DIR, exist_ok=True)
     site = SITE_URL
@@ -190,7 +203,7 @@ def write_rss_feeds(all_entries, divisions_info):
     for div in divisions_info:
         div_name = div["name"]
         slug = _slugify(div_name)
-        feed_filename = f"feed-{slug}.xml"
+        feed_filename = f"feed-{comp_slug}-{slug}.xml" if comp_slug else f"feed-{slug}.xml"
         feed_path = os.path.join(FEEDS_DIR, feed_filename)
         feed_url = f"{site}/data/{feed_filename}" if site else f"data/{feed_filename}"
 
@@ -241,14 +254,14 @@ def write_rss_feeds(all_entries, divisions_info):
             f.write(feed)
 
         feed_infos.append({"name": div_name, "individual": div["individual"],
-                           "slug": slug, "url": feed_url})
+                           "slug": slug, "url": feed_url,
+                           "comp_name": comp_name or comp_slug})
     return feed_infos
 
 
-def write_feeds_page(feed_infos):
-    """Generate feeds.html listing all division RSS feeds (not linked from main page)."""
-    individual = [f for f in feed_infos if f["individual"]]
-    teams = [f for f in feed_infos if not f["individual"]]
+def write_feeds_page(all_feed_infos):
+    """Generate feeds.html listing all division RSS feeds grouped by competition."""
+    comp_names = list(dict.fromkeys(f["comp_name"] for f in all_feed_infos))
 
     def feed_rows(infos):
         rows = []
@@ -263,17 +276,29 @@ def write_feeds_page(feed_infos):
             )
         return "\n".join(rows)
 
+    sections = []
+    for comp_name in comp_names:
+        comp_infos = [f for f in all_feed_infos if f["comp_name"] == comp_name]
+        individual = [f for f in comp_infos if f["individual"]]
+        teams = [f for f in comp_infos if not f["individual"]]
+        sections.append(
+            f'  <h2 class="comp-header">{_xml_esc(comp_name)}</h2>\n'
+            f'  <h3>Individual</h3>\n  <ul>\n' + feed_rows(individual) + '\n  </ul>\n'
+            f'  <h3>Teams</h3>\n  <ul>\n' + feed_rows(teams) + '\n  </ul>\n'
+        )
+
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     html = (
         '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
         '  <meta charset="UTF-8">\n'
         '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
-        '  <title>GTD 2026 \u2014 Score Update Feeds</title>\n'
+        '  <title>Score Update Feeds</title>\n'
         '  <style>\n'
         '    body{font-family:system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;color:#ddd;background:#111}\n'
         '    h1{font-size:1.4rem;margin-bottom:.25rem}\n'
         '    p{color:#999;font-size:.9rem}\n'
-        '    h2{font-size:1rem;margin-top:2rem;color:#aaa;border-bottom:1px solid #333;padding-bottom:4px}\n'
+        '    h2.comp-header{font-size:1.1rem;margin-top:2.5rem;color:#eee;border-bottom:2px solid #444;padding-bottom:6px}\n'
+        '    h3{font-size:.9rem;margin-top:1rem;color:#aaa}\n'
         '    ul{list-style:none;padding:0}\n'
         '    li{padding:8px 0;border-bottom:1px solid #222;display:flex;align-items:center;gap:12px}\n'
         '    a{color:#58a6ff;text-decoration:none}\n'
@@ -282,18 +307,15 @@ def write_feeds_page(feed_infos):
         '    .copy:hover{color:#aaa;border-color:#666}\n'
         '    .hint{background:#1a1a2e;border:1px solid #333;padding:12px 16px;border-radius:6px;font-size:.85rem;color:#aaa;margin:1.5rem 0}\n'
         '  </style>\n</head>\n<body>\n'
-        '  <h1>GTD 2026 \u2014 Score Update Feeds</h1>\n'
-        '  <p>RSS feeds for the German Throwdown 2026 Online Qualifier. Subscribe to the divisions you care about.</p>\n'
+        '  <h1>Online Qualifier \u2014 Score Update Feeds</h1>\n'
+        '  <p>RSS feeds for the Online Qualifier leaderboards. Subscribe to the divisions you care about.</p>\n'
         '  <div class="hint">\n'
         '    Paste a feed URL into any RSS reader (Feedly, Reeder, NetNewsWire&nbsp;\u2026).<br>\n'
         '    For email updates try <a href="https://blogtrottr.com" target="_blank" rel="noopener">Blogtrottr</a>'
         ' or <a href="https://ifttt.com" target="_blank" rel="noopener">IFTTT</a>.\n'
         '  </div>\n'
-        '  <h2>Individual</h2>\n  <ul>\n'
-        + feed_rows(individual) + '\n  </ul>\n'
-        '  <h2>Teams</h2>\n  <ul>\n'
-        + feed_rows(teams) + '\n  </ul>\n'
-        f'  <p style="margin-top:3rem;font-size:.75rem;color:#555">Updated: {updated}</p>\n'
+        + "\n".join(sections)
+        + f'  <p style="margin-top:3rem;font-size:.75rem;color:#555">Updated: {updated}</p>\n'
         '</body>\n</html>\n'
     )
     with open(FEEDS_PAGE_PATH, "w", encoding="utf-8") as f:
@@ -303,13 +325,18 @@ def write_feeds_page(feed_infos):
 # ---------------------------------------------------------------------------
 # Main fetch logic
 # ---------------------------------------------------------------------------
-def fetch_all():
-    print("🏆 German Throwdown 2026 — Fetching leaderboard data\n")
+def fetch_all(comp):
+    comp_id = comp["id"]
+    comp_slug = comp["slug"]
+    comp_display = comp["name"]
+    output_path = os.path.join(DATA_DIR, f"data-{comp_slug}.json")
+
+    print(f"🏆 {comp_display} — Fetching leaderboard data\n")
 
     # Step 1: Fetch competition metadata + all divisions
     print("📋 Fetching competition divisions...")
-    comp = get(f"{API_BASE}/competition/{COMPETITION_ID}")
-    comp_name = comp.get("name", "German Throwdown 2026")
+    comp = get(f"{API_BASE}/competition/{comp_id}")
+    comp_name = comp.get("name", comp_display)
 
     all_divisions = sorted(
         comp.get("competition_division", []),
@@ -322,7 +349,7 @@ def fetch_all():
     output = {
         "meta": {
             "competition_name": comp_name,
-            "competition_id": COMPETITION_ID,
+            "competition_id": comp_id,
             "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "updated_at_readable": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
         },
@@ -338,7 +365,7 @@ def fetch_all():
 
         try:
             lb = get(
-                f"{API_BASE}/leaderboard?competition_id={COMPETITION_ID}&division_id={div_id}"
+                f"{API_BASE}/leaderboard?competition_id={comp_id}&division_id={div_id}"
             )
         except Exception as e:
             print(f"   ⚠️  Skipped ({e})")
@@ -586,33 +613,37 @@ def fetch_all():
 
     # Step 3: Load old data for diff, then write new output
     old_data = None
-    if os.path.exists(OUTPUT_PATH):
+    if os.path.exists(output_path):
         try:
-            with open(OUTPUT_PATH, encoding="utf-8") as f:
+            with open(output_path, encoding="utf-8") as f:
                 old_data = json.load(f)
         except Exception:
             pass
 
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     div_count = len(output["divisions"])
-    print(f"\n✅ Done — wrote {OUTPUT_PATH}")
+    print(f"\n✅ Done — wrote {output_path}")
     print(f"   {div_count} divisions, updated at {output['meta']['updated_at_readable']}")
 
-    # Step 4: Write per-division RSS feeds
+    # Step 4: Detect changes and write per-division RSS feeds
     run_time = output["meta"]["updated_at"]
-    new_changes = detect_changes(old_data, output, run_time)
+    new_changes = detect_changes(old_data, output, run_time, comp_slug)
     if new_changes:
         print(f"\n📣 {len(new_changes)} change(s) detected — updating feeds")
     else:
         print("\n📣 No score changes detected")
     all_entries = update_changes_json(new_changes)
     divisions_info = [{"name": d["name"], "individual": d["individual"]} for d in output["divisions"]]
-    feed_infos = write_rss_feeds(all_entries, divisions_info)
-    write_feeds_page(feed_infos)
+    feed_infos = write_rss_feeds(all_entries, divisions_info, comp_slug, comp_display)
+    return feed_infos
 
 
 if __name__ == "__main__":
-    fetch_all()
+    all_feed_infos = []
+    for comp in COMPETITIONS:
+        feed_infos = fetch_all(comp)
+        all_feed_infos.extend(feed_infos)
+    write_feeds_page(all_feed_infos)

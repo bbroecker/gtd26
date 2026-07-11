@@ -11,7 +11,7 @@
   <header>
     <div class="header-inner">
       <div class="header-title">
-        <h1>German Throwdown 2026</h1>
+        <h1 id="pageTitle">German Throwdown 2026</h1>
         <p class="subtitle">Online Qualifier Leaderboard</p>
       </div>
       <div class="header-meta">
@@ -24,6 +24,13 @@
   <main>
     <!-- Controls bar -->
     <div class="controls-bar">
+      <div class="control-group">
+        <label for="competitionSelect">Competition</label>
+        <select id="competitionSelect">
+          <option value="gtd">German Throwdown 2026</option>
+          <option value="atd">Austrian Throwdown 2026</option>
+        </select>
+      </div>
       <div class="control-group">
         <label for="divisionSelect">Division</label>
         <select id="divisionSelect">
