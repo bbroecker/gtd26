@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-11T22:15:16Z",
-    "updated_at_readable": "2026-07-11 22:15 UTC"
+    "updated_at": "2026-07-11T23:16:30Z",
+    "updated_at_readable": "2026-07-11 23:16 UTC"
   },
   "divisions": [
     {
@@ -28700,10 +28700,10 @@
           "name": "The Skinny Cats",
           "country": "FR",
           "club": "La Station",
-          "points": 28,
+          "points": 29,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 137,
               "tiebreak": 1480000,
@@ -28821,10 +28821,10 @@
           "name": "1,75er",
           "country": "DE",
           "club": "Greifenpower e.V.",
-          "points": 33,
+          "points": 34,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 303,
               "tiebreak": 1750000,
@@ -28942,10 +28942,10 @@
           "name": "CRAZY HORSES",
           "country": "IT",
           "club": "nessuno",
-          "points": 33,
+          "points": 34,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 7,
+              "position": 8,
               "time": 1744000,
               "reps": null,
               "tiebreak": 1515000,
@@ -29063,10 +29063,10 @@
           "name": "Who is the Beast",
           "country": "IT",
           "club": "Crossfit Roveri",
-          "points": 38,
+          "points": 39,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 230,
               "tiebreak": 1800000,
@@ -29184,10 +29184,10 @@
           "name": "Heart of No Limits",
           "country": "DE",
           "club": "No Limits Coaching",
-          "points": 39,
+          "points": 40,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 253,
               "tiebreak": 1657000,
@@ -29305,8 +29305,33 @@
           "name": "Wir sind nur für Eis hier",
           "country": "DE",
           "club": "",
-          "points": 58,
+          "points": 42,
           "wods": {
+            "GTD QWOD26.1": {
+              "position": 7,
+              "time": 1710000,
+              "reps": null,
+              "tiebreak": 1558000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Tobias Luker",
+                  "gender": "m",
+                  "time": 810000,
+                  "reps": 0,
+                  "tiebreak": 810000,
+                  "cap": false
+                },
+                {
+                  "name": "Maxi Bindrum",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 0,
+                  "tiebreak": 748000,
+                  "cap": false
+                }
+              ]
+            },
             "GTD QWOD26.3 A": {
               "position": 11,
               "time": null,
@@ -29544,6 +29569,34 @@
           },
           {
             "rank": 7,
+            "name": "Wir sind nur für Eis hier",
+            "country": "DE",
+            "club": "",
+            "time": 1710000,
+            "reps": null,
+            "tiebreak": 1558000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Tobias Luker",
+                "gender": "m",
+                "time": 810000,
+                "reps": 0,
+                "tiebreak": 810000,
+                "cap": false
+              },
+              {
+                "name": "Maxi Bindrum",
+                "gender": "f",
+                "time": 900000,
+                "reps": 0,
+                "tiebreak": 748000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 8,
             "name": "CRAZY HORSES",
             "country": "IT",
             "club": "nessuno",
@@ -29571,7 +29624,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "The Skinny Cats",
             "country": "FR",
             "club": "La Station",
@@ -29599,7 +29652,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "1,75er",
             "country": "DE",
             "club": "Greifenpower e.V.",
@@ -29627,7 +29680,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Heart of No Limits",
             "country": "DE",
             "club": "No Limits Coaching",
@@ -29655,7 +29708,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Who is the Beast",
             "country": "IT",
             "club": "Crossfit Roveri",
@@ -41235,7 +41288,7 @@
       "name": "Intermediate Teams of 2 Female/Female",
       "order": 16,
       "individual": false,
-      "athlete_count": 37,
+      "athlete_count": 38,
       "result_count": 20,
       "wods": [
         "GTD QWOD26.1",
@@ -42586,7 +42639,7 @@
           "name": "Barbell & Battery",
           "country": "DE",
           "club": "",
-          "points": 46,
+          "points": 47,
           "wods": {
             "GTD QWOD26.2": {
               "position": 1,
@@ -43166,7 +43219,7 @@
           "name": "M&M’s",
           "country": "DE",
           "club": "CrossFit WUID",
-          "points": 68,
+          "points": 69,
           "wods": {
             "GTD QWOD26.1": {
               "position": 12,
@@ -43262,7 +43315,7 @@
           "name": "Stajnia CrossFit",
           "country": "PL",
           "club": "Stajnia Crossfit",
-          "points": 69,
+          "points": 70,
           "wods": {
             "GTD QWOD26.2": {
               "position": 12,
@@ -43479,7 +43532,7 @@
           "name": "Hummingbirds",
           "country": "DE",
           "club": "",
-          "points": 127,
+          "points": 130,
           "wods": {
             "GTD QWOD26.2": {
               "position": 16,
@@ -57589,7 +57642,7 @@
       "order": 23,
       "individual": false,
       "athlete_count": 13,
-      "result_count": 4,
+      "result_count": 5,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -57608,7 +57661,7 @@
           "name": "CFG ATHLETES",
           "country": "PL",
           "club": "",
-          "points": 5,
+          "points": 6,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -57636,7 +57689,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 2,
+              "position": 3,
               "time": 598000,
               "reps": null,
               "tiebreak": null,
@@ -57726,13 +57779,134 @@
         },
         {
           "rank": 2,
+          "name": "RAGNARÖK",
+          "country": "IT",
+          "club": "NOA",
+          "points": 6,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 2,
+              "time": 1464000,
+              "reps": null,
+              "tiebreak": 1157000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Mauro Mancinetti",
+                  "gender": "m",
+                  "time": 752000,
+                  "reps": 0,
+                  "tiebreak": 606000,
+                  "cap": false
+                },
+                {
+                  "name": "Alessandro Serrani",
+                  "gender": "m",
+                  "time": 712000,
+                  "reps": 0,
+                  "tiebreak": 551000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 1,
+              "time": 581000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Mauro Mancinetti",
+                  "gender": "m",
+                  "time": 310000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alessandro Serrani",
+                  "gender": "m",
+                  "time": 271000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 1,
+              "time": null,
+              "reps": 340,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Mauro Mancinetti",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 166,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alessandro Serrani",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 174,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 266.5,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Mauro Mancinetti",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 131.5,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Alessandro Serrani",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 135,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "aef19c82-5fa8-4828-ae33-e25fa80830b7",
+              "name": "Mauro Mancinetti",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "49dfd54c-1de3-42b1-9984-df81903e253e",
+              "name": "Alessandro Serrani",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 3,
           "name": "AREA57 MASTERS",
           "country": "DE",
           "club": "AREA57",
-          "points": 10,
+          "points": 14,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 162,
               "tiebreak": 1375000,
@@ -57757,7 +57931,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 1,
+              "position": 2,
               "time": 586000,
               "reps": null,
               "tiebreak": null,
@@ -57782,7 +57956,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 323,
               "tiebreak": null,
@@ -57807,7 +57981,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 222,
               "tiebreak": null,
@@ -57846,14 +58020,14 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Burpees Before Doner",
           "country": "PL",
           "club": "Niezależny",
-          "points": 12,
+          "points": 16,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": 1676000,
               "reps": null,
               "tiebreak": 1367000,
@@ -57878,7 +58052,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 3,
+              "position": 4,
               "time": 601000,
               "reps": null,
               "tiebreak": null,
@@ -57903,7 +58077,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 301,
               "tiebreak": null,
@@ -57928,7 +58102,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 222,
               "tiebreak": null,
@@ -57967,14 +58141,14 @@
           ]
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Vecchi e poco saggi",
           "country": "IT",
           "club": "INDIPENDENT",
-          "points": 12,
+          "points": 16,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 2,
+              "position": 3,
               "time": 1619000,
               "reps": null,
               "tiebreak": 1227000,
@@ -57999,7 +58173,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 672000,
               "reps": null,
               "tiebreak": null,
@@ -58024,7 +58198,7 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 277,
               "tiebreak": null,
@@ -58049,7 +58223,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 232,
               "tiebreak": null,
@@ -58120,6 +58294,34 @@
           },
           {
             "rank": 2,
+            "name": "RAGNARÖK",
+            "country": "IT",
+            "club": "NOA",
+            "time": 1464000,
+            "reps": null,
+            "tiebreak": 1157000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Mauro Mancinetti",
+                "gender": "m",
+                "time": 752000,
+                "reps": 0,
+                "tiebreak": 606000,
+                "cap": false
+              },
+              {
+                "name": "Alessandro Serrani",
+                "gender": "m",
+                "time": 712000,
+                "reps": 0,
+                "tiebreak": 551000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
             "name": "Vecchi e poco saggi",
             "country": "IT",
             "club": "INDIPENDENT",
@@ -58147,7 +58349,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Burpees Before Doner",
             "country": "PL",
             "club": "Niezależny",
@@ -58175,7 +58377,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "AREA57 MASTERS",
             "country": "DE",
             "club": "AREA57",
@@ -58206,6 +58408,34 @@
         "GTD QWOD26.2": [
           {
             "rank": 1,
+            "name": "RAGNARÖK",
+            "country": "IT",
+            "club": "NOA",
+            "time": 581000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Mauro Mancinetti",
+                "gender": "m",
+                "time": 310000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Alessandro Serrani",
+                "gender": "m",
+                "time": 271000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 2,
             "name": "AREA57 MASTERS",
             "country": "DE",
             "club": "AREA57",
@@ -58233,7 +58463,7 @@
             ]
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "CFG ATHLETES",
             "country": "PL",
             "club": "",
@@ -58261,7 +58491,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Burpees Before Doner",
             "country": "PL",
             "club": "Niezależny",
@@ -58289,7 +58519,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Vecchi e poco saggi",
             "country": "IT",
             "club": "INDIPENDENT",
@@ -58320,6 +58550,34 @@
         "GTD QWOD26.3 A": [
           {
             "rank": 1,
+            "name": "RAGNARÖK",
+            "country": "IT",
+            "club": "NOA",
+            "time": null,
+            "reps": 340,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Mauro Mancinetti",
+                "gender": "m",
+                "time": 360000,
+                "reps": 166,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Alessandro Serrani",
+                "gender": "m",
+                "time": 360000,
+                "reps": 174,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 1,
             "name": "CFG ATHLETES",
             "country": "PL",
             "club": "",
@@ -58347,7 +58605,7 @@
             ]
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "AREA57 MASTERS",
             "country": "DE",
             "club": "AREA57",
@@ -58375,7 +58633,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Burpees Before Doner",
             "country": "PL",
             "club": "Niezależny",
@@ -58403,7 +58661,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Vecchi e poco saggi",
             "country": "IT",
             "club": "INDIPENDENT",
@@ -58462,6 +58720,34 @@
           },
           {
             "rank": 2,
+            "name": "RAGNARÖK",
+            "country": "IT",
+            "club": "NOA",
+            "time": null,
+            "reps": 266.5,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Mauro Mancinetti",
+                "gender": "m",
+                "time": 300000,
+                "reps": 131.5,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Alessandro Serrani",
+                "gender": "m",
+                "time": 300000,
+                "reps": 135,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
             "name": "Vecchi e poco saggi",
             "country": "IT",
             "club": "INDIPENDENT",
@@ -58489,7 +58775,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "AREA57 MASTERS",
             "country": "DE",
             "club": "AREA57",
@@ -58517,7 +58803,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "Burpees Before Doner",
             "country": "PL",
             "club": "Niezależny",
