@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-11T21:15:25Z",
-    "updated_at_readable": "2026-07-11 21:15 UTC"
+    "updated_at": "2026-07-11T22:15:16Z",
+    "updated_at_readable": "2026-07-11 22:15 UTC"
   },
   "divisions": [
     {
@@ -11968,7 +11968,7 @@
           "name": "Romi Wiedenhöft",
           "country": "DE",
           "club": "12nullacht CrossFit",
-          "points": 140,
+          "points": 139,
           "wods": {
             "GTD QWOD26.1": {
               "position": 41,
@@ -11985,7 +11985,7 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 48,
+              "position": 47,
               "time": null,
               "reps": 89,
               "tiebreak": 0,
@@ -12229,13 +12229,13 @@
           "name": "Catharina Haak",
           "country": "DE",
           "club": "Crossfit Flensburg",
-          "points": 186,
+          "points": 187,
           "wods": {
             "GTD QWOD26.1": {
               "position": 44,
               "time": 900000,
-              "reps": 89,
-              "tiebreak": 900000,
+              "reps": 80,
+              "tiebreak": 870000,
               "cap": false
             },
             "GTD QWOD26.2": {
@@ -12246,9 +12246,9 @@
               "cap": false
             },
             "GTD QWOD26.3 A": {
-              "position": 47,
+              "position": 48,
               "time": null,
-              "reps": 100,
+              "reps": 80,
               "tiebreak": 0,
               "cap": false
             },
@@ -12803,8 +12803,8 @@
             "country": "DE",
             "club": "Crossfit Flensburg",
             "time": 900000,
-            "reps": 89,
-            "tiebreak": 900000,
+            "reps": 80,
+            "tiebreak": 870000,
             "cap": false
           },
           {
@@ -13773,21 +13773,21 @@
           },
           {
             "rank": 47,
-            "name": "Catharina Haak",
-            "country": "DE",
-            "club": "Crossfit Flensburg",
-            "time": null,
-            "reps": 100,
-            "tiebreak": 0,
-            "cap": false
-          },
-          {
-            "rank": 48,
             "name": "Romi Wiedenhöft",
             "country": "DE",
             "club": "12nullacht CrossFit",
             "time": null,
             "reps": 89,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 48,
+            "name": "Catharina Haak",
+            "country": "DE",
+            "club": "Crossfit Flensburg",
+            "time": null,
+            "reps": 80,
             "tiebreak": 0,
             "cap": false
           }
@@ -25956,10 +25956,10 @@
           "name": "Barwodder",
           "country": "FR",
           "club": "CrossFit Parrot",
-          "points": 12,
+          "points": 13,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 120,
               "tiebreak": 1220000,
@@ -26077,10 +26077,10 @@
           "name": "Italian gangsters",
           "country": "IT",
           "club": "",
-          "points": 13,
+          "points": 14,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 166,
               "tiebreak": 1539000,
@@ -26316,13 +26316,134 @@
         },
         {
           "rank": 5,
-          "name": "Team Ufiltreret",
-          "country": "DE",
+          "name": "Team spiezo in due is back",
+          "country": "IT",
           "club": "",
-          "points": 25,
+          "points": 22,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
+              "time": 1660000,
+              "reps": null,
+              "tiebreak": 1361000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Fabio Falco",
+                  "gender": "m",
+                  "time": 837000,
+                  "reps": 0,
+                  "tiebreak": 668000,
+                  "cap": false
+                },
+                {
+                  "name": "Marco Torzilli",
+                  "gender": "m",
+                  "time": 823000,
+                  "reps": 0,
+                  "tiebreak": 693000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 9,
+              "time": 583000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Fabio Falco",
+                  "gender": "m",
+                  "time": 288000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marco Torzilli",
+                  "gender": "m",
+                  "time": 295000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 7,
+              "time": null,
+              "reps": 263,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Fabio Falco",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 122,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marco Torzilli",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 141,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 292.5,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Fabio Falco",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 150,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marco Torzilli",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 142.5,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "43730208-123a-4d14-9e2f-993d35982c8d",
+              "name": "Fabio Falco",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "8b9fb28e-0879-4237-ab8e-1f18525db179",
+              "name": "Marco Torzilli",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "name": "Team Ufiltreret",
+          "country": "DE",
+          "club": "",
+          "points": 26,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 4,
               "time": null,
               "reps": 183,
               "tiebreak": 1413000,
@@ -26436,14 +26557,14 @@
           ]
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Butter Connection",
           "country": "DE",
           "club": "",
-          "points": 29,
+          "points": 31,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 205,
               "tiebreak": 1800000,
@@ -26468,7 +26589,7 @@
               ]
             },
             "GTD QWOD26.2": {
-              "position": 9,
+              "position": 10,
               "time": 604000,
               "reps": null,
               "tiebreak": null,
@@ -26557,14 +26678,14 @@
           ]
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "TWO MALAKES",
           "country": "GR",
           "club": "",
-          "points": 34,
+          "points": 35,
           "wods": {
             "GTD QWOD26.2": {
-              "position": 10,
+              "position": 11,
               "time": 606000,
               "reps": null,
               "tiebreak": null,
@@ -26648,77 +26769,6 @@
             {
               "athlete_id": "91f5fa4e-5bf9-4b3d-b067-89ad66293567",
               "name": "ANDREAS MAVRIDIS",
-              "gender": "m"
-            }
-          ]
-        },
-        {
-          "rank": 8,
-          "name": "Team spiezo in due is back",
-          "country": "IT",
-          "club": "",
-          "points": 46,
-          "wods": {
-            "GTD QWOD26.3 A": {
-              "position": 7,
-              "time": null,
-              "reps": 263,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Fabio Falco",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 122,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Marco Torzilli",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 141,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 B": {
-              "position": 3,
-              "time": null,
-              "reps": 292.5,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Fabio Falco",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 150,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Marco Torzilli",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 142.5,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "43730208-123a-4d14-9e2f-993d35982c8d",
-              "name": "Fabio Falco",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "8b9fb28e-0879-4237-ab8e-1f18525db179",
-              "name": "Marco Torzilli",
               "gender": "m"
             }
           ]
@@ -26820,10 +26870,10 @@
           "name": "Crossfit Sneek",
           "country": "NL",
           "club": "",
-          "points": 60,
+          "points": 61,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 279,
               "tiebreak": 1714000,
@@ -26968,6 +27018,34 @@
           },
           {
             "rank": 3,
+            "name": "Team spiezo in due is back",
+            "country": "IT",
+            "club": "",
+            "time": 1660000,
+            "reps": null,
+            "tiebreak": 1361000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Fabio Falco",
+                "gender": "m",
+                "time": 837000,
+                "reps": 0,
+                "tiebreak": 668000,
+                "cap": false
+              },
+              {
+                "name": "Marco Torzilli",
+                "gender": "m",
+                "time": 823000,
+                "reps": 0,
+                "tiebreak": 693000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 4,
             "name": "Team Ufiltreret",
             "country": "DE",
             "club": "",
@@ -26995,7 +27073,7 @@
             ]
           },
           {
-            "rank": 4,
+            "rank": 5,
             "name": "Barwodder",
             "country": "FR",
             "club": "CrossFit Parrot",
@@ -27023,7 +27101,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Italian gangsters",
             "country": "IT",
             "club": "",
@@ -27051,7 +27129,7 @@
             ]
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Crossfit Sneek",
             "country": "NL",
             "club": "",
@@ -27079,7 +27157,7 @@
             ]
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Butter Connection",
             "country": "DE",
             "club": "",
@@ -27334,6 +27412,34 @@
           },
           {
             "rank": 9,
+            "name": "Team spiezo in due is back",
+            "country": "IT",
+            "club": "",
+            "time": 583000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Fabio Falco",
+                "gender": "m",
+                "time": 288000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Marco Torzilli",
+                "gender": "m",
+                "time": 295000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 10,
             "name": "Butter Connection",
             "country": "DE",
             "club": "",
@@ -27361,7 +27467,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "TWO MALAKES",
             "country": "GR",
             "club": "",
@@ -27849,7 +27955,7 @@
       "order": 12,
       "individual": false,
       "athlete_count": 23,
-      "result_count": 11,
+      "result_count": 12,
       "wods": [
         "GTD QWOD26.1",
         "GTD QWOD26.2",
@@ -27989,7 +28095,7 @@
           "name": "FUSE METHOD",
           "country": "DE",
           "club": "",
-          "points": 12,
+          "points": 13,
           "wods": {
             "GTD QWOD26.1": {
               "position": 1,
@@ -28067,7 +28173,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 227.5,
               "tiebreak": null,
@@ -28110,7 +28216,7 @@
           "name": "Team Bodylab",
           "country": "DE",
           "club": "Crossfit Aorta",
-          "points": 16,
+          "points": 17,
           "wods": {
             "GTD QWOD26.1": {
               "position": 4,
@@ -28188,7 +28294,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 5,
+              "position": 6,
               "time": null,
               "reps": 235,
               "tiebreak": null,
@@ -28231,7 +28337,7 @@
           "name": "psspsspsspsspss",
           "country": "CH",
           "club": "Limitless Power CrossFit",
-          "points": 17,
+          "points": 18,
           "wods": {
             "GTD QWOD26.1": {
               "position": 3,
@@ -28309,7 +28415,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 4,
+              "position": 5,
               "time": null,
               "reps": 238,
               "tiebreak": null,
@@ -28470,131 +28576,10 @@
         },
         {
           "rank": 6,
-          "name": "The Skinny Cats",
-          "country": "FR",
-          "club": "La Station",
-          "points": 26,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 7,
-              "time": null,
-              "reps": 137,
-              "tiebreak": 1480000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "thomas lacombe",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 137,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Elsa Licata",
-                  "gender": "f",
-                  "time": 726000,
-                  "reps": null,
-                  "tiebreak": 580000,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.2": {
-              "position": 8,
-              "time": 609000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "thomas lacombe",
-                  "gender": "m",
-                  "time": 273000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Elsa Licata",
-                  "gender": "f",
-                  "time": 336000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 A": {
-              "position": 6,
-              "time": null,
-              "reps": 295,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "thomas lacombe",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 145,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Elsa Licata",
-                  "gender": "f",
-                  "time": null,
-                  "reps": 150,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 B": {
-              "position": 5,
-              "time": null,
-              "reps": 235,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "thomas lacombe",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 140,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Elsa Licata",
-                  "gender": "f",
-                  "time": null,
-                  "reps": 95,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "e99ac712-afd4-439b-a68a-5d13ae46173d",
-              "name": "thomas lacombe",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "3c171728-c872-44c5-bb86-8d4c4c41dedf",
-              "name": "Elsa Licata",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 7,
           "name": "Ferdinand und der Stier",
           "country": "AT",
           "club": "Unabhängig",
-          "points": 27,
+          "points": 28,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -28672,7 +28657,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 208.5,
               "tiebreak": null,
@@ -28711,14 +28696,135 @@
           ]
         },
         {
+          "rank": 7,
+          "name": "The Skinny Cats",
+          "country": "FR",
+          "club": "La Station",
+          "points": 28,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 8,
+              "time": null,
+              "reps": 137,
+              "tiebreak": 1480000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "thomas lacombe",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 137,
+                  "tiebreak": 900000,
+                  "cap": false
+                },
+                {
+                  "name": "Elsa Licata",
+                  "gender": "f",
+                  "time": 726000,
+                  "reps": null,
+                  "tiebreak": 580000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 8,
+              "time": 609000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "thomas lacombe",
+                  "gender": "m",
+                  "time": 273000,
+                  "reps": null,
+                  "tiebreak": null,
+                  "cap": false
+                },
+                {
+                  "name": "Elsa Licata",
+                  "gender": "f",
+                  "time": 336000,
+                  "reps": null,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 6,
+              "time": null,
+              "reps": 295,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "thomas lacombe",
+                  "gender": "m",
+                  "time": null,
+                  "reps": 145,
+                  "tiebreak": null,
+                  "cap": false
+                },
+                {
+                  "name": "Elsa Licata",
+                  "gender": "f",
+                  "time": null,
+                  "reps": 150,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 6,
+              "time": null,
+              "reps": 235,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "thomas lacombe",
+                  "gender": "m",
+                  "time": null,
+                  "reps": 140,
+                  "tiebreak": null,
+                  "cap": false
+                },
+                {
+                  "name": "Elsa Licata",
+                  "gender": "f",
+                  "time": null,
+                  "reps": 95,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "e99ac712-afd4-439b-a68a-5d13ae46173d",
+              "name": "thomas lacombe",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "3c171728-c872-44c5-bb86-8d4c4c41dedf",
+              "name": "Elsa Licata",
+              "gender": "f"
+            }
+          ]
+        },
+        {
           "rank": 8,
           "name": "1,75er",
           "country": "DE",
           "club": "Greifenpower e.V.",
-          "points": 31,
+          "points": 33,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 303,
               "tiebreak": 1750000,
@@ -28793,7 +28899,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 226,
               "tiebreak": null,
@@ -28833,55 +28939,55 @@
         },
         {
           "rank": 9,
-          "name": "Heart of No Limits",
-          "country": "DE",
-          "club": "No Limits Coaching",
-          "points": 36,
+          "name": "CRAZY HORSES",
+          "country": "IT",
+          "club": "nessuno",
+          "points": 33,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 9,
-              "time": null,
-              "reps": 253,
-              "tiebreak": 1657000,
-              "cap": true,
+              "position": 7,
+              "time": 1744000,
+              "reps": null,
+              "tiebreak": 1515000,
+              "cap": false,
               "members": [
                 {
-                  "name": "Lukas Heinelt",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 136,
-                  "tiebreak": 757000,
+                  "name": "Alessia Paladini",
+                  "gender": "f",
+                  "time": 883000,
+                  "reps": 0,
+                  "tiebreak": 766000,
                   "cap": false
                 },
                 {
-                  "name": "Nadia Paulat",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 117,
-                  "tiebreak": 900000,
+                  "name": "Giovanni Grassi",
+                  "gender": "m",
+                  "time": 861000,
+                  "reps": 0,
+                  "tiebreak": 749000,
                   "cap": false
                 }
               ]
             },
             "GTD QWOD26.2": {
               "position": 10,
-              "time": 695000,
+              "time": 693000,
               "reps": null,
               "tiebreak": null,
               "cap": false,
               "members": [
                 {
-                  "name": "Lukas Heinelt",
-                  "gender": "m",
-                  "time": 330000,
+                  "name": "Alessia Paladini",
+                  "gender": "f",
+                  "time": 413000,
                   "reps": 0,
                   "tiebreak": 0,
                   "cap": false
                 },
                 {
-                  "name": "Nadia Paulat",
-                  "gender": "f",
-                  "time": 365000,
+                  "name": "Giovanni Grassi",
+                  "gender": "m",
+                  "time": 280000,
                   "reps": 0,
                   "tiebreak": 0,
                   "cap": false
@@ -28889,50 +28995,50 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 10,
+              "position": 12,
               "time": null,
-              "reps": 274,
+              "reps": 265,
               "tiebreak": null,
               "cap": true,
               "members": [
                 {
-                  "name": "Lukas Heinelt",
-                  "gender": "m",
+                  "name": "Alessia Paladini",
+                  "gender": "f",
                   "time": 360000,
                   "reps": 138,
                   "tiebreak": 0,
                   "cap": false
                 },
                 {
-                  "name": "Nadia Paulat",
-                  "gender": "f",
+                  "name": "Giovanni Grassi",
+                  "gender": "m",
                   "time": 360000,
-                  "reps": 136,
+                  "reps": 127,
                   "tiebreak": 0,
                   "cap": false
                 }
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 7,
+              "position": 4,
               "time": null,
-              "reps": 232.5,
+              "reps": 240,
               "tiebreak": null,
               "cap": true,
               "members": [
                 {
-                  "name": "Lukas Heinelt",
-                  "gender": "m",
+                  "name": "Alessia Paladini",
+                  "gender": "f",
                   "time": 300000,
-                  "reps": 140,
+                  "reps": 100,
                   "tiebreak": 0,
                   "cap": false
                 },
                 {
-                  "name": "Nadia Paulat",
-                  "gender": "f",
+                  "name": "Giovanni Grassi",
+                  "gender": "m",
                   "time": 300000,
-                  "reps": 92.5,
+                  "reps": 140,
                   "tiebreak": 0,
                   "cap": false
                 }
@@ -28941,14 +29047,14 @@
           },
           "members": [
             {
-              "athlete_id": "83e9fbb7-f984-4c20-8690-d3f88decaf39",
-              "name": "Lukas Heinelt",
-              "gender": "m"
+              "athlete_id": "d03f7eee-b59c-4fb7-9faa-07a2e48ed53d",
+              "name": "Alessia Paladini",
+              "gender": "f"
             },
             {
-              "athlete_id": "1fc26d1d-d80b-4748-8bc2-3de4cc0af34a",
-              "name": "Nadia Paulat",
-              "gender": "f"
+              "athlete_id": "723ce871-7912-4a46-a0e0-b381a234ee8c",
+              "name": "Giovanni Grassi",
+              "gender": "m"
             }
           ]
         },
@@ -28957,10 +29063,10 @@
           "name": "Who is the Beast",
           "country": "IT",
           "club": "Crossfit Roveri",
-          "points": 36,
+          "points": 38,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 230,
               "tiebreak": 1800000,
@@ -29035,7 +29141,7 @@
               ]
             },
             "GTD QWOD26.3 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 217,
               "tiebreak": null,
@@ -29075,6 +29181,127 @@
         },
         {
           "rank": 11,
+          "name": "Heart of No Limits",
+          "country": "DE",
+          "club": "No Limits Coaching",
+          "points": 39,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 10,
+              "time": null,
+              "reps": 253,
+              "tiebreak": 1657000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Lukas Heinelt",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 136,
+                  "tiebreak": 757000,
+                  "cap": false
+                },
+                {
+                  "name": "Nadia Paulat",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 117,
+                  "tiebreak": 900000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 11,
+              "time": 695000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Lukas Heinelt",
+                  "gender": "m",
+                  "time": 330000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nadia Paulat",
+                  "gender": "f",
+                  "time": 365000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 10,
+              "time": null,
+              "reps": 274,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Lukas Heinelt",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 138,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nadia Paulat",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 136,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 8,
+              "time": null,
+              "reps": 232.5,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Lukas Heinelt",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 140,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nadia Paulat",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 92.5,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "83e9fbb7-f984-4c20-8690-d3f88decaf39",
+              "name": "Lukas Heinelt",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "1fc26d1d-d80b-4748-8bc2-3de4cc0af34a",
+              "name": "Nadia Paulat",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 12,
           "name": "Wir sind nur für Eis hier",
           "country": "DE",
           "club": "",
@@ -29317,6 +29544,34 @@
           },
           {
             "rank": 7,
+            "name": "CRAZY HORSES",
+            "country": "IT",
+            "club": "nessuno",
+            "time": 1744000,
+            "reps": null,
+            "tiebreak": 1515000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Alessia Paladini",
+                "gender": "f",
+                "time": 883000,
+                "reps": 0,
+                "tiebreak": 766000,
+                "cap": false
+              },
+              {
+                "name": "Giovanni Grassi",
+                "gender": "m",
+                "time": 861000,
+                "reps": 0,
+                "tiebreak": 749000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 8,
             "name": "The Skinny Cats",
             "country": "FR",
             "club": "La Station",
@@ -29344,7 +29599,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "1,75er",
             "country": "DE",
             "club": "Greifenpower e.V.",
@@ -29372,7 +29627,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Heart of No Limits",
             "country": "DE",
             "club": "No Limits Coaching",
@@ -29400,7 +29655,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Who is the Beast",
             "country": "IT",
             "club": "Crossfit Roveri",
@@ -29683,6 +29938,34 @@
           },
           {
             "rank": 10,
+            "name": "CRAZY HORSES",
+            "country": "IT",
+            "club": "nessuno",
+            "time": 693000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Alessia Paladini",
+                "gender": "f",
+                "time": 413000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Giovanni Grassi",
+                "gender": "m",
+                "time": 280000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 11,
             "name": "Heart of No Limits",
             "country": "DE",
             "club": "No Limits Coaching",
@@ -30018,6 +30301,34 @@
                 "cap": false
               }
             ]
+          },
+          {
+            "rank": 12,
+            "name": "CRAZY HORSES",
+            "country": "IT",
+            "club": "nessuno",
+            "time": null,
+            "reps": 265,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Alessia Paladini",
+                "gender": "f",
+                "time": 360000,
+                "reps": 138,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Giovanni Grassi",
+                "gender": "m",
+                "time": 360000,
+                "reps": 127,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
           }
         ],
         "GTD QWOD26.3 B": [
@@ -30107,6 +30418,34 @@
           },
           {
             "rank": 4,
+            "name": "CRAZY HORSES",
+            "country": "IT",
+            "club": "nessuno",
+            "time": null,
+            "reps": 240,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Alessia Paladini",
+                "gender": "f",
+                "time": 300000,
+                "reps": 100,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Giovanni Grassi",
+                "gender": "m",
+                "time": 300000,
+                "reps": 140,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 5,
             "name": "psspsspsspsspss",
             "country": "CH",
             "club": "Limitless Power CrossFit",
@@ -30134,7 +30473,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "Team Bodylab",
             "country": "DE",
             "club": "Crossfit Aorta",
@@ -30162,7 +30501,7 @@
             ]
           },
           {
-            "rank": 5,
+            "rank": 6,
             "name": "The Skinny Cats",
             "country": "FR",
             "club": "La Station",
@@ -30190,7 +30529,7 @@
             ]
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Heart of No Limits",
             "country": "DE",
             "club": "No Limits Coaching",
@@ -30218,7 +30557,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "FUSE METHOD",
             "country": "DE",
             "club": "",
@@ -30246,7 +30585,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "1,75er",
             "country": "DE",
             "club": "Greifenpower e.V.",
@@ -30274,7 +30613,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Who is the Beast",
             "country": "IT",
             "club": "Crossfit Roveri",
@@ -30302,7 +30641,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Ferdinand und der Stier",
             "country": "AT",
             "club": "Unabhängig",
