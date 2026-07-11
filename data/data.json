@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-11T04:08:05Z",
-    "updated_at_readable": "2026-07-11 04:08 UTC"
+    "updated_at": "2026-07-11T05:51:08Z",
+    "updated_at_readable": "2026-07-11 05:51 UTC"
   },
   "divisions": [
     {
@@ -33766,7 +33766,7 @@
           "name": "Wings & Weights",
           "country": "DE",
           "club": "CrossFit 383",
-          "points": 27,
+          "points": 28,
           "wods": {
             "GTD QWOD26.1": {
               "position": 6,
@@ -33819,9 +33819,9 @@
               ]
             },
             "GTD QWOD26.3 A": {
-              "position": 9,
+              "position": 10,
               "time": null,
-              "reps": 249,
+              "reps": 244,
               "tiebreak": null,
               "cap": true,
               "members": [
@@ -33829,7 +33829,7 @@
                   "name": "Mariell Sophie Pichl",
                   "gender": "f",
                   "time": 360000,
-                  "reps": 115,
+                  "reps": 110,
                   "tiebreak": 0,
                   "cap": false
                 },
@@ -33884,6 +33884,127 @@
         },
         {
           "rank": 8,
+          "name": "Box Paranoia",
+          "country": "DE",
+          "club": "Fitnessclub Kleegarten",
+          "points": 31,
+          "wods": {
+            "GTD QWOD26.1": {
+              "position": 7,
+              "time": null,
+              "reps": 313,
+              "tiebreak": 1653000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 182,
+                  "tiebreak": 767000,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 131,
+                  "tiebreak": 886000,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.2": {
+              "position": 12,
+              "time": 978000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 465000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 513000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 A": {
+              "position": 9,
+              "time": null,
+              "reps": 245,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 139,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 106,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "GTD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 155,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Johanne Grün",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 80,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Melina  Müller",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 75,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "546c4a88-28da-4a04-9579-756a35f919be",
+              "name": "Johanne Grün",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "d54ecac3-a638-46a4-9b8c-30146d707802",
+              "name": "Melina  Müller",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 9,
           "name": "Green&Yellow",
           "country": "DE",
           "club": "Sweat & Tears",
@@ -33999,127 +34120,6 @@
             {
               "athlete_id": "10ea9033-28b2-4d6e-81e1-e03d6018547b",
               "name": "Sandrina Ban",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 9,
-          "name": "Box Paranoia",
-          "country": "DE",
-          "club": "Fitnessclub Kleegarten",
-          "points": 32,
-          "wods": {
-            "GTD QWOD26.1": {
-              "position": 7,
-              "time": null,
-              "reps": 313,
-              "tiebreak": 1653000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Johanne Grün",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 182,
-                  "tiebreak": 767000,
-                  "cap": false
-                },
-                {
-                  "name": "Melina  Müller",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 131,
-                  "tiebreak": 886000,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.2": {
-              "position": 12,
-              "time": 978000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Johanne Grün",
-                  "gender": "f",
-                  "time": 465000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Melina  Müller",
-                  "gender": "f",
-                  "time": 513000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 A": {
-              "position": 10,
-              "time": null,
-              "reps": 245,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Johanne Grün",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 139,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Melina  Müller",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 106,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "GTD QWOD26.3 B": {
-              "position": 3,
-              "time": null,
-              "reps": 155,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Johanne Grün",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 80,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Melina  Müller",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 75,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "546c4a88-28da-4a04-9579-756a35f919be",
-              "name": "Johanne Grün",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "d54ecac3-a638-46a4-9b8c-30146d707802",
-              "name": "Melina  Müller",
               "gender": "f"
             }
           ]
@@ -35537,34 +35537,6 @@
           },
           {
             "rank": 9,
-            "name": "Wings & Weights",
-            "country": "DE",
-            "club": "CrossFit 383",
-            "time": null,
-            "reps": 249,
-            "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mariell Sophie Pichl",
-                "gender": "f",
-                "time": 360000,
-                "reps": 115,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nina Kirschner",
-                "gender": "f",
-                "time": 360000,
-                "reps": 134,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
-          },
-          {
-            "rank": 10,
             "name": "Box Paranoia",
             "country": "DE",
             "club": "Fitnessclub Kleegarten",
@@ -35586,6 +35558,34 @@
                 "gender": "f",
                 "time": 360000,
                 "reps": 106,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 10,
+            "name": "Wings & Weights",
+            "country": "DE",
+            "club": "CrossFit 383",
+            "time": null,
+            "reps": 244,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Mariell Sophie Pichl",
+                "gender": "f",
+                "time": 360000,
+                "reps": 110,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Nina Kirschner",
+                "gender": "f",
+                "time": 360000,
+                "reps": 134,
                 "tiebreak": 0,
                 "cap": false
               }
