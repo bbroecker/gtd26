@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-07-11T16:08:30Z",
-    "updated_at_readable": "2026-07-11 16:08 UTC"
+    "updated_at": "2026-07-11T16:16:41Z",
+    "updated_at_readable": "2026-07-11 18:16 UTC"
   },
   "divisions": [
     {
@@ -12,7 +12,7 @@
       "order": 1,
       "individual": true,
       "athlete_count": 26,
-      "result_count": 14,
+      "result_count": 15,
       "wods": [
         "ATD QWOD26.1",
         "ATD QWOD26.2",
@@ -142,7 +142,7 @@
           "name": "Maximilian Gewehr",
           "country": "DE",
           "club": "Einfach Fitness Essen",
-          "points": 23,
+          "points": 24,
           "wods": {
             "ATD QWOD26.1": {
               "position": 3,
@@ -152,7 +152,7 @@
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 8,
+              "position": 9,
               "time": 286000,
               "reps": 0,
               "tiebreak": 0,
@@ -176,27 +176,64 @@
         },
         {
           "rank": 5,
-          "name": "Peter Szita",
-          "country": "HU",
-          "club": "CROSSFUNctional GYM",
-          "points": 27,
+          "name": "Lorenzo Ursini",
+          "country": "IT",
+          "club": "",
+          "points": 26,
           "wods": {
             "ATD QWOD26.1": {
               "position": 5,
-              "time": 775000,
+              "time": 770000,
               "reps": 0,
-              "tiebreak": 643000,
+              "tiebreak": 615000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 10,
-              "time": 291000,
+              "position": 5,
+              "time": 268000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "ATD QWOD26.3 A": {
               "position": 5,
+              "time": null,
+              "reps": 159,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "ATD QWOD26.3 B": {
+              "position": 11,
+              "time": null,
+              "reps": 126.5,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 6,
+          "name": "Peter Szita",
+          "country": "HU",
+          "club": "CROSSFUNctional GYM",
+          "points": 30,
+          "wods": {
+            "ATD QWOD26.1": {
+              "position": 6,
+              "time": 775000,
+              "reps": 0,
+              "tiebreak": 643000,
+              "cap": false
+            },
+            "ATD QWOD26.2": {
+              "position": 11,
+              "time": 291000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "ATD QWOD26.3 A": {
+              "position": 6,
               "time": null,
               "reps": 153,
               "tiebreak": 0,
@@ -212,28 +249,28 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Josef Vlach",
           "country": "CZ",
           "club": "Ultimate Fitness",
-          "points": 30,
+          "points": 33,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 10,
+              "position": 11,
               "time": 882000,
               "reps": 0,
               "tiebreak": 780000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 5,
+              "position": 6,
               "time": 275000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "ATD QWOD26.3 A": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 134,
               "tiebreak": 0,
@@ -249,28 +286,28 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Raphaël Le Dean",
           "country": "FR",
           "club": "CrossFit Murstadt",
-          "points": 30,
+          "points": 33,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 9,
+              "position": 10,
               "time": 856000,
               "reps": 0,
               "tiebreak": 674000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 11,
+              "position": 12,
               "time": 297000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "ATD QWOD26.3 A": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 141,
               "tiebreak": 0,
@@ -286,28 +323,28 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Stefano Fuscaldo",
           "country": "IT",
           "club": "",
-          "points": 31,
+          "points": 34,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 7,
+              "position": 8,
               "time": 815000,
               "reps": null,
               "tiebreak": 700000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 12,
+              "position": 13,
               "time": 308000,
               "reps": null,
               "tiebreak": null,
               "cap": false
             },
             "ATD QWOD26.3 A": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 143,
               "tiebreak": null,
@@ -323,28 +360,28 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Adam Matula",
           "country": "CZ",
           "club": "",
-          "points": 34,
+          "points": 37,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 11,
+              "position": 12,
               "time": 900000,
               "reps": 182,
               "tiebreak": 749000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 279000,
               "reps": null,
               "tiebreak": null,
               "cap": false
             },
             "ATD QWOD26.3 A": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 147,
               "tiebreak": null,
@@ -360,28 +397,28 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Kyle MacDonald",
           "country": "GB",
           "club": "",
-          "points": 40,
+          "points": 43,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 13,
+              "position": 14,
               "time": 900000,
               "reps": 132,
               "tiebreak": 848000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 9,
+              "position": 10,
               "time": 288000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "ATD QWOD26.3 A": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 130,
               "tiebreak": 0,
@@ -397,35 +434,35 @@
           }
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "Markus Eggenberger",
           "country": "CH",
           "club": "",
-          "points": 48,
+          "points": 52,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 12,
+              "position": 13,
               "time": 900000,
               "reps": 146,
               "tiebreak": 879000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 14,
+              "position": 15,
               "time": 431000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "ATD QWOD26.3 A": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 114,
               "tiebreak": 0,
               "cap": false
             },
             "ATD QWOD26.3 B": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 111,
               "tiebreak": 0,
@@ -434,14 +471,14 @@
           }
         },
         {
-          "rank": 12,
+          "rank": 13,
           "name": "Miguel Jorge Catita",
           "country": "PT",
           "club": "",
-          "points": 63,
+          "points": 64,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 8,
+              "position": 9,
               "time": 833000,
               "reps": 0,
               "tiebreak": 599000,
@@ -457,21 +494,21 @@
           }
         },
         {
-          "rank": 13,
+          "rank": 14,
           "name": "Leonardo Di Gregorio",
           "country": "IT",
           "club": "",
-          "points": 64,
+          "points": 66,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 6,
+              "position": 7,
               "time": 799000,
               "reps": 0,
               "tiebreak": 654000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 278000,
               "reps": 0,
               "tiebreak": 0,
@@ -480,21 +517,21 @@
           }
         },
         {
-          "rank": 14,
+          "rank": 15,
           "name": "Manu Seidel",
           "country": "DE",
           "club": "",
-          "points": 79,
+          "points": 81,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 14,
+              "position": 15,
               "time": 900000,
               "reps": 130,
               "tiebreak": 808000,
               "cap": false
             },
             "ATD QWOD26.2": {
-              "position": 13,
+              "position": 14,
               "time": 333000,
               "reps": 0,
               "tiebreak": 0,
@@ -547,6 +584,16 @@
           },
           {
             "rank": 5,
+            "name": "Lorenzo Ursini",
+            "country": "IT",
+            "club": "",
+            "time": 770000,
+            "reps": 0,
+            "tiebreak": 615000,
+            "cap": false
+          },
+          {
+            "rank": 6,
             "name": "Peter Szita",
             "country": "HU",
             "club": "CROSSFUNctional GYM",
@@ -556,7 +603,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Leonardo Di Gregorio",
             "country": "IT",
             "club": "",
@@ -566,7 +613,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -576,7 +623,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Miguel Jorge Catita",
             "country": "PT",
             "club": "",
@@ -586,7 +633,7 @@
             "cap": false
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Raphaël Le Dean",
             "country": "FR",
             "club": "CrossFit Murstadt",
@@ -596,7 +643,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Josef Vlach",
             "country": "CZ",
             "club": "Ultimate Fitness",
@@ -606,7 +653,7 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Adam Matula",
             "country": "CZ",
             "club": "",
@@ -616,7 +663,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Markus Eggenberger",
             "country": "CH",
             "club": "",
@@ -626,7 +673,7 @@
             "cap": false
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -636,7 +683,7 @@
             "cap": false
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Manu Seidel",
             "country": "DE",
             "club": "",
@@ -689,6 +736,16 @@
           },
           {
             "rank": 5,
+            "name": "Lorenzo Ursini",
+            "country": "IT",
+            "club": "",
+            "time": 268000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 6,
             "name": "Josef Vlach",
             "country": "CZ",
             "club": "Ultimate Fitness",
@@ -698,7 +755,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Leonardo Di Gregorio",
             "country": "IT",
             "club": "",
@@ -708,7 +765,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Adam Matula",
             "country": "CZ",
             "club": "",
@@ -718,7 +775,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Maximilian Gewehr",
             "country": "DE",
             "club": "Einfach Fitness Essen",
@@ -728,7 +785,7 @@
             "cap": false
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -738,7 +795,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Peter Szita",
             "country": "HU",
             "club": "CROSSFUNctional GYM",
@@ -748,7 +805,7 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Raphaël Le Dean",
             "country": "FR",
             "club": "CrossFit Murstadt",
@@ -758,7 +815,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -768,7 +825,7 @@
             "cap": false
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Manu Seidel",
             "country": "DE",
             "club": "",
@@ -778,7 +835,7 @@
             "cap": false
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Markus Eggenberger",
             "country": "CH",
             "club": "",
@@ -831,6 +888,16 @@
           },
           {
             "rank": 5,
+            "name": "Lorenzo Ursini",
+            "country": "IT",
+            "club": "",
+            "time": null,
+            "reps": 159,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 6,
             "name": "Peter Szita",
             "country": "HU",
             "club": "CROSSFUNctional GYM",
@@ -840,7 +907,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Adam Matula",
             "country": "CZ",
             "club": "",
@@ -850,7 +917,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Stefano Fuscaldo",
             "country": "IT",
             "club": "",
@@ -860,7 +927,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Raphaël Le Dean",
             "country": "FR",
             "club": "CrossFit Murstadt",
@@ -870,7 +937,7 @@
             "cap": false
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Josef Vlach",
             "country": "CZ",
             "club": "Ultimate Fitness",
@@ -880,7 +947,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Kyle MacDonald",
             "country": "GB",
             "club": "",
@@ -890,7 +957,7 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Markus Eggenberger",
             "country": "CH",
             "club": "",
@@ -1003,6 +1070,16 @@
           },
           {
             "rank": 11,
+            "name": "Lorenzo Ursini",
+            "country": "IT",
+            "club": "",
+            "time": null,
+            "reps": 126.5,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 12,
             "name": "Markus Eggenberger",
             "country": "CH",
             "club": "",
@@ -21088,7 +21165,7 @@
       "order": 17,
       "individual": false,
       "athlete_count": 4,
-      "result_count": 2,
+      "result_count": 3,
       "wods": [
         "ATD QWOD26.1 SC",
         "ATD QWOD26.2",
@@ -21107,10 +21184,10 @@
           "name": "Endurance Not Found",
           "country": "AT",
           "club": "CrossFit Gravel Pit",
-          "points": 4,
+          "points": 5,
           "wods": {
             "ATD QWOD26.1 SC": {
-              "position": 1,
+              "position": 2,
               "time": 1605000,
               "reps": null,
               "tiebreak": 1427000,
@@ -21228,10 +21305,10 @@
           "name": "Leithaberg Lifters",
           "country": "AT",
           "club": "Crossfit Eisenstadt",
-          "points": 8,
+          "points": 9,
           "wods": {
             "ATD QWOD26.1 SC": {
-              "position": 2,
+              "position": 3,
               "time": null,
               "reps": 155,
               "tiebreak": 1277000,
@@ -21343,12 +21420,86 @@
               "gender": "m"
             }
           ]
+        },
+        {
+          "rank": 3,
+          "name": "Sisice",
+          "country": "HR",
+          "club": "CrossFit ZG",
+          "points": 13,
+          "wods": {
+            "ATD QWOD26.1 SC": {
+              "position": 1,
+              "time": 1357000,
+              "reps": null,
+              "tiebreak": 1024000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Filip Krpan",
+                  "gender": "m",
+                  "time": 713000,
+                  "reps": 0,
+                  "tiebreak": 526000,
+                  "cap": false
+                },
+                {
+                  "name": "Luka Popović",
+                  "gender": "m",
+                  "time": 644000,
+                  "reps": 0,
+                  "tiebreak": 498000,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "82201096-5317-4d3e-b38d-d0bb69d2dd63",
+              "name": "Filip Krpan",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "c265137c-1e95-4839-abb4-6845256b2762",
+              "name": "Luka Popović",
+              "gender": "m"
+            }
+          ]
         }
       ],
       "per_wod": {
         "ATD QWOD26.1 SC": [
           {
             "rank": 1,
+            "name": "Sisice",
+            "country": "HR",
+            "club": "CrossFit ZG",
+            "time": 1357000,
+            "reps": null,
+            "tiebreak": 1024000,
+            "cap": false,
+            "members": [
+              {
+                "name": "Filip Krpan",
+                "gender": "m",
+                "time": 713000,
+                "reps": 0,
+                "tiebreak": 526000,
+                "cap": false
+              },
+              {
+                "name": "Luka Popović",
+                "gender": "m",
+                "time": 644000,
+                "reps": 0,
+                "tiebreak": 498000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 2,
             "name": "Endurance Not Found",
             "country": "AT",
             "club": "CrossFit Gravel Pit",
@@ -21376,7 +21527,7 @@
             ]
           },
           {
-            "rank": 2,
+            "rank": 3,
             "name": "Leithaberg Lifters",
             "country": "AT",
             "club": "Crossfit Eisenstadt",
