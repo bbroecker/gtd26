@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-07-12T00:24:16Z",
-    "updated_at_readable": "2026-07-12 00:24 UTC"
+    "updated_at": "2026-07-12T01:34:32Z",
+    "updated_at_readable": "2026-07-12 01:34 UTC"
   },
   "divisions": [
     {
@@ -26347,7 +26347,7 @@
           "name": "BUILT DIFFERENT",
           "country": "AT",
           "club": "Fitness am Untersberg",
-          "points": 21,
+          "points": 22,
           "wods": {
             "ATD QWOD26.1 SC": {
               "position": 6,
@@ -26425,7 +26425,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 110.5,
               "tiebreak": null,
@@ -26468,7 +26468,7 @@
           "name": "Team Underkill",
           "country": "AT",
           "club": "CrossFit So Simple",
-          "points": 26,
+          "points": 27,
           "wods": {
             "ATD QWOD26.1 SC": {
               "position": 7,
@@ -26546,7 +26546,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 116.0,
               "tiebreak": null,
@@ -26586,10 +26586,131 @@
         },
         {
           "rank": 7,
+          "name": "Sauna Club",
+          "country": "AT",
+          "club": "",
+          "points": 32,
+          "wods": {
+            "ATD QWOD26.1 SC": {
+              "position": 11,
+              "time": 1609000,
+              "reps": null,
+              "tiebreak": 1289000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Rosalie",
+                  "gender": "f",
+                  "time": 732000,
+                  "reps": 0,
+                  "tiebreak": 577000,
+                  "cap": false
+                },
+                {
+                  "name": "Marlies Stonig",
+                  "gender": "f",
+                  "time": 877000,
+                  "reps": null,
+                  "tiebreak": 712000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 8,
+              "time": 762000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Rosalie",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marlies Stonig",
+                  "gender": "f",
+                  "time": 402000,
+                  "reps": null,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 7,
+              "time": null,
+              "reps": 278,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Rosalie",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 133,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marlies Stonig",
+                  "gender": "f",
+                  "time": null,
+                  "reps": 145,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 6,
+              "time": null,
+              "reps": 118,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Rosalie",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 55,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marlies Stonig",
+                  "gender": "f",
+                  "time": null,
+                  "reps": 63,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "a8dd3a08-3944-4a06-a1c6-2eae8abd9498",
+              "name": "Rosalie",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "cce3201d-52bc-44bb-819b-93b072d707d0",
+              "name": "Marlies Stonig",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 8,
           "name": "Kernöl & Pierogi",
           "country": "AT",
           "club": "Crossfit LAT",
-          "points": 33,
+          "points": 34,
           "wods": {
             "ATD QWOD26.1 SC": {
               "position": 9,
@@ -26642,7 +26763,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 270,
               "tiebreak": null,
@@ -26706,11 +26827,11 @@
           ]
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "NoRest",
           "country": "AT",
           "club": "Crossfit 3430",
-          "points": 36,
+          "points": 38,
           "wods": {
             "ATD QWOD26.1 SC": {
               "position": 8,
@@ -26763,7 +26884,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 249,
               "tiebreak": null,
@@ -26788,7 +26909,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 114,
               "tiebreak": null,
@@ -26827,11 +26948,11 @@
           ]
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Team C & A",
           "country": "AT",
           "club": "CrossFit Eisenstadt",
-          "points": 36,
+          "points": 38,
           "wods": {
             "ATD QWOD26.2": {
               "position": 5,
@@ -26859,7 +26980,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 274,
               "tiebreak": null,
@@ -26884,7 +27005,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 117.5,
               "tiebreak": null,
@@ -26923,11 +27044,11 @@
           ]
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "CHLKD Babes",
           "country": "DE",
           "club": "CHLKD Crossfit Hagsfeld",
-          "points": 42,
+          "points": 44,
           "wods": {
             "ATD QWOD26.1 SC": {
               "position": 12,
@@ -26980,7 +27101,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 263,
               "tiebreak": null,
@@ -27005,7 +27126,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 110,
               "tiebreak": null,
@@ -27044,11 +27165,11 @@
           ]
         },
         {
-          "rank": 11,
+          "rank": 12,
           "name": "The Barbell Lovers",
           "country": "AT",
           "club": "",
-          "points": 44,
+          "points": 46,
           "wods": {
             "ATD QWOD26.1 SC": {
               "position": 13,
@@ -27101,7 +27222,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 208,
               "tiebreak": null,
@@ -27126,7 +27247,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 115,
               "tiebreak": null,
@@ -27160,77 +27281,6 @@
             {
               "athlete_id": "8f65ed69-24e1-466c-a24b-ffd30e2c5b23",
               "name": "Johanna Schott",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 12,
-          "name": "Sauna Club",
-          "country": "AT",
-          "club": "",
-          "points": 55,
-          "wods": {
-            "ATD QWOD26.1 SC": {
-              "position": 11,
-              "time": 1609000,
-              "reps": null,
-              "tiebreak": 1289000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Rosalie",
-                  "gender": "f",
-                  "time": 732000,
-                  "reps": 0,
-                  "tiebreak": 577000,
-                  "cap": false
-                },
-                {
-                  "name": "Marlies Stonig",
-                  "gender": "f",
-                  "time": 877000,
-                  "reps": null,
-                  "tiebreak": 712000,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.2": {
-              "position": 8,
-              "time": 762000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Rosalie",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Marlies Stonig",
-                  "gender": "f",
-                  "time": 402000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "a8dd3a08-3944-4a06-a1c6-2eae8abd9498",
-              "name": "Rosalie",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "cce3201d-52bc-44bb-819b-93b072d707d0",
-              "name": "Marlies Stonig",
               "gender": "f"
             }
           ]
@@ -28130,6 +28180,34 @@
           },
           {
             "rank": 7,
+            "name": "Sauna Club",
+            "country": "AT",
+            "club": "",
+            "time": null,
+            "reps": 278,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Rosalie",
+                "gender": "f",
+                "time": 360000,
+                "reps": 133,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Marlies Stonig",
+                "gender": "f",
+                "time": null,
+                "reps": 145,
+                "tiebreak": null,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 8,
             "name": "Team C & A",
             "country": "AT",
             "club": "CrossFit Eisenstadt",
@@ -28157,7 +28235,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Kernöl & Pierogi",
             "country": "AT",
             "club": "Crossfit LAT",
@@ -28185,7 +28263,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "CHLKD Babes",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
@@ -28213,7 +28291,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "NoRest",
             "country": "AT",
             "club": "Crossfit 3430",
@@ -28241,7 +28319,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "The Barbell Lovers",
             "country": "AT",
             "club": "",
@@ -28412,6 +28490,34 @@
           },
           {
             "rank": 6,
+            "name": "Sauna Club",
+            "country": "AT",
+            "club": "",
+            "time": null,
+            "reps": 118,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Rosalie",
+                "gender": "f",
+                "time": 300000,
+                "reps": 55,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Marlies Stonig",
+                "gender": "f",
+                "time": null,
+                "reps": 63,
+                "tiebreak": null,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 7,
             "name": "Team C & A",
             "country": "AT",
             "club": "CrossFit Eisenstadt",
@@ -28439,7 +28545,7 @@
             ]
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Team Underkill",
             "country": "AT",
             "club": "CrossFit So Simple",
@@ -28467,7 +28573,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "The Barbell Lovers",
             "country": "AT",
             "club": "",
@@ -28495,7 +28601,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "NoRest",
             "country": "AT",
             "club": "Crossfit 3430",
@@ -28523,7 +28629,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "BUILT DIFFERENT",
             "country": "AT",
             "club": "Fitness am Untersberg",
@@ -28551,7 +28657,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "CHLKD Babes",
             "country": "DE",
             "club": "CHLKD Crossfit Hagsfeld",
