@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-11T23:16:30Z",
-    "updated_at_readable": "2026-07-11 23:16 UTC"
+    "updated_at": "2026-07-12T00:22:26Z",
+    "updated_at_readable": "2026-07-12 00:22 UTC"
   },
   "divisions": [
     {
@@ -42276,10 +42276,10 @@
           "name": "Wings & Weights",
           "country": "DE",
           "club": "CrossFit 383",
-          "points": 40,
+          "points": 41,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 338,
               "tiebreak": 1606000,
@@ -42397,10 +42397,10 @@
           "name": "Box Paranoia",
           "country": "DE",
           "club": "Fitnessclub Kleegarten",
-          "points": 45,
+          "points": 46,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 313,
               "tiebreak": 1653000,
@@ -42518,10 +42518,10 @@
           "name": "Green&Yellow",
           "country": "DE",
           "club": "Sweat & Tears",
-          "points": 45,
+          "points": 46,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 308,
               "tiebreak": 1675000,
@@ -43219,21 +43219,21 @@
           "name": "M&M’s",
           "country": "DE",
           "club": "CrossFit WUID",
-          "points": 69,
+          "points": 66,
           "wods": {
             "GTD QWOD26.1": {
-              "position": 12,
+              "position": 9,
               "time": null,
-              "reps": 299,
-              "tiebreak": 1665000,
+              "reps": 133,
+              "tiebreak": 1627000,
               "cap": true,
               "members": [
                 {
                   "name": "Milena Pippert",
                   "gender": "f",
-                  "time": 900000,
-                  "reps": 166,
-                  "tiebreak": 765000,
+                  "time": 846000,
+                  "reps": 0,
+                  "tiebreak": 727000,
                   "cap": false
                 },
                 {
@@ -43802,6 +43802,34 @@
           },
           {
             "rank": 9,
+            "name": "M&M’s",
+            "country": "DE",
+            "club": "CrossFit WUID",
+            "time": null,
+            "reps": 133,
+            "tiebreak": 1627000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Milena Pippert",
+                "gender": "f",
+                "time": 846000,
+                "reps": 0,
+                "tiebreak": 727000,
+                "cap": false
+              },
+              {
+                "name": "Maria Siegmund",
+                "gender": "f",
+                "time": 900000,
+                "reps": 133,
+                "tiebreak": 900000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 10,
             "name": "Wings & Weights",
             "country": "DE",
             "club": "CrossFit 383",
@@ -43829,7 +43857,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Box Paranoia",
             "country": "DE",
             "club": "Fitnessclub Kleegarten",
@@ -43857,7 +43885,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Green&Yellow",
             "country": "DE",
             "club": "Sweat & Tears",
@@ -43879,34 +43907,6 @@
                 "gender": "f",
                 "time": 900000,
                 "reps": 128,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
-          },
-          {
-            "rank": 12,
-            "name": "M&M’s",
-            "country": "DE",
-            "club": "CrossFit WUID",
-            "time": null,
-            "reps": 299,
-            "tiebreak": 1665000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Milena Pippert",
-                "gender": "f",
-                "time": 900000,
-                "reps": 166,
-                "tiebreak": 765000,
-                "cap": false
-              },
-              {
-                "name": "Maria Siegmund",
-                "gender": "f",
-                "time": 900000,
-                "reps": 133,
                 "tiebreak": 900000,
                 "cap": false
               }
