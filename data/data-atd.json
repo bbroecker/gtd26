@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-07-12T05:04:48Z",
-    "updated_at_readable": "2026-07-12 05:04 UTC"
+    "updated_at": "2026-07-12T06:52:31Z",
+    "updated_at_readable": "2026-07-12 06:52 UTC"
   },
   "divisions": [
     {
@@ -14807,13 +14807,134 @@
         },
         {
           "rank": 2,
-          "name": "Just here for the T-Shirt",
-          "country": "AT",
-          "club": "Crossfit Lift like a Viking",
-          "points": 12,
+          "name": "Říšští Rytíři",
+          "country": "CZ",
+          "club": "",
+          "points": 7,
           "wods": {
             "ATD QWOD26.1": {
               "position": 2,
+              "time": null,
+              "reps": 102,
+              "tiebreak": 1531000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Jakub Homola",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 102,
+                  "tiebreak": 900000,
+                  "cap": false
+                },
+                {
+                  "name": "Lukáš Kobza",
+                  "gender": "m",
+                  "time": 818000,
+                  "reps": 0,
+                  "tiebreak": 631000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 1,
+              "time": 586000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Jakub Homola",
+                  "gender": "m",
+                  "time": 320000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Lukáš Kobza",
+                  "gender": "m",
+                  "time": 266000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 2,
+              "time": null,
+              "reps": 262,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Jakub Homola",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 119,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Lukáš Kobza",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 143,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 2,
+              "time": null,
+              "reps": 262,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Jakub Homola",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 121,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Lukáš Kobza",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 141,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "2fa82cef-528f-40c7-841f-8109d114b2c3",
+              "name": "Jakub Homola",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "66b76c54-ee7b-4f15-bf2b-a9cb7e7a8c9b",
+              "name": "Lukáš Kobza",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "name": "Just here for the T-Shirt",
+          "country": "AT",
+          "club": "Crossfit Lift like a Viking",
+          "points": 13,
+          "wods": {
+            "ATD QWOD26.1": {
+              "position": 3,
               "time": null,
               "reps": 269,
               "tiebreak": 1593000,
@@ -14927,14 +15048,14 @@
           ]
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "CrossBoost",
           "country": "PL",
           "club": "",
-          "points": 14,
+          "points": 15,
           "wods": {
             "ATD QWOD26.1": {
-              "position": 3,
+              "position": 4,
               "time": null,
               "reps": 138,
               "tiebreak": 1800000,
@@ -15046,102 +15167,6 @@
               "gender": "m"
             }
           ]
-        },
-        {
-          "rank": 4,
-          "name": "Říšští Rytíři",
-          "country": "CZ",
-          "club": "",
-          "points": 23,
-          "wods": {
-            "ATD QWOD26.2": {
-              "position": 1,
-              "time": 586000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Jakub Homola",
-                  "gender": "m",
-                  "time": 320000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Lukáš Kobza",
-                  "gender": "m",
-                  "time": 266000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 2,
-              "time": null,
-              "reps": 262,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Jakub Homola",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 119,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Lukáš Kobza",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 143,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 2,
-              "time": null,
-              "reps": 262,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Jakub Homola",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 121,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Lukáš Kobza",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 141,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "2fa82cef-528f-40c7-841f-8109d114b2c3",
-              "name": "Jakub Homola",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "66b76c54-ee7b-4f15-bf2b-a9cb7e7a8c9b",
-              "name": "Lukáš Kobza",
-              "gender": "m"
-            }
-          ]
         }
       ],
       "per_wod": {
@@ -15176,6 +15201,34 @@
           },
           {
             "rank": 2,
+            "name": "Říšští Rytíři",
+            "country": "CZ",
+            "club": "",
+            "time": null,
+            "reps": 102,
+            "tiebreak": 1531000,
+            "cap": true,
+            "members": [
+              {
+                "name": "Jakub Homola",
+                "gender": "m",
+                "time": 900000,
+                "reps": 102,
+                "tiebreak": 900000,
+                "cap": false
+              },
+              {
+                "name": "Lukáš Kobza",
+                "gender": "m",
+                "time": 818000,
+                "reps": 0,
+                "tiebreak": 631000,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 3,
             "name": "Just here for the T-Shirt",
             "country": "AT",
             "club": "Crossfit Lift like a Viking",
@@ -15203,7 +15256,7 @@
             ]
           },
           {
-            "rank": 3,
+            "rank": 4,
             "name": "CrossBoost",
             "country": "PL",
             "club": "",
@@ -15963,7 +16016,7 @@
           "name": "Teamon und Pumpaa",
           "country": "AT",
           "club": "CrossFit Eisenstadt",
-          "points": 27,
+          "points": 28,
           "wods": {
             "ATD QWOD26.1": {
               "position": 8,
@@ -15991,7 +16044,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 9,
+              "position": 10,
               "time": 748000,
               "reps": null,
               "tiebreak": null,
@@ -16084,7 +16137,7 @@
           "name": "190kg+",
           "country": "DE",
           "club": "Crossfit Ostfildern",
-          "points": 30,
+          "points": 31,
           "wods": {
             "ATD QWOD26.1": {
               "position": 4,
@@ -16112,7 +16165,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 15,
+              "position": 16,
               "time": 786000,
               "reps": null,
               "tiebreak": null,
@@ -16205,7 +16258,7 @@
           "name": "I burn for You 🔥",
           "country": "DE",
           "club": "",
-          "points": 30,
+          "points": 31,
           "wods": {
             "ATD QWOD26.1": {
               "position": 2,
@@ -16233,7 +16286,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 12,
+              "position": 13,
               "time": 751000,
               "reps": null,
               "tiebreak": null,
@@ -16326,7 +16379,7 @@
           "name": "Hast du keinen Oberarm, bist du ober arm",
           "country": "AT",
           "club": "Kaisercross - Vo Nix Kimb Nix",
-          "points": 35,
+          "points": 36,
           "wods": {
             "ATD QWOD26.1": {
               "position": 5,
@@ -16354,7 +16407,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 13,
+              "position": 14,
               "time": 765000,
               "reps": null,
               "tiebreak": null,
@@ -16447,7 +16500,7 @@
           "name": "Sprachbarriere",
           "country": "CH",
           "club": "",
-          "points": 35,
+          "points": 36,
           "wods": {
             "ATD QWOD26.1": {
               "position": 13,
@@ -16475,7 +16528,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 6,
+              "position": 7,
               "time": 717000,
               "reps": null,
               "tiebreak": null,
@@ -16689,7 +16742,7 @@
           "name": "Oompa Loompas",
           "country": "AT",
           "club": "Kämpferherz",
-          "points": 38,
+          "points": 39,
           "wods": {
             "ATD QWOD26.1": {
               "position": 11,
@@ -16717,7 +16770,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 14,
+              "position": 15,
               "time": 772000,
               "reps": null,
               "tiebreak": null,
@@ -16810,7 +16863,7 @@
           "name": "Squad and Friends",
           "country": "AT",
           "club": "TheSquad",
-          "points": 39,
+          "points": 40,
           "wods": {
             "ATD QWOD26.1": {
               "position": 10,
@@ -16838,7 +16891,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 8,
+              "position": 9,
               "time": 734000,
               "reps": null,
               "tiebreak": null,
@@ -16928,127 +16981,6 @@
         },
         {
           "rank": 12,
-          "name": "Jung & Erfahren",
-          "country": "CH",
-          "club": "",
-          "points": 40,
-          "wods": {
-            "ATD QWOD26.1": {
-              "position": 12,
-              "time": null,
-              "reps": 286,
-              "tiebreak": 1661000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Sven Gubler",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 98,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Shani ten Siethoff",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 188,
-                  "tiebreak": 761000,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.2": {
-              "position": 10,
-              "time": 749000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Sven Gubler",
-                  "gender": "m",
-                  "time": 365000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Shani ten Siethoff",
-                  "gender": "f",
-                  "time": 384000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 15,
-              "time": null,
-              "reps": 250,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Sven Gubler",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 119,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Shani ten Siethoff",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 131,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 3,
-              "time": null,
-              "reps": 199,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Sven Gubler",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 114,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Shani ten Siethoff",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 85,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "d5059506-a532-4488-ac74-bc1436ea96d1",
-              "name": "Sven Gubler",
-              "gender": "m"
-            },
-            {
-              "athlete_id": "cac008aa-ea44-4e78-bec4-835fbd4991ee",
-              "name": "Shani ten Siethoff",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 13,
           "name": "Donut skip warm up",
           "country": "AT",
           "club": "",
@@ -17169,6 +17101,127 @@
           ]
         },
         {
+          "rank": 13,
+          "name": "Jung & Erfahren",
+          "country": "CH",
+          "club": "",
+          "points": 41,
+          "wods": {
+            "ATD QWOD26.1": {
+              "position": 12,
+              "time": null,
+              "reps": 286,
+              "tiebreak": 1661000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Sven Gubler",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 98,
+                  "tiebreak": 900000,
+                  "cap": false
+                },
+                {
+                  "name": "Shani ten Siethoff",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 188,
+                  "tiebreak": 761000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 11,
+              "time": 749000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Sven Gubler",
+                  "gender": "m",
+                  "time": 365000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Shani ten Siethoff",
+                  "gender": "f",
+                  "time": 384000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 15,
+              "time": null,
+              "reps": 250,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Sven Gubler",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 119,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Shani ten Siethoff",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 131,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 3,
+              "time": null,
+              "reps": 199,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Sven Gubler",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 114,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Shani ten Siethoff",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 85,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "d5059506-a532-4488-ac74-bc1436ea96d1",
+              "name": "Sven Gubler",
+              "gender": "m"
+            },
+            {
+              "athlete_id": "cac008aa-ea44-4e78-bec4-835fbd4991ee",
+              "name": "Shani ten Siethoff",
+              "gender": "f"
+            }
+          ]
+        },
+        {
           "rank": 14,
           "name": "Abi‘s",
           "country": "DE",
@@ -17266,10 +17319,106 @@
         },
         {
           "rank": 15,
+          "name": "Burpees for cookies",
+          "country": "CZ",
+          "club": "",
+          "points": 53,
+          "wods": {
+            "ATD QWOD26.2": {
+              "position": 6,
+              "time": 706000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Leona Grygaříková",
+                  "gender": "f",
+                  "time": 364000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Ondrej Chmela",
+                  "gender": "m",
+                  "time": 342000,
+                  "reps": null,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 13,
+              "time": null,
+              "reps": 252,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Leona Grygaříková",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 132,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Ondrej Chmela",
+                  "gender": "m",
+                  "time": null,
+                  "reps": 120,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 1,
+              "time": null,
+              "reps": 202,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Leona Grygaříková",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 86,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Ondrej Chmela",
+                  "gender": "m",
+                  "time": null,
+                  "reps": 116,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "922d894e-84e5-4603-a1df-7a5015bf55f6",
+              "name": "Leona Grygaříková",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "f6ac0b70-dc6d-4cc2-b893-9127bc90b53d",
+              "name": "Ondrej Chmela",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 16,
           "name": "Forever Young",
           "country": "CH",
           "club": "CrossFit Arbon",
-          "points": 61,
+          "points": 62,
           "wods": {
             "ATD QWOD26.1": {
               "position": 16,
@@ -17297,7 +17446,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 11,
+              "position": 12,
               "time": 750000,
               "reps": null,
               "tiebreak": null,
@@ -17386,14 +17535,14 @@
           ]
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "TÖTÖTÖTÖ MAX VERSTAPPEN",
           "country": "AT",
           "club": "The Squad",
-          "points": 74,
+          "points": 75,
           "wods": {
             "ATD QWOD26.2": {
-              "position": 7,
+              "position": 8,
               "time": 726000,
               "reps": null,
               "tiebreak": null,
@@ -17482,14 +17631,14 @@
           ]
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Advanced Beerginners",
           "country": "DE",
           "club": "Athletic & Fitness Club",
-          "points": 76,
+          "points": 77,
           "wods": {
             "ATD QWOD26.2": {
-              "position": 16,
+              "position": 17,
               "time": 874000,
               "reps": null,
               "tiebreak": null,
@@ -17578,82 +17727,11 @@
           ]
         },
         {
-          "rank": 18,
-          "name": "Burpees for cookies",
-          "country": "CZ",
-          "club": "",
-          "points": 80,
-          "wods": {
-            "ATD QWOD26.3 A": {
-              "position": 13,
-              "time": null,
-              "reps": 252,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Leona Grygaříková",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 132,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Ondrej Chmela",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 120,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 1,
-              "time": null,
-              "reps": 202,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Leona Grygaříková",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 86,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Ondrej Chmela",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 116,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "922d894e-84e5-4603-a1df-7a5015bf55f6",
-              "name": "Leona Grygaříková",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "f6ac0b70-dc6d-4cc2-b893-9127bc90b53d",
-              "name": "Ondrej Chmela",
-              "gender": "m"
-            }
-          ]
-        },
-        {
           "rank": 19,
           "name": "Ringe ringe jaja",
           "country": "HR",
           "club": "Independent",
-          "points": 97,
+          "points": 98,
           "wods": {
             "ATD QWOD26.1": {
               "position": 14,
@@ -17681,7 +17759,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 17,
+              "position": 18,
               "time": 1007000,
               "reps": null,
               "tiebreak": null,
@@ -18314,6 +18392,34 @@
           },
           {
             "rank": 6,
+            "name": "Burpees for cookies",
+            "country": "CZ",
+            "club": "",
+            "time": 706000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Leona Grygaříková",
+                "gender": "f",
+                "time": 364000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Ondrej Chmela",
+                "gender": "m",
+                "time": 342000,
+                "reps": null,
+                "tiebreak": null,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 7,
             "name": "Sprachbarriere",
             "country": "CH",
             "club": "",
@@ -18341,7 +18447,7 @@
             ]
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "TÖTÖTÖTÖ MAX VERSTAPPEN",
             "country": "AT",
             "club": "The Squad",
@@ -18369,7 +18475,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Squad and Friends",
             "country": "AT",
             "club": "TheSquad",
@@ -18397,7 +18503,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Teamon und Pumpaa",
             "country": "AT",
             "club": "CrossFit Eisenstadt",
@@ -18425,7 +18531,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Jung & Erfahren",
             "country": "CH",
             "club": "",
@@ -18453,7 +18559,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Forever Young",
             "country": "CH",
             "club": "CrossFit Arbon",
@@ -18481,7 +18587,7 @@
             ]
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "I burn for You 🔥",
             "country": "DE",
             "club": "",
@@ -18509,7 +18615,7 @@
             ]
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Hast du keinen Oberarm, bist du ober arm",
             "country": "AT",
             "club": "Kaisercross - Vo Nix Kimb Nix",
@@ -18537,7 +18643,7 @@
             ]
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Oompa Loompas",
             "country": "AT",
             "club": "Kämpferherz",
@@ -18565,7 +18671,7 @@
             ]
           },
           {
-            "rank": 15,
+            "rank": 16,
             "name": "190kg+",
             "country": "DE",
             "club": "Crossfit Ostfildern",
@@ -18593,7 +18699,7 @@
             ]
           },
           {
-            "rank": 16,
+            "rank": 17,
             "name": "Advanced Beerginners",
             "country": "DE",
             "club": "Athletic & Fitness Club",
@@ -18621,7 +18727,7 @@
             ]
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Ringe ringe jaja",
             "country": "HR",
             "club": "Independent",
@@ -19668,7 +19774,7 @@
       "name": "Intermediate Teams of 2 Female/Female",
       "order": 16,
       "individual": false,
-      "athlete_count": 26,
+      "athlete_count": 27,
       "result_count": 14,
       "wods": [
         "ATD QWOD26.1",
@@ -21016,102 +21122,6 @@
         },
         {
           "rank": 12,
-          "name": "train2peak girls",
-          "country": "SK",
-          "club": "train2peak",
-          "points": 45,
-          "wods": {
-            "ATD QWOD26.2": {
-              "position": 7,
-              "time": 850000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Petra Hátaš",
-                  "gender": "f",
-                  "time": 414000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nina Janusikova",
-                  "gender": "f",
-                  "time": 436000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 5,
-              "time": null,
-              "reps": 258,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Petra Hátaš",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 126,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nina Janusikova",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 132,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 7,
-              "time": null,
-              "reps": 147.5,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Petra Hátaš",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 72.5,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nina Janusikova",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 75,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "51f9d8bc-687b-4f3a-a00e-fe1f80ea37e4",
-              "name": "Petra Hátaš",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "e0a67998-c69f-4a87-8114-c07e6bf1b3b7",
-              "name": "Nina Janusikova",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 13,
           "name": "V-Power",
           "country": "AT",
           "club": "Granitbox",
@@ -21232,11 +21242,107 @@
           ]
         },
         {
+          "rank": 13,
+          "name": "train2peak girls",
+          "country": "SK",
+          "club": "train2peak",
+          "points": 46,
+          "wods": {
+            "ATD QWOD26.2": {
+              "position": 7,
+              "time": 850000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Petra Hátaš",
+                  "gender": "f",
+                  "time": 414000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nina Janusikova",
+                  "gender": "f",
+                  "time": 436000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 5,
+              "time": null,
+              "reps": 258,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Petra Hátaš",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 126,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nina Janusikova",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 132,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 7,
+              "time": null,
+              "reps": 147.5,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Petra Hátaš",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 72.5,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Nina Janusikova",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 75,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "51f9d8bc-687b-4f3a-a00e-fe1f80ea37e4",
+              "name": "Petra Hátaš",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "e0a67998-c69f-4a87-8114-c07e6bf1b3b7",
+              "name": "Nina Janusikova",
+              "gender": "f"
+            }
+          ]
+        },
+        {
           "rank": 14,
           "name": "CrossFit PMA",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 62,
+          "points": 63,
           "wods": {
             "ATD QWOD26.2": {
               "position": 13,
@@ -30386,7 +30492,7 @@
             },
             "ATD QWOD26.2": {
               "position": 2,
-              "time": 667000,
+              "time": 653000,
               "reps": null,
               "tiebreak": null,
               "cap": false,
@@ -30402,7 +30508,7 @@
                 {
                   "name": "Gregor Mueller",
                   "gender": "m",
-                  "time": 278000,
+                  "time": 264000,
                   "reps": 0,
                   "tiebreak": 0,
                   "cap": false
@@ -31237,7 +31343,7 @@
             "name": "Rock-Nerds",
             "country": "AT",
             "club": "Atlas360",
-            "time": 667000,
+            "time": 653000,
             "reps": null,
             "tiebreak": null,
             "cap": false,
@@ -31253,7 +31359,7 @@
               {
                 "name": "Gregor Mueller",
                 "gender": "m",
-                "time": 278000,
+                "time": 264000,
                 "reps": 0,
                 "tiebreak": 0,
                 "cap": false
