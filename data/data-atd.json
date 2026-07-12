@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-07-12T22:18:58Z",
-    "updated_at_readable": "2026-07-12 22:18 UTC"
+    "updated_at": "2026-07-12T23:18:31Z",
+    "updated_at_readable": "2026-07-12 23:18 UTC"
   },
   "divisions": [
     {
@@ -25151,7 +25151,7 @@
       "name": "Intermediate Teams of 2 Male/Female",
       "order": 15,
       "individual": false,
-      "athlete_count": 34,
+      "athlete_count": 35,
       "result_count": 25,
       "wods": [
         "ATD QWOD26.1",
@@ -26623,7 +26623,7 @@
           "name": "Abi‘s",
           "country": "DE",
           "club": "CrossFit Zugkraft",
-          "points": 53,
+          "points": 54,
           "wods": {
             "ATD QWOD26.1": {
               "position": 8,
@@ -27687,7 +27687,7 @@
           "name": "Spargel & Shorty",
           "country": "AT",
           "club": "BlackSunset BarbellClub",
-          "points": 79,
+          "points": 80,
           "wods": {
             "ATD QWOD26.2": {
               "position": 8,
@@ -27901,102 +27901,6 @@
         },
         {
           "rank": 24,
-          "name": "TÖTÖTÖTÖ MAX VERSTAPPEN",
-          "country": "AT",
-          "club": "The Squad",
-          "points": 88,
-          "wods": {
-            "ATD QWOD26.2": {
-              "position": 12,
-              "time": 726000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Anna Huber",
-                  "gender": "f",
-                  "time": 450000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Phillip Kreitner",
-                  "gender": "m",
-                  "time": 276000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 20,
-              "time": null,
-              "reps": 245,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Anna Huber",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 116,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Phillip Kreitner",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 129,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 22,
-              "time": null,
-              "reps": 172.5,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Anna Huber",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 67.5,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Phillip Kreitner",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 105,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "29bb3604-abef-498c-a517-f0a695ed7875",
-              "name": "Anna Huber",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "79094e2d-337d-4240-a8b6-4a7c8ecd5363",
-              "name": "Phillip Kreitner",
-              "gender": "m"
-            }
-          ]
-        },
-        {
-          "rank": 25,
           "name": "Vicuña & Buceros",
           "country": "CZ",
           "club": "Crossfit Destiny",
@@ -28112,6 +28016,102 @@
             {
               "athlete_id": "c1328a56-05f3-4fb2-880b-ffd739fe7a84",
               "name": "Jakub Kolarský",
+              "gender": "m"
+            }
+          ]
+        },
+        {
+          "rank": 25,
+          "name": "TÖTÖTÖTÖ MAX VERSTAPPEN",
+          "country": "AT",
+          "club": "The Squad",
+          "points": 89,
+          "wods": {
+            "ATD QWOD26.2": {
+              "position": 12,
+              "time": 726000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Anna Huber",
+                  "gender": "f",
+                  "time": 450000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Phillip Kreitner",
+                  "gender": "m",
+                  "time": 276000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 20,
+              "time": null,
+              "reps": 245,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Anna Huber",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 116,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Phillip Kreitner",
+                  "gender": "m",
+                  "time": 360000,
+                  "reps": 129,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 22,
+              "time": null,
+              "reps": 172.5,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Anna Huber",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 67.5,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Phillip Kreitner",
+                  "gender": "m",
+                  "time": 300000,
+                  "reps": 105,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "29bb3604-abef-498c-a517-f0a695ed7875",
+              "name": "Anna Huber",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "79094e2d-337d-4240-a8b6-4a7c8ecd5363",
+              "name": "Phillip Kreitner",
               "gender": "m"
             }
           ]
@@ -30850,7 +30850,7 @@
       "order": 16,
       "individual": false,
       "athlete_count": 31,
-      "result_count": 23,
+      "result_count": 24,
       "wods": [
         "ATD QWOD26.1",
         "ATD QWOD26.2",
@@ -30990,7 +30990,7 @@
           "name": "Special Case",
           "country": "PL",
           "club": "",
-          "points": 17,
+          "points": 18,
           "wods": {
             "ATD QWOD26.1": {
               "position": 1,
@@ -31068,7 +31068,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 150,
               "tiebreak": null,
@@ -31111,7 +31111,7 @@
           "name": "Die Baustellinen",
           "country": "AT",
           "club": "",
-          "points": 23,
+          "points": 24,
           "wods": {
             "ATD QWOD26.1": {
               "position": 3,
@@ -31189,7 +31189,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 12,
+              "position": 13,
               "time": null,
               "reps": 141.5,
               "tiebreak": null,
@@ -31474,7 +31474,7 @@
           "name": "smol & smol",
           "country": "AT",
           "club": "",
-          "points": 32,
+          "points": 33,
           "wods": {
             "ATD QWOD26.1": {
               "position": 5,
@@ -31552,7 +31552,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 18,
+              "position": 19,
               "time": null,
               "reps": 136,
               "tiebreak": null,
@@ -31716,7 +31716,7 @@
           "name": "train2peak girls",
           "country": "SK",
           "club": "train2peak",
-          "points": 41,
+          "points": 43,
           "wods": {
             "ATD QWOD26.1": {
               "position": 9,
@@ -31744,7 +31744,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 12,
+              "position": 13,
               "time": 850000,
               "reps": null,
               "tiebreak": null,
@@ -31794,7 +31794,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 147.5,
               "tiebreak": null,
@@ -31837,7 +31837,7 @@
           "name": "Just4Fun",
           "country": "DE",
           "club": "Evil Nine Fitness",
-          "points": 43,
+          "points": 44,
           "wods": {
             "ATD QWOD26.1": {
               "position": 8,
@@ -31915,7 +31915,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 139.0,
               "tiebreak": null,
@@ -31955,131 +31955,10 @@
         },
         {
           "rank": 10,
-          "name": "MillenialWodies",
-          "country": "AT",
-          "club": "Crossfit WN",
-          "points": 43,
-          "wods": {
-            "ATD QWOD26.1": {
-              "position": 2,
-              "time": 1517000,
-              "reps": null,
-              "tiebreak": 1496000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Bianca Löffler",
-                  "gender": "f",
-                  "time": 884000,
-                  "reps": 0,
-                  "tiebreak": 704000,
-                  "cap": false
-                },
-                {
-                  "name": "Marie-Theres Ernst",
-                  "gender": "f",
-                  "time": 633000,
-                  "reps": null,
-                  "tiebreak": 792000,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.2": {
-              "position": 15,
-              "time": 876000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Bianca Löffler",
-                  "gender": "f",
-                  "time": 428000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Marie-Theres Ernst",
-                  "gender": "f",
-                  "time": 448000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 16,
-              "time": null,
-              "reps": 232,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Bianca Löffler",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 106,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Marie-Theres Ernst",
-                  "gender": "f",
-                  "time": null,
-                  "reps": 126,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 10,
-              "time": null,
-              "reps": 146,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Bianca Löffler",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 75,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Marie-Theres Ernst",
-                  "gender": "f",
-                  "time": null,
-                  "reps": 71,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "20b7b71f-e046-4df8-83fe-8147b825e20f",
-              "name": "Bianca Löffler",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "6fcc4e7c-868d-498f-bbfe-bf103ada1a4c",
-              "name": "Marie-Theres Ernst",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 11,
           "name": "Long Hair Don’t Care",
           "country": "DE",
           "club": "",
-          "points": 44,
+          "points": 45,
           "wods": {
             "ATD QWOD26.1": {
               "position": 10,
@@ -32157,7 +32036,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 14,
+              "position": 15,
               "time": null,
               "reps": 140.0,
               "tiebreak": null,
@@ -32196,11 +32075,132 @@
           ]
         },
         {
+          "rank": 11,
+          "name": "MillenialWodies",
+          "country": "AT",
+          "club": "Crossfit WN",
+          "points": 45,
+          "wods": {
+            "ATD QWOD26.1": {
+              "position": 2,
+              "time": 1517000,
+              "reps": null,
+              "tiebreak": 1496000,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Bianca Löffler",
+                  "gender": "f",
+                  "time": 884000,
+                  "reps": 0,
+                  "tiebreak": 704000,
+                  "cap": false
+                },
+                {
+                  "name": "Marie-Theres Ernst",
+                  "gender": "f",
+                  "time": 633000,
+                  "reps": null,
+                  "tiebreak": 792000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 16,
+              "time": 876000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Bianca Löffler",
+                  "gender": "f",
+                  "time": 428000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marie-Theres Ernst",
+                  "gender": "f",
+                  "time": 448000,
+                  "reps": null,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 16,
+              "time": null,
+              "reps": 232,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Bianca Löffler",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 106,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marie-Theres Ernst",
+                  "gender": "f",
+                  "time": null,
+                  "reps": 126,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 11,
+              "time": null,
+              "reps": 146,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Bianca Löffler",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 75,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Marie-Theres Ernst",
+                  "gender": "f",
+                  "time": null,
+                  "reps": 71,
+                  "tiebreak": null,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "20b7b71f-e046-4df8-83fe-8147b825e20f",
+              "name": "Bianca Löffler",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "6fcc4e7c-868d-498f-bbfe-bf103ada1a4c",
+              "name": "Marie-Theres Ernst",
+              "gender": "f"
+            }
+          ]
+        },
+        {
           "rank": 12,
           "name": "Almostpro Club",
           "country": "CH",
           "club": "",
-          "points": 47,
+          "points": 49,
           "wods": {
             "ATD QWOD26.1": {
               "position": 15,
@@ -32228,7 +32228,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 13,
+              "position": 14,
               "time": 852000,
               "reps": null,
               "tiebreak": null,
@@ -32278,7 +32278,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 14,
+              "position": 15,
               "time": null,
               "reps": 140,
               "tiebreak": null,
@@ -32318,127 +32318,6 @@
         },
         {
           "rank": 13,
-          "name": "Underrested Chicks",
-          "country": "DE",
-          "club": "CrossFit 91522",
-          "points": 48,
-          "wods": {
-            "ATD QWOD26.1": {
-              "position": 11,
-              "time": null,
-              "reps": 128,
-              "tiebreak": 1578000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Daniela Gesell",
-                  "gender": "f",
-                  "time": 812000,
-                  "reps": 0,
-                  "tiebreak": 678000,
-                  "cap": false
-                },
-                {
-                  "name": "Elena Schweiger",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 128,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.2": {
-              "position": 4,
-              "time": 728000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Daniela Gesell",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Elena Schweiger",
-                  "gender": "f",
-                  "time": 368000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 10,
-              "time": null,
-              "reps": 265,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Daniela Gesell",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 143,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Elena Schweiger",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 122,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 23,
-              "time": null,
-              "reps": 128,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Daniela Gesell",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 73,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Elena Schweiger",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 55,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "330f0f5b-afff-4507-8717-7d8e0b04814c",
-              "name": "Daniela Gesell",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "2b7b8603-c20d-47eb-81c5-5230b8769189",
-              "name": "Elena Schweiger",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 14,
           "name": "Fat Bread Pigeons 🍞🐦",
           "country": "DE",
           "club": "Crossfit Cologne",
@@ -32559,11 +32438,132 @@
           ]
         },
         {
+          "rank": 14,
+          "name": "Underrested Chicks",
+          "country": "DE",
+          "club": "CrossFit 91522",
+          "points": 49,
+          "wods": {
+            "ATD QWOD26.1": {
+              "position": 11,
+              "time": null,
+              "reps": 128,
+              "tiebreak": 1578000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Daniela Gesell",
+                  "gender": "f",
+                  "time": 812000,
+                  "reps": 0,
+                  "tiebreak": 678000,
+                  "cap": false
+                },
+                {
+                  "name": "Elena Schweiger",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 128,
+                  "tiebreak": 900000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 4,
+              "time": 728000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Daniela Gesell",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Elena Schweiger",
+                  "gender": "f",
+                  "time": 368000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 10,
+              "time": null,
+              "reps": 265,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Daniela Gesell",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 143,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Elena Schweiger",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 122,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 24,
+              "time": null,
+              "reps": 128,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Daniela Gesell",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 73,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Elena Schweiger",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 55,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "330f0f5b-afff-4507-8717-7d8e0b04814c",
+              "name": "Daniela Gesell",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "2b7b8603-c20d-47eb-81c5-5230b8769189",
+              "name": "Elena Schweiger",
+              "gender": "f"
+            }
+          ]
+        },
+        {
           "rank": 15,
           "name": "She lifts, I run",
           "country": "AT",
           "club": "Crossfit Murstadt",
-          "points": 57,
+          "points": 59,
           "wods": {
             "ATD QWOD26.1": {
               "position": 17,
@@ -32591,7 +32591,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 14,
+              "position": 15,
               "time": 853000,
               "reps": null,
               "tiebreak": null,
@@ -32641,7 +32641,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 149,
               "tiebreak": null,
@@ -32681,131 +32681,10 @@
         },
         {
           "rank": 16,
-          "name": "Chalk it like it's hot",
-          "country": "AT",
-          "club": "crossfit gravel pit",
-          "points": 60,
-          "wods": {
-            "ATD QWOD26.1": {
-              "position": 13,
-              "time": null,
-              "reps": 143,
-              "tiebreak": 1595000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tamara Simon",
-                  "gender": "f",
-                  "time": 890000,
-                  "reps": 0,
-                  "tiebreak": 708000,
-                  "cap": false
-                },
-                {
-                  "name": "michelle butler",
-                  "gender": "f",
-                  "time": 900000,
-                  "reps": 143,
-                  "tiebreak": 887000,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.2": {
-              "position": 16,
-              "time": 912000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Tamara Simon",
-                  "gender": "f",
-                  "time": 450000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "michelle butler",
-                  "gender": "f",
-                  "time": 462000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 A": {
-              "position": 17,
-              "time": null,
-              "reps": 227,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tamara Simon",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 121,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "michelle butler",
-                  "gender": "f",
-                  "time": 360000,
-                  "reps": 106,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            },
-            "ATD QWOD26.3 B": {
-              "position": 14,
-              "time": null,
-              "reps": 140,
-              "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tamara Simon",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 70,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "michelle butler",
-                  "gender": "f",
-                  "time": 300000,
-                  "reps": 70,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
-            }
-          },
-          "members": [
-            {
-              "athlete_id": "581be112-ddbd-4f81-887e-aabbb9e1e7d0",
-              "name": "Tamara Simon",
-              "gender": "f"
-            },
-            {
-              "athlete_id": "ea646743-9254-44f6-90db-6d6bf9cad364",
-              "name": "michelle butler",
-              "gender": "f"
-            }
-          ]
-        },
-        {
-          "rank": 17,
           "name": "Miss Orientierungslos & Lady Verpeilt",
           "country": "AT",
           "club": "",
-          "points": 60,
+          "points": 61,
           "wods": {
             "ATD QWOD26.1": {
               "position": 12,
@@ -32858,7 +32737,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 13,
+              "position": 14,
               "time": null,
               "reps": 141,
               "tiebreak": null,
@@ -32897,11 +32776,132 @@
           ]
         },
         {
+          "rank": 17,
+          "name": "Chalk it like it's hot",
+          "country": "AT",
+          "club": "crossfit gravel pit",
+          "points": 62,
+          "wods": {
+            "ATD QWOD26.1": {
+              "position": 13,
+              "time": null,
+              "reps": 143,
+              "tiebreak": 1595000,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Tamara Simon",
+                  "gender": "f",
+                  "time": 890000,
+                  "reps": 0,
+                  "tiebreak": 708000,
+                  "cap": false
+                },
+                {
+                  "name": "michelle butler",
+                  "gender": "f",
+                  "time": 900000,
+                  "reps": 143,
+                  "tiebreak": 887000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 17,
+              "time": 912000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Tamara Simon",
+                  "gender": "f",
+                  "time": 450000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "michelle butler",
+                  "gender": "f",
+                  "time": 462000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 17,
+              "time": null,
+              "reps": 227,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Tamara Simon",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 121,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "michelle butler",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 106,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 15,
+              "time": null,
+              "reps": 140,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Tamara Simon",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 70,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "michelle butler",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 70,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "581be112-ddbd-4f81-887e-aabbb9e1e7d0",
+              "name": "Tamara Simon",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "ea646743-9254-44f6-90db-6d6bf9cad364",
+              "name": "michelle butler",
+              "gender": "f"
+            }
+          ]
+        },
+        {
           "rank": 18,
           "name": "The Cleaning Ladies",
           "country": "CH",
           "club": "Crossfit St. Gallen",
-          "points": 63,
+          "points": 65,
           "wods": {
             "ATD QWOD26.1": {
               "position": 19,
@@ -32929,7 +32929,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 20,
+              "position": 21,
               "time": 969000,
               "reps": null,
               "tiebreak": null,
@@ -32979,7 +32979,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 145,
               "tiebreak": null,
@@ -33022,7 +33022,7 @@
           "name": "HEY SORE SISTER!",
           "country": "CH",
           "club": "",
-          "points": 66,
+          "points": 68,
           "wods": {
             "ATD QWOD26.1": {
               "position": 16,
@@ -33050,7 +33050,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 22,
+              "position": 23,
               "time": 1031000,
               "reps": null,
               "tiebreak": null,
@@ -33075,7 +33075,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 23,
+              "position": 24,
               "time": null,
               "reps": 165,
               "tiebreak": null,
@@ -33140,10 +33140,106 @@
         },
         {
           "rank": 20,
+          "name": "Blonde mode off, beast mode on",
+          "country": "AT",
+          "club": "the squad",
+          "points": 69,
+          "wods": {
+            "ATD QWOD26.2": {
+              "position": 12,
+              "time": 834000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Lisa Capellari",
+                  "gender": "f",
+                  "time": 420000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Daniela Döring",
+                  "gender": "f",
+                  "time": 414000,
+                  "reps": 0,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 A": {
+              "position": 19,
+              "time": null,
+              "reps": 225,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Lisa Capellari",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 98,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Daniela Döring",
+                  "gender": "f",
+                  "time": 360000,
+                  "reps": 127,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.3 B": {
+              "position": 7,
+              "time": null,
+              "reps": 151.0,
+              "tiebreak": null,
+              "cap": true,
+              "members": [
+                {
+                  "name": "Lisa Capellari",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 67.5,
+                  "tiebreak": 0,
+                  "cap": false
+                },
+                {
+                  "name": "Daniela Döring",
+                  "gender": "f",
+                  "time": 300000,
+                  "reps": 83.5,
+                  "tiebreak": 0,
+                  "cap": false
+                }
+              ]
+            }
+          },
+          "members": [
+            {
+              "athlete_id": "e167a3be-7fe5-46ac-9967-59da66287e5b",
+              "name": "Lisa Capellari",
+              "gender": "f"
+            },
+            {
+              "athlete_id": "5f5c9e3a-b66d-45f0-84b6-c8d3f1ba5c0a",
+              "name": "Daniela Döring",
+              "gender": "f"
+            }
+          ]
+        },
+        {
+          "rank": 21,
           "name": "One more trouble",
           "country": "DE",
           "club": "CrossFit Simbach am Inn",
-          "points": 71,
+          "points": 73,
           "wods": {
             "ATD QWOD26.1": {
               "position": 14,
@@ -33171,7 +33267,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 18,
+              "position": 19,
               "time": 951000,
               "reps": null,
               "tiebreak": null,
@@ -33221,7 +33317,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 20,
+              "position": 21,
               "time": null,
               "reps": 134,
               "tiebreak": null,
@@ -33260,11 +33356,11 @@
           ]
         },
         {
-          "rank": 21,
+          "rank": 22,
           "name": "AL.L. IN",
           "country": "AT",
           "club": "",
-          "points": 76,
+          "points": 79,
           "wods": {
             "ATD QWOD26.1": {
               "position": 21,
@@ -33292,7 +33388,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 17,
+              "position": 18,
               "time": 917000,
               "reps": null,
               "tiebreak": null,
@@ -33317,7 +33413,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 20,
+              "position": 21,
               "time": null,
               "reps": 224,
               "tiebreak": null,
@@ -33342,7 +33438,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 18,
+              "position": 19,
               "time": null,
               "reps": 136,
               "tiebreak": null,
@@ -33381,11 +33477,11 @@
           ]
         },
         {
-          "rank": 22,
+          "rank": 23,
           "name": "V-Power",
           "country": "AT",
           "club": "Granitbox",
-          "points": 81,
+          "points": 84,
           "wods": {
             "ATD QWOD26.1": {
               "position": 18,
@@ -33413,7 +33509,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 19,
+              "position": 20,
               "time": 959000,
               "reps": null,
               "tiebreak": null,
@@ -33438,7 +33534,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 22,
+              "position": 23,
               "time": null,
               "reps": 182,
               "tiebreak": null,
@@ -33463,7 +33559,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 22,
+              "position": 23,
               "time": null,
               "reps": 132.5,
               "tiebreak": null,
@@ -33502,11 +33598,11 @@
           ]
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "CrossFit PMA",
           "country": "DE",
           "club": "CrossFit PMA",
-          "points": 85,
+          "points": 88,
           "wods": {
             "ATD QWOD26.1": {
               "position": 22,
@@ -33534,7 +33630,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 21,
+              "position": 22,
               "time": 980000,
               "reps": null,
               "tiebreak": null,
@@ -33559,7 +33655,7 @@
               ]
             },
             "ATD QWOD26.3 A": {
-              "position": 21,
+              "position": 22,
               "time": null,
               "reps": 194,
               "tiebreak": null,
@@ -33584,7 +33680,7 @@
               ]
             },
             "ATD QWOD26.3 B": {
-              "position": 21,
+              "position": 22,
               "time": null,
               "reps": 133.5,
               "tiebreak": null,
@@ -34581,6 +34677,34 @@
           },
           {
             "rank": 12,
+            "name": "Blonde mode off, beast mode on",
+            "country": "AT",
+            "club": "the squad",
+            "time": 834000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Lisa Capellari",
+                "gender": "f",
+                "time": 420000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Daniela Döring",
+                "gender": "f",
+                "time": 414000,
+                "reps": 0,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 13,
             "name": "train2peak girls",
             "country": "SK",
             "club": "train2peak",
@@ -34608,7 +34732,7 @@
             ]
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Almostpro Club",
             "country": "CH",
             "club": "",
@@ -34636,7 +34760,7 @@
             ]
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "She lifts, I run",
             "country": "AT",
             "club": "Crossfit Murstadt",
@@ -34664,7 +34788,7 @@
             ]
           },
           {
-            "rank": 15,
+            "rank": 16,
             "name": "MillenialWodies",
             "country": "AT",
             "club": "Crossfit WN",
@@ -34692,7 +34816,7 @@
             ]
           },
           {
-            "rank": 16,
+            "rank": 17,
             "name": "Chalk it like it's hot",
             "country": "AT",
             "club": "crossfit gravel pit",
@@ -34720,7 +34844,7 @@
             ]
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "AL.L. IN",
             "country": "AT",
             "club": "",
@@ -34748,7 +34872,7 @@
             ]
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "One more trouble",
             "country": "DE",
             "club": "CrossFit Simbach am Inn",
@@ -34776,7 +34900,7 @@
             ]
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "V-Power",
             "country": "AT",
             "club": "Granitbox",
@@ -34804,7 +34928,7 @@
             ]
           },
           {
-            "rank": 20,
+            "rank": 21,
             "name": "The Cleaning Ladies",
             "country": "CH",
             "club": "Crossfit St. Gallen",
@@ -34832,7 +34956,7 @@
             ]
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "CrossFit PMA",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -34860,7 +34984,7 @@
             ]
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "HEY SORE SISTER!",
             "country": "CH",
             "club": "",
@@ -35395,6 +35519,34 @@
           },
           {
             "rank": 19,
+            "name": "Blonde mode off, beast mode on",
+            "country": "AT",
+            "club": "the squad",
+            "time": null,
+            "reps": 225,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Lisa Capellari",
+                "gender": "f",
+                "time": 360000,
+                "reps": 98,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Daniela Döring",
+                "gender": "f",
+                "time": 360000,
+                "reps": 127,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 19,
             "name": "One more trouble",
             "country": "DE",
             "club": "CrossFit Simbach am Inn",
@@ -35422,7 +35574,7 @@
             ]
           },
           {
-            "rank": 20,
+            "rank": 21,
             "name": "AL.L. IN",
             "country": "AT",
             "club": "",
@@ -35450,7 +35602,7 @@
             ]
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "CrossFit PMA",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -35478,7 +35630,7 @@
             ]
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "V-Power",
             "country": "AT",
             "club": "Granitbox",
@@ -35506,7 +35658,7 @@
             ]
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "HEY SORE SISTER!",
             "country": "CH",
             "club": "",
@@ -35705,6 +35857,34 @@
           },
           {
             "rank": 7,
+            "name": "Blonde mode off, beast mode on",
+            "country": "AT",
+            "club": "the squad",
+            "time": null,
+            "reps": 151.0,
+            "tiebreak": null,
+            "cap": true,
+            "members": [
+              {
+                "name": "Lisa Capellari",
+                "gender": "f",
+                "time": 300000,
+                "reps": 67.5,
+                "tiebreak": 0,
+                "cap": false
+              },
+              {
+                "name": "Daniela Döring",
+                "gender": "f",
+                "time": 300000,
+                "reps": 83.5,
+                "tiebreak": 0,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 8,
             "name": "Special Case",
             "country": "PL",
             "club": "",
@@ -35732,7 +35912,7 @@
             ]
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "She lifts, I run",
             "country": "AT",
             "club": "Crossfit Murstadt",
@@ -35760,7 +35940,7 @@
             ]
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "train2peak girls",
             "country": "SK",
             "club": "train2peak",
@@ -35788,7 +35968,7 @@
             ]
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "MillenialWodies",
             "country": "AT",
             "club": "Crossfit WN",
@@ -35816,7 +35996,7 @@
             ]
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "The Cleaning Ladies",
             "country": "CH",
             "club": "Crossfit St. Gallen",
@@ -35844,7 +36024,7 @@
             ]
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Die Baustellinen",
             "country": "AT",
             "club": "",
@@ -35872,7 +36052,7 @@
             ]
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Miss Orientierungslos & Lady Verpeilt",
             "country": "AT",
             "club": "",
@@ -35900,7 +36080,7 @@
             ]
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Long Hair Don’t Care",
             "country": "DE",
             "club": "",
@@ -35928,7 +36108,7 @@
             ]
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Almostpro Club",
             "country": "CH",
             "club": "",
@@ -35956,7 +36136,7 @@
             ]
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Chalk it like it's hot",
             "country": "AT",
             "club": "crossfit gravel pit",
@@ -35984,7 +36164,7 @@
             ]
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Just4Fun",
             "country": "DE",
             "club": "Evil Nine Fitness",
@@ -36012,7 +36192,7 @@
             ]
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "smol & smol",
             "country": "AT",
             "club": "",
@@ -36040,7 +36220,7 @@
             ]
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "AL.L. IN",
             "country": "AT",
             "club": "",
@@ -36068,7 +36248,7 @@
             ]
           },
           {
-            "rank": 20,
+            "rank": 21,
             "name": "One more trouble",
             "country": "DE",
             "club": "CrossFit Simbach am Inn",
@@ -36096,7 +36276,7 @@
             ]
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "CrossFit PMA",
             "country": "DE",
             "club": "CrossFit PMA",
@@ -36124,7 +36304,7 @@
             ]
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "V-Power",
             "country": "AT",
             "club": "Granitbox",
@@ -36152,7 +36332,7 @@
             ]
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "Underrested Chicks",
             "country": "DE",
             "club": "CrossFit 91522",
