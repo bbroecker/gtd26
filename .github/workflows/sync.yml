@@ -36,6 +36,9 @@ jobs:
       - name: F/F virtual team simulation (Anna + Corinna)
         run: python3 simulate_ff.py
 
+      - name: Masters 40+ simulation (Bastian)
+        run: python3 simulate_m40.py
+
       - name: Commit & push data.json
         run: |
           git config user.name  "github-actions[bot]"
