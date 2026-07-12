@@ -75,12 +75,12 @@ for wname in wod_names:
         r_cap = row.get('cap', False) or (r_time and r_reps)
 
         if v_cap:
-            # Sort by tiebreak asc (lower = better), then reps desc
+            # Team WOD1: tiebreak-first (finisher's time converts to tiebreak equiv)
             if not r_cap:
-                beaten_by += 1  # finished teams beat any capped team? Actually unclear
+                beaten_by += 1
             elif r_tb and v_tb and r_tb < v_tb:
                 beaten_by += 1
-            elif r_tb == v_tb and r_reps and v_reps and r_reps > v_reps:
+            elif (r_tb or 0) == (v_tb or 0) and r_reps and v_reps and r_reps > v_reps:
                 beaten_by += 1
         else:
             # both finished: sort by time asc

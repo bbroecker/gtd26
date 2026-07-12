@@ -82,11 +82,12 @@ for wname in wod_names:
             if r_reps and v_reps and r_reps > v_reps:
                 beaten_by += 1
         elif v_cap:
+            # Time cap WOD: finishers beat cappers; among cappers: reps desc, then tiebreak asc
             if not r_cap:
                 beaten_by += 1
-            elif r_tb and v_tb and r_tb < v_tb:
+            elif r_reps and v_reps and r_reps > v_reps:
                 beaten_by += 1
-            elif r_tb == v_tb and r_reps and v_reps and r_reps > v_reps:
+            elif (r_reps or 0) == (v_reps or 0) and r_tb and v_tb and r_tb < v_tb:
                 beaten_by += 1
         else:
             if not r_cap and r_time and v_time and r_time < v_time:
