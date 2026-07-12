@@ -1,4 +1,5 @@
 import json
+import os
 
 def fmt_ms(ms):
     if not ms:
@@ -7,7 +8,7 @@ def fmt_ms(ms):
     m, s = divmod(s, 60)
     return f"{m}:{s:02d}"
 
-with open('/home/bbroecker/src/playground/video_test/german_throwdown/data/data-gtd.json') as f:
+with open(os.path.join(os.path.dirname(__file__), 'data', 'data-gtd.json')) as f:
     data = json.load(f)
 
 athletes = {}

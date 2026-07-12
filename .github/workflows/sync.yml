@@ -3,7 +3,7 @@ name: Sync Leaderboard Data
 
 on:
   schedule:
-    - cron: '0 */1 * * *'   # every 2 hours
+    - cron: '0 */1 * * *'   # every hour
   workflow_dispatch:          # manual trigger
 
 concurrency:
@@ -32,6 +32,9 @@ jobs:
           API_TOKEN: ${{ secrets.CIRCLE21_TOKEN }}
           SITE_URL: ${{ vars.SITE_URL }}
         run: python3 fetch.py
+
+      - name: F/F virtual team simulation (Anna + Corinna)
+        run: python3 simulate_ff.py
 
       - name: Commit & push data.json
         run: |
