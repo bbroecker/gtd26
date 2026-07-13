@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-07-13T17:41:25Z",
-    "updated_at_readable": "2026-07-13 17:41 UTC"
+    "updated_at": "2026-07-13T18:35:19Z",
+    "updated_at_readable": "2026-07-13 18:35 UTC"
   },
   "divisions": [
     {
@@ -66555,7 +66555,7 @@
           "name": "The Booty & The Beast",
           "country": "BR",
           "club": "Crossfit WN",
-          "points": 15,
+          "points": 14,
           "wods": {
             "ATD QWOD26.1": {
               "position": 4,
@@ -66578,6 +66578,31 @@
                   "time": 900000,
                   "reps": 147,
                   "tiebreak": 880000,
+                  "cap": false
+                }
+              ]
+            },
+            "ATD QWOD26.2": {
+              "position": 4,
+              "time": 732000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false,
+              "members": [
+                {
+                  "name": "Marcel Cunha",
+                  "gender": "m",
+                  "time": 302000,
+                  "reps": 0,
+                  "tiebreak": null,
+                  "cap": true
+                },
+                {
+                  "name": "Katrin Mlekusch",
+                  "gender": "f",
+                  "time": 430000,
+                  "reps": null,
+                  "tiebreak": null,
                   "cap": false
                 }
               ]
@@ -66651,7 +66676,7 @@
           "name": "PJ",
           "country": "SI",
           "club": "Tbox",
-          "points": 17,
+          "points": 18,
           "wods": {
             "ATD QWOD26.1": {
               "position": 5,
@@ -66679,7 +66704,7 @@
               ]
             },
             "ATD QWOD26.2": {
-              "position": 4,
+              "position": 5,
               "time": 831000,
               "reps": null,
               "tiebreak": null,
@@ -66998,6 +67023,34 @@
           },
           {
             "rank": 4,
+            "name": "The Booty & The Beast",
+            "country": "BR",
+            "club": "Crossfit WN",
+            "time": 732000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false,
+            "members": [
+              {
+                "name": "Marcel Cunha",
+                "gender": "m",
+                "time": 302000,
+                "reps": 0,
+                "tiebreak": null,
+                "cap": true
+              },
+              {
+                "name": "Katrin Mlekusch",
+                "gender": "f",
+                "time": 430000,
+                "reps": null,
+                "tiebreak": null,
+                "cap": false
+              }
+            ]
+          },
+          {
+            "rank": 5,
             "name": "PJ",
             "country": "SI",
             "club": "Tbox",
