@@ -39,6 +39,9 @@ jobs:
       - name: Masters 40+ simulation (Bastian)
         run: python3 simulate_m40.py
 
+      - name: ATD team simulation (Forschung & Cinghiali)
+        run: python3 simulate_atd_teams.py
+
       - name: Commit & push data.json
         run: |
           git config user.name  "github-actions[bot]"
