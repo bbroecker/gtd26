@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-21T16:28:48Z",
-    "updated_at_readable": "2026-07-21 16:28 UTC"
+    "updated_at": "2026-07-21T17:28:42Z",
+    "updated_at_readable": "2026-07-21 17:28 UTC"
   },
   "divisions": [
     {
@@ -61574,10 +61574,10 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 11,
-              "time": 1662000,
-              "reps": null,
-              "tiebreak": 1359000,
-              "cap": false,
+              "time": null,
+              "reps": 190,
+              "tiebreak": 1360000,
+              "cap": true,
               "members": [
                 {
                   "name": "Johann Garder",
@@ -61590,9 +61590,9 @@
                 {
                   "name": "Igor Garder",
                   "gender": "m",
-                  "time": 892000,
-                  "reps": 0,
-                  "tiebreak": 746000,
+                  "time": 900000,
+                  "reps": 190,
+                  "tiebreak": 747000,
                   "cap": false
                 }
               ]
@@ -62316,9 +62316,9 @@
                 {
                   "name": "Pascal Hagenmüller",
                   "gender": "m",
-                  "time": 764000,
-                  "reps": null,
-                  "tiebreak": 609000,
+                  "time": 770000,
+                  "reps": 0,
+                  "tiebreak": 615000,
                   "cap": false
                 }
               ]
@@ -62351,7 +62351,7 @@
             "GTD QWOD26.3 A": {
               "position": 15,
               "time": null,
-              "reps": 283,
+              "reps": 276,
               "tiebreak": null,
               "cap": true,
               "members": [
@@ -62367,7 +62367,7 @@
                   "name": "Pascal Hagenmüller",
                   "gender": "m",
                   "time": null,
-                  "reps": 137,
+                  "reps": 130,
                   "tiebreak": null,
                   "cap": false
                 }
@@ -64959,9 +64959,9 @@
               {
                 "name": "Pascal Hagenmüller",
                 "gender": "m",
-                "time": 764000,
-                "reps": null,
-                "tiebreak": 609000,
+                "time": 770000,
+                "reps": 0,
+                "tiebreak": 615000,
                 "cap": false
               }
             ]
@@ -64999,10 +64999,10 @@
             "name": "Chalkbrothers",
             "country": "DE",
             "club": "CrossFit Ansbach",
-            "time": 1662000,
-            "reps": null,
-            "tiebreak": 1359000,
-            "cap": false,
+            "time": null,
+            "reps": 190,
+            "tiebreak": 1360000,
+            "cap": true,
             "members": [
               {
                 "name": "Johann Garder",
@@ -65015,9 +65015,9 @@
               {
                 "name": "Igor Garder",
                 "gender": "m",
-                "time": 892000,
-                "reps": 0,
-                "tiebreak": 746000,
+                "time": 900000,
+                "reps": 190,
+                "tiebreak": 747000,
                 "cap": false
               }
             ]
@@ -67412,7 +67412,7 @@
             "country": "DE",
             "club": "CrossFit Schmiden",
             "time": null,
-            "reps": 283,
+            "reps": 276,
             "tiebreak": null,
             "cap": true,
             "members": [
@@ -67428,7 +67428,7 @@
                 "name": "Pascal Hagenmüller",
                 "gender": "m",
                 "time": null,
-                "reps": 137,
+                "reps": 130,
                 "tiebreak": null,
                 "cap": false
               }
