@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-07-24T17:35:02Z",
-    "updated_at_readable": "2026-07-24 17:35 UTC"
+    "updated_at": "2026-07-24T18:32:04Z",
+    "updated_at_readable": "2026-07-24 18:32 UTC"
   },
   "divisions": [
     {
@@ -49991,10 +49991,10 @@
           "wods": {
             "ATD QWOD26.1": {
               "position": 5,
-              "time": 1707000,
-              "reps": null,
+              "time": null,
+              "reps": 189,
               "tiebreak": 1350000,
-              "cap": false,
+              "cap": true,
               "members": [
                 {
                   "name": "Clara Gruber",
@@ -50007,8 +50007,8 @@
                 {
                   "name": "Svenja Lercher",
                   "gender": "f",
-                  "time": 899000,
-                  "reps": null,
+                  "time": 900000,
+                  "reps": 189,
                   "tiebreak": 714000,
                   "cap": false
                 }
@@ -50113,15 +50113,15 @@
             "ATD QWOD26.1": {
               "position": 17,
               "time": null,
-              "reps": 96,
+              "reps": 94,
               "tiebreak": 1482000,
               "cap": true,
               "members": [
                 {
                   "name": "Sonia Ashkenazy",
                   "gender": "f",
-                  "time": 785000,
-                  "reps": null,
+                  "time": 839950,
+                  "reps": 0,
                   "tiebreak": 582000,
                   "cap": false
                 },
@@ -50129,7 +50129,7 @@
                   "name": "Michaela Fritz",
                   "gender": "f",
                   "time": 900000,
-                  "reps": 96,
+                  "reps": 94,
                   "tiebreak": 900000,
                   "cap": false
                 }
@@ -50179,7 +50179,7 @@
                   "name": "Michaela Fritz",
                   "gender": "f",
                   "time": null,
-                  "reps": 116,
+                  "reps": 110,
                   "tiebreak": null,
                   "cap": false
                 }
@@ -53415,10 +53415,10 @@
             "name": "smol & smol",
             "country": "AT",
             "club": "",
-            "time": 1707000,
-            "reps": null,
+            "time": null,
+            "reps": 189,
             "tiebreak": 1350000,
-            "cap": false,
+            "cap": true,
             "members": [
               {
                 "name": "Clara Gruber",
@@ -53431,8 +53431,8 @@
               {
                 "name": "Svenja Lercher",
                 "gender": "f",
-                "time": 899000,
-                "reps": null,
+                "time": 900000,
+                "reps": 189,
                 "tiebreak": 714000,
                 "cap": false
               }
@@ -53752,15 +53752,15 @@
             "country": "DE",
             "club": "",
             "time": null,
-            "reps": 96,
+            "reps": 94,
             "tiebreak": 1482000,
             "cap": true,
             "members": [
               {
                 "name": "Sonia Ashkenazy",
                 "gender": "f",
-                "time": 785000,
-                "reps": null,
+                "time": 839950,
+                "reps": 0,
                 "tiebreak": 582000,
                 "cap": false
               },
@@ -53768,7 +53768,7 @@
                 "name": "Michaela Fritz",
                 "gender": "f",
                 "time": 900000,
-                "reps": 96,
+                "reps": 94,
                 "tiebreak": 900000,
                 "cap": false
               }
@@ -55368,7 +55368,7 @@
                 "name": "Michaela Fritz",
                 "gender": "f",
                 "time": null,
-                "reps": 116,
+                "reps": 110,
                 "tiebreak": null,
                 "cap": false
               }
