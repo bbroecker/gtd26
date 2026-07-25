@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "German Throwdown 2026 Online Qualifier",
     "competition_id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-    "updated_at": "2026-07-25T01:32:13Z",
-    "updated_at_readable": "2026-07-25 01:32 UTC"
+    "updated_at": "2026-07-25T03:00:05Z",
+    "updated_at_readable": "2026-07-25 03:00 UTC"
   },
   "divisions": [
     {
@@ -61166,7 +61166,7 @@
             "GTD QWOD26.3 B": {
               "position": 18,
               "time": null,
-              "reps": 228,
+              "reps": 120,
               "tiebreak": null,
               "cap": true,
               "members": [
@@ -61175,14 +61175,6 @@
                   "gender": "m",
                   "time": 300000,
                   "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Franz Wittmann",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 108,
                   "tiebreak": 0,
                   "cap": false
                 }
@@ -61211,103 +61203,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 21,
-              "time": null,
-              "reps": 328,
-              "tiebreak": 1656000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Maciej Malcher",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 161,
-                  "tiebreak": 832000,
-                  "cap": false
-                },
-                {
-                  "name": "Mateusz  Murawski",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 167,
-                  "tiebreak": 824000,
-                  "cap": false
-                }
-              ]
+              "time": 1926000,
+              "reps": null,
+              "tiebreak": 1655000,
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 5,
               "time": 564000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Maciej Malcher",
-                  "gender": "m",
-                  "time": 261000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Mateusz  Murawski",
-                  "gender": "m",
-                  "time": 303000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 13,
               "time": null,
               "reps": 295,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Maciej Malcher",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 155,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Mateusz  Murawski",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 140,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 22,
               "time": null,
               "reps": 225,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Maciej Malcher",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 115,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Mateusz  Murawski",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 110,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -61335,100 +61255,28 @@
               "time": 1474000,
               "reps": null,
               "tiebreak": 1187000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mazegaarden",
-                  "gender": "m",
-                  "time": 760000,
-                  "reps": null,
-                  "tiebreak": 610000,
-                  "cap": false
-                },
-                {
-                  "name": "Dirk Raveling",
-                  "gender": "m",
-                  "time": 714000,
-                  "reps": 0,
-                  "tiebreak": 577000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 28,
               "time": 676000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mazegaarden",
-                  "gender": "m",
-                  "time": 308000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Dirk Raveling",
-                  "gender": "m",
-                  "time": 368000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 20,
               "time": null,
               "reps": 275,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mazegaarden",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 129,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Dirk Raveling",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 146,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 11,
               "time": null,
               "reps": 232.5,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mazegaarden",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 115,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Dirk Raveling",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 117.5,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -61456,100 +61304,28 @@
               "time": 1676000,
               "reps": null,
               "tiebreak": 1362000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Thomas Kleis",
-                  "gender": "m",
-                  "time": 857850,
-                  "reps": 0,
-                  "tiebreak": 633000,
-                  "cap": false
-                },
-                {
-                  "name": "Thomas Wolf",
-                  "gender": "m",
-                  "time": 859000,
-                  "reps": 0,
-                  "tiebreak": 729000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 6,
               "time": 567000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Thomas Kleis",
-                  "gender": "m",
-                  "time": 260000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Thomas Wolf",
-                  "gender": "m",
-                  "time": 307000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 22,
               "time": null,
               "reps": 268,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Thomas Kleis",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 148,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Thomas Wolf",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 27,
               "time": null,
               "reps": 221,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Thomas Kleis",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 105,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Thomas Wolf",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 116,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -61574,103 +61350,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 11,
-              "time": null,
-              "reps": 190,
-              "tiebreak": 1360000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Johann Garder",
-                  "gender": "m",
-                  "time": 770000,
-                  "reps": 0,
-                  "tiebreak": 613000,
-                  "cap": false
-                },
-                {
-                  "name": "Igor Garder",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 190,
-                  "tiebreak": 747000,
-                  "cap": false
-                }
-              ]
+              "time": 1662000,
+              "reps": null,
+              "tiebreak": 1359000,
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 18,
               "time": 609000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Johann Garder",
-                  "gender": "m",
-                  "time": 306000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Igor Garder",
-                  "gender": "m",
-                  "time": 303000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 34,
               "time": null,
               "reps": 256,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Johann Garder",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 137,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Igor Garder",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 119,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 5,
               "time": null,
               "reps": 245,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Johann Garder",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 120,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Igor Garder",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 125,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -61695,103 +61399,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 15,
-              "time": null,
-              "reps": 187,
+              "time": 1724000,
+              "reps": null,
               "tiebreak": 1392000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Simone Degli Esposti",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 187,
-                  "tiebreak": 737000,
-                  "cap": false
-                },
-                {
-                  "name": "Simone Finelli",
-                  "gender": "m",
-                  "time": 831000,
-                  "reps": 0,
-                  "tiebreak": 655000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 8,
               "time": 568000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Simone Degli Esposti",
-                  "gender": "m",
-                  "time": 279000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Simone Finelli",
-                  "gender": "m",
-                  "time": 292000,
-                  "reps": 0,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 11,
               "time": null,
-              "reps": 296,
+              "reps": 297,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Simone Degli Esposti",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 155,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Simone Finelli",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 141,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 34,
               "time": null,
               "reps": 210,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Simone Degli Esposti",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Simone Finelli",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 90,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -61819,100 +61451,28 @@
               "time": 1759000,
               "reps": null,
               "tiebreak": 1389000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Florian Rabenbauer",
-                  "gender": "m",
-                  "time": 868000,
-                  "reps": 0,
-                  "tiebreak": 697000,
-                  "cap": false
-                },
-                {
-                  "name": "Raphael Gindele",
-                  "gender": "m",
-                  "time": 891000,
-                  "reps": 0,
-                  "tiebreak": 692000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 13,
               "time": 595000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Florian Rabenbauer",
-                  "gender": "m",
-                  "time": 292000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Raphael Gindele",
-                  "gender": "m",
-                  "time": 303000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 9,
               "time": null,
               "reps": 298,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Florian Rabenbauer",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 152,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Raphael Gindele",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 146,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 34,
               "time": null,
               "reps": 210,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Florian Rabenbauer",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 100,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Raphael Gindele",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 110,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -61937,103 +61497,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 28,
-              "time": null,
-              "reps": 292,
-              "tiebreak": 1667000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Justus Bauwens",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 118,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Ferris Ernemann",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 174,
-                  "tiebreak": 767000,
-                  "cap": false
-                }
-              ]
+              "time": 2061000,
+              "reps": null,
+              "tiebreak": 1668000,
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 14,
               "time": 603000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Justus Bauwens",
-                  "gender": "m",
-                  "time": 296000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Ferris Ernemann",
-                  "gender": "m",
-                  "time": 307000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 31,
               "time": null,
-              "reps": 241,
+              "reps": 258,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Justus Bauwens",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 111,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Ferris Ernemann",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 130,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 2,
               "time": null,
               "reps": 250,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Justus Bauwens",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 130,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Ferris Ernemann",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62058,103 +61546,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 24,
-              "time": null,
-              "reps": 309,
-              "tiebreak": 1676000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mathias Skovlyst",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 165,
-                  "tiebreak": 790000,
-                  "cap": false
-                },
-                {
-                  "name": "Magnus Vangsbo",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 144,
-                  "tiebreak": 886000,
-                  "cap": false
-                }
-              ]
+              "time": 1980000,
+              "reps": null,
+              "tiebreak": 1675000,
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 24,
               "time": 664000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mathias Skovlyst",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 0,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Magnus Vangsbo",
-                  "gender": "m",
-                  "time": 369000,
-                  "reps": 0,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 25,
               "time": null,
               "reps": 265,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mathias Skovlyst",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 142,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Magnus Vangsbo",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 122,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 2,
               "time": null,
               "reps": 250,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mathias Skovlyst",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 110,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Magnus Vangsbo",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 140,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62179,103 +61595,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 20,
-              "time": null,
-              "reps": 338,
+              "time": 1926000,
+              "reps": null,
               "tiebreak": 1589000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Moritz Brestrich",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 163,
-                  "tiebreak": 812000,
-                  "cap": false
-                },
-                {
-                  "name": "Philipp Sprunck",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 175,
-                  "tiebreak": 777000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 15,
               "time": 605000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Moritz Brestrich",
-                  "gender": "m",
-                  "time": 292000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Philipp Sprunck",
-                  "gender": "m",
-                  "time": 313000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 23,
               "time": null,
               "reps": 267,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Moritz Brestrich",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 138,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Philipp Sprunck",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 129,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 20,
               "time": null,
               "reps": 226.5,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Moritz Brestrich",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 121.5,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Philipp Sprunck",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 105,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62303,100 +61647,28 @@
               "time": 1590000,
               "reps": null,
               "tiebreak": 1259000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Steffen Riedle",
-                  "gender": "m",
-                  "time": 844000,
-                  "reps": 0,
-                  "tiebreak": 668000,
-                  "cap": false
-                },
-                {
-                  "name": "Pascal Hagenmüller",
-                  "gender": "m",
-                  "time": 770000,
-                  "reps": 0,
-                  "tiebreak": 615000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 25,
               "time": 665000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Steffen Riedle",
-                  "gender": "m",
-                  "time": 345450,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Pascal Hagenmüller",
-                  "gender": "m",
-                  "time": 336000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 15,
               "time": null,
-              "reps": 276,
+              "reps": 284,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Steffen Riedle",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 146,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Pascal Hagenmüller",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 130,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 29,
               "time": null,
               "reps": 217.5,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Steffen Riedle",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 107.5,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Pascal Hagenmüller",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 110,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62424,100 +61696,28 @@
               "time": 1710000,
               "reps": null,
               "tiebreak": 1414000,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Tobias Koopmann",
-                  "gender": "m",
-                  "time": 880000,
-                  "reps": 0,
-                  "tiebreak": 715000,
-                  "cap": false
-                },
-                {
-                  "name": "David Zimmermann",
-                  "gender": "m",
-                  "time": 830000,
-                  "reps": null,
-                  "tiebreak": 699000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 16,
               "time": 607000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Tobias Koopmann",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "David Zimmermann",
-                  "gender": "m",
-                  "time": 307000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 21,
               "time": null,
               "reps": 273,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tobias Koopmann",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 135,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "David Zimmermann",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 138,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 30,
               "time": null,
-              "reps": 215.0,
+              "reps": 215,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tobias Koopmann",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 117.5,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "David Zimmermann",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 97.5,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62542,103 +61742,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 26,
-              "time": null,
-              "reps": 300,
+              "time": 2040000,
+              "reps": null,
               "tiebreak": 900000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Juan Cruz",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 166,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Nicolai Schmid",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 134,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 26,
               "time": 668000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Juan Cruz",
-                  "gender": "m",
-                  "time": 353000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nicolai Schmid",
-                  "gender": "m",
-                  "time": 315000,
-                  "reps": null,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 29,
               "time": null,
               "reps": 260,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Juan Cruz",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 131,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nicolai Schmid",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 129,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 4,
               "time": null,
               "reps": 248,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Juan Cruz",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nicolai Schmid",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 128,
-                  "tiebreak": null,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62663,103 +61791,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 22,
-              "time": null,
-              "reps": 128,
+              "time": 1951000,
+              "reps": null,
               "tiebreak": 1584000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tobias Nelskamp",
-                  "gender": "m",
-                  "time": 865000,
-                  "reps": null,
-                  "tiebreak": 684000,
-                  "cap": false
-                },
-                {
-                  "name": "Niklas Deutmeyer",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 128,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 34,
               "time": 730000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Tobias Nelskamp",
-                  "gender": "m",
-                  "time": 372000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Niklas Deutmeyer",
-                  "gender": "m",
-                  "time": 358000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 16,
               "time": null,
               "reps": 283,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tobias Nelskamp",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 166,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Niklas Deutmeyer",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 117,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 15,
               "time": null,
               "reps": 230,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Tobias Nelskamp",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 110,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Niklas Deutmeyer",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62784,103 +61840,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 29,
-              "time": null,
-              "reps": 285,
+              "time": 2085000,
+              "reps": null,
               "tiebreak": 1783000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mathias Edfelder",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 141,
-                  "tiebreak": 883000,
-                  "cap": false
-                },
-                {
-                  "name": "Christoph Callegari",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 144,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 23,
               "time": 645000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mathias Edfelder",
-                  "gender": "m",
-                  "time": 321000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Christoph Callegari",
-                  "gender": "m",
-                  "time": 324000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 34,
               "time": null,
               "reps": 256,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mathias Edfelder",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 128,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Christoph Callegari",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 128,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 12,
               "time": null,
               "reps": 231,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mathias Edfelder",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 121,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Christoph Callegari",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 110,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -62905,103 +61889,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 37,
-              "time": null,
-              "reps": 262,
+              "time": 2154000,
+              "reps": null,
               "tiebreak": 1792000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mario Daum",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 121,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Manuel Schwald",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 141,
-                  "tiebreak": 892000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 36,
               "time": 758000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Mario Daum",
-                  "gender": "m",
-                  "time": 378000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Manuel Schwald",
-                  "gender": "m",
-                  "time": 380000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 19,
               "time": null,
               "reps": 280,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mario Daum",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 144,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Manuel Schwald",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 136,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 7,
               "time": null,
               "reps": 236,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Mario Daum",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 115,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Manuel Schwald",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 121,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -63026,103 +61938,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 34,
-              "time": null,
-              "reps": 250,
+              "time": 2133000,
+              "reps": null,
               "tiebreak": 1733000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Matthias Hofmann",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 150,
-                  "tiebreak": 833000,
-                  "cap": false
-                },
-                {
-                  "name": "Nikos Bude",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 100,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 33,
               "time": 721000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Matthias Hofmann",
-                  "gender": "m",
-                  "time": 314000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nikos Bude",
-                  "gender": "m",
-                  "time": 415000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 16,
               "time": null,
               "reps": 283,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Matthias Hofmann",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 139,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nikos Bude",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 144,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 27,
               "time": null,
-              "reps": 216,
+              "reps": 221,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Matthias Hofmann",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Nikos Bude",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 96,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -63147,103 +61987,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 23,
-              "time": null,
-              "reps": 113,
+              "time": 1976000,
+              "reps": null,
               "tiebreak": 1617000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Ronnie Klug",
-                  "gender": "m",
-                  "time": 881000,
-                  "reps": 0,
-                  "tiebreak": 717000,
-                  "cap": false
-                },
-                {
-                  "name": "Sebastian Pätsch",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 113,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 12,
               "time": 593000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Ronnie Klug",
-                  "gender": "m",
-                  "time": 284000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Sebastian Pätsch",
-                  "gender": "m",
-                  "time": 310000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 39,
               "time": null,
-              "reps": 219,
+              "reps": 224,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Ronnie Klug",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 130,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Sebastian Pätsch",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 89,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 37,
               "time": null,
               "reps": 200.5,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Ronnie Klug",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 113,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Sebastian Pätsch",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 87.5,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -63268,103 +62036,31 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 32,
-              "time": null,
-              "reps": 247,
+              "time": 2124000,
+              "reps": null,
               "tiebreak": 1535000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Pascal Pech",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 122,
-                  "tiebreak": 742000,
-                  "cap": false
-                },
-                {
-                  "name": "Leander Kosiol",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 125,
-                  "tiebreak": 793000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 21,
               "time": 628000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Pascal Pech",
-                  "gender": "m",
-                  "time": 293000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Leander Kosiol",
-                  "gender": "m",
-                  "time": 338000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 25,
               "time": null,
-              "reps": 264,
+              "reps": 265,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Pascal Pech",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 144,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Leander Kosiol",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 120,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 36,
               "time": null,
               "reps": 202,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Pascal Pech",
-                  "gender": "m",
-                  "time": null,
-                  "reps": 106,
-                  "tiebreak": null,
-                  "cap": false
-                },
-                {
-                  "name": "Leander Kosiol",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 96,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             }
           },
           "members": [
@@ -63389,94 +62085,32 @@
           "wods": {
             "GTD QWOD26.1": {
               "position": 30,
-              "time": null,
-              "reps": 283,
+              "time": 2091000,
+              "reps": null,
               "tiebreak": 1800000,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 122,
-                  "tiebreak": 900000,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 900000,
-                  "reps": 161,
-                  "tiebreak": 900000,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.2": {
               "position": 37,
               "time": 790000,
               "reps": null,
               "tiebreak": null,
-              "cap": false,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 457000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 333000,
-                  "reps": 0,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 A": {
               "position": 27,
               "time": null,
               "reps": 264,
               "tiebreak": null,
-              "cap": true,
-              "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 129,
-                  "tiebreak": 0,
-                  "cap": false
-                },
-                {
-                  "name": "Volkan Gülen",
-                  "gender": "m",
-                  "time": 360000,
-                  "reps": 135,
-                  "tiebreak": 0,
-                  "cap": false
-                }
-              ]
+              "cap": false
             },
             "GTD QWOD26.3 B": {
               "position": 21,
               "time": null,
-              "reps": 226,
+              "reps": 121,
               "tiebreak": null,
               "cap": true,
               "members": [
-                {
-                  "name": "Oktay Celebioglu",
-                  "gender": "m",
-                  "time": 300000,
-                  "reps": 105,
-                  "tiebreak": 0,
-                  "cap": false
-                },
                 {
                   "name": "Volkan Gülen",
                   "gender": "m",
@@ -64778,25 +63412,7 @@
             "time": 1474000,
             "reps": null,
             "tiebreak": 1187000,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mazegaarden",
-                "gender": "m",
-                "time": 760000,
-                "reps": null,
-                "tiebreak": 610000,
-                "cap": false
-              },
-              {
-                "name": "Dirk Raveling",
-                "gender": "m",
-                "time": 714000,
-                "reps": 0,
-                "tiebreak": 577000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 4,
@@ -64946,25 +63562,7 @@
             "time": 1590000,
             "reps": null,
             "tiebreak": 1259000,
-            "cap": false,
-            "members": [
-              {
-                "name": "Steffen Riedle",
-                "gender": "m",
-                "time": 844000,
-                "reps": 0,
-                "tiebreak": 668000,
-                "cap": false
-              },
-              {
-                "name": "Pascal Hagenmüller",
-                "gender": "m",
-                "time": 770000,
-                "reps": 0,
-                "tiebreak": 615000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 10,
@@ -64999,28 +63597,10 @@
             "name": "Chalkbrothers",
             "country": "DE",
             "club": "CrossFit Ansbach",
-            "time": null,
-            "reps": 190,
-            "tiebreak": 1360000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Johann Garder",
-                "gender": "m",
-                "time": 770000,
-                "reps": 0,
-                "tiebreak": 613000,
-                "cap": false
-              },
-              {
-                "name": "Igor Garder",
-                "gender": "m",
-                "time": 900000,
-                "reps": 190,
-                "tiebreak": 747000,
-                "cap": false
-              }
-            ]
+            "time": 1662000,
+            "reps": null,
+            "tiebreak": 1359000,
+            "cap": false
           },
           {
             "rank": 12,
@@ -65030,25 +63610,7 @@
             "time": 1676000,
             "reps": null,
             "tiebreak": 1362000,
-            "cap": false,
-            "members": [
-              {
-                "name": "Thomas Kleis",
-                "gender": "m",
-                "time": 857850,
-                "reps": 0,
-                "tiebreak": 633000,
-                "cap": false
-              },
-              {
-                "name": "Thomas Wolf",
-                "gender": "m",
-                "time": 859000,
-                "reps": 0,
-                "tiebreak": 729000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 13,
@@ -65058,25 +63620,7 @@
             "time": 1710000,
             "reps": null,
             "tiebreak": 1414000,
-            "cap": false,
-            "members": [
-              {
-                "name": "Tobias Koopmann",
-                "gender": "m",
-                "time": 880000,
-                "reps": 0,
-                "tiebreak": 715000,
-                "cap": false
-              },
-              {
-                "name": "David Zimmermann",
-                "gender": "m",
-                "time": 830000,
-                "reps": null,
-                "tiebreak": 699000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 14,
@@ -65111,28 +63655,10 @@
             "name": "Crazy horses",
             "country": "IT",
             "club": "CrossFit Panigale",
-            "time": null,
-            "reps": 187,
+            "time": 1724000,
+            "reps": null,
             "tiebreak": 1392000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Simone Degli Esposti",
-                "gender": "m",
-                "time": 900000,
-                "reps": 187,
-                "tiebreak": 737000,
-                "cap": false
-              },
-              {
-                "name": "Simone Finelli",
-                "gender": "m",
-                "time": 831000,
-                "reps": 0,
-                "tiebreak": 655000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 16,
@@ -65142,25 +63668,7 @@
             "time": 1759000,
             "reps": null,
             "tiebreak": 1389000,
-            "cap": false,
-            "members": [
-              {
-                "name": "Florian Rabenbauer",
-                "gender": "m",
-                "time": 868000,
-                "reps": 0,
-                "tiebreak": 697000,
-                "cap": false
-              },
-              {
-                "name": "Raphael Gindele",
-                "gender": "m",
-                "time": 891000,
-                "reps": 0,
-                "tiebreak": 692000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 17,
@@ -65251,140 +63759,50 @@
             "name": "Bedtime at 8 PM",
             "country": "DE",
             "club": "Crossfit Speyer",
-            "time": null,
-            "reps": 338,
+            "time": 1926000,
+            "reps": null,
             "tiebreak": 1589000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Moritz Brestrich",
-                "gender": "m",
-                "time": 900000,
-                "reps": 163,
-                "tiebreak": 812000,
-                "cap": false
-              },
-              {
-                "name": "Philipp Sprunck",
-                "gender": "m",
-                "time": 900000,
-                "reps": 175,
-                "tiebreak": 777000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 21,
             "name": "Double M",
             "country": "PL",
             "club": "",
-            "time": null,
-            "reps": 328,
-            "tiebreak": 1656000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Maciej Malcher",
-                "gender": "m",
-                "time": 900000,
-                "reps": 161,
-                "tiebreak": 832000,
-                "cap": false
-              },
-              {
-                "name": "Mateusz  Murawski",
-                "gender": "m",
-                "time": 900000,
-                "reps": 167,
-                "tiebreak": 824000,
-                "cap": false
-              }
-            ]
+            "time": 1926000,
+            "reps": null,
+            "tiebreak": 1655000,
+            "cap": false
           },
           {
             "rank": 22,
             "name": "Teile Gypen",
             "country": "DE",
             "club": "Crossfit Hamminkeln",
-            "time": null,
-            "reps": 128,
+            "time": 1951000,
+            "reps": null,
             "tiebreak": 1584000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Tobias Nelskamp",
-                "gender": "m",
-                "time": 865000,
-                "reps": null,
-                "tiebreak": 684000,
-                "cap": false
-              },
-              {
-                "name": "Niklas Deutmeyer",
-                "gender": "m",
-                "time": 900000,
-                "reps": 128,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 23,
             "name": "Team Chicken Wing",
             "country": "DE",
             "club": "",
-            "time": null,
-            "reps": 113,
+            "time": 1976000,
+            "reps": null,
             "tiebreak": 1617000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Ronnie Klug",
-                "gender": "m",
-                "time": 881000,
-                "reps": 0,
-                "tiebreak": 717000,
-                "cap": false
-              },
-              {
-                "name": "Sebastian Pätsch",
-                "gender": "m",
-                "time": 900000,
-                "reps": 113,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 24,
             "name": "Döner for time",
             "country": "DK",
             "club": "Crossfit Box 7100",
-            "time": null,
-            "reps": 309,
-            "tiebreak": 1676000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mathias Skovlyst",
-                "gender": "m",
-                "time": 900000,
-                "reps": 165,
-                "tiebreak": 790000,
-                "cap": false
-              },
-              {
-                "name": "Magnus Vangsbo",
-                "gender": "m",
-                "time": 900000,
-                "reps": 144,
-                "tiebreak": 886000,
-                "cap": false
-              }
-            ]
+            "time": 1980000,
+            "reps": null,
+            "tiebreak": 1675000,
+            "cap": false
           },
           {
             "rank": 25,
@@ -65419,28 +63837,10 @@
             "name": "Iron Compadres",
             "country": "DE",
             "club": "CrossFit Ludwigsburg",
-            "time": null,
-            "reps": 300,
+            "time": 2040000,
+            "reps": null,
             "tiebreak": 900000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Juan Cruz",
-                "gender": "m",
-                "time": 900000,
-                "reps": 166,
-                "tiebreak": 900000,
-                "cap": false
-              },
-              {
-                "name": "Nicolai Schmid",
-                "gender": "m",
-                "time": 900000,
-                "reps": 134,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 27,
@@ -65475,84 +63875,30 @@
             "name": "Crossfit Mins",
             "country": "DE",
             "club": "CrossFit Mins",
-            "time": null,
-            "reps": 292,
-            "tiebreak": 1667000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Justus Bauwens",
-                "gender": "m",
-                "time": 900000,
-                "reps": 118,
-                "tiebreak": 900000,
-                "cap": false
-              },
-              {
-                "name": "Ferris Ernemann",
-                "gender": "m",
-                "time": 900000,
-                "reps": 174,
-                "tiebreak": 767000,
-                "cap": false
-              }
-            ]
+            "time": 2061000,
+            "reps": null,
+            "tiebreak": 1668000,
+            "cap": false
           },
           {
             "rank": 29,
             "name": "Chalk the law",
             "country": "DE",
             "club": "Crossfit Wuid",
-            "time": null,
-            "reps": 285,
+            "time": 2085000,
+            "reps": null,
             "tiebreak": 1783000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mathias Edfelder",
-                "gender": "m",
-                "time": 900000,
-                "reps": 141,
-                "tiebreak": 883000,
-                "cap": false
-              },
-              {
-                "name": "Christoph Callegari",
-                "gender": "m",
-                "time": 900000,
-                "reps": 144,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 30,
             "name": "Die gebrochenen Brüder",
             "country": "CH",
             "club": "",
-            "time": null,
-            "reps": 283,
+            "time": 2091000,
+            "reps": null,
             "tiebreak": 1800000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Oktay Celebioglu",
-                "gender": "m",
-                "time": 900000,
-                "reps": 122,
-                "tiebreak": 900000,
-                "cap": false
-              },
-              {
-                "name": "Volkan Gülen",
-                "gender": "m",
-                "time": 900000,
-                "reps": 161,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 31,
@@ -65587,28 +63933,10 @@
             "name": "Old Fuel - New Engine",
             "country": "DE",
             "club": "CrossFit saarlouis",
-            "time": null,
-            "reps": 247,
+            "time": 2124000,
+            "reps": null,
             "tiebreak": 1535000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Pascal Pech",
-                "gender": "m",
-                "time": 900000,
-                "reps": 122,
-                "tiebreak": 742000,
-                "cap": false
-              },
-              {
-                "name": "Leander Kosiol",
-                "gender": "m",
-                "time": 900000,
-                "reps": 125,
-                "tiebreak": 793000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 33,
@@ -65643,28 +63971,10 @@
             "name": "Puppy and the Beast",
             "country": "DE",
             "club": "CrossFit Schweinfurt",
-            "time": null,
-            "reps": 250,
+            "time": 2133000,
+            "reps": null,
             "tiebreak": 1733000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Matthias Hofmann",
-                "gender": "m",
-                "time": 900000,
-                "reps": 150,
-                "tiebreak": 833000,
-                "cap": false
-              },
-              {
-                "name": "Nikos Bude",
-                "gender": "m",
-                "time": 900000,
-                "reps": 100,
-                "tiebreak": 900000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 35,
@@ -65727,28 +64037,10 @@
             "name": "MMM",
             "country": "DE",
             "club": "MACHBAR CROSSFIT",
-            "time": null,
-            "reps": 262,
+            "time": 2154000,
+            "reps": null,
             "tiebreak": 1792000,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mario Daum",
-                "gender": "m",
-                "time": 900000,
-                "reps": 121,
-                "tiebreak": 900000,
-                "cap": false
-              },
-              {
-                "name": "Manuel Schwald",
-                "gender": "m",
-                "time": 900000,
-                "reps": 141,
-                "tiebreak": 892000,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 38,
@@ -65984,25 +64276,7 @@
             "time": 564000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Maciej Malcher",
-                "gender": "m",
-                "time": 261000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Mateusz  Murawski",
-                "gender": "m",
-                "time": 303000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 6,
@@ -66040,25 +64314,7 @@
             "time": 567000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Thomas Kleis",
-                "gender": "m",
-                "time": 260000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Thomas Wolf",
-                "gender": "m",
-                "time": 307000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 8,
@@ -66068,25 +64324,7 @@
             "time": 568000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Simone Degli Esposti",
-                "gender": "m",
-                "time": 279000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Simone Finelli",
-                "gender": "m",
-                "time": 292000,
-                "reps": 0,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 9,
@@ -66180,25 +64418,7 @@
             "time": 593000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Ronnie Klug",
-                "gender": "m",
-                "time": 284000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Sebastian Pätsch",
-                "gender": "m",
-                "time": 310000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 13,
@@ -66208,25 +64428,7 @@
             "time": 595000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Florian Rabenbauer",
-                "gender": "m",
-                "time": 292000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Raphael Gindele",
-                "gender": "m",
-                "time": 303000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 14,
@@ -66236,25 +64438,7 @@
             "time": 603000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Justus Bauwens",
-                "gender": "m",
-                "time": 296000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Ferris Ernemann",
-                "gender": "m",
-                "time": 307000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 15,
@@ -66264,25 +64448,7 @@
             "time": 605000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Moritz Brestrich",
-                "gender": "m",
-                "time": 292000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Philipp Sprunck",
-                "gender": "m",
-                "time": 313000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 16,
@@ -66292,25 +64458,7 @@
             "time": 607000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Tobias Koopmann",
-                "gender": "m",
-                "time": 300000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "David Zimmermann",
-                "gender": "m",
-                "time": 307000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 17,
@@ -66376,25 +64524,7 @@
             "time": 609000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Johann Garder",
-                "gender": "m",
-                "time": 306000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Igor Garder",
-                "gender": "m",
-                "time": 303000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 20,
@@ -66432,25 +64562,7 @@
             "time": 628000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Pascal Pech",
-                "gender": "m",
-                "time": 293000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Leander Kosiol",
-                "gender": "m",
-                "time": 338000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 22,
@@ -66488,25 +64600,7 @@
             "time": 645000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mathias Edfelder",
-                "gender": "m",
-                "time": 321000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Christoph Callegari",
-                "gender": "m",
-                "time": 324000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 24,
@@ -66516,25 +64610,7 @@
             "time": 664000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mathias Skovlyst",
-                "gender": "m",
-                "time": 300000,
-                "reps": 0,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Magnus Vangsbo",
-                "gender": "m",
-                "time": 369000,
-                "reps": 0,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 25,
@@ -66544,25 +64620,7 @@
             "time": 665000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Steffen Riedle",
-                "gender": "m",
-                "time": 345450,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Pascal Hagenmüller",
-                "gender": "m",
-                "time": 336000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 26,
@@ -66572,25 +64630,7 @@
             "time": 668000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Juan Cruz",
-                "gender": "m",
-                "time": 353000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nicolai Schmid",
-                "gender": "m",
-                "time": 315000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 27,
@@ -66628,25 +64668,7 @@
             "time": 676000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mazegaarden",
-                "gender": "m",
-                "time": 308000,
-                "reps": null,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Dirk Raveling",
-                "gender": "m",
-                "time": 368000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 29,
@@ -66768,25 +64790,7 @@
             "time": 721000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Matthias Hofmann",
-                "gender": "m",
-                "time": 314000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nikos Bude",
-                "gender": "m",
-                "time": 415000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 34,
@@ -66796,25 +64800,7 @@
             "time": 730000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Tobias Nelskamp",
-                "gender": "m",
-                "time": 372000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Niklas Deutmeyer",
-                "gender": "m",
-                "time": 358000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 35,
@@ -66852,25 +64838,7 @@
             "time": 758000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mario Daum",
-                "gender": "m",
-                "time": 378000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Manuel Schwald",
-                "gender": "m",
-                "time": 380000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 37,
@@ -66880,25 +64848,7 @@
             "time": 790000,
             "reps": null,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Oktay Celebioglu",
-                "gender": "m",
-                "time": 457000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Volkan Gülen",
-                "gender": "m",
-                "time": 333000,
-                "reps": 0,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 38,
@@ -67246,25 +65196,7 @@
             "time": null,
             "reps": 298,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Florian Rabenbauer",
-                "gender": "m",
-                "time": 360000,
-                "reps": 152,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Raphael Gindele",
-                "gender": "m",
-                "time": null,
-                "reps": 146,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 9,
@@ -67328,27 +65260,9 @@
             "country": "IT",
             "club": "CrossFit Panigale",
             "time": null,
-            "reps": 296,
+            "reps": 297,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Simone Degli Esposti",
-                "gender": "m",
-                "time": 360000,
-                "reps": 155,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Simone Finelli",
-                "gender": "m",
-                "time": null,
-                "reps": 141,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 13,
@@ -67358,25 +65272,7 @@
             "time": null,
             "reps": 295,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Maciej Malcher",
-                "gender": "m",
-                "time": null,
-                "reps": 155,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Mateusz  Murawski",
-                "gender": "m",
-                "time": null,
-                "reps": 140,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 14,
@@ -67412,27 +65308,9 @@
             "country": "DE",
             "club": "CrossFit Schmiden",
             "time": null,
-            "reps": 276,
+            "reps": 284,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Steffen Riedle",
-                "gender": "m",
-                "time": 360000,
-                "reps": 146,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Pascal Hagenmüller",
-                "gender": "m",
-                "time": null,
-                "reps": 130,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 16,
@@ -67470,25 +65348,7 @@
             "time": null,
             "reps": 283,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Tobias Nelskamp",
-                "gender": "m",
-                "time": null,
-                "reps": 166,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Niklas Deutmeyer",
-                "gender": "m",
-                "time": 360000,
-                "reps": 117,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 16,
@@ -67498,25 +65358,7 @@
             "time": null,
             "reps": 283,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Matthias Hofmann",
-                "gender": "m",
-                "time": 360000,
-                "reps": 139,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nikos Bude",
-                "gender": "m",
-                "time": 360000,
-                "reps": 144,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 19,
@@ -67526,25 +65368,7 @@
             "time": null,
             "reps": 280,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mario Daum",
-                "gender": "m",
-                "time": 360000,
-                "reps": 144,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Manuel Schwald",
-                "gender": "m",
-                "time": 360000,
-                "reps": 136,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 20,
@@ -67554,25 +65378,7 @@
             "time": null,
             "reps": 275,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mazegaarden",
-                "gender": "m",
-                "time": null,
-                "reps": 129,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Dirk Raveling",
-                "gender": "m",
-                "time": 360000,
-                "reps": 146,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 21,
@@ -67582,25 +65388,7 @@
             "time": null,
             "reps": 273,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Tobias Koopmann",
-                "gender": "m",
-                "time": 360000,
-                "reps": 135,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "David Zimmermann",
-                "gender": "m",
-                "time": null,
-                "reps": 138,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 22,
@@ -67610,25 +65398,7 @@
             "time": null,
             "reps": 268,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Thomas Kleis",
-                "gender": "m",
-                "time": 360000,
-                "reps": 148,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Thomas Wolf",
-                "gender": "m",
-                "time": 360000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 23,
@@ -67638,25 +65408,7 @@
             "time": null,
             "reps": 267,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Moritz Brestrich",
-                "gender": "m",
-                "time": 360000,
-                "reps": 138,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Philipp Sprunck",
-                "gender": "m",
-                "time": null,
-                "reps": 129,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 24,
@@ -67694,25 +65446,7 @@
             "time": null,
             "reps": 265,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mathias Skovlyst",
-                "gender": "m",
-                "time": null,
-                "reps": 142,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Magnus Vangsbo",
-                "gender": "m",
-                "time": null,
-                "reps": 122,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 25,
@@ -67720,27 +65454,9 @@
             "country": "DE",
             "club": "CrossFit saarlouis",
             "time": null,
-            "reps": 264,
+            "reps": 265,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Pascal Pech",
-                "gender": "m",
-                "time": null,
-                "reps": 144,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Leander Kosiol",
-                "gender": "m",
-                "time": 360000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 27,
@@ -67750,25 +65466,7 @@
             "time": null,
             "reps": 264,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Oktay Celebioglu",
-                "gender": "m",
-                "time": 360000,
-                "reps": 129,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Volkan Gülen",
-                "gender": "m",
-                "time": 360000,
-                "reps": 135,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 28,
@@ -67806,25 +65504,7 @@
             "time": null,
             "reps": 260,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Juan Cruz",
-                "gender": "m",
-                "time": 360000,
-                "reps": 131,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nicolai Schmid",
-                "gender": "m",
-                "time": null,
-                "reps": 129,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 29,
@@ -67916,27 +65596,9 @@
             "country": "DE",
             "club": "CrossFit Mins",
             "time": null,
-            "reps": 241,
+            "reps": 258,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Justus Bauwens",
-                "gender": "m",
-                "time": 360000,
-                "reps": 111,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Ferris Ernemann",
-                "gender": "m",
-                "time": 360000,
-                "reps": 130,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 34,
@@ -67946,25 +65608,7 @@
             "time": null,
             "reps": 256,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mathias Edfelder",
-                "gender": "m",
-                "time": 360000,
-                "reps": 128,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Christoph Callegari",
-                "gender": "m",
-                "time": 360000,
-                "reps": 128,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 34,
@@ -67974,25 +65618,7 @@
             "time": null,
             "reps": 256,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Johann Garder",
-                "gender": "m",
-                "time": null,
-                "reps": 137,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Igor Garder",
-                "gender": "m",
-                "time": 360000,
-                "reps": 119,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 36,
@@ -68084,27 +65710,9 @@
             "country": "DE",
             "club": "",
             "time": null,
-            "reps": 219,
+            "reps": 224,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Ronnie Klug",
-                "gender": "m",
-                "time": 360000,
-                "reps": 130,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Sebastian Pätsch",
-                "gender": "m",
-                "time": 360000,
-                "reps": 89,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 40,
@@ -68200,25 +65808,7 @@
             "time": null,
             "reps": 250,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Mathias Skovlyst",
-                "gender": "m",
-                "time": null,
-                "reps": 110,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Magnus Vangsbo",
-                "gender": "m",
-                "time": null,
-                "reps": 140,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 2,
@@ -68228,25 +65818,7 @@
             "time": null,
             "reps": 250,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Justus Bauwens",
-                "gender": "m",
-                "time": 300000,
-                "reps": 130,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Ferris Ernemann",
-                "gender": "m",
-                "time": 300000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 4,
@@ -68256,25 +65828,7 @@
             "time": null,
             "reps": 248,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Juan Cruz",
-                "gender": "m",
-                "time": 300000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nicolai Schmid",
-                "gender": "m",
-                "time": null,
-                "reps": 128,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 5,
@@ -68284,25 +65838,7 @@
             "time": null,
             "reps": 245,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Johann Garder",
-                "gender": "m",
-                "time": null,
-                "reps": 120,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Igor Garder",
-                "gender": "m",
-                "time": 300000,
-                "reps": 125,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 6,
@@ -68340,25 +65876,7 @@
             "time": null,
             "reps": 236,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mario Daum",
-                "gender": "m",
-                "time": 300000,
-                "reps": 115,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Manuel Schwald",
-                "gender": "m",
-                "time": 300000,
-                "reps": 121,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 8,
@@ -68452,25 +65970,7 @@
             "time": null,
             "reps": 232.5,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mazegaarden",
-                "gender": "m",
-                "time": null,
-                "reps": 115,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Dirk Raveling",
-                "gender": "m",
-                "time": 300000,
-                "reps": 117.5,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 12,
@@ -68536,25 +66036,7 @@
             "time": null,
             "reps": 231,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Mathias Edfelder",
-                "gender": "m",
-                "time": 300000,
-                "reps": 121,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Christoph Callegari",
-                "gender": "m",
-                "time": 300000,
-                "reps": 110,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 15,
@@ -68564,25 +66046,7 @@
             "time": null,
             "reps": 230,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Tobias Nelskamp",
-                "gender": "m",
-                "time": null,
-                "reps": 110,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Niklas Deutmeyer",
-                "gender": "m",
-                "time": 300000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 15,
@@ -68646,7 +66110,7 @@
             "country": "DE",
             "club": "Crossfit Neumarkt in der Oberpfalz",
             "time": null,
-            "reps": 228,
+            "reps": 120,
             "tiebreak": null,
             "cap": true,
             "members": [
@@ -68655,14 +66119,6 @@
                 "gender": "m",
                 "time": 300000,
                 "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Franz Wittmann",
-                "gender": "m",
-                "time": 300000,
-                "reps": 108,
                 "tiebreak": 0,
                 "cap": false
               }
@@ -68704,25 +66160,7 @@
             "time": null,
             "reps": 226.5,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Moritz Brestrich",
-                "gender": "m",
-                "time": 300000,
-                "reps": 121.5,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Philipp Sprunck",
-                "gender": "m",
-                "time": null,
-                "reps": 105,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 21,
@@ -68730,18 +66168,10 @@
             "country": "CH",
             "club": "",
             "time": null,
-            "reps": 226,
+            "reps": 121,
             "tiebreak": null,
             "cap": true,
             "members": [
-              {
-                "name": "Oktay Celebioglu",
-                "gender": "m",
-                "time": 300000,
-                "reps": 105,
-                "tiebreak": 0,
-                "cap": false
-              },
               {
                 "name": "Volkan Gülen",
                 "gender": "m",
@@ -68816,25 +66246,7 @@
             "time": null,
             "reps": 225,
             "tiebreak": null,
-            "cap": false,
-            "members": [
-              {
-                "name": "Maciej Malcher",
-                "gender": "m",
-                "time": null,
-                "reps": 115,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Mateusz  Murawski",
-                "gender": "m",
-                "time": null,
-                "reps": 110,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 22,
@@ -68898,27 +66310,9 @@
             "country": "DE",
             "club": "CrossFit Schweinfurt",
             "time": null,
-            "reps": 216,
+            "reps": 221,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Matthias Hofmann",
-                "gender": "m",
-                "time": 300000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Nikos Bude",
-                "gender": "m",
-                "time": 300000,
-                "reps": 96,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 27,
@@ -68928,25 +66322,7 @@
             "time": null,
             "reps": 221,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Thomas Kleis",
-                "gender": "m",
-                "time": 300000,
-                "reps": 105,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Thomas Wolf",
-                "gender": "m",
-                "time": 300000,
-                "reps": 116,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 29,
@@ -68956,25 +66332,7 @@
             "time": null,
             "reps": 217.5,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Steffen Riedle",
-                "gender": "m",
-                "time": 300000,
-                "reps": 107.5,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Pascal Hagenmüller",
-                "gender": "m",
-                "time": null,
-                "reps": 110,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 30,
@@ -69010,27 +66368,9 @@
             "country": "DE",
             "club": "",
             "time": null,
-            "reps": 215.0,
+            "reps": 215,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Tobias Koopmann",
-                "gender": "m",
-                "time": 300000,
-                "reps": 117.5,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "David Zimmermann",
-                "gender": "m",
-                "time": null,
-                "reps": 97.5,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 30,
@@ -69096,25 +66436,7 @@
             "time": null,
             "reps": 210,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Florian Rabenbauer",
-                "gender": "m",
-                "time": 300000,
-                "reps": 100,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Raphael Gindele",
-                "gender": "m",
-                "time": null,
-                "reps": 110,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 34,
@@ -69124,25 +66446,7 @@
             "time": null,
             "reps": 210,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Simone Degli Esposti",
-                "gender": "m",
-                "time": 300000,
-                "reps": 120,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Simone Finelli",
-                "gender": "m",
-                "time": null,
-                "reps": 90,
-                "tiebreak": null,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 36,
@@ -69152,25 +66456,7 @@
             "time": null,
             "reps": 202,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Pascal Pech",
-                "gender": "m",
-                "time": null,
-                "reps": 106,
-                "tiebreak": null,
-                "cap": false
-              },
-              {
-                "name": "Leander Kosiol",
-                "gender": "m",
-                "time": 300000,
-                "reps": 96,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 37,
@@ -69180,25 +66466,7 @@
             "time": null,
             "reps": 200.5,
             "tiebreak": null,
-            "cap": true,
-            "members": [
-              {
-                "name": "Ronnie Klug",
-                "gender": "m",
-                "time": 300000,
-                "reps": 113,
-                "tiebreak": 0,
-                "cap": false
-              },
-              {
-                "name": "Sebastian Pätsch",
-                "gender": "m",
-                "time": 300000,
-                "reps": 87.5,
-                "tiebreak": 0,
-                "cap": false
-              }
-            ]
+            "cap": false
           },
           {
             "rank": 38,
