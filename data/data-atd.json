@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "Austrian Throwdown 2026 - Online Qualifier",
     "competition_id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-    "updated_at": "2026-08-05T17:34:28Z",
-    "updated_at_readable": "2026-08-05 17:34 UTC"
+    "updated_at": "2026-08-05T18:34:21Z",
+    "updated_at_readable": "2026-08-05 18:34 UTC"
   },
   "divisions": [
     {
@@ -36650,10 +36650,18 @@
             "ATD QWOD26.1": {
               "position": 7,
               "time": null,
-              "reps": 165,
-              "tiebreak": 804000,
+              "reps": 299,
+              "tiebreak": 1382000,
               "cap": true,
               "members": [
+                {
+                  "name": "Patrick Reinisch",
+                  "gender": "m",
+                  "time": 900000,
+                  "reps": 134,
+                  "tiebreak": 578000,
+                  "cap": false
+                },
                 {
                   "name": "Christian Fauland",
                   "gender": "m",
@@ -36672,12 +36680,20 @@
               "cap": false,
               "members": [
                 {
+                  "name": "Patrick Reinisch",
+                  "gender": "m",
+                  "time": 358000,
+                  "reps": 0,
+                  "tiebreak": null,
+                  "cap": true
+                },
+                {
                   "name": "Christian Fauland",
                   "gender": "m",
                   "time": 333000,
                   "reps": 0,
                   "tiebreak": 0,
-                  "cap": false
+                  "cap": true
                 }
               ]
             },
@@ -37598,10 +37614,18 @@
             "country": "AT",
             "club": "CF Leibnitz",
             "time": null,
-            "reps": 165,
-            "tiebreak": 804000,
+            "reps": 299,
+            "tiebreak": 1382000,
             "cap": true,
             "members": [
+              {
+                "name": "Patrick Reinisch",
+                "gender": "m",
+                "time": 900000,
+                "reps": 134,
+                "tiebreak": 578000,
+                "cap": false
+              },
               {
                 "name": "Christian Fauland",
                 "gender": "m",
@@ -39165,12 +39189,20 @@
             "cap": false,
             "members": [
               {
+                "name": "Patrick Reinisch",
+                "gender": "m",
+                "time": 358000,
+                "reps": 0,
+                "tiebreak": null,
+                "cap": true
+              },
+              {
                 "name": "Christian Fauland",
                 "gender": "m",
                 "time": 333000,
                 "reps": 0,
                 "tiebreak": 0,
-                "cap": false
+                "cap": true
               }
             ]
           },
