@@ -33,15 +33,6 @@ jobs:
           SITE_URL: ${{ vars.SITE_URL }}
         run: python3 fetch.py
 
-      - name: F/F virtual team simulation (Anna + Corinna)
-        run: python3 simulate_ff.py
-
-      - name: Masters 40+ simulation (Bastian)
-        run: python3 simulate_m40.py
-
-      - name: ATD team simulation (Forschung & Cinghiali)
-        run: python3 simulate_atd_teams.py
-
       - name: Commit & push data.json
         run: |
           git config user.name  "github-actions[bot]"

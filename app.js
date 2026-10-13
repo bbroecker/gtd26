@@ -1,13 +1,12 @@
 /* ============================================================
-   German Throwdown 2026 — Leaderboard App
+  Roma FSR Showdown 2027 — Leaderboard App
    Reads data/data-{slug}.json, renders Overall + Per-WOD tables.
    ============================================================ */
 
 'use strict';
 
 const COMPETITIONS = {
-  gtd: { name: 'German Throwdown 2026', url: 'https://germanthrowdown.de' },
-  atd: { name: 'Austrian Throwdown 2026', url: 'https://austrianthrowdown.at' },
+  roma: { name: 'Roma FSR Showdown 2027', url: 'https://circle21.events/roma-fsr-showdown-2027-online-qualifier?tab=leaderboard' },
 };
 
 let appData = null;
@@ -15,13 +14,13 @@ let currentDivision = null;
 let activeTab = 'overall';
 let currentWod = null;
 let currentView = 'division'; // 'division' | 'all_individual' | 'all_teams'
-let currentCompSlug = 'gtd';
+let currentCompSlug = 'roma';
 
 // ---------------------------------------------------------------------------
 // Initialise
 // ---------------------------------------------------------------------------
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadCompetition('gtd');
+  await loadCompetition('roma');
   bindEvents();
 });
 
@@ -128,9 +127,6 @@ function populateDivisionSelect() {
 // Events
 // ---------------------------------------------------------------------------
 function bindEvents() {
-  document.getElementById('competitionSelect').addEventListener('change', async (e) => {
-    await loadCompetition(e.target.value);
-  });
   document.getElementById('divisionSelect').addEventListener('change', onDivisionChange);
   document.getElementById('wodSelect').addEventListener('change', onWodChange);
 

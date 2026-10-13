@@ -1,6 +1,6 @@
 """
-German Throwdown 2026 — Leaderboard Data Fetcher
-Writes data/data.json consumed by index.html.
+Roma FSR Showdown 2027 — Leaderboard Data Fetcher
+Writes data/data-roma.json consumed by index.html.
 
 Usage:
     python3 fetch.py
@@ -31,14 +31,9 @@ TOKEN = os.environ.get(
 )
 COMPETITIONS = [
     {
-        "id": "cd3809c9-4aae-43bd-9d78-53c3b19b97c9",
-        "name": "German Throwdown 2026",
-        "slug": "gtd",
-    },
-    {
-        "id": "adb7629c-423c-475d-b20e-ab1dd9dacfb7",
-        "name": "Austrian Throwdown 2026",
-        "slug": "atd",
+        "id": "8b844ba8-9bb6-4802-9450-3cc1cfe4e2ce",
+        "name": "Roma FSR Showdown 2027",
+        "slug": "roma",
     },
 ]
 API_BASE = "https://api.circle21.events/api"
@@ -233,7 +228,7 @@ def write_rss_feeds(all_entries, divisions_info, comp_slug="", comp_name=""):
                 f"      <title>{_xml_esc(title)}</title>\n"
                 f"      <description><![CDATA[{'<br>'.join(lines)}]]></description>\n"
                 f"      <pubDate>{_rfc2822(run_time)}</pubDate>\n"
-                f"      <guid isPermaLink=\"false\">gtd2026-{_xml_esc(slug)}-{_xml_esc(run_time)}</guid>\n"
+                f"      <guid isPermaLink=\"false\">{_xml_esc(comp_slug)}-{_xml_esc(slug)}-{_xml_esc(run_time)}</guid>\n"
                 f"      <link>{_xml_esc(page_link)}</link>\n"
                 f"    </item>"
             )
@@ -243,9 +238,9 @@ def write_rss_feeds(all_entries, divisions_info, comp_slug="", comp_name=""):
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<rss version="2.0">\n'
             '  <channel>\n'
-            f'    <title>GTD 2026 \u2014 {_xml_esc(div_name)}</title>\n'
+            f'    <title>{_xml_esc(comp_name)} \u2014 {_xml_esc(div_name)}</title>\n'
             f'    <link>{_xml_esc(page_link)}</link>\n'
-            f'    <description>Score updates for {_xml_esc(div_name)} \u2014 German Throwdown 2026</description>\n'
+            f'    <description>Score updates for {_xml_esc(div_name)} \u2014 {_xml_esc(comp_name)}</description>\n'
             '    <language>en</language>\n'
             '    <ttl>60</ttl>\n'
             + ("\n".join(items_xml) + "\n" if items_xml else "")
