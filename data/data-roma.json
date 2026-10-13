@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "ROMA FSR SHOWDOWN 2027 - ONLINE QUALIFIER",
     "competition_id": "8b844ba8-9bb6-4802-9450-3cc1cfe4e2ce",
-    "updated_at": "2026-10-13T22:01:26Z",
-    "updated_at_readable": "2026-10-13 22:01 UTC"
+    "updated_at": "2026-10-13T23:01:38Z",
+    "updated_at_readable": "2026-10-13 23:01 UTC"
   },
   "divisions": [
     {
@@ -1696,6 +1696,36 @@
       "overall": [
         {
           "rank": 1,
+          "name": "Abdou",
+          "country": "EG",
+          "club": "",
+          "points": 12,
+          "wods": {
+            "27.1": {
+              "position": 3,
+              "time": null,
+              "reps": 122,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 7,
+              "time": 678000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 2,
+              "time": null,
+              "reps": 140,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 2,
           "name": "Girolamo Galasso",
           "country": "IT",
           "club": "Box Tiferno",
@@ -1719,36 +1749,6 @@
               "position": 2,
               "time": null,
               "reps": 140,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 2,
-          "name": "Abdou",
-          "country": "EG",
-          "club": "",
-          "points": 14,
-          "wods": {
-            "27.1": {
-              "position": 3,
-              "time": null,
-              "reps": 122,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 A": {
-              "position": 8,
-              "time": 692000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 B": {
-              "position": 3,
-              "time": null,
-              "reps": 138.1,
               "tiebreak": 0,
               "cap": false
             }
@@ -2015,10 +2015,10 @@
           "name": "Filippo Palombi",
           "country": "IT",
           "club": "Box Indipendente Ironstone",
-          "points": 51,
+          "points": 52,
           "wods": {
             "27.2 A": {
-              "position": 7,
+              "position": 8,
               "time": 683000,
               "reps": 0,
               "tiebreak": 0,
@@ -2216,20 +2216,20 @@
           },
           {
             "rank": 7,
-            "name": "Filippo Palombi",
-            "country": "IT",
-            "club": "Box Indipendente Ironstone",
-            "time": 683000,
+            "name": "Abdou",
+            "country": "EG",
+            "club": "",
+            "time": 678000,
             "reps": 0,
             "tiebreak": 0,
             "cap": false
           },
           {
             "rank": 8,
-            "name": "Abdou",
-            "country": "EG",
-            "club": "",
-            "time": 692000,
+            "name": "Filippo Palombi",
+            "country": "IT",
+            "club": "Box Indipendente Ironstone",
+            "time": 683000,
             "reps": 0,
             "tiebreak": 0,
             "cap": false
@@ -2288,21 +2288,21 @@
           },
           {
             "rank": 2,
-            "name": "Girolamo Galasso",
-            "country": "IT",
-            "club": "Box Tiferno",
+            "name": "Abdou",
+            "country": "EG",
+            "club": "",
             "time": null,
             "reps": 140,
             "tiebreak": 0,
             "cap": false
           },
           {
-            "rank": 3,
-            "name": "Abdou",
-            "country": "EG",
-            "club": "",
+            "rank": 2,
+            "name": "Girolamo Galasso",
+            "country": "IT",
+            "club": "Box Tiferno",
             "time": null,
-            "reps": 138.1,
+            "reps": 140,
             "tiebreak": 0,
             "cap": false
           },
@@ -7355,7 +7355,7 @@
       "order": 11,
       "individual": true,
       "athlete_count": 111,
-      "result_count": 45,
+      "result_count": 46,
       "wods": [
         "27.1",
         "27.2 A",
@@ -7402,10 +7402,10 @@
           "name": "Alex Larocca",
           "country": "IT",
           "club": "crossfitantium",
-          "points": 24,
+          "points": 25,
           "wods": {
             "27.1": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 132,
               "tiebreak": 0,
@@ -7432,10 +7432,10 @@
           "name": "Modesto Laguardia",
           "country": "IT",
           "club": "",
-          "points": 25,
+          "points": 26,
           "wods": {
             "27.1": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 138,
               "tiebreak": 0,
@@ -7492,10 +7492,10 @@
           "name": "marco trotta",
           "country": "IT",
           "club": "box endurance",
-          "points": 31,
+          "points": 32,
           "wods": {
             "27.1": {
-              "position": 12,
+              "position": 13,
               "time": null,
               "reps": 125,
               "tiebreak": 0,
@@ -7522,10 +7522,10 @@
           "name": "Alessio Boncore",
           "country": "IT",
           "club": "",
-          "points": 32,
+          "points": 33,
           "wods": {
             "27.1": {
-              "position": 20,
+              "position": 21,
               "time": null,
               "reps": 118,
               "tiebreak": 0,
@@ -7552,7 +7552,7 @@
           "name": "Alexandre Husset",
           "country": "IT",
           "club": "CROSSFIT WEHTTAM  Bmh",
-          "points": 40,
+          "points": 41,
           "wods": {
             "27.1": {
               "position": 4,
@@ -7569,7 +7569,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 29,
+              "position": 30,
               "time": null,
               "reps": 103,
               "tiebreak": 0,
@@ -7582,10 +7582,10 @@
           "name": "Lorenzo Farace",
           "country": "IT",
           "club": "",
-          "points": 42,
+          "points": 43,
           "wods": {
             "27.1": {
-              "position": 21,
+              "position": 22,
               "time": null,
               "reps": 116,
               "tiebreak": 0,
@@ -7612,7 +7612,7 @@
           "name": "Alessio Fones",
           "country": "IT",
           "club": "Crossgym Teramo",
-          "points": 43,
+          "points": 44,
           "wods": {
             "27.1": {
               "position": 1,
@@ -7629,7 +7629,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 22,
+              "position": 23,
               "time": null,
               "reps": 108,
               "tiebreak": 0,
@@ -7639,40 +7639,10 @@
         },
         {
           "rank": 10,
-          "name": "Gianmarco Berardi",
-          "country": "IT",
-          "club": "",
-          "points": 43,
-          "wods": {
-            "27.1": {
-              "position": 16,
-              "time": null,
-              "reps": 124,
-              "tiebreak": null,
-              "cap": false
-            },
-            "27.2 A": {
-              "position": 5,
-              "time": 614000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false
-            },
-            "27.2 B": {
-              "position": 22,
-              "time": null,
-              "reps": 108,
-              "tiebreak": null,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 11,
           "name": "Valerio Marchetti",
           "country": "IT",
           "club": "ARKADEMY",
-          "points": 43,
+          "points": 44,
           "wods": {
             "27.1": {
               "position": 3,
@@ -7689,9 +7659,39 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 24,
+              "position": 25,
               "time": null,
               "reps": 107,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 11,
+          "name": "Gianmarco Berardi",
+          "country": "IT",
+          "club": "",
+          "points": 45,
+          "wods": {
+            "27.1": {
+              "position": 17,
+              "time": null,
+              "reps": 124,
+              "tiebreak": null,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 5,
+              "time": 614000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 23,
+              "time": null,
+              "reps": 108,
               "tiebreak": null,
               "cap": false
             }
@@ -7702,10 +7702,10 @@
           "name": "Leonardo Pasqualone",
           "country": "IT",
           "club": "",
-          "points": 44,
+          "points": 45,
           "wods": {
             "27.1": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 123,
               "tiebreak": 0,
@@ -7732,10 +7732,10 @@
           "name": "Siarhei Meilakh",
           "country": "BY",
           "club": "CrossFit Wola",
-          "points": 46,
+          "points": 48,
           "wods": {
             "27.1": {
-              "position": 11,
+              "position": 12,
               "time": null,
               "reps": 131,
               "tiebreak": null,
@@ -7749,7 +7749,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 19,
+              "position": 20,
               "time": null,
               "reps": 110,
               "tiebreak": null,
@@ -7759,13 +7759,43 @@
         },
         {
           "rank": 14,
-          "name": "Riccardo Bernardini",
+          "name": "Michael Orlandi",
           "country": "IT",
-          "club": "Peak29",
+          "club": "",
           "points": 49,
           "wods": {
             "27.1": {
-              "position": 8,
+              "position": 7,
+              "time": null,
+              "reps": 142,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 25,
+              "time": 702000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 17,
+              "time": null,
+              "reps": 113,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 15,
+          "name": "Riccardo Bernardini",
+          "country": "IT",
+          "club": "Peak29",
+          "points": 51,
+          "wods": {
+            "27.1": {
+              "position": 9,
               "time": null,
               "reps": 134,
               "tiebreak": 0,
@@ -7779,7 +7809,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 30,
+              "position": 31,
               "time": null,
               "reps": 102.5,
               "tiebreak": 0,
@@ -7788,11 +7818,11 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Konstantinos Pitoglou",
           "country": "GR",
           "club": "StiGma Box",
-          "points": 51,
+          "points": 52,
           "wods": {
             "27.1": {
               "position": 4,
@@ -7809,7 +7839,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 32,
+              "position": 33,
               "time": null,
               "reps": 100,
               "tiebreak": 0,
@@ -7818,14 +7848,14 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Matteo Petriachi",
           "country": "IT",
           "club": "",
-          "points": 65,
+          "points": 67,
           "wods": {
             "27.1": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 123,
               "tiebreak": null,
@@ -7839,7 +7869,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 27,
+              "position": 28,
               "time": null,
               "reps": 105,
               "tiebreak": null,
@@ -7848,14 +7878,14 @@
           }
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Salvatore Scivicco",
           "country": "IT",
           "club": "",
-          "points": 68,
+          "points": 70,
           "wods": {
             "27.1": {
-              "position": 34,
+              "position": 35,
               "time": null,
               "reps": 55,
               "tiebreak": 0,
@@ -7869,39 +7899,9 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 24,
+              "position": 25,
               "time": null,
               "reps": 107,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 18,
-          "name": "Giovanni Galtieri",
-          "country": "IT",
-          "club": "",
-          "points": 70,
-          "wods": {
-            "27.1": {
-              "position": 23,
-              "time": null,
-              "reps": 107,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 A": {
-              "position": 30,
-              "time": 756000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 B": {
-              "position": 17,
-              "time": null,
-              "reps": 112.5,
               "tiebreak": 0,
               "cap": false
             }
@@ -7909,29 +7909,29 @@
         },
         {
           "rank": 19,
-          "name": "Davide Festuccia",
+          "name": "Giovanni Galtieri",
           "country": "IT",
-          "club": "Box Indipendente Ironstone",
-          "points": 71,
+          "club": "",
+          "points": 73,
           "wods": {
             "27.1": {
-              "position": 8,
+              "position": 24,
               "time": null,
-              "reps": 134,
+              "reps": 107,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 29,
-              "time": 737000,
+              "position": 31,
+              "time": 756000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 34,
+              "position": 18,
               "time": null,
-              "reps": 95,
+              "reps": 112.5,
               "tiebreak": 0,
               "cap": false
             }
@@ -7942,17 +7942,17 @@
           "name": "Mathias Edfelder",
           "country": "DE",
           "club": "CrossFit WUID",
-          "points": 71,
+          "points": 73,
           "wods": {
             "27.1": {
-              "position": 27,
+              "position": 28,
               "time": null,
               "reps": 98,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 31,
+              "position": 32,
               "time": 760000,
               "reps": 0,
               "tiebreak": 0,
@@ -7969,27 +7969,57 @@
         },
         {
           "rank": 21,
+          "name": "Davide Festuccia",
+          "country": "IT",
+          "club": "Box Indipendente Ironstone",
+          "points": 74,
+          "wods": {
+            "27.1": {
+              "position": 9,
+              "time": null,
+              "reps": 134,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 30,
+              "time": 737000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 35,
+              "time": null,
+              "reps": 95,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 22,
           "name": "Francesco Marinoni",
           "country": "IT",
           "club": "",
-          "points": 75,
+          "points": 78,
           "wods": {
             "27.1": {
-              "position": 23,
+              "position": 24,
               "time": null,
               "reps": 107,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 28,
+              "position": 29,
               "time": 723000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 24,
+              "position": 25,
               "time": null,
               "reps": 107,
               "tiebreak": 0,
@@ -7998,28 +8028,28 @@
           }
         },
         {
-          "rank": 22,
+          "rank": 23,
           "name": "Davor Horina",
           "country": "HR",
           "club": "AGI'S gym",
-          "points": 79,
+          "points": 82,
           "wods": {
             "27.1": {
-              "position": 28,
+              "position": 29,
               "time": null,
               "reps": 94,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 32,
+              "position": 33,
               "time": 766000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 19,
+              "position": 20,
               "time": null,
               "reps": 110,
               "tiebreak": 0,
@@ -8028,14 +8058,14 @@
           }
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "Francesco De Mita",
           "country": "IT",
           "club": "GYM LIFE",
-          "points": 82,
+          "points": 84,
           "wods": {
             "27.1": {
-              "position": 33,
+              "position": 34,
               "time": null,
               "reps": 70,
               "tiebreak": 0,
@@ -8049,7 +8079,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 27,
+              "position": 28,
               "time": null,
               "reps": 105,
               "tiebreak": 0,
@@ -8058,28 +8088,28 @@
           }
         },
         {
-          "rank": 24,
+          "rank": 25,
           "name": "Stefan Pandurevic",
           "country": "BA",
           "club": "Chicha Fit",
-          "points": 84,
+          "points": 87,
           "wods": {
             "27.1": {
-              "position": 32,
+              "position": 33,
               "time": null,
               "reps": 73,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 34,
+              "position": 35,
               "time": 771000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 18,
+              "position": 19,
               "time": null,
               "reps": 112,
               "tiebreak": 0,
@@ -8088,28 +8118,28 @@
           }
         },
         {
-          "rank": 25,
+          "rank": 26,
           "name": "Luca Ciniglio Appiani",
           "country": "IT",
           "club": "",
-          "points": 88,
+          "points": 91,
           "wods": {
             "27.1": {
-              "position": 25,
+              "position": 26,
               "time": null,
               "reps": 105,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 26,
+              "position": 27,
               "time": 708000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 37,
+              "position": 38,
               "time": null,
               "reps": 90,
               "tiebreak": 0,
@@ -8118,28 +8148,28 @@
           }
         },
         {
-          "rank": 26,
+          "rank": 27,
           "name": "Gianvito Romano",
           "country": "IT",
           "club": "",
-          "points": 101,
+          "points": 104,
           "wods": {
             "27.1": {
-              "position": 29,
+              "position": 30,
               "time": null,
               "reps": 93,
               "tiebreak": null,
               "cap": false
             },
             "27.2 A": {
-              "position": 37,
+              "position": 38,
               "time": 780000,
               "reps": 77,
               "tiebreak": null,
               "cap": false
             },
             "27.2 B": {
-              "position": 35,
+              "position": 36,
               "time": null,
               "reps": 92.5,
               "tiebreak": null,
@@ -8148,7 +8178,7 @@
           }
         },
         {
-          "rank": 27,
+          "rank": 28,
           "name": "Edoardo Marconi Sciarroni",
           "country": "IT",
           "club": "Athletics Giulianova",
@@ -8171,7 +8201,7 @@
           }
         },
         {
-          "rank": 28,
+          "rank": 29,
           "name": "Marco Caterini",
           "country": "IT",
           "club": "7 kings CrossFit",
@@ -8194,7 +8224,7 @@
           }
         },
         {
-          "rank": 29,
+          "rank": 30,
           "name": "Alberto Corsini",
           "country": "IT",
           "club": "CrossFit 51100",
@@ -8217,7 +8247,7 @@
           }
         },
         {
-          "rank": 30,
+          "rank": 31,
           "name": "Silviu Pandelea",
           "country": "IT",
           "club": "crossfit val vibrata",
@@ -8240,14 +8270,14 @@
           }
         },
         {
-          "rank": 31,
+          "rank": 32,
           "name": "Pasquale  Marino",
           "country": "IT",
           "club": "CrossFit Scafati",
-          "points": 145,
+          "points": 146,
           "wods": {
             "27.2 A": {
-              "position": 27,
+              "position": 28,
               "time": 711000,
               "reps": null,
               "tiebreak": null,
@@ -8263,7 +8293,7 @@
           }
         },
         {
-          "rank": 32,
+          "rank": 33,
           "name": "simone fontana",
           "country": "IT",
           "club": "Testudo Academy",
@@ -8286,14 +8316,14 @@
           }
         },
         {
-          "rank": 33,
+          "rank": 34,
           "name": "Andrea  Albenzi",
           "country": "IT",
           "club": "Box Indipendente Ironstone",
-          "points": 151,
+          "points": 152,
           "wods": {
             "27.2 A": {
-              "position": 25,
+              "position": 26,
               "time": 707000,
               "reps": 0,
               "tiebreak": 0,
@@ -8309,11 +8339,11 @@
           }
         },
         {
-          "rank": 34,
+          "rank": 35,
           "name": "Mario Spanó",
           "country": "IT",
           "club": "",
-          "points": 161,
+          "points": 162,
           "wods": {
             "27.2 A": {
               "position": 19,
@@ -8323,7 +8353,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 31,
+              "position": 32,
               "time": null,
               "reps": 102,
               "tiebreak": 0,
@@ -8332,21 +8362,21 @@
           }
         },
         {
-          "rank": 35,
+          "rank": 36,
           "name": "Julian Huber",
           "country": "DE",
           "club": "CrossFit WUID",
-          "points": 166,
+          "points": 168,
           "wods": {
             "27.2 A": {
-              "position": 36,
+              "position": 37,
               "time": 780000,
               "reps": 79,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 19,
+              "position": 20,
               "time": null,
               "reps": 110,
               "tiebreak": 0,
@@ -8355,21 +8385,21 @@
           }
         },
         {
-          "rank": 36,
+          "rank": 37,
           "name": "Bar Balaish",
           "country": "IL",
           "club": "CrossFit Dino",
-          "points": 177,
+          "points": 179,
           "wods": {
             "27.2 A": {
-              "position": 33,
+              "position": 34,
               "time": 769000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 33,
+              "position": 34,
               "time": null,
               "reps": 96,
               "tiebreak": 0,
@@ -8378,21 +8408,21 @@
           }
         },
         {
-          "rank": 37,
+          "rank": 38,
           "name": "Dario Minerva",
           "country": "IT",
           "club": "",
-          "points": 182,
+          "points": 184,
           "wods": {
             "27.2 A": {
-              "position": 35,
+              "position": 36,
               "time": 780000,
               "reps": 81,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 36,
+              "position": 37,
               "time": null,
               "reps": 91,
               "tiebreak": 0,
@@ -8401,30 +8431,14 @@
           }
         },
         {
-          "rank": 38,
+          "rank": 39,
           "name": "Adhurim Ademi",
           "country": "XK",
           "club": "Illyrian Gym",
-          "points": 234,
+          "points": 235,
           "wods": {
             "27.1": {
-              "position": 12,
-              "time": null,
-              "reps": 125,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 39,
-          "name": "Igli Metalla",
-          "country": "IT",
-          "club": "",
-          "points": 234,
-          "wods": {
-            "27.1": {
-              "position": 12,
+              "position": 13,
               "time": null,
               "reps": 125,
               "tiebreak": 0,
@@ -8434,13 +8448,29 @@
         },
         {
           "rank": 40,
+          "name": "Igli Metalla",
+          "country": "IT",
+          "club": "",
+          "points": 235,
+          "wods": {
+            "27.1": {
+              "position": 13,
+              "time": null,
+              "reps": 125,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 41,
           "name": "Luca Gerace",
           "country": "IT",
           "club": "7 kings CrossFit",
-          "points": 234,
+          "points": 235,
           "wods": {
             "27.1": {
-              "position": 12,
+              "position": 13,
               "time": null,
               "reps": 125,
               "tiebreak": null,
@@ -8449,14 +8479,14 @@
           }
         },
         {
-          "rank": 41,
+          "rank": 42,
           "name": "Claudio Colosimo",
           "country": "IT",
           "club": "",
-          "points": 239,
+          "points": 240,
           "wods": {
             "27.1": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 123,
               "tiebreak": 0,
@@ -8465,14 +8495,14 @@
           }
         },
         {
-          "rank": 42,
+          "rank": 43,
           "name": "Andrea Lupo",
           "country": "IT",
           "club": "Testudo Academy",
-          "points": 244,
+          "points": 245,
           "wods": {
             "27.1": {
-              "position": 22,
+              "position": 23,
               "time": null,
               "reps": 115,
               "tiebreak": 0,
@@ -8481,14 +8511,14 @@
           }
         },
         {
-          "rank": 43,
+          "rank": 44,
           "name": "Alessandro Rossi",
           "country": "IT",
           "club": "7 kings CrossFit",
-          "points": 248,
+          "points": 249,
           "wods": {
             "27.1": {
-              "position": 26,
+              "position": 27,
               "time": null,
               "reps": 100,
               "tiebreak": 0,
@@ -8497,14 +8527,14 @@
           }
         },
         {
-          "rank": 44,
+          "rank": 45,
           "name": "Alberto Luigi Ruggiero",
           "country": "IT",
           "club": "",
-          "points": 252,
+          "points": 253,
           "wods": {
             "27.1": {
-              "position": 30,
+              "position": 31,
               "time": null,
               "reps": 92,
               "tiebreak": 0,
@@ -8513,14 +8543,14 @@
           }
         },
         {
-          "rank": 45,
+          "rank": 46,
           "name": "Kevin Späth",
           "country": "DE",
           "club": "HIPE Munich",
-          "points": 253,
+          "points": 254,
           "wods": {
             "27.1": {
-              "position": 31,
+              "position": 32,
               "time": null,
               "reps": 75,
               "tiebreak": 0,
@@ -8593,6 +8623,16 @@
           },
           {
             "rank": 7,
+            "name": "Michael Orlandi",
+            "country": "IT",
+            "club": "",
+            "time": null,
+            "reps": 142,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 8,
             "name": "Modesto Laguardia",
             "country": "IT",
             "club": "",
@@ -8602,7 +8642,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Riccardo Bernardini",
             "country": "IT",
             "club": "Peak29",
@@ -8612,7 +8652,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Davide Festuccia",
             "country": "IT",
             "club": "Box Indipendente Ironstone",
@@ -8622,7 +8662,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Alex Larocca",
             "country": "IT",
             "club": "crossfitantium",
@@ -8632,7 +8672,7 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Siarhei Meilakh",
             "country": "BY",
             "club": "CrossFit Wola",
@@ -8642,7 +8682,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Adhurim Ademi",
             "country": "XK",
             "club": "Illyrian Gym",
@@ -8652,7 +8692,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Luca Gerace",
             "country": "IT",
             "club": "7 kings CrossFit",
@@ -8662,7 +8702,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "Igli Metalla",
             "country": "IT",
             "club": "",
@@ -8672,7 +8712,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "marco trotta",
             "country": "IT",
             "club": "box endurance",
@@ -8682,7 +8722,7 @@
             "cap": false
           },
           {
-            "rank": 16,
+            "rank": 17,
             "name": "Gianmarco Berardi",
             "country": "IT",
             "club": "",
@@ -8692,7 +8732,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Matteo Petriachi",
             "country": "IT",
             "club": "",
@@ -8702,7 +8742,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Leonardo Pasqualone",
             "country": "IT",
             "club": "",
@@ -8712,7 +8752,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Claudio Colosimo",
             "country": "IT",
             "club": "",
@@ -8722,7 +8762,7 @@
             "cap": false
           },
           {
-            "rank": 20,
+            "rank": 21,
             "name": "Alessio Boncore",
             "country": "IT",
             "club": "",
@@ -8732,7 +8772,7 @@
             "cap": false
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "Lorenzo Farace",
             "country": "IT",
             "club": "",
@@ -8742,7 +8782,7 @@
             "cap": false
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "Andrea Lupo",
             "country": "IT",
             "club": "Testudo Academy",
@@ -8752,7 +8792,7 @@
             "cap": false
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "Giovanni Galtieri",
             "country": "IT",
             "club": "",
@@ -8762,7 +8802,7 @@
             "cap": false
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "Francesco Marinoni",
             "country": "IT",
             "club": "",
@@ -8772,7 +8812,7 @@
             "cap": false
           },
           {
-            "rank": 25,
+            "rank": 26,
             "name": "Luca Ciniglio Appiani",
             "country": "IT",
             "club": "",
@@ -8782,7 +8822,7 @@
             "cap": false
           },
           {
-            "rank": 26,
+            "rank": 27,
             "name": "Alessandro Rossi",
             "country": "IT",
             "club": "7 kings CrossFit",
@@ -8792,7 +8832,7 @@
             "cap": false
           },
           {
-            "rank": 27,
+            "rank": 28,
             "name": "Mathias Edfelder",
             "country": "DE",
             "club": "CrossFit WUID",
@@ -8802,7 +8842,7 @@
             "cap": false
           },
           {
-            "rank": 28,
+            "rank": 29,
             "name": "Davor Horina",
             "country": "HR",
             "club": "AGI'S gym",
@@ -8812,7 +8852,7 @@
             "cap": false
           },
           {
-            "rank": 29,
+            "rank": 30,
             "name": "Gianvito Romano",
             "country": "IT",
             "club": "",
@@ -8822,7 +8862,7 @@
             "cap": false
           },
           {
-            "rank": 30,
+            "rank": 31,
             "name": "Alberto Luigi Ruggiero",
             "country": "IT",
             "club": "",
@@ -8832,7 +8872,7 @@
             "cap": false
           },
           {
-            "rank": 31,
+            "rank": 32,
             "name": "Kevin Späth",
             "country": "DE",
             "club": "HIPE Munich",
@@ -8842,7 +8882,7 @@
             "cap": false
           },
           {
-            "rank": 32,
+            "rank": 33,
             "name": "Stefan Pandurevic",
             "country": "BA",
             "club": "Chicha Fit",
@@ -8852,7 +8892,7 @@
             "cap": false
           },
           {
-            "rank": 33,
+            "rank": 34,
             "name": "Francesco De Mita",
             "country": "IT",
             "club": "GYM LIFE",
@@ -8862,7 +8902,7 @@
             "cap": false
           },
           {
-            "rank": 34,
+            "rank": 35,
             "name": "Salvatore Scivicco",
             "country": "IT",
             "club": "",
@@ -9115,6 +9155,16 @@
           },
           {
             "rank": 25,
+            "name": "Michael Orlandi",
+            "country": "IT",
+            "club": "",
+            "time": 702000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 26,
             "name": "Andrea  Albenzi",
             "country": "IT",
             "club": "Box Indipendente Ironstone",
@@ -9124,7 +9174,7 @@
             "cap": false
           },
           {
-            "rank": 26,
+            "rank": 27,
             "name": "Luca Ciniglio Appiani",
             "country": "IT",
             "club": "",
@@ -9134,7 +9184,7 @@
             "cap": false
           },
           {
-            "rank": 27,
+            "rank": 28,
             "name": "Pasquale  Marino",
             "country": "IT",
             "club": "CrossFit Scafati",
@@ -9144,7 +9194,7 @@
             "cap": false
           },
           {
-            "rank": 28,
+            "rank": 29,
             "name": "Francesco Marinoni",
             "country": "IT",
             "club": "",
@@ -9154,7 +9204,7 @@
             "cap": false
           },
           {
-            "rank": 29,
+            "rank": 30,
             "name": "Davide Festuccia",
             "country": "IT",
             "club": "Box Indipendente Ironstone",
@@ -9164,7 +9214,7 @@
             "cap": false
           },
           {
-            "rank": 30,
+            "rank": 31,
             "name": "Giovanni Galtieri",
             "country": "IT",
             "club": "",
@@ -9174,7 +9224,7 @@
             "cap": false
           },
           {
-            "rank": 31,
+            "rank": 32,
             "name": "Mathias Edfelder",
             "country": "DE",
             "club": "CrossFit WUID",
@@ -9184,7 +9234,7 @@
             "cap": false
           },
           {
-            "rank": 32,
+            "rank": 33,
             "name": "Davor Horina",
             "country": "HR",
             "club": "AGI'S gym",
@@ -9194,7 +9244,7 @@
             "cap": false
           },
           {
-            "rank": 33,
+            "rank": 34,
             "name": "Bar Balaish",
             "country": "IL",
             "club": "CrossFit Dino",
@@ -9204,7 +9254,7 @@
             "cap": false
           },
           {
-            "rank": 34,
+            "rank": 35,
             "name": "Stefan Pandurevic",
             "country": "BA",
             "club": "Chicha Fit",
@@ -9214,7 +9264,7 @@
             "cap": false
           },
           {
-            "rank": 35,
+            "rank": 36,
             "name": "Dario Minerva",
             "country": "IT",
             "club": "",
@@ -9224,7 +9274,7 @@
             "cap": false
           },
           {
-            "rank": 36,
+            "rank": 37,
             "name": "Julian Huber",
             "country": "DE",
             "club": "CrossFit WUID",
@@ -9234,7 +9284,7 @@
             "cap": false
           },
           {
-            "rank": 37,
+            "rank": 38,
             "name": "Gianvito Romano",
             "country": "IT",
             "club": "",
@@ -9407,6 +9457,16 @@
           },
           {
             "rank": 17,
+            "name": "Michael Orlandi",
+            "country": "IT",
+            "club": "",
+            "time": null,
+            "reps": 113,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 18,
             "name": "Giovanni Galtieri",
             "country": "IT",
             "club": "",
@@ -9416,7 +9476,7 @@
             "cap": false
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "Stefan Pandurevic",
             "country": "BA",
             "club": "Chicha Fit",
@@ -9426,7 +9486,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Davor Horina",
             "country": "HR",
             "club": "AGI'S gym",
@@ -9436,7 +9496,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Julian Huber",
             "country": "DE",
             "club": "CrossFit WUID",
@@ -9446,7 +9506,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Siarhei Meilakh",
             "country": "BY",
             "club": "CrossFit Wola",
@@ -9456,7 +9516,7 @@
             "cap": false
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "Gianmarco Berardi",
             "country": "IT",
             "club": "",
@@ -9466,7 +9526,7 @@
             "cap": false
           },
           {
-            "rank": 22,
+            "rank": 23,
             "name": "Alessio Fones",
             "country": "IT",
             "club": "Crossgym Teramo",
@@ -9476,7 +9536,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Valerio Marchetti",
             "country": "IT",
             "club": "ARKADEMY",
@@ -9486,7 +9546,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Francesco Marinoni",
             "country": "IT",
             "club": "",
@@ -9496,7 +9556,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Salvatore Scivicco",
             "country": "IT",
             "club": "",
@@ -9506,7 +9566,7 @@
             "cap": false
           },
           {
-            "rank": 27,
+            "rank": 28,
             "name": "Matteo Petriachi",
             "country": "IT",
             "club": "",
@@ -9516,7 +9576,7 @@
             "cap": false
           },
           {
-            "rank": 27,
+            "rank": 28,
             "name": "Francesco De Mita",
             "country": "IT",
             "club": "GYM LIFE",
@@ -9526,7 +9586,7 @@
             "cap": false
           },
           {
-            "rank": 29,
+            "rank": 30,
             "name": "Alexandre Husset",
             "country": "IT",
             "club": "CROSSFIT WEHTTAM  Bmh",
@@ -9536,7 +9596,7 @@
             "cap": false
           },
           {
-            "rank": 30,
+            "rank": 31,
             "name": "Riccardo Bernardini",
             "country": "IT",
             "club": "Peak29",
@@ -9546,7 +9606,7 @@
             "cap": false
           },
           {
-            "rank": 31,
+            "rank": 32,
             "name": "Mario Spanó",
             "country": "IT",
             "club": "",
@@ -9556,7 +9616,7 @@
             "cap": false
           },
           {
-            "rank": 32,
+            "rank": 33,
             "name": "Konstantinos Pitoglou",
             "country": "GR",
             "club": "StiGma Box",
@@ -9566,7 +9626,7 @@
             "cap": false
           },
           {
-            "rank": 33,
+            "rank": 34,
             "name": "Bar Balaish",
             "country": "IL",
             "club": "CrossFit Dino",
@@ -9576,7 +9636,7 @@
             "cap": false
           },
           {
-            "rank": 34,
+            "rank": 35,
             "name": "Davide Festuccia",
             "country": "IT",
             "club": "Box Indipendente Ironstone",
@@ -9586,7 +9646,7 @@
             "cap": false
           },
           {
-            "rank": 35,
+            "rank": 36,
             "name": "Gianvito Romano",
             "country": "IT",
             "club": "",
@@ -9596,7 +9656,7 @@
             "cap": false
           },
           {
-            "rank": 36,
+            "rank": 37,
             "name": "Dario Minerva",
             "country": "IT",
             "club": "",
@@ -9606,7 +9666,7 @@
             "cap": false
           },
           {
-            "rank": 37,
+            "rank": 38,
             "name": "Luca Ciniglio Appiani",
             "country": "IT",
             "club": "",
@@ -15193,36 +15253,6 @@
       "overall": [
         {
           "rank": 1,
-          "name": "Cleo Rocchi",
-          "country": "IT",
-          "club": "Insane Squad Training ASD",
-          "points": 9,
-          "wods": {
-            "27.1": {
-              "position": 1,
-              "time": null,
-              "reps": 126,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 A": {
-              "position": 6,
-              "time": 688000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 B": {
-              "position": 2,
-              "time": null,
-              "reps": 75,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 2,
           "name": "Sara Care’",
           "country": "IT",
           "club": "CrossFit Catanzaro",
@@ -15252,11 +15282,41 @@
           }
         },
         {
+          "rank": 2,
+          "name": "Cleo Rocchi",
+          "country": "IT",
+          "club": "Insane Squad Training ASD",
+          "points": 10,
+          "wods": {
+            "27.1": {
+              "position": 1,
+              "time": null,
+              "reps": 126,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 7,
+              "time": 688000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 2,
+              "time": null,
+              "reps": 75,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
           "rank": 3,
           "name": "Beatrice Nagni",
           "country": "IT",
           "club": "CrossFit Fabriano",
-          "points": 21,
+          "points": 22,
           "wods": {
             "27.1": {
               "position": 10,
@@ -15273,7 +15333,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 7,
+              "position": 8,
               "time": null,
               "reps": 65,
               "tiebreak": 0,
@@ -15313,10 +15373,40 @@
         },
         {
           "rank": 5,
+          "name": "Linda Colabono",
+          "country": "IT",
+          "club": "old street",
+          "points": 26,
+          "wods": {
+            "27.1": {
+              "position": 15,
+              "time": null,
+              "reps": 112,
+              "tiebreak": null,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 5,
+              "time": 677000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 6,
+              "time": null,
+              "reps": 68,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 6,
           "name": "Erica Marni",
           "country": "IT",
           "club": "Wod Heaven",
-          "points": 26,
+          "points": 28,
           "wods": {
             "27.1": {
               "position": 1,
@@ -15326,14 +15416,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 8,
+              "position": 9,
               "time": 692000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 58,
               "tiebreak": 0,
@@ -15342,11 +15432,11 @@
           }
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Giulia Conforti",
           "country": "IT",
           "club": "NOA",
-          "points": 27,
+          "points": 28,
           "wods": {
             "27.1": {
               "position": 8,
@@ -15356,7 +15446,7 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 17,
+              "position": 18,
               "time": 768000,
               "reps": 0,
               "tiebreak": 0,
@@ -15372,11 +15462,11 @@
           }
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Giulia Filippucci",
           "country": "IT",
           "club": "Nex Program",
-          "points": 27,
+          "points": 28,
           "wods": {
             "27.1": {
               "position": 7,
@@ -15393,7 +15483,7 @@
               "cap": false
             },
             "27.2 B": {
-              "position": 17,
+              "position": 18,
               "time": null,
               "reps": 58,
               "tiebreak": 0,
@@ -15402,11 +15492,11 @@
           }
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Sharon Marinaro",
           "country": "IT",
           "club": "CrossFit Catanzaro",
-          "points": 29,
+          "points": 31,
           "wods": {
             "27.1": {
               "position": 5,
@@ -15416,14 +15506,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 5,
+              "position": 6,
               "time": 687000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 19,
+              "position": 20,
               "time": null,
               "reps": 57.5,
               "tiebreak": 0,
@@ -15432,11 +15522,11 @@
           }
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "VALENTINA CIANFANELLI",
           "country": "IT",
           "club": "CrossFit Rym",
-          "points": 30,
+          "points": 32,
           "wods": {
             "27.1": {
               "position": 10,
@@ -15446,14 +15536,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 12,
+              "position": 13,
               "time": 722000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 8,
+              "position": 9,
               "time": null,
               "reps": 64,
               "tiebreak": 0,
@@ -15462,11 +15552,11 @@
           }
         },
         {
-          "rank": 10,
+          "rank": 11,
           "name": "Francesca Giusti",
           "country": "IT",
           "club": "Crossfit firestorm",
-          "points": 31,
+          "points": 33,
           "wods": {
             "27.1": {
               "position": 12,
@@ -15476,44 +15566,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 9,
+              "position": 10,
               "time": 697000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 10,
-              "time": null,
-              "reps": 60,
-              "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 11,
-          "name": "Valentina Puccini",
-          "country": "IT",
-          "club": "",
-          "points": 33,
-          "wods": {
-            "27.1": {
-              "position": 16,
-              "time": null,
-              "reps": 111,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 A": {
-              "position": 7,
-              "time": 691000,
-              "reps": 0,
-              "tiebreak": 0,
-              "cap": false
-            },
-            "27.2 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 60,
               "tiebreak": 0,
@@ -15523,27 +15583,27 @@
         },
         {
           "rank": 12,
-          "name": "Desy Giansante",
+          "name": "Valentina Puccini",
           "country": "IT",
           "club": "",
-          "points": 38,
+          "points": 35,
           "wods": {
             "27.1": {
-              "position": 17,
+              "position": 16,
               "time": null,
-              "reps": 109,
+              "reps": 111,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 11,
-              "time": 720000,
+              "position": 8,
+              "time": 691000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 60,
               "tiebreak": 0,
@@ -15553,27 +15613,27 @@
         },
         {
           "rank": 13,
-          "name": "Joanna Malgorzata Hajduk",
+          "name": "Desy Giansante",
           "country": "IT",
-          "club": "T2fitnesslab",
-          "points": 38,
+          "club": "",
+          "points": 40,
           "wods": {
             "27.1": {
-              "position": 12,
+              "position": 17,
               "time": null,
-              "reps": 116,
+              "reps": 109,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 A": {
-              "position": 16,
-              "time": 747000,
+              "position": 12,
+              "time": 720000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 60,
               "tiebreak": 0,
@@ -15583,10 +15643,40 @@
         },
         {
           "rank": 14,
+          "name": "Joanna Malgorzata Hajduk",
+          "country": "IT",
+          "club": "T2fitnesslab",
+          "points": 40,
+          "wods": {
+            "27.1": {
+              "position": 12,
+              "time": null,
+              "reps": 116,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 17,
+              "time": 747000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 11,
+              "time": null,
+              "reps": 60,
+              "tiebreak": 0,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 15,
           "name": "Claudia Lanari",
           "country": "IT",
           "club": "CrossFit Rym",
-          "points": 41,
+          "points": 43,
           "wods": {
             "27.1": {
               "position": 22,
@@ -15596,14 +15686,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 13,
+              "position": 14,
               "time": 729000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 6,
+              "position": 7,
               "time": null,
               "reps": 66,
               "tiebreak": 0,
@@ -15612,11 +15702,11 @@
           }
         },
         {
-          "rank": 15,
+          "rank": 16,
           "name": "Ambra Iannola",
           "country": "IT",
           "club": "elite fitness club",
-          "points": 43,
+          "points": 45,
           "wods": {
             "27.1": {
               "position": 14,
@@ -15626,14 +15716,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 20,
+              "position": 21,
               "time": 780000,
               "reps": 101,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 9,
+              "position": 10,
               "time": null,
               "reps": 63,
               "tiebreak": 0,
@@ -15642,11 +15732,11 @@
           }
         },
         {
-          "rank": 16,
+          "rank": 17,
           "name": "Paola Rotundo",
           "country": "IT",
           "club": "CrossFit Catanzaro",
-          "points": 43,
+          "points": 45,
           "wods": {
             "27.1": {
               "position": 8,
@@ -15656,14 +15746,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 14,
+              "position": 15,
               "time": 733000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 21,
+              "position": 22,
               "time": null,
               "reps": 55,
               "tiebreak": 0,
@@ -15672,11 +15762,11 @@
           }
         },
         {
-          "rank": 17,
+          "rank": 18,
           "name": "Chiara Gentile",
           "country": "IT",
           "club": "Indipendente",
-          "points": 45,
+          "points": 47,
           "wods": {
             "27.1": {
               "position": 25,
@@ -15686,14 +15776,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 10,
+              "position": 11,
               "time": 705000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 60,
               "tiebreak": 0,
@@ -15702,11 +15792,11 @@
           }
         },
         {
-          "rank": 18,
+          "rank": 19,
           "name": "Giulia Vallarino",
           "country": "IT",
           "club": "",
-          "points": 47,
+          "points": 49,
           "wods": {
             "27.1": {
               "position": 5,
@@ -15716,14 +15806,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 21,
+              "position": 22,
               "time": 780000,
               "reps": 99,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 21,
+              "position": 22,
               "time": null,
               "reps": 55,
               "tiebreak": 0,
@@ -15732,11 +15822,11 @@
           }
         },
         {
-          "rank": 19,
+          "rank": 20,
           "name": "Rosa Cardia",
           "country": "IT",
           "club": "H100 Crossfit",
-          "points": 47,
+          "points": 49,
           "wods": {
             "27.1": {
               "position": 3,
@@ -15746,14 +15836,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 19,
+              "position": 20,
               "time": 776000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 25,
+              "position": 26,
               "time": null,
               "reps": 50,
               "tiebreak": 0,
@@ -15762,11 +15852,11 @@
           }
         },
         {
-          "rank": 20,
+          "rank": 21,
           "name": "Alessia Berti",
           "country": "IT",
           "club": "CrossFit Rym",
-          "points": 52,
+          "points": 54,
           "wods": {
             "27.1": {
               "position": 21,
@@ -15776,14 +15866,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 21,
+              "position": 22,
               "time": 780000,
               "reps": 99,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 60,
               "tiebreak": 0,
@@ -15792,11 +15882,11 @@
           }
         },
         {
-          "rank": 21,
+          "rank": 22,
           "name": "Ludovica Pucci",
           "country": "IT",
           "club": "Crossfit Bracciano",
-          "points": 60,
+          "points": 62,
           "wods": {
             "27.1": {
               "position": 22,
@@ -15806,14 +15896,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 18,
+              "position": 19,
               "time": 773000,
               "reps": 0,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 20,
+              "position": 21,
               "time": null,
               "reps": 56,
               "tiebreak": 0,
@@ -15822,11 +15912,11 @@
           }
         },
         {
-          "rank": 22,
+          "rank": 23,
           "name": "Helettra Chirico’",
           "country": "IT",
           "club": "CrossFit Catanzaro",
-          "points": 71,
+          "points": 73,
           "wods": {
             "27.1": {
               "position": 24,
@@ -15836,14 +15926,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 23,
+              "position": 24,
               "time": 780000,
               "reps": 98,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 24,
+              "position": 25,
               "time": null,
               "reps": 52.5,
               "tiebreak": 0,
@@ -15852,11 +15942,11 @@
           }
         },
         {
-          "rank": 23,
+          "rank": 24,
           "name": "Angela Fimiano",
           "country": "IT",
           "club": "H100 Crossfit",
-          "points": 72,
+          "points": 74,
           "wods": {
             "27.1": {
               "position": 26,
@@ -15866,14 +15956,14 @@
               "cap": false
             },
             "27.2 A": {
-              "position": 25,
+              "position": 26,
               "time": 780000,
               "reps": 86,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 21,
+              "position": 22,
               "time": null,
               "reps": 55,
               "tiebreak": 0,
@@ -15882,14 +15972,14 @@
           }
         },
         {
-          "rank": 24,
+          "rank": 25,
           "name": "Inka Keijama",
           "country": "FI",
           "club": "CrossFit Myrsky",
-          "points": 80,
+          "points": 81,
           "wods": {
             "27.2 A": {
-              "position": 15,
+              "position": 16,
               "time": 743000,
               "reps": 0,
               "tiebreak": 0,
@@ -15905,40 +15995,24 @@
           }
         },
         {
-          "rank": 25,
+          "rank": 26,
           "name": "Ceren Koncagül",
           "country": "TR",
           "club": "CrossFit Boran",
-          "points": 98,
+          "points": 100,
           "wods": {
             "27.2 A": {
-              "position": 24,
+              "position": 25,
               "time": 780000,
               "reps": 87,
               "tiebreak": 0,
               "cap": false
             },
             "27.2 B": {
-              "position": 10,
+              "position": 11,
               "time": null,
               "reps": 60,
               "tiebreak": 0,
-              "cap": false
-            }
-          }
-        },
-        {
-          "rank": 26,
-          "name": "Linda Colabono",
-          "country": "IT",
-          "club": "old street",
-          "points": 143,
-          "wods": {
-            "27.1": {
-              "position": 15,
-              "time": null,
-              "reps": 112,
-              "tiebreak": null,
               "cap": false
             }
           }
@@ -16282,6 +16356,16 @@
           },
           {
             "rank": 5,
+            "name": "Linda Colabono",
+            "country": "IT",
+            "club": "old street",
+            "time": 677000,
+            "reps": null,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 6,
             "name": "Sharon Marinaro",
             "country": "IT",
             "club": "CrossFit Catanzaro",
@@ -16291,7 +16375,7 @@
             "cap": false
           },
           {
-            "rank": 6,
+            "rank": 7,
             "name": "Cleo Rocchi",
             "country": "IT",
             "club": "Insane Squad Training ASD",
@@ -16301,7 +16385,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Valentina Puccini",
             "country": "IT",
             "club": "",
@@ -16311,7 +16395,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "Erica Marni",
             "country": "IT",
             "club": "Wod Heaven",
@@ -16321,7 +16405,7 @@
             "cap": false
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Francesca Giusti",
             "country": "IT",
             "club": "Crossfit firestorm",
@@ -16331,7 +16415,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Chiara Gentile",
             "country": "IT",
             "club": "Indipendente",
@@ -16341,7 +16425,7 @@
             "cap": false
           },
           {
-            "rank": 11,
+            "rank": 12,
             "name": "Desy Giansante",
             "country": "IT",
             "club": "",
@@ -16351,7 +16435,7 @@
             "cap": false
           },
           {
-            "rank": 12,
+            "rank": 13,
             "name": "VALENTINA CIANFANELLI",
             "country": "IT",
             "club": "CrossFit Rym",
@@ -16361,7 +16445,7 @@
             "cap": false
           },
           {
-            "rank": 13,
+            "rank": 14,
             "name": "Claudia Lanari",
             "country": "IT",
             "club": "CrossFit Rym",
@@ -16371,7 +16455,7 @@
             "cap": false
           },
           {
-            "rank": 14,
+            "rank": 15,
             "name": "Paola Rotundo",
             "country": "IT",
             "club": "CrossFit Catanzaro",
@@ -16381,7 +16465,7 @@
             "cap": false
           },
           {
-            "rank": 15,
+            "rank": 16,
             "name": "Inka Keijama",
             "country": "FI",
             "club": "CrossFit Myrsky",
@@ -16391,7 +16475,7 @@
             "cap": false
           },
           {
-            "rank": 16,
+            "rank": 17,
             "name": "Joanna Malgorzata Hajduk",
             "country": "IT",
             "club": "T2fitnesslab",
@@ -16401,7 +16485,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Giulia Conforti",
             "country": "IT",
             "club": "NOA",
@@ -16411,7 +16495,7 @@
             "cap": false
           },
           {
-            "rank": 18,
+            "rank": 19,
             "name": "Ludovica Pucci",
             "country": "IT",
             "club": "Crossfit Bracciano",
@@ -16421,7 +16505,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Rosa Cardia",
             "country": "IT",
             "club": "H100 Crossfit",
@@ -16431,7 +16515,7 @@
             "cap": false
           },
           {
-            "rank": 20,
+            "rank": 21,
             "name": "Ambra Iannola",
             "country": "IT",
             "club": "elite fitness club",
@@ -16441,7 +16525,7 @@
             "cap": false
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "Giulia Vallarino",
             "country": "IT",
             "club": "",
@@ -16451,7 +16535,7 @@
             "cap": false
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "Alessia Berti",
             "country": "IT",
             "club": "CrossFit Rym",
@@ -16461,7 +16545,7 @@
             "cap": false
           },
           {
-            "rank": 23,
+            "rank": 24,
             "name": "Helettra Chirico’",
             "country": "IT",
             "club": "CrossFit Catanzaro",
@@ -16471,7 +16555,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Ceren Koncagül",
             "country": "TR",
             "club": "CrossFit Boran",
@@ -16481,7 +16565,7 @@
             "cap": false
           },
           {
-            "rank": 25,
+            "rank": 26,
             "name": "Angela Fimiano",
             "country": "IT",
             "club": "H100 Crossfit",
@@ -16544,6 +16628,16 @@
           },
           {
             "rank": 6,
+            "name": "Linda Colabono",
+            "country": "IT",
+            "club": "old street",
+            "time": null,
+            "reps": 68,
+            "tiebreak": null,
+            "cap": false
+          },
+          {
+            "rank": 7,
             "name": "Claudia Lanari",
             "country": "IT",
             "club": "CrossFit Rym",
@@ -16553,7 +16647,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 8,
             "name": "Beatrice Nagni",
             "country": "IT",
             "club": "CrossFit Fabriano",
@@ -16563,7 +16657,7 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 9,
             "name": "VALENTINA CIANFANELLI",
             "country": "IT",
             "club": "CrossFit Rym",
@@ -16573,7 +16667,7 @@
             "cap": false
           },
           {
-            "rank": 9,
+            "rank": 10,
             "name": "Ambra Iannola",
             "country": "IT",
             "club": "elite fitness club",
@@ -16583,7 +16677,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Valentina Puccini",
             "country": "IT",
             "club": "",
@@ -16593,7 +16687,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Desy Giansante",
             "country": "IT",
             "club": "",
@@ -16603,7 +16697,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Chiara Gentile",
             "country": "IT",
             "club": "Indipendente",
@@ -16613,7 +16707,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Joanna Malgorzata Hajduk",
             "country": "IT",
             "club": "T2fitnesslab",
@@ -16623,7 +16717,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Francesca Giusti",
             "country": "IT",
             "club": "Crossfit firestorm",
@@ -16633,7 +16727,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Ceren Koncagül",
             "country": "TR",
             "club": "CrossFit Boran",
@@ -16643,7 +16737,7 @@
             "cap": false
           },
           {
-            "rank": 10,
+            "rank": 11,
             "name": "Alessia Berti",
             "country": "IT",
             "club": "CrossFit Rym",
@@ -16653,7 +16747,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Giulia Filippucci",
             "country": "IT",
             "club": "Nex Program",
@@ -16663,7 +16757,7 @@
             "cap": false
           },
           {
-            "rank": 17,
+            "rank": 18,
             "name": "Erica Marni",
             "country": "IT",
             "club": "Wod Heaven",
@@ -16673,7 +16767,7 @@
             "cap": false
           },
           {
-            "rank": 19,
+            "rank": 20,
             "name": "Sharon Marinaro",
             "country": "IT",
             "club": "CrossFit Catanzaro",
@@ -16683,7 +16777,7 @@
             "cap": false
           },
           {
-            "rank": 20,
+            "rank": 21,
             "name": "Ludovica Pucci",
             "country": "IT",
             "club": "Crossfit Bracciano",
@@ -16693,7 +16787,7 @@
             "cap": false
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "Giulia Vallarino",
             "country": "IT",
             "club": "",
@@ -16703,7 +16797,7 @@
             "cap": false
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "Angela Fimiano",
             "country": "IT",
             "club": "H100 Crossfit",
@@ -16713,7 +16807,7 @@
             "cap": false
           },
           {
-            "rank": 21,
+            "rank": 22,
             "name": "Paola Rotundo",
             "country": "IT",
             "club": "CrossFit Catanzaro",
@@ -16723,7 +16817,7 @@
             "cap": false
           },
           {
-            "rank": 24,
+            "rank": 25,
             "name": "Helettra Chirico’",
             "country": "IT",
             "club": "CrossFit Catanzaro",
@@ -16733,7 +16827,7 @@
             "cap": false
           },
           {
-            "rank": 25,
+            "rank": 26,
             "name": "Rosa Cardia",
             "country": "IT",
             "club": "H100 Crossfit",
