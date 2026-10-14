@@ -2,8 +2,8 @@
   "meta": {
     "competition_name": "ROMA FSR SHOWDOWN 2027 - ONLINE QUALIFIER",
     "competition_id": "8b844ba8-9bb6-4802-9450-3cc1cfe4e2ce",
-    "updated_at": "2026-10-14T00:03:31Z",
-    "updated_at_readable": "2026-10-14 00:03 UTC"
+    "updated_at": "2026-10-14T01:14:42Z",
+    "updated_at_readable": "2026-10-14 01:14 UTC"
   },
   "divisions": [
     {
@@ -6911,10 +6911,10 @@
           "name": "Letizia Mazzuoli",
           "country": "IT",
           "club": "Area forza",
-          "points": 11,
+          "points": 10,
           "wods": {
             "27.1": {
-              "position": 5,
+              "position": 4,
               "time": null,
               "reps": 106,
               "tiebreak": null,
@@ -6941,10 +6941,10 @@
           "name": "Simona Migli",
           "country": "IT",
           "club": "",
-          "points": 11,
+          "points": 10,
           "wods": {
             "27.1": {
-              "position": 4,
+              "position": 3,
               "time": null,
               "reps": 110,
               "tiebreak": 0,
@@ -6968,6 +6968,36 @@
         },
         {
           "rank": 4,
+          "name": "Sandra Kriechbaum",
+          "country": "AT",
+          "club": "CrossFit Voecklabruck",
+          "points": 13,
+          "wods": {
+            "27.1": {
+              "position": 6,
+              "time": null,
+              "reps": 104,
+              "tiebreak": null,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 3,
+              "time": 659000,
+              "reps": null,
+              "tiebreak": null,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 4,
+              "time": null,
+              "reps": 69,
+              "tiebreak": null,
+              "cap": false
+            }
+          }
+        },
+        {
+          "rank": 5,
           "name": "Barbara  Berti",
           "country": "IT",
           "club": "Insane Squad Training ASD",
@@ -6997,44 +7027,14 @@
           }
         },
         {
-          "rank": 5,
-          "name": "Sandra Kriechbaum",
-          "country": "AT",
-          "club": "CrossFit Voecklabruck",
-          "points": 14,
-          "wods": {
-            "27.1": {
-              "position": 7,
-              "time": null,
-              "reps": 104,
-              "tiebreak": null,
-              "cap": false
-            },
-            "27.2 A": {
-              "position": 3,
-              "time": 659000,
-              "reps": null,
-              "tiebreak": null,
-              "cap": false
-            },
-            "27.2 B": {
-              "position": 4,
-              "time": null,
-              "reps": 69,
-              "tiebreak": null,
-              "cap": false
-            }
-          }
-        },
-        {
           "rank": 6,
           "name": "Elisa Zafferani",
           "country": "SM",
           "club": "crossfit 3 towers",
-          "points": 18,
+          "points": 17,
           "wods": {
             "27.1": {
-              "position": 5,
+              "position": 4,
               "time": null,
               "reps": 106,
               "tiebreak": 0,
@@ -7084,10 +7084,10 @@
           "name": "Valentina Osmani",
           "country": "IT",
           "club": "7 kings CrossFit",
-          "points": 24,
+          "points": 23,
           "wods": {
             "27.1": {
-              "position": 8,
+              "position": 7,
               "time": null,
               "reps": 0,
               "tiebreak": 0,
@@ -7114,12 +7114,26 @@
           "name": "Deborah Patruno",
           "country": "IT",
           "club": "ironstone program",
-          "points": 37,
+          "points": 25,
           "wods": {
             "27.1": {
-              "position": 3,
+              "position": 7,
               "time": null,
-              "reps": 116,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 A": {
+              "position": 9,
+              "time": 780000,
+              "reps": 0,
+              "tiebreak": 0,
+              "cap": false
+            },
+            "27.2 B": {
+              "position": 9,
+              "time": null,
+              "reps": 1,
               "tiebreak": 0,
               "cap": false
             }
@@ -7150,16 +7164,6 @@
           },
           {
             "rank": 3,
-            "name": "Deborah Patruno",
-            "country": "IT",
-            "club": "ironstone program",
-            "time": null,
-            "reps": 116,
-            "tiebreak": 0,
-            "cap": false
-          },
-          {
-            "rank": 4,
             "name": "Simona Migli",
             "country": "IT",
             "club": "",
@@ -7169,7 +7173,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 4,
             "name": "Elisa Zafferani",
             "country": "SM",
             "club": "crossfit 3 towers",
@@ -7179,7 +7183,7 @@
             "cap": false
           },
           {
-            "rank": 5,
+            "rank": 4,
             "name": "Letizia Mazzuoli",
             "country": "IT",
             "club": "Area forza",
@@ -7189,7 +7193,7 @@
             "cap": false
           },
           {
-            "rank": 7,
+            "rank": 6,
             "name": "Sandra Kriechbaum",
             "country": "AT",
             "club": "CrossFit Voecklabruck",
@@ -7199,10 +7203,20 @@
             "cap": false
           },
           {
-            "rank": 8,
+            "rank": 7,
             "name": "Valentina Osmani",
             "country": "IT",
             "club": "7 kings CrossFit",
+            "time": null,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 7,
+            "name": "Deborah Patruno",
+            "country": "IT",
+            "club": "ironstone program",
             "time": null,
             "reps": 0,
             "tiebreak": 0,
@@ -7289,6 +7303,16 @@
             "reps": 52,
             "tiebreak": 0,
             "cap": false
+          },
+          {
+            "rank": 9,
+            "name": "Deborah Patruno",
+            "country": "IT",
+            "club": "ironstone program",
+            "time": 780000,
+            "reps": 0,
+            "tiebreak": 0,
+            "cap": false
           }
         ],
         "27.2 B": [
@@ -7369,6 +7393,16 @@
             "club": "7 kings CrossFit",
             "time": null,
             "reps": 43,
+            "tiebreak": 0,
+            "cap": false
+          },
+          {
+            "rank": 9,
+            "name": "Deborah Patruno",
+            "country": "IT",
+            "club": "ironstone program",
+            "time": null,
+            "reps": 1,
             "tiebreak": 0,
             "cap": false
           }
